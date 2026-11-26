@@ -1,0 +1,39 @@
+﻿<text_layout>
+  <default_directory/>
+  <textos>
+    <texto id="t1">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Trebuchet MS" SIZE="20" COLOR="#0066FF" LETTERSPACING="0" KERNING="0">La reglas de &quot;la vida simulada&quot;:</FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>45,17</pos>
+      <size>736,31</size>
+    </texto>
+    <texto id="t2">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Todo lo que vas a encontrar en el simulador es tan sencillo y tan complicado como en la vida real. </FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Puede que al principio te encuentres un poco perdido, pero sólo tienes que mirar a tu alrededor. Verás que hay varios &quot;elementos interactivos&quot; integrados dentro del escenario en el que te encuentres.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>45,48</pos>
+      <size>737,152</size>
+    </texto>
+    <texto id="t3">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Si desplazas el ratón sobre los mismos, tu &quot;Yo virtual&quot;  te indicará lo que puedes hacer. Si haces clic sobre un elemento pasarás a interactuar con él. Luego podrás escoger la acción que deseas realizar sobre el objeto y esperar el resultado de la misma. Ten cuidado, porque todos los elementos tienen su utilidad y te corresponde a ti descubrir cuál es.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Lo único que necesitas es explorar el </FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>421,193</pos>
+      <size>362,260</size>
+    </texto>
+    <texto id="t4">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">escenario e ir interactuando con los distintos objetos igual que lo harías en la vida real. </FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">En algunas ocasiones te encontrarás con pequeños juegos o pruebas. Para completarlos sólo tienes que seguir las instrucciones de pantalla. </FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Practica la que será tu profesión en un futuro próximo, y aprende todo lo que puedas.</FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>47,434</pos>
+      <size>735,167</size>
+    </texto>
+  </textos>
+  <imagenes>
+    <imagen id="i1">
+      <ruta>teoria/ayuda_funcional/img/img_01.png</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>44,190</pos>
+      <size>366,238</size>
+    </imagen>
+    <imagen id="c1">
+      <ruta>teoria/img/flechita_subapartado.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>19,11</pos>
+      <size>28,30</size>
+    </imagen>
+  </imagenes>
+</text_layout>

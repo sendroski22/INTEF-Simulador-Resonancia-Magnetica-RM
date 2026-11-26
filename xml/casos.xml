@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<casos>
+	<posiblesvalores>
+		
+		<paciente>
+			<nombres>
+				<nombre sexo="Masculino" Nombre="González Camarilla , Ernesto" nacimiento="16-11-1996" dni="03461667"/>
+				<nombre sexo="Masculino" Nombre="Velasco Segovia, Joaquín" nacimiento="26-08-1996" dni="9856432 A"/>
+				<nombre sexo="Masculino" Nombre="Martín Cáceres, Javier" nacimiento="26-08-1972" dni="6855444 A"/>
+				<nombre sexo="Masculino" Nombre="Santos Potocki , Alex" nacimiento="12-12-1969" dni="2232456 X "/>
+				<nombre sexo="Femenino" Nombre="Sáez Lago, Carmela" nacimiento="18-05-1996" dni="0342887 X"/>
+				<nombre sexo="Femenino" Nombre="Cuadrado Mesa, Marta" nacimiento="3-2-1996" dni="2567823 G "/>
+				<nombre sexo="Femenino" Nombre="Vida Valdés, Margarita" nacimiento="13-11-1980" dni="34564782 D"/>
+				<nombre sexo="Femenino" Nombre="Castro Romero, Soraya" nacimiento="05-03-1978 " dni="48987812 G"/>
+			</nombres>
+		</paciente>
+		
+		<edad>
+			<valor id="0">adulto</valor>
+			<valor id="1">niño</valor>
+		</edad>
+		
+		<sexo>
+			<valor id="0">Masculino</valor>
+			<valor id="1">Femenino</valor>
+		</sexo>
+        <cabeza>
+            <valor id="0">primero</valor>
+        </cabeza>
+        <pies>
+            <valor id="0">primero</valor>
+        </pies>
+		<protocolo>
+			<valor id="0" folder="" region="0">Cráneo</valor>
+			<valor id="1" folder="" region="1">Hombro</valor>
+			<valor id="2" folder="" region="2">Cadera</valor>
+			<valor id="3" folder="" region="2">Rodilla</valor>
+			<valor id="4" folder="" region="2">Tobillo</valor>
+			<valor id="5" folder="" region="3">Cardio</valor>
+			<valor id="6" folder="" region="0">Columna cervical</valor>
+			<valor id="7" folder="" region="4">Riñones</valor>
+		</protocolo>
+		<region>
+			<valor id="0" folder="">Cabeza</valor>
+			<valor id="1" folder="">Miembro superior</valor>
+			<valor id="2" folder="">Miembro inferior</valor>
+			<valor id="3" folder="">Tórax</valor>
+			<valor id="4" folder="">Abdomen</valor>
+		</region>
+		<prioridad>
+			<valor id="0">Urgente</valor>
+			<valor id="1">Normal</valor>
+		</prioridad>
+		<seccion>
+			<valor id="0">Axial</valor>
+			<valor id="1">Coronal</valor>
+			<valor id="2">Sagital</valor>
+		</seccion>
+		<posicion_paciente>
+			<valor id="0">Prono</valor>
+			<valor id="1">Supino</valor>
+			<valor id="2">Variable</valor>
+		</posicion_paciente>
+		<contraste>
+			<valor id="0">Sí</valor>
+			<valor id="1">No</valor>
+		</contraste>
+		<secuencia>
+		  	<valor id="0">T1</valor>
+		  	<valor id="1">T2</valor>
+		</secuencia>
+	</posiblesvalores>
+
+	<caso id="1">
+		<protocolo valor="0" />
+		<estudios>
+		    <!-- Si tiene mapa en soft_mapa agregar al valor id el id_estudio -->
+			<valor id="0">T1 Axial</valor>
+			<valor id="1">T1 Sagital</valor>
+			<valor id="2">T1 Coronal</valor>
+			<valor id="">T2 Axial</valor>  
+		</estudios>
+		<secuencias>
+		   <valor id="0" />
+		   <valor id="0" />
+		   <valor id="0" />
+		   <valor id="1" />
+		</secuencias>
+		<cabeza valor="0"/>
+		<pies/>
+		<imagenes>
+		    <valor>assets/imagenes/soft_tc/CRANEO/rm_craneo_axial/rm_craneo_axial_t1/</valor>
+		    <valor>assets/imagenes/soft_tc/CRANEO/rm_craneo_sagital/rm_craneo_sagital_t1/</valor>
+		    <valor>assets/imagenes/soft_tc/CRANEO/rm_craneo_coronal/rm_craneo_coronal_t1/</valor>
+		    <valor>assets/imagenes/soft_tc/CRANEO/rm_craneo_axial/rm_craneo_axial_t2/</valor>
+		</imagenes>
+		<fecha valor="hoy"/>
+		<!-- variables random -->
+		<prioridad israndom="true"/>
+		<nombre valor="González Camarilla, Ernesto" DNI="03461667 Y" sexo="Masculino" nacimiento="16-11-96 "/>
+		<!-- masculino/femenino -->
+		<sexo valor="Masculino"/>
+		<edad id="1" valor="niño">niño</edad>
+		<!-- variables random -->
+		<region valor="0"/>
+		<secciones>
+		   <valor id="0"/>
+		   <valor id="2"/>
+		   <valor id="1"/>
+		   <valor id="0"/>
+		</secciones>
+		<posicion_paciente valor="1"/>
+		<contrastes valor="1" >
+		    <valor id="1"/>
+		    <valor id="1"/>
+		    <valor id="1"/>
+		    <valor id="1"/>
+		</contrastes>
+
+	</caso>
+	<caso id="2">
+		<protocolo valor="1" />
+		<estudios>
+			<valor id="15">T1 Coronal</valor>
+			<valor id="16">T1 Sagital</valor>
+			<valor id="">T2 Axial</valor>
+			<valor id="">T2 Coronal</valor> 
+			<valor id="">T2 Sagital</valor>
+		</estudios>
+		<secuencias>
+		   <valor id="0" />
+		   <valor id="0" />
+		   <valor id="1" />
+		   <valor id="1" />
+		   <valor id="1" />
+		</secuencias>
+		<cabeza valor="0"/>
+		<pies/>
+		<imagenes>
+		    <valor>assets/imagenes/soft_tc/HOMBRO/rm_hombro_coronal/rm_hombro_coronal_t1/</valor>
+		    <valor>assets/imagenes/soft_tc/HOMBRO/rm_hombro_sagital/hombro_sagital_t1/</valor>
+		    <valor>assets/imagenes/soft_tc/HOMBRO/rm_hombro_axial/rm_hombro_axial_t2/</valor>
+		    <valor>assets/imagenes/soft_tc/HOMBRO/rm_hombro_coronal/rm_hombro_coronal_t2/</valor>
+		    <valor>assets/imagenes/soft_tc/HOMBRO/rm_hombro_sagital/hombro_sagital_t2/</valor>
+		</imagenes>
+		<fecha valor="hoy"/>
+		<!-- variables random -->
+		<prioridad israndom="true"/>
+		<nombre valor="Sáez Lago , Carmela" DNI="0342887 X" sexo="Masculino" nacimiento="18-05-96"/>
+		<!-- masculino/femenino -->
+		<sexo valor="Femenino"/>
+		<edad id="1" valor="niño">niño</edad>
+		<!-- variables random -->
+		<region valor="1"/>
+		<secciones>
+		   <valor id="1"/>
+		   <valor id="2"/>
+		   <valor id="0"/>
+		   <valor id="1"/>
+		   <valor id="2"/>
+		</secciones>
+		<posicion_paciente valor="1"/>
+		<contrastes valor="1" >
+		    <valor id="1"/>
+		    <valor id="1"/>
+		    <valor id="1"/>
+		    <valor id="1"/>
+		    <valor id="1"/>
+		</contrastes>
+	</caso>
+	<caso id="3">
+		<protocolo valor="2" />
+		<estudios>
+			<valor id="10">T1 Axial</valor>
+			<valor id="11">T1 Coronal</valor>
+			<valor id="12">T1 Sagital</valor>
+			<valor id="">T2 Axial</valor> 
+			<valor id="">T2 Coronal</valor>
+			<valor id="">T2 Sagital</valor>
+		</estudios>
+		<secuencias>
+		   <valor id="0" />
+		   <valor id="0" />
+		   <valor id="0" />
+		   <valor id="1" />
+		   <valor id="1" />
+		   <valor id="1" />
+		</secuencias>
+		<cabeza valor="0"/>
+		<pies/>
+		<imagenes>
+		    <valor>assets/imagenes/soft_tc/CADERAS/rm_cadera_axial/rm_cadera_axial_t1/</valor>
+		    <valor>assets/imagenes/soft_tc/CADERAS/rm_cadera_coronal/rm_cadera_coronal_t1/</valor>
+		    <valor>assets/imagenes/soft_tc/CADERAS/rm_cadera_sagital/rm_cadera_sagital_t1/</valor>
+		    <valor>assets/imagenes/soft_tc/CADERAS/rm_cadera_axial/rm_cadera_axial_t2/</valor>
+		    <valor>assets/imagenes/soft_tc/CADERAS/rm_cadera_coronal/rm_cadera_coronal_t2/</valor>
+		    <valor>assets/imagenes/soft_tc/CADERAS/rm_cadera_sagital/rm_cadera_sagital_t2/</valor>
+		</imagenes>
+		<fecha valor="hoy"/>
+		<!-- variables random -->
+		<prioridad israndom="true"/>
+		<nombre valor="Cuadrado Mesa, Marta" DNI="2567823 G" sexo="Masculino" nacimiento="3-2-96"/>
+		<!-- masculino/femenino -->
+		<sexo valor="Femenino"/>
+		<edad id="1" valor="niño">niño</edad>
+		<!-- variables random -->
+		<region valor="2"/>
+		<secciones>
+		   <valor id="0"/>
+		   <valor id="1"/>
+		   <valor id="2"/>
+		   <valor id="0"/>
+		   <valor id="1"/>
+		   <valor id="2"/>
+		</secciones>
+		<posicion_paciente valor="1"/>
+		<contrastes valor="1">
+		    <valor id="1"/>
+		    <valor id="1"/>
+		    <valor id="1"/>
+		    <valor id="1"/>
+		    <valor id="1"/>
+		    <valor id="1"/>
+		</contrastes>
+	</caso>
+	<caso id="4">
+		<protocolo valor="3" />
+		<estudios>
+			<valor id="17">T1 Coronal</valor>
+			<valor id="18">T1 Sagital</valor>
+			<valor id="">T2 Axial</valor> 
+			<valor id="">T2 Coronal</valor>
+			<valor id="">T2 Sagital</valor>
+		</estudios>
+		<secuencias>
+		   <valor id="0" />
+		   <valor id="0" />
+		   <valor id="1" />
+		   <valor id="1" />
+		   <valor id="1" />
+		</secuencias>
+		<cabeza/>
+		<pies valor="0"/>
+		<imagenes>
+		    <valor>assets/imagenes/soft_tc/RODILLA/rm_rodilla_coronal/rm_rodilla_coronal_t1/</valor>
+		    <valor>assets/imagenes/soft_tc/RODILLA/rm_rodilla_sagital/rm_rodilla_sagital_t1/</valor>
+		    <valor>assets/imagenes/soft_tc/RODILLA/rm_rodilla_axial/rm_rodilla_axial_t2/</valor>
+		    <valor>assets/imagenes/soft_tc/RODILLA/rm_rodilla_coronal/rm_rodilla_coronal_t2/</valor>
+		    <valor>assets/imagenes/soft_tc/RODILLA/rm_rodilla_sagital/rm_rodilla_sagital_t2/</valor>
+		</imagenes>
+		<fecha valor="hoy"/>
+		<!-- variables random -->
+		<prioridad israndom="true"/>
+		<nombre valor="Velasco Segovia, Joaquín" DNI="9856432 A" sexo="Masculino" nacimiento="26-8-96"/>
+		<!-- masculino/femenino -->
+		<sexo valor="Masculino"/>
+		<edad id="1" valor="niño">niño</edad>
+		<!-- variables random -->
+		<region valor="2"/>
+		<secciones>
+		   <valor id="1"/>
+		   <valor id="2"/>
+		   <valor id="0"/>
+		   <valor id="1"/>
+		   <valor id="2"/>
+		</secciones>
+		<posicion_paciente valor="1"/>
+		<contrastes valor="1" >
+		    <valor id="1"/>
+		    <valor id="1"/>
+		    <valor id="1"/>
+		    <valor id="1"/>
+		    <valor id="1"/>
+		</contrastes>
+	</caso>
+	<caso id="5">
+		<protocolo valor="4" />
+		<estudios>
+			<valor id="22">T1 Coronal</valor>
+			<valor id="">T1 Sagital</valor>
+			<valor id="">T2 Axial</valor> 
+			<valor id="">T2 Coronal</valor>
+		</estudios>
+		<secuencias>
+		   <valor id="0" />
+		   <valor id="0" />
+		   <valor id="1" />
+		   <valor id="1" />
+		</secuencias>
+		<cabeza/>
+		<pies valor="0"/>
+		<imagenes>
+		    <valor>assets/imagenes/soft_tc/TOBILLO/rm_tobillo_coronal/rm_tobillo_coronal_t1/</valor>
+		    <valor>assets/imagenes/soft_tc/TOBILLO/rm_tobillo_sagital/rm_tobillo_sagital_t1/</valor>
+		    <valor>assets/imagenes/soft_tc/TOBILLO/rm_tobillo_coronal/rm_tobillo_coronal_t2/</valor>
+		    <valor>assets/imagenes/soft_tc/TOBILLO/rm_tobillo_coronal/rm_tobillo_coronal_t2/</valor>
+		</imagenes>
+		<fecha valor="hoy"/>
+		<!-- variables random -->
+		<prioridad israndom="true"/>
+		<nombre valor="Martín Cáceres, Javier" DNI="9856432 A" sexo="Masculino" nacimiento="26-8-72"/>
+		<!-- masculino/femenino -->
+		<sexo valor="Masculino"/>
+		<edad id="0" valor="adulto">adulto</edad>
+		<!-- variables random -->
+		<region valor="2"/>
+		<secciones>
+		   <valor id="1"/>
+		   <valor id="2"/>
+		   <valor id="0"/>
+		   <valor id="1"/>
+		</secciones>
+		<posicion_paciente valor="1"/>
+		<contrastes valor="1" >
+		    <valor id="1"/>
+		    <valor id="1"/>
+		    <valor id="1"/>
+		    <valor id="1"/>
+		</contrastes>
+	</caso>
+	<caso id="6">
+		<protocolo valor="5" />
+		<estudios>
+			<valor id="7">T2 Axial</valor> 
+			<valor id="8">T2 Sagital bicameral</valor>
+			<valor id="9">T2 Sagital eje corto</valor>
+		</estudios>
+		<secuencias>
+		   <valor id="1" />
+		   <valor id="1" />
+		   <valor id="1" />
+		</secuencias>
+		<cabeza valor="0"/>
+		<pies/>
+		<imagenes>
+		    <valor>assets/imagenes/soft_tc/CARDIO/rm_cardio_axial/rm_cardio_axial_t2/</valor>
+		    <valor>assets/imagenes/soft_tc/CARDIO/rm_cardio_sagital/rm_cardio_sagital_t2_bicamara/</valor>
+		    <valor>assets/imagenes/soft_tc/CARDIO/rm_cardio_sagital/rm_cardio_sagital_t2_tricamera/</valor>
+		</imagenes>
+		<fecha valor="hoy"/>
+		<!-- variables random -->
+		<prioridad israndom="true"/>
+		<nombre valor="Santos Potocki, Alex" DNI="2232456 X" sexo="Masculino" nacimiento="12-12-69"/>
+		<!-- masculino/femenino -->
+		<sexo valor="Masculino"/>
+		<edad id="0" valor="adulto">adulto</edad>
+		<!-- variables random -->
+		<region valor="3"/>
+		<secciones>
+		   <valor id="0"/>
+		   <valor id="2"/>
+		   <valor id="2"/>
+		</secciones>
+		<posicion_paciente valor="1"/>
+		<contrastes valor="0">
+		    <valor id="0"/>
+		    <valor id="0"/>
+		    <valor id="0"/>
+		</contrastes>
+	</caso>
+	<caso id="7">
+		<protocolo valor="6" />
+		<estudios>
+			<valor id="19">T1 Axial</valor> 
+			<valor id="">T2 Axial</valor>
+			<valor id="20">T2 Sagital</valor>
+		</estudios>
+		<secuencias>
+		   <valor id="0" />
+		   <valor id="1" />
+		   <valor id="1" />
+		</secuencias>
+		<cabeza valor="0"/>
+		<pies/>
+		<imagenes>
+		    <valor>assets/imagenes/soft_tc/CERVICAL/rm_cervical_axial/rm_cervical_axial_t1/</valor>
+		    <valor>assets/imagenes/soft_tc/CERVICAL/rm_cervical_axial/rm_cervical_axial_t2/</valor>
+		    <valor>assets/imagenes/soft_tc/CERVICAL/rm_cervical_sagital/rm_cervical_sagital_t2/</valor>
+		</imagenes>
+		<fecha valor="hoy"/>
+		<!-- variables random -->
+		<prioridad israndom="true"/>
+		<nombre valor="Vida Valdés, Margarita" DNI="34564782 D" sexo="Masculino" nacimiento="13-11-80"/>
+		<!-- masculino/femenino -->
+		<sexo valor="Femenino"/>
+		<edad id="0" valor="adulto">adulto</edad>
+		<!-- variables random -->
+		<region valor="0"/>
+		<secciones>
+		   <valor id="0"/>
+		   <valor id="0"/>
+		   <valor id="2"/>
+		</secciones>
+		<posicion_paciente valor="1"/>
+		<contrastes valor="1" >
+		    <valor id="1"/>
+		    <valor id="1"/>
+		    <valor id="1"/>
+		</contrastes>
+	</caso>
+	<caso id="8">
+		<protocolo valor="7" />
+		<estudios>
+			<valor id="3">T1 Axial</valor> 
+			<valor id="">T1 Coronal</valor>
+			<valor id="">T1 Axial Gadolinio</valor>
+			<valor id="">T2 Axial</valor>
+			<valor id="">T2 Coronal</valor>
+		</estudios>
+		<secuencias>
+		   <valor id="0" />
+		   <valor id="0" />
+		   <valor id="0" />
+		   <valor id="1" />
+		   <valor id="1" />
+		</secuencias>
+		<cabeza valor="0"/>
+		<pies/>
+		<imagenes>
+		    <valor>assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_axial/rm_abdomen_axial_t1/</valor>
+		    <valor>assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_coronal/rm_abdomen_t2_coronal/</valor>
+		    <valor>assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_axial/rm_abdomen_axial_t1/</valor>
+		    <valor>assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_axial/rm_abdomen_axial_t2/</valor>
+		    <valor>assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_coronal/rm_abdomen_t2_coronal/</valor>
+		</imagenes>
+		<fecha valor="hoy"/>
+		<!-- variables random -->
+		<prioridad israndom="true"/>
+		<nombre valor="Castro Romero, Soraya" DNI="48987812 G" sexo="Masculino" nacimiento="5-3-78 "/>
+		<!-- masculino/femenino -->
+		<sexo valor="Femenino"/>
+		<edad id="0" valor="adulto">adulto</edad>
+		<!-- variables random -->
+		<region valor="4"/>
+		<secciones>
+		   <valor id="0"/>
+		   <valor id="1"/>
+		   <valor id="0"/>
+		   <valor id="0"/>
+		   <valor id="1"/>
+		</secciones>
+		<posicion_paciente valor="1"/>
+		<contrastes valor="0" >
+		    <valor id="1"/>
+		    <valor id="1"/>
+		    <valor id="0"/>
+		    <valor id="1"/>
+		    <valor id="1"/>
+		</contrastes>
+		
+	</caso>
+</casos>

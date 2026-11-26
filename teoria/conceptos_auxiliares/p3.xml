@@ -1,0 +1,51 @@
+﻿<text_layout>
+  <default_directory/>
+  <textos>
+    <texto id="t1">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Trebuchet MS" SIZE="20" COLOR="#0066FF" LETTERSPACING="0" KERNING="0">T1</FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>45,18</pos>
+      <size>551,31</size>
+    </texto>
+    <texto id="t2">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Cada tejido se definirá por tiempo de retorno al nivel de energía basal de relajación longitudinal o T1 y un tiempo de relajación transversal o T2 concreto. Eso quiere decir que en función del tipo de estudio, potenciado en T1 o T2, los tejidos se manifestarán de una manera u otra en la imagen adquirida.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>43,49</pos>
+      <size>528,131</size>
+    </texto>
+    <texto id="t3">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Trebuchet MS" SIZE="20" COLOR="#0066FF" LETTERSPACING="0" KERNING="0">T2</FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>45,198</pos>
+      <size>551,31</size>
+    </texto>
+    <texto id="t4">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Cada tejido se definirá por tiempo de retorno al nivel de energía basal de relajación longitudinal o T1 y un tiempo de relajación transversal o T2 concreto. Eso quiere decir que en función del tipo de estudio, potenciado en T1 o T2, los tejidos se manifestarán de una manera u otra en la imagen adquirida.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>45,229</pos>
+      <size>527,131</size>
+    </texto>
+  </textos>
+  <imagenes>
+    <imagen id="i1">
+      <ruta>teoria/conceptos_auxiliares/img/01_sec.jpg</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>586,48</pos>
+      <size>200,150</size>
+    </imagen>
+    <imagen id="i2">
+      <ruta>teoria/conceptos_auxiliares/img/02_sec.jpg</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>585,228</pos>
+      <size>200,150</size>
+    </imagen>
+    <imagen id="c1">
+      <ruta>teoria/img/flechita_subapartado.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>19,10</pos>
+      <size>28,30</size>
+    </imagen>
+    <imagen id="c2">
+      <ruta>teoria/img/flechita_subapartado.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>19,192</pos>
+      <size>28,30</size>
+    </imagen>
+  </imagenes>
+</text_layout>

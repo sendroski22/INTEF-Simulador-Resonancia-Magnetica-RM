@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recursos>
+	<externalresources></externalresources>
+	<config>
+		<actores_locucion>
+			<actor id="0">narrador</actor>
+			<actor id="1">enfermera</actor>
+		</actores_locucion>
+		<emociones>
+			<emocion id="0">normal</emocion>
+			<emocion id="1">alegre</emocion>
+			<emocion id="2">triste</emocion>
+		</emociones>
+	</config>
+	<textos>
+		<texto id="titulo">Área de docentes</texto>
+		<texto id="imprimir">Imprimir</texto>
+		<texto id="configurar">Configurar el simulador</texto>
+		<texto id="salir">Volver</texto>
+		
+		<datos>
+			<textos>
+				<texto id="0"><![CDATA[]]></texto>
+				<texto id="1"><![CDATA[¿Cómo puedo sacarle el máximo provecho al simulador con mis alumnos?]]></texto>
+				<texto id="2"><![CDATA[Sugerencias de explotación didáctica]]></texto>
+
+
+			</textos>
+			<contenido idcamino="0" src="html/area_docentes/index.html">
+					<contenido idcamino="1" src="teoria/area_docentes/p1.xml" />
+					<contenido idcamino="2" src="teoria/area_docentes/p2.xml" />
+
+			</contenido>
+		</datos>
+	</textos>
+	<audios>
+	</audios>
+	<peliculas></peliculas>
+	<videos></videos>
+	<imagenes></imagenes>
+</recursos>

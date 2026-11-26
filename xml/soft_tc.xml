@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recursos>
+	<textos>
+		<texto id="titulo">Sistema de control RM</texto>
+		<texto id="area">Área de exploración</texto>
+		<texto id="sesion">Iniciando sesión</texto>
+		<texto id="proto">Protocolo de exploración</texto>
+		<texto id="posicion">Posición del paciente</texto>
+		<texto id="prono">Prono</texto>
+		<texto id="supino">Supino</texto>
+		<texto id="variable">Variable</texto>
+		<texto id="proceso">Control del proceso</texto>
+		<texto id="espera">En espera</texto>
+		<texto id="guardar">Guardar</texto>
+		<texto id="cargar">Cargar</texto>
+		<texto id="enviar">Enviar</texto>
+		<texto id="revisar">Análisis</texto>
+		<texto id="contraste">Contraste</texto>
+		<texto id="nrosecuencia">Nº de secuencia</texto>
+		<texto id="protocolo">Protocolo</texto>
+		<texto id="seccion">Sección</texto>
+		<texto id="secuencia">Secuencia</texto>
+		<texto id="t1">T1</texto>
+		<texto id="t2">T2</texto>
+		<texto id="contraste">Gadolinio</texto>
+		<texto id="si">Sí</texto>
+		<texto id="no">No</texto>
+		<texto id="finalizado">Finalizado</texto>
+		<texto id="caso">1</texto>
+		
+		
+		<texto id="precarga">Cargando imágenes...</texto>
+		
+		<texto id="continuar">Continuar</texto>
+		
+		
+		
+				
+		<!--tirulos para botones y labels -->
+		<titulos>
+			<titulo id="17" feed="Pincha aquí cuando hayas completado los datos requeridos.">Cargar</titulo>
+			<titulo id="18" feed="Pincha aquí para comenzar con la revisión de imágenes.">Revisar</titulo>
+			<titulo id="19" feed="Debo presionar este botón si he completado la revisión de imágenes.">Guardar</titulo>
+		</titulos>
+		
+		<!-- Datos para la galeria de imagenes -->
+		<texto id="galeria0">Borrar imagen</texto>
+		<texto id="galeria1">¿Está seguro que desea borrar la imagen seleccionada?</texto>
+		<texto id="galeria2">Sí</texto>
+		<texto id="galeria3">No</texto>
+		<texto id="galeria4">Eliminar</texto>
+		
+		
+		<banco_de_imagen>
+			
+		</banco_de_imagen>
+		<errores>
+			<error id="0" pts="2" err="error_soft_posicion_paciente">La posición es incorrecta.</error>
+			<error id="1" pts="2" err="error_soft_nro_secuencia">El número de secuencia es incorrecto.</error>
+			<error id="2" pts="2" err="error_soft_protocolo">El protocolo es incorrecto.</error>
+			<error id="3" pts="2" err="error_soft_seccion">La sección es incorrecta.</error>
+			<error id="4" pts="2" err="error_soft_secuencia">La secuencia es incorrecta.</error>
+			<error id="5" pts="2" err="error_soft_con_contraste">Este estudio lleva contraste.</error>
+			<error id="6" pts="2" err="error_soft_sin_contraste">Este estudio no lleva contraste.</error>
+			<error id="7" pts="2" err="error_soft_imagenes_mala_calidad">¡Espera! Existen más imágenes erróneas.</error>
+			<error id="8" pts="2" err="error_soft_sin_revisar_imagenes">Se me ha olvidado revisar la calidad de las imágenes. Eso es un fallo bastante grave que no debo volver a cometer.</error>
+			<error id="9" pts="1" err="error_soft_fallo_id">Has fallado en la identificación de las estructuras anatómicas.</error>
+			<error id="10" pts="1" err="error_soft_estudio">Debes seleccionar otro estudio.</error>
+		</errores>
+		
+		<tips>
+		   <tip id="0">Aquí tengo que introducir la posición en la que coloqué antes al paciente.</tip>
+		   <tip id="1">Aquí se escoge la zona a estudiar asociada al protocolo.</tip>
+		   <tip id="2">Tengo que elegir el protocolo que venía en el volante.</tip>
+		   <tip id="3">Hay que marcar el tipo de secuencia.</tip>
+		   <tip id="4">Debo marcar el número de la secuencia dentro del protocolo.</tip>
+		   <tip id="5">Si mi secuencia lleva contraste, debo activarlo en esta opción.</tip>
+		   <tip id="6">Con esto, el resto de parámetros los configura solos la máquina. Ahora sólo tengo que esperar a obtener las imágenes.</tip>
+		   <tip id="7">Pincha aquí para guardar las imágenes revisadas y continuar el proceso.</tip>
+		   <tip id="8">Debo guardar el análisis realizado para continuar con los siguientes estudios.</tip>
+		   <tip id="9">Al enviar mi estudio habré finalizado mi labor.</tip>
+		   
+		   
+		</tips>
+
+		<feedbacks>
+			<feedback  id="0" pts="20" err="error_soft_imagenes_mala_calidad">¡Espera! Me pareció ver otra imagen errónea.</feedback>
+			<feedback  id="1" pts="20">Muy bien, ahora continuemos con el siguiente estudio.</feedback>
+			<feedback  id="2">Con esto casi hemos terminado. Ya puedes hablar con el paciente.</feedback>
+			<feedback  id="3" pts="10" err="error_soft_sin_revisar_imagenes">Se me ha olvidado revisar la calidad de las imágenes. Eso es un fallo bastante grave que no debo volver a cometer.</feedback>
+			<feedback  id="4" pts="3" err="error_soft_ventana_osea">Casi me olvido de las reconstrucciones óseas que me pedía el volante. Debo tener cuidado con estos despistes.</feedback>
+			<feedback  id="5">¡Enhorabuena! Continuemos ahora con el siguiente estudio.</feedback>
+			<feedback  id="6">Al revisar las imágenes, podrás ver algunas que se han obtenido con algún problema. Elimínalas del estudio para poder enviarlo.</feedback>
+			<feedback  id="7">La imagen presenta problemas a causa de los movimientos del paciente en el momento en que se realizaba el estudio. Esto ha producido que la imagen sea borrosa.</feedback>
+			<feedback  id="8">Recuerda que este volante tiene 2 estudios. Revisa el volante para saber cuáles son. ¿Comenzamos?</feedback>
+			<feedback  id="9" pts="10" err="error_soft_imagenes_buenas">La imagen seleccionada no tiene errores. Fíjate bien.</feedback>
+			<feedback  id="10">La imagen presentaba problemas porque al señalar las áreas a escanear o ROI en el localizador o topograma, se había marcado una región de interés menor de la normal y se dejó un espacio sin escanear.</feedback>
+			<feedback  id="11">Este volante tiene un solo estudio. Revisa el volante para saber cual es. ¿Comenzamos?</feedback>
+			<feedback  id="12">¡Muy bien! Haz clic en "Guardar" para continuar.</feedback>
+			<feedback  id="13">La imagen presentaba problemas que surgieron porque la máquina empezó a escanear antes de tiempo, encontrándose el contraste ya no en las arterias sino en las venas o viceversa. Esto produce que no haya suficiente realce de contraste en el órgano a estudiar.</feedback>
+			<feedback  id="14">La imagen presenta problemas derivados de una mala elección del protocolo por parte de la persona que preparó el volante. Esta circunstancia ha producido artefactos en las imágenes.</feedback>
+			<feedback  id="15">La imagen presentaba problemas derivados de un desajuste en el calibrado de la máquina, o un fallo puntual en el funcionamiento de la misma. Este tipo de errores no son habituales ya que el aparato se calibra frecuentemente y sigue unas revisiones periódicas, marcadas por la casa comercial.</feedback>
+			<feedback  id="16">Es el momento de revisar todos mis conocimientos. Si pincho en el botón "Análisis auxiliar" comenzaré el examen de estructuras anatómicas.</feedback>
+			<feedback  id="17">Muy bien. Continuemos.</feedback>
+		</feedbacks>
+	</textos>
+	<audios>
+		<audio id="s1" url="assets/audios/soft_tc/ruido.mp3"/>
+	</audios>
+	<peliculas></peliculas>
+	<videos></videos>
+	<imagenes></imagenes>
+</recursos>

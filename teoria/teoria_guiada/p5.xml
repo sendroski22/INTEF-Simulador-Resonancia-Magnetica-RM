@@ -1,0 +1,34 @@
+<text_layout>
+  <default_directory/>
+  <textos>
+    <texto id="t2">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">En general, los contrastes son <FONT COLOR="#384858"><B>sustancias químicas</B></FONT> y al ser administrados por vía oral, intravenosa, rectal o articular, presentan afinidades con diversas estructuras o tejidos, permitiendo la posibilidad de emplearse como resalte de áreas anatómicas determinadas (vasos sanguíneos) y evidenciar áreas con mayor realce o señal en RM (infecciones, inflamaciones, neoplasias).</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Los <FONT COLOR="#384858"><B>contrastes paramagnéticos </B></FONT>se caracterizan por provocar una alteración en el tiempo de relajación longitudinal T1 de los tejidos en diferente cuantía o modo, en función de la presencia de inflamación, infección o neoplasia en el órgano estudiado.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>45,47</pos>
+      <size>730,217</size>
+    </texto>
+    <texto id="t1">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Trebuchet MS" SIZE="20" COLOR="#0066FF" LETTERSPACING="0" KERNING="0">Uso de contrastes</FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>45,16</pos>
+      <size>729,27</size>
+    </texto>
+    <texto id="t3">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Hay diversas marcas comerciales que fabrican contrastes ferromagnéticos aplicables al estudio de RM. Una de las sustancias más comunes es el contraste <FONT COLOR="#384858"><B>Gadolinio (Gd)</B></FONT> y se emplea para el estudio de patologías musculoesqueléticas, oncológicas, infeccioso-inflamatorias, etc.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>45,263</pos>
+      <size>374,324</size>
+    </texto>
+  </textos>
+  <imagenes>
+    <imagen id="c1">
+      <ruta>teoria/img/flechita_subapartado.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>19,8</pos>
+      <size>28,30</size>
+    </imagen>
+    <imagen id="c2">
+      <ruta>teoria/teoria_guiada/img/5_imagen.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>440,264</pos>
+      <size>335,251</size>
+    </imagen>
+  </imagenes>
+</text_layout>

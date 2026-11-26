@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recursos>
+	<externalresources></externalresources>
+	<textos>
+		<texto id="t1">Descubre un mundo lleno de posibilidades para tu futuro.</texto>
+		<texto id="t2">Un mundo que simula el lugar donde vas a trabajar.</texto>
+		<texto id="t3">Con esto y un poco de esfuerzo, no hay nada que no sea capaz de hacer.</texto>
+		<texto id="t4">Que tiene en cuenta todas las situaciones que pueden ocurrir.</texto>
+		<texto id="t5">Que contempla todos los profesionales que intervienen en el proceso.</texto>
+		<texto id="t6">Un mundo donde aprender de tus propios errores y éxitos.</texto>
+		<texto id="t7">Donde interactuar es aprender.</texto>
+		<texto id="t8">Un mundo adaptado a tu futuro profesional.</texto>
+		<texto id="t9">Adaptado a tu formación.</texto>
+		<texto id="busca">Busca, comparte y participa en</texto>
+		<texto id="t10"></texto>
+		<texto id="t11"></texto>
+		<texto id="t12"></texto>
+		<texto id="t13"></texto>
+		<texto id="t14"></texto>
+		<texto id="t15"></texto>
+		<texto id="t16"></texto>
+		<texto id="t17"></texto>
+		<texto id="t18"></texto>
+		<texto id="t19"></texto>
+		<texto id="t20"></texto>
+		
+		
+		<texto id="botoncerrar">Cerrar</texto>
+	</textos>
+	<audios>
+	</audios>
+	<peliculas></peliculas>
+	<videos></videos>
+	<imagenes></imagenes>
+</recursos>

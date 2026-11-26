@@ -1,0 +1,39 @@
+﻿<text_layout>
+  <default_directory/>
+  <textos>
+    <texto id="t3">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Por su alta capacidad de magnetización, el imán de la máquina debe mantenerse a una distancia de seguridad mínima evitando así que los elementos paramagnéticos sean atraídos y resulten peligrosos.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Por estas razones es importante <FONT COLOR="#384858"><B>controlar los objetos que acceden a la sala y elaborar un cuestionario de elementos prohibidos</B></FONT> para el paciente o el personal sanitario que acceda al interior de la misma.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>45,132</pos>
+      <size>384,260</size>
+    </texto>
+    <texto id="t1">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Trebuchet MS" SIZE="20" COLOR="#0066FF" LETTERSPACING="0" KERNING="0">Seguridad en RM</FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>45,16</pos>
+      <size>729,27</size>
+    </texto>
+    <texto id="t2">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Como ya indicamos en un capítulo previo, es muy importante seguir unas pautas de actuación dentro de la sala de RM dado la complejidad del equipo y sus características específicas.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>45,44</pos>
+      <size>730,88</size>
+    </texto>
+    <texto id="t4">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Tampoco debemos olvidarnos de los riesgos de electrocución debido a que es un equipo basado en campos electromagnéticos.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Finalmente hay que tener precaución con el sistema de salida de gases de refrigeración y vigilar que la temperatura del equipo permanezca dentro de un rango determinado.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>45,392</pos>
+      <size>730,131</size>
+    </texto>
+  </textos>
+  <imagenes>
+    <imagen id="c1">
+      <ruta>teoria/img/flechita_subapartado.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>19,8</pos>
+      <size>32,20</size>
+    </imagen>
+    <imagen id="c2">
+      <ruta>teoria/teoria_guiada/img/12_imagen.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>440,132</pos>
+      <size>335,251</size>
+    </imagen>
+  </imagenes>
+</text_layout>

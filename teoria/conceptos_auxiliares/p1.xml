@@ -1,0 +1,289 @@
+﻿<text_layout>
+  <default_directory/>
+  <textos>
+    <texto id="t1">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Trebuchet MS" SIZE="20" COLOR="#0066FF" LETTERSPACING="0" KERNING="0">Angiografía de contraste de fase</FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>45,19</pos>
+      <size>551,31</size>
+    </texto>
+    <texto id="t2">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Estudio de la vascularización anatómica basado en la diferente velocidad de las estructuras con movimiento o flujo de las estáticas.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>43,50</pos>
+      <size>527,88</size>
+    </texto>
+    <texto id="t3">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Trebuchet MS" SIZE="20" COLOR="#0066FF" LETTERSPACING="0" KERNING="0">Ángulo de vuelta</FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>45,198</pos>
+      <size>551,31</size>
+    </texto>
+    <texto id="t4">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Medida del giro del vector magnético del imán de RM tras someterse a una frecuencia de radiofrecuencia.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>45,229</pos>
+      <size>527,66</size>
+    </texto>
+    <texto id="t7">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Trebuchet MS" SIZE="20" COLOR="#0066FF" LETTERSPACING="0" KERNING="0">Artefacto</FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>45,454</pos>
+      <size>551,31</size>
+    </texto>
+    <texto id="t8">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Se define como artefacto a cualquier alteración en la imagen adquirida, que no se corresponde con una estructura anatómica real.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>45,485</pos>
+      <size>527,88</size>
+    </texto>
+    <texto id="t5">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Trebuchet MS" SIZE="20" COLOR="#0066FF" LETTERSPACING="0" KERNING="0">Anulación del momento de gradiente</FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>45,378</pos>
+      <size>551,31</size>
+    </texto>
+    <texto id="t6">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Mecanismo para anular los artefactos producidos por estructuras en movimiento.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>45,409</pos>
+      <size>740,45</size>
+    </texto>
+    <texto id="t9">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Trebuchet MS" SIZE="20" COLOR="#0066FF" LETTERSPACING="0" KERNING="0">Bobina</FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>45,634</pos>
+      <size>551,31</size>
+    </texto>
+    <texto id="t10">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Estructura en forma espiroidea a través de la cual el paso de una corriente eléctrica induce un campo magnético.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>45,665</pos>
+      <size>527,66</size>
+    </texto>
+    <texto id="t11">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Trebuchet MS" SIZE="20" COLOR="#0066FF" LETTERSPACING="0" KERNING="0">Campo de visión</FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>45,814</pos>
+      <size>551,31</size>
+    </texto>
+    <texto id="t12">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Porción o segmento de territorio anatómico que será estudiado en el protocolo.</FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>45,845</pos>
+      <size>527,66</size>
+    </texto>
+    <texto id="t13">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Trebuchet MS" SIZE="20" COLOR="#0066FF" LETTERSPACING="0" KERNING="0">Campo magnético de gradiente inducido</FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>45,994</pos>
+      <size>551,31</size>
+    </texto>
+    <texto id="t14">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Campo magnético que cambia de intensidad en una dirección dada; es necesario para seleccionar una región de la imagen selección de corte y para codificar la localización de RM.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>45,1025</pos>
+      <size>741,88</size>
+    </texto>
+    <texto id="t15">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Trebuchet MS" SIZE="20" COLOR="#0066FF" LETTERSPACING="0" KERNING="0">Cine</FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>45,1113</pos>
+      <size>551,31</size>
+    </texto>
+    <texto id="t16">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Múltiples imágenes en tiempo real, manifestando movimiento.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>45,1144</pos>
+      <size>741,45</size>
+    </texto>
+    <texto id="t17">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Trebuchet MS" SIZE="20" COLOR="#0066FF" LETTERSPACING="0" KERNING="0">Criógeno</FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>45,1189</pos>
+      <size>551,31</size>
+    </texto>
+    <texto id="t18">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Se denomina a la sustancia empleada como refrigerante o que genera frío.</FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>45,1220</pos>
+      <size>527,66</size>
+    </texto>
+    <texto id="t9">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Trebuchet MS" SIZE="20" COLOR="#0066FF" LETTERSPACING="0" KERNING="0">Gradiente de campo magnético</FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>45,1371</pos>
+      <size>551,31</size>
+    </texto>
+    <texto id="t20">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Amplitud de intensidad del campo magnético distribuido a lo largo del espacio alrededor del origen.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>45,1402</pos>
+      <size>741,66</size>
+    </texto>
+    <texto id="t21">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Trebuchet MS" SIZE="20" COLOR="#0066FF" LETTERSPACING="0" KERNING="0">Pulso de gradiente</FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>45,1468</pos>
+      <size>551,31</size>
+    </texto>
+    <texto id="t22">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Secuencia que emplea la aplicación de una onda de radiofrecuencia  de duración muy corta causando un gradiente magnético.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>45,1499</pos>
+      <size>741,66</size>
+    </texto>
+    <texto id="t23">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Trebuchet MS" SIZE="20" COLOR="#0066FF" LETTERSPACING="0" KERNING="0">Pulso de radiofrecuencia</FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>45,1565</pos>
+      <size>551,31</size>
+    </texto>
+    <texto id="t24">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Onda de radiofrecuencia emitida para alterar el campo magnético basal.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>45,1596</pos>
+      <size>741,45</size>
+    </texto>
+    <texto id="t25">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Trebuchet MS" SIZE="20" COLOR="#0066FF" LETTERSPACING="0" KERNING="0">Sincronización</FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>45,1641</pos>
+      <size>551,31</size>
+    </texto>
+    <texto id="t26">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Método para ajustar determinados ritmos corporales como el movimiento respiratorio o cardiaco con la secuencia de inicio de adquisición de imágenes.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>45,1672</pos>
+      <size>527,88</size>
+    </texto>
+    <texto id="t23">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Trebuchet MS" SIZE="20" COLOR="#0066FF" LETTERSPACING="0" KERNING="0">Transformada de Fourier</FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>45,1822</pos>
+      <size>551,31</size>
+    </texto>
+    <texto id="t24">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Complejo análisis matemático mediante el cual se puede cuantificar y transformar la señal eléctrica liberada en una secuencia en una imagen.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>45,1853</pos>
+      <size>741,66</size>
+    </texto>
+    <texto id="t25">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Trebuchet MS" SIZE="20" COLOR="#0066FF" LETTERSPACING="0" KERNING="0">Turbulencia</FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>45,1919</pos>
+      <size>551,31</size>
+    </texto>
+    <texto id="t26">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Flujo aleatorio de un líquido.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>45,1950</pos>
+      <size>741,45</size>
+    </texto>
+  </textos>
+  <imagenes>
+    <imagen id="i1">
+      <ruta>teoria/conceptos_auxiliares/img/01.jpg</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>584,49</pos>
+      <size>200,150</size>
+    </imagen>
+    <imagen id="i3">
+      <ruta>teoria/conceptos_auxiliares/img/04.jpg</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>586,484</pos>
+      <size>200,150</size>
+    </imagen>
+    <imagen id="i2">
+      <ruta>teoria/conceptos_auxiliares/img/02.jpg</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>586,228</pos>
+      <size>200,150</size>
+    </imagen>
+    <imagen id="i4">
+      <ruta>teoria/conceptos_auxiliares/img/05.jpg</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>585,665</pos>
+      <size>200,150</size>
+    </imagen>
+    <imagen id="i5">
+      <ruta>teoria/conceptos_auxiliares/img/06.jpg</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>585,845</pos>
+      <size>200,150</size>
+    </imagen>
+    <imagen id="i6">
+      <ruta>teoria/conceptos_auxiliares/img/09.jpg</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>585,1220</pos>
+      <size>200,150</size>
+    </imagen>
+    <imagen id="i7">
+      <ruta>teoria/conceptos_auxiliares/img/13.jpg</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>585,1672</pos>
+      <size>200,150</size>
+    </imagen>
+    <imagen id="c1">
+      <ruta>teoria/img/flechita_subapartado.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>19,11</pos>
+      <size>28,30</size>
+    </imagen>
+    <imagen id="c3">
+      <ruta>teoria/img/flechita_subapartado.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>19,372</pos>
+      <size>28,30</size>
+    </imagen>
+    <imagen id="c2">
+      <ruta>teoria/img/flechita_subapartado.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>19,192</pos>
+      <size>28,30</size>
+    </imagen>
+    <imagen id="c4">
+      <ruta>teoria/img/flechita_subapartado.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>19,448</pos>
+      <size>28,30</size>
+    </imagen>
+    <imagen id="c5">
+      <ruta>teoria/img/flechita_subapartado.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>19,627</pos>
+      <size>28,30</size>
+    </imagen>
+    <imagen id="c6">
+      <ruta>teoria/img/flechita_subapartado.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>19,807</pos>
+      <size>28,30</size>
+    </imagen>
+    <imagen id="c7">
+      <ruta>teoria/img/flechita_subapartado.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>19,985</pos>
+      <size>28,30</size>
+    </imagen>
+    <imagen id="c8">
+      <ruta>teoria/img/flechita_subapartado.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>19,1108</pos>
+      <size>28,30</size>
+    </imagen>
+    <imagen id="c9">
+      <ruta>teoria/img/flechita_subapartado.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>19,1182</pos>
+      <size>28,30</size>
+    </imagen>
+    <imagen id="c10">
+      <ruta>teoria/img/flechita_subapartado.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>19,1366</pos>
+      <size>28,30</size>
+    </imagen>
+    <imagen id="c11">
+      <ruta>teoria/img/flechita_subapartado.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>19,1463</pos>
+      <size>28,30</size>
+    </imagen>
+    <imagen id="c12">
+      <ruta>teoria/img/flechita_subapartado.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>19,1560</pos>
+      <size>28,30</size>
+    </imagen>
+    <imagen id="c13">
+      <ruta>teoria/img/flechita_subapartado.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>19,1634</pos>
+      <size>28,30</size>
+    </imagen>
+    <imagen id="c14">
+      <ruta>teoria/img/flechita_subapartado.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>19,1817</pos>
+      <size>28,30</size>
+    </imagen>
+    <imagen id="c15">
+      <ruta>teoria/img/flechita_subapartado.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>19,1914</pos>
+      <size>28,30</size>
+    </imagen>
+  </imagenes>
+</text_layout>

@@ -1,0 +1,34 @@
+﻿<text_layout>
+  <default_directory/>
+  <textos>
+    <texto id="t1">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Trebuchet MS" SIZE="20" COLOR="#0066FF" LETTERSPACING="0" KERNING="0">Guardando &quot;recuerdos&quot;:</FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>45,17</pos>
+      <size>736,31</size>
+    </texto>
+    <texto id="t2">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">En cualquier momento puedes guardar el estado en el que se encuentra tu &quot;<FONT COLOR="#384858"><B>Yo virtual</B></FONT>&quot;.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>45,48</pos>
+      <size>737,45</size>
+    </texto>
+    <texto id="t3">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Puedes hacerlo en la correspondiente <FONT COLOR="#384858"><B>opción del menú superior</B></FONT> o bien, utilizando la <FONT COLOR="#384858"><B>fotografía del hospital</B></FONT> situada en la sala de descanso.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Si quieres saber más sobre cómo cargar una sesión guardada, consulta el apartado “<FONT COLOR="#384858"><B>Recordando tu vida</B></FONT>” de esta misma sección.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>43,93</pos>
+      <size>368,217</size>
+    </texto>
+  </textos>
+  <imagenes>
+    <imagen id="c1">
+      <ruta>teoria/img/flechita_subapartado.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>19,11</pos>
+      <size>28,30</size>
+    </imagen>
+    <imagen id="c2">
+      <ruta>teoria/ayuda_funcional/img/6_anim_01.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>417,92</pos>
+      <size>364,314</size>
+    </imagen>
+  </imagenes>
+</text_layout>

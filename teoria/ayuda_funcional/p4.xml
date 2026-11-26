@@ -1,0 +1,29 @@
+﻿<text_layout>
+  <default_directory/>
+  <textos>
+    <texto id="t1">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Trebuchet MS" SIZE="20" COLOR="#0066FF" LETTERSPACING="0" KERNING="0">Estados del &quot;Yo virtual&quot;:</FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>45,17</pos>
+      <size>736,31</size>
+    </texto>
+    <texto id="t2">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Las acciones que realizas a lo largo de la simulación harán que el personaje en ocasiones <FONT COLOR="#384858"><B>pase de un estado inicial a un nuevo estado.</B></FONT> </FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Según el estado en que te encuentres podrás realizar distintas interacciones.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">De este modo, en el estado inicial puede que seas capaz de realizar ciertas interacciones, y en el siguiente estado ya no estén disponibles. A modo de ejemplo: si llamas a un paciente, se abre un nuevo abanico de interacciones relacionadas con el mismo (hablar con él, colocarlo en la mesa, entre otras). </FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Es sencillo, no te preocupes.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>45,48</pos>
+      <size>366,388</size>
+    </texto>
+  </textos>
+  <imagenes>
+    <imagen id="c1">
+      <ruta>teoria/img/flechita_subapartado.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>19,11</pos>
+      <size>28,30</size>
+    </imagen>
+    <imagen id="i1">
+      <ruta>teoria/ayuda_funcional/img/img_03.png</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>430,52</pos>
+      <size>352,366</size>
+    </imagen>
+  </imagenes>
+</text_layout>

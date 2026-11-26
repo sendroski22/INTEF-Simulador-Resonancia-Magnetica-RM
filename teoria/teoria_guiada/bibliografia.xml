@@ -1,0 +1,315 @@
+﻿<text_layout>
+  <default_directory/>
+  <textos>
+    <texto id="t2">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#000000" LETTERSPACING="0" KERNING="0">http://www.xtec.net/~xvila12/index.htm</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#000000" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>73,55</pos>
+      <size>695,45</size>
+    </texto>
+    <texto id="t3">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#000000" LETTERSPACING="0" KERNING="0">http://www.monografias.com/cgi-bin/search.cgi?query=tac;offset=25&amp;bool=AND</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#000000" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>73,102</pos>
+      <size>695,45</size>
+    </texto>
+    <texto id="t4">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#000000" LETTERSPACING="0" KERNING="0">http://www.medicinenet.com/cat_scan/glossary.htm</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#000000" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>73,147</pos>
+      <size>695,45</size>
+    </texto>
+    <texto id="t5">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#000000" LETTERSPACING="0" KERNING="0">http://www.monografias.com/trabajos38/defectos-scan-images/defectos-scan-images.shtml?monosearch</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#000000" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>73,192</pos>
+      <size>695,66</size>
+    </texto>
+    <texto id="t6">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#000000" LETTERSPACING="0" KERNING="0">http://web.udl.es/usuaris/w4137451/webresp/contenidos_docentes/exploracion/pdf_pruebas/tac9.pdf</FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>73,258</pos>
+      <size>697,66</size>
+    </texto>
+    <texto id="t7">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#000000" LETTERSPACING="0" KERNING="0">http://www.monografias.com/trabajos22/inventos-siglo-xx/inventos-siglo-xx.shtml</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#000000" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>73,324</pos>
+      <size>697,45</size>
+    </texto>
+    <texto id="t1">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="20" COLOR="#0066FF" LETTERSPACING="0" KERNING="0">Bibliografía</FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>40,15</pos>
+      <size>397,32</size>
+    </texto>
+    <texto id="t7">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#000000" LETTERSPACING="0" KERNING="0">http://www.eccpn.aibarra.org/temario/seccion2/capitulo31/capitulo31.htm</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#000000" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>73,369</pos>
+      <size>697,45</size>
+    </texto>
+    <texto id="t7">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#000000" LETTERSPACING="0" KERNING="0">http://www.radiologyinfo.org/sp/glossary/glossary1.cfm?sTerm=D&amp;bhcp=1</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#000000" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>73,414</pos>
+      <size>697,45</size>
+    </texto>
+    <texto id="t7">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#000000" LETTERSPACING="0" KERNING="0">http://www.xtec.net/~xvila12/crani/cerframea.htm</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#000000" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>73,459</pos>
+      <size>697,45</size>
+    </texto>
+    <texto id="t7">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#000000" LETTERSPACING="0" KERNING="0">http://www.fisterra.com/Salud/3proceDT/tac.asp</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#000000" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>73,504</pos>
+      <size>697,45</size>
+    </texto>
+    <texto id="t7">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#000000" LETTERSPACING="0" KERNING="0">http://www.CT abdomen and pelvis atlas.exe</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#000000" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>73,549</pos>
+      <size>697,45</size>
+    </texto>
+    <texto id="t7">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#000000" LETTERSPACING="0" KERNING="0">http://campusvirtual.uma.es/rgral/ameram/01imagenmedica/Presentation_Files/index.html</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#000000" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>73,594</pos>
+      <size>697,66</size>
+    </texto>
+    <texto id="t7">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#000000" LETTERSPACING="0" KERNING="0">Atlas de anatomía humana, Frank H Netter - 2 ed, Ed Icon</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#000000" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>73,660</pos>
+      <size>697,45</size>
+    </texto>
+    <texto id="t7">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#000000" LETTERSPACING="0" KERNING="0">Getting started in clinical radiology - from image to diagnosis, George Eastman, ED Thieme</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#000000" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>73,705</pos>
+      <size>697,66</size>
+    </texto>
+    <texto id="t7">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#000000" LETTERSPACING="0" KERNING="0">Guía Técnica SEDIA TC 2002 ISO-8859-1.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#000000" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>73,771</pos>
+      <size>697,45</size>
+    </texto>
+    <texto id="t7">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#000000" LETTERSPACING="0" KERNING="0">Guía Técnica SEDIA –ESUR  contrastes TC. </FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#000000" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>73,816</pos>
+      <size>697,45</size>
+    </texto>
+    <texto id="t7">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#000000" LETTERSPACING="0" KERNING="0">Pocket atlas of sectional anatomy - ct and mri - head and neck – T Moeller, E Reif (thieme, 2007). </FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#000000" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>73,861</pos>
+      <size>697,66</size>
+    </texto>
+    <texto id="t7">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#000000" LETTERSPACING="0" KERNING="0">Pocket atlas of sectional anatomy – chest and abdomen, ct and mri -  T Moeller, E Reif (thieme,radiology, ct and mri, (Ed Thieme,2007).</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#000000" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>73,928</pos>
+      <size>697,66</size>
+    </texto>
+    <texto id="t7">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#000000" LETTERSPACING="0" KERNING="0">Biblia de radiología, Dähnert Wolfgang.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#000000" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>73,994</pos>
+      <size>697,45</size>
+    </texto>
+    <texto id="t7">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#000000" LETTERSPACING="0" KERNING="0">Neuroradiology essentials radiology clinics of na. Wolf  et al.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#000000" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>73,1039</pos>
+      <size>697,45</size>
+    </texto>
+    <texto id="t7">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#000000" LETTERSPACING="0" KERNING="0">Secretos de la radiología, E. Scott Pretorius, Jeffrey A. Solomon – 2006</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#000000" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>73,1084</pos>
+      <size>697,45</size>
+    </texto>
+    <texto id="t7">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#000000" LETTERSPACING="0" KERNING="0">Proyecciones radiológicas con correlación anatómica, K. Bontrager, Elsevier Mosby,6 ed.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#000000" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>73,1128</pos>
+      <size>697,66</size>
+    </texto>
+    <texto id="t7">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#000000" LETTERSPACING="0" KERNING="0">Anatomía para el diagnóstico radiológico. R. Mc Nicholas et al. Ed Marbán.2ª ed.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#000000" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>73,1194</pos>
+      <size>697,45</size>
+    </texto>
+    <texto id="t7">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#000000" LETTERSPACING="0" KERNING="0">Body TC and MR volumen I  and II .Lee Sagel. Ed marbán, 4ª ed.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#000000" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>73,1239</pos>
+      <size>697,45</size>
+    </texto>
+    <texto id="t7">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#000000" LETTERSPACING="0" KERNING="0">Cortes anatómicos correlacionados con TC y MRI. Ed Marbán. 3ª ed.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#000000" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>73,1284</pos>
+      <size>697,45</size>
+    </texto>
+    <texto id="t7">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#000000" LETTERSPACING="0" KERNING="0">Manual de radiología para técnicos. S. Bushong, 8ª ed.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#000000" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>73,1329</pos>
+      <size>697,45</size>
+    </texto>
+    <texto id="t7">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#000000" LETTERSPACING="0" KERNING="0">http://www.seram.es/</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#000000" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>74,1374</pos>
+      <size>697,45</size>
+    </texto>
+  </textos>
+  <imagenes>
+    <imagen id="c1">
+      <ruta>teoria/img/flechita_subapartado.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>11,8</pos>
+      <size>28,30</size>
+    </imagen>
+    <imagen id="c7">
+      <ruta>teoria/img/flechita_lista.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>56,331</pos>
+      <size>8,11</size>
+    </imagen>
+    <imagen id="c6">
+      <ruta>teoria/img/flechita_lista.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>56,265</pos>
+      <size>8,11</size>
+    </imagen>
+    <imagen id="c5">
+      <ruta>teoria/img/flechita_lista.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>56,199</pos>
+      <size>8,11</size>
+    </imagen>
+    <imagen id="c4">
+      <ruta>teoria/img/flechita_lista.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>56,154</pos>
+      <size>8,11</size>
+    </imagen>
+    <imagen id="c3">
+      <ruta>teoria/img/flechita_lista.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>56,109</pos>
+      <size>8,11</size>
+    </imagen>
+    <imagen id="c2">
+      <ruta>teoria/img/flechita_lista.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>56,62</pos>
+      <size>8,11</size>
+    </imagen>
+    <imagen id="c8">
+      <ruta>teoria/img/flechita_lista.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>56,376</pos>
+      <size>8,11</size>
+    </imagen>
+    <imagen id="c9">
+      <ruta>teoria/img/flechita_lista.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>56,421</pos>
+      <size>8,11</size>
+    </imagen>
+    <imagen id="c10">
+      <ruta>teoria/img/flechita_lista.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>56,466</pos>
+      <size>8,11</size>
+    </imagen>
+    <imagen id="c11">
+      <ruta>teoria/img/flechita_lista.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>56,511</pos>
+      <size>8,11</size>
+    </imagen>
+    <imagen id="c12">
+      <ruta>teoria/img/flechita_lista.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>56,556</pos>
+      <size>8,11</size>
+    </imagen>
+    <imagen id="c13">
+      <ruta>teoria/img/flechita_lista.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>56,601</pos>
+      <size>8,11</size>
+    </imagen>
+    <imagen id="c14">
+      <ruta>teoria/img/flechita_lista.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>56,667</pos>
+      <size>8,11</size>
+    </imagen>
+    <imagen id="c15">
+      <ruta>teoria/img/flechita_lista.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>56,712</pos>
+      <size>8,11</size>
+    </imagen>
+    <imagen id="c16">
+      <ruta>teoria/img/flechita_lista.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>56,778</pos>
+      <size>8,11</size>
+    </imagen>
+    <imagen id="c17">
+      <ruta>teoria/img/flechita_lista.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>56,823</pos>
+      <size>8,11</size>
+    </imagen>
+    <imagen id="c18">
+      <ruta>teoria/img/flechita_lista.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>56,868</pos>
+      <size>8,11</size>
+    </imagen>
+    <imagen id="c19">
+      <ruta>teoria/img/flechita_lista.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>56,935</pos>
+      <size>8,11</size>
+    </imagen>
+    <imagen id="c20">
+      <ruta>teoria/img/flechita_lista.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>56,1001</pos>
+      <size>8,11</size>
+    </imagen>
+    <imagen id="c21">
+      <ruta>teoria/img/flechita_lista.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>56,1046</pos>
+      <size>8,11</size>
+    </imagen>
+    <imagen id="c22">
+      <ruta>teoria/img/flechita_lista.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>56,1091</pos>
+      <size>8,11</size>
+    </imagen>
+    <imagen id="c23">
+      <ruta>teoria/img/flechita_lista.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>56,1135</pos>
+      <size>8,11</size>
+    </imagen>
+    <imagen id="c24">
+      <ruta>teoria/img/flechita_lista.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>56,1201</pos>
+      <size>8,11</size>
+    </imagen>
+    <imagen id="c25">
+      <ruta>teoria/img/flechita_lista.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>56,1246</pos>
+      <size>8,11</size>
+    </imagen>
+    <imagen id="c26">
+      <ruta>teoria/img/flechita_lista.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>56,1291</pos>
+      <size>8,11</size>
+    </imagen>
+    <imagen id="c27">
+      <ruta>teoria/img/flechita_lista.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>56,1336</pos>
+      <size>8,11</size>
+    </imagen>
+    <imagen id="c28">
+      <ruta>teoria/img/flechita_lista.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>57,1381</pos>
+      <size>8,11</size>
+    </imagen>
+  </imagenes>
+</text_layout>

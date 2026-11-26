@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recursos>
+ <textos>
+     <texto id="t0">Para revisar la máquina debes arrastrar los nombres de los componentes a su lugar.</texto>
+  <texto id="t1">Revisión del sistema de inyección de contraste</texto>
+  <texto id="t2">Ya hemos revisado todos los componentes. Prosigamos.</texto>
+    
+  <texto id="op0">Calentador de la jeringa</texto>  
+  <texto id="op1">Pedestal regulable</texto>
+  <texto id="op2">Consola del sistema</texto>
+  <texto id="op3">Monitor remoto</texto>
+  <texto id="op4">Jeringa desechable</texto>
+  
+  <texto id="btn">Continuar</texto> 
+ </textos>
+ <audios>
+  <audio id="s1" url="assets/audios/soft_tc/ruido.mp3"/>
+ </audios>
+ <peliculas></peliculas>
+ <videos></videos>
+ <imagenes></imagenes>
+</recursos>

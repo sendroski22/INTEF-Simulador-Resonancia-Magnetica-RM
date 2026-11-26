@@ -1,0 +1,727 @@
+﻿<text_layout>
+  <default_directory/>
+  <textos>
+    <texto id="instance45">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Trebuchet MS" SIZE="20" COLOR="#0066FF" LETTERSPACING="0" KERNING="0">Principales protocolos para el estudio de órganos específicos o sistemas:</FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>45,980</pos>
+      <size>739,31</size>
+    </texto>
+    <texto id="instance46">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#666666" LETTERSPACING="0" KERNING="0">Cada órgano o sistema del organismo<FONT COLOR="#333333"> <FONT COLOR="#384858"><B>requiere un estudio concreto</B></FONT>, ajustando no solo el área anatómica a explorar sino ajustando una serie de parámetros del equipo de resonancia.</FONT></FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#666666" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>71,1011</pos>
+      <size>714,88</size>
+    </texto>
+    <texto id="instance47">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#666666" LETTERSPACING="0" KERNING="0">Cada conjunto de parámetros<FONT COLOR="#333333"> puede predefinirse en un <FONT COLOR="#384858"><B>programa específico para acelerar el proceso</B></FONT> y definirse con un término concreto denominado protocolo.</FONT></FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#666666" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>71,1099</pos>
+      <size>714,66</size>
+    </texto>
+    <texto id="instance50">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Con RM <FONT COLOR="#666666">se obtienen imágenes sectoriales del organismo</FONT> en los distintos planos anatómicos.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>71,1166</pos>
+      <size>714,66</size>
+    </texto>
+    <texto id="instance52">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Entre las indicaciones de RMN encontramos:</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>71,1233</pos>
+      <size>714,45</size>
+    </texto>
+    <texto id="instance54">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Estudio de la patología toráxica</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>87,1278</pos>
+      <size>344,45</size>
+    </texto>
+    <texto id="instance56">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Estudio del Sistema Nervioso Central</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>87,1323</pos>
+      <size>344,45</size>
+    </texto>
+    <texto id="instance58">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Estudio de paciente politraumatizado</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>87,1368</pos>
+      <size>344,45</size>
+    </texto>
+    <texto id="instance60">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Estudio de patología vertebral</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>87,1413</pos>
+      <size>344,45</size>
+    </texto>
+    <texto id="instance62">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Estudio de patología abdominal</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>87,1458</pos>
+      <size>344,45</size>
+    </texto>
+    <texto id="instance64">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Estudio de patología pélvica y perineal</FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>87,1503</pos>
+      <size>344,45</size>
+    </texto>
+    <texto id="instance66">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Estudios vasculares</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>87,1548</pos>
+      <size>344,45</size>
+    </texto>
+    <texto id="instance68">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Estudio patología mamaria</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>87,1593</pos>
+      <size>344,45</size>
+    </texto>
+    <texto id="instance70">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Estudio del sistema musculoesquelético</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>87,1638</pos>
+      <size>344,45</size>
+    </texto>
+    <texto id="instance76">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Trebuchet MS" SIZE="20" COLOR="#0066FF" LETTERSPACING="0" KERNING="0">Uso de contrastes:</FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>45,1703</pos>
+      <size>739,31</size>
+    </texto>
+    <texto id="instance77">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Los contrastes s<FONT COLOR="#666666">on sustancias químicas</FONT> que presentan una afinidad por diversas estructuras o tejidos de tal manera que pueden emplearse tanto para resaltar determinadas áreas anatómicas (vasos sanguíneos) como para evidenciar áreas con mayor realce o señal en RM (infecciones, inflamaciones, neoplasias).</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>71,1734</pos>
+      <size>360,195</size>
+    </texto>
+    <texto id="instance78">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Una de las sustancias más comunes es el Gadolinio (Gd).</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>71,1930</pos>
+      <size>359,66</size>
+    </texto>
+    <texto id="instance82">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Trebuchet MS" SIZE="20" COLOR="#0066FF" LETTERSPACING="0" KERNING="0">Preparación del equipo:</FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>45,2014</pos>
+      <size>739,27</size>
+    </texto>
+    <texto id="instance83">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Es muy importante un <FONT COLOR="#666666">ajuste periódico del mismo según indicaciones del fabricante</FONT>.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>71,2045</pos>
+      <size>360,66</size>
+    </texto>
+    <texto id="instance86">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Es imprescindible <FONT COLOR="#999999">mantener las normas estrictamente acerca del material que puede introducirse en la sala de RM</FONT>.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>71,2112</pos>
+      <size>360,88</size>
+    </texto>
+    <texto id="instance88">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Antes de comenzar el estudio debemos <FONT COLOR="#666666">asegurarnos de la presencia de todo el material necesario</FONT>: sacos, vendas fijadoras, antenas, vías venosas, sueros y botellas de contraste.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>71,2200</pos>
+      <size>360,131</size>
+    </texto>
+    <texto id="instance90">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Se deberá <FONT COLOR="#666666">encender el equipo y software con suficientemente tiempo</FONT> antes del comienzo de la sesión de RM.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>71,2331</pos>
+      <size>360,88</size>
+    </texto>
+    <texto id="instance92">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Es imprescindible <FONT COLOR="#666666">mantener limpia y recogida la sala de RM</FONT>.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>71,2418</pos>
+      <size>360,66</size>
+    </texto>
+    <texto id="instance97">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Trebuchet MS" SIZE="20" COLOR="#0066FF" LETTERSPACING="0" KERNING="0">Operaciones de centraje:</FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>45,2551</pos>
+      <size>739,27</size>
+    </texto>
+    <texto id="instance98">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#666666" LETTERSPACING="0" KERNING="0">Situar al enfermo sobre la mesa de estudio<FONT COLOR="#333333"> en una posición adecuada.</FONT></FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#666666" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>71,2578</pos>
+      <size>713,45</size>
+    </texto>
+    <texto id="instance100">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Se puede <FONT COLOR="#666666">desplazar la mesa con el enfermo hasta situar centrarlo bajo el imán</FONT>, ya sea manualmente o preprogramado. </FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>71,2623</pos>
+      <size>713,66</size>
+    </texto>
+    <texto id="instance104">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Trebuchet MS" SIZE="20" COLOR="#0066FF" LETTERSPACING="0" KERNING="0">Planificación y exploración de imágenes en el monitor:</FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>45,2710</pos>
+      <size>739,27</size>
+    </texto>
+    <texto id="instance105">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">La imagen obtenida en RM debe ser <FONT COLOR="#666666">interpretada por el médico radiólogo</FONT> asignado.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>71,2737</pos>
+      <size>358,88</size>
+    </texto>
+    <texto id="instance107">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#666666" LETTERSPACING="0" KERNING="0">Se le entregarán los estudios con las secuencias específicas<FONT COLOR="#333333"> y en los planos indicados en el volante. </FONT></FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#666666" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>71,2825</pos>
+      <size>358,88</size>
+    </texto>
+    <texto id="instance112">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Trebuchet MS" SIZE="20" COLOR="#0066FF" LETTERSPACING="0" KERNING="0">Selección de las imágenes más significativas que deben ser impresionadas en película radiográfica o enviadas a radiografía:</FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>45,3020</pos>
+      <size>739,53</size>
+    </texto>
+    <texto id="instance113">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Las imágenes adquiridas <FONT COLOR="#666666">deben almacenarse en un sistema de archivo</FONT>.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>71,3077</pos>
+      <size>714,45</size>
+    </texto>
+    <texto id="instance115">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Es preciso que el técnico r<FONT COLOR="#666666">evise las imágenes recogidas y valore la calidad</FONT> de las mismas.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>71,3122</pos>
+      <size>714,66</size>
+    </texto>
+    <texto id="instance117">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Es posible que se hayan <FONT COLOR="#666666">producido artefactos de movimiento del paciente</FONT>, se hayan interpuesto estructuras, etc.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>71,3189</pos>
+      <size>714,66</size>
+    </texto>
+    <texto id="instance121">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Trebuchet MS" SIZE="20" COLOR="#0066FF" LETTERSPACING="0" KERNING="0">Detección de artefacto y control de calidad de una imagen:</FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>45,3272</pos>
+      <size>739,27</size>
+    </texto>
+    <texto id="instance122">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Se define como artefacto a <FONT COLOR="#666666">cualquier alteración en la imagen adquirida</FONT>, que no se corresponde con una estructura anatómica real.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>71,3299</pos>
+      <size>359,109</size>
+    </texto>
+    <texto id="instance124">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Uno de los posibles artefactos más habituales es el producido por los <FONT COLOR="#666666">movimientos respiratorios o latidos cardiacos del paciente</FONT>.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>71,3408</pos>
+      <size>359,109</size>
+    </texto>
+    <texto id="instance127">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Otro de los artefactos son los <FONT COLOR="#666666">producidos por partículas metálicas dentro del paciente</FONT> como prótesis articulares.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>71,3517</pos>
+      <size>359,88</size>
+    </texto>
+    <texto id="instance131">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Trebuchet MS" SIZE="20" COLOR="#0066FF" LETTERSPACING="0" KERNING="0">Seguridad en RMN:</FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>45,3623</pos>
+      <size>739,27</size>
+    </texto>
+    <texto id="instance132">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Es muy importante <FONT COLOR="#666666">seguir unas pautas de actuación dentro de la sala de RM</FONT> dado la complejidad del equipo y sus características específicas.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>71,3650</pos>
+      <size>359,109</size>
+    </texto>
+    <texto id="instance134">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#666666" LETTERSPACING="0" KERNING="0">Se debe ser estricto con los objetos que accedan a la sala <FONT COLOR="#333333">y elaborar un cuestionario de elementos prohibidos para el paciente o el personal sanitario que acceda al interior.</FONT></FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#666666" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>71,3759</pos>
+      <size>359,109</size>
+    </texto>
+    <texto id="instance137">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Posibles <FONT COLOR="#666666">riesgos de electrocución</FONT> pues es un equipo basado en campos electromagnéticos.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>71,3868</pos>
+      <size>359,88</size>
+    </texto>
+    <texto id="instance139">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Precaución con <FONT COLOR="#666666">el sistema de salida de gases de refrigeración</FONT> y controlar que la temperatura del equipo permanezca dentro de un rango determinado. </FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>71,3956</pos>
+      <size>714,66</size>
+    </texto>
+    <texto id="instance141">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Georgia" SIZE="32" COLOR="#B1D5F8" LETTERSPACING="0" KERNING="0">Desarrollo del proceso de RMN</FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>81,18</pos>
+      <size>658,40</size>
+    </texto>
+    <texto id="instance142">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="8"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="12" COLOR="#FFFFFF" LETTERSPACING="0" KERNING="0">Equipo de RMN</FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>111,69</pos>
+      <size>456,19</size>
+    </texto>
+    <texto id="instance143">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="8"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="12" COLOR="#FFFFFF" LETTERSPACING="0" KERNING="0">Recepción y preparación del paciente</FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>111,91</pos>
+      <size>533,19</size>
+    </texto>
+    <texto id="instance144">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="8"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="12" COLOR="#FFFFFF" LETTERSPACING="0" KERNING="0">Principales protocolos para el estudio de órganos específicos o sistemas</FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>111,114</pos>
+      <size>524,19</size>
+    </texto>
+    <texto id="instance146">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Trebuchet MS" SIZE="20" COLOR="#0066FF" LETTERSPACING="0" KERNING="0">Equipo de RMN:</FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>45,367</pos>
+      <size>551,31</size>
+    </texto>
+    <texto id="instance147">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Software y disco duro</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>71,398</pos>
+      <size>309,45</size>
+    </texto>
+    <texto id="instance148">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="8"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="12" COLOR="#FFFFFF" LETTERSPACING="0" KERNING="0">Uso de contrastes</FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>111,134</pos>
+      <size>509,19</size>
+    </texto>
+    <texto id="instance149">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="8"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="12" COLOR="#FFFFFF" LETTERSPACING="0" KERNING="0">Operaciones de centraje</FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>111,174</pos>
+      <size>554,19</size>
+    </texto>
+    <texto id="instance150">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="8"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="12" COLOR="#FFFFFF" LETTERSPACING="0" KERNING="0">Planificación y exploración de diferentes territorios anatómicos</FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>110,194</pos>
+      <size>525,19</size>
+    </texto>
+    <texto id="instance151">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="8"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="12" COLOR="#FFFFFF" LETTERSPACING="0" KERNING="0">Identificación de imágenes en el monitor</FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>111,214</pos>
+      <size>547,19</size>
+    </texto>
+    <texto id="instance152">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="4"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="12" COLOR="#FFFFFF" LETTERSPACING="0" KERNING="0">Selección de las imágenes más significativas que deben ser impresionadas en película radiográfica o enviadas a radiografía</FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>111,234</pos>
+      <size>545,41</size>
+    </texto>
+    <texto id="instance153">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="8"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="12" COLOR="#FFFFFF" LETTERSPACING="0" KERNING="0">Detección del artefacto y control de calidad de imagen</FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>111,274</pos>
+      <size>551,19</size>
+    </texto>
+    <texto id="instance154">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="8"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="12" COLOR="#FFFFFF" LETTERSPACING="0" KERNING="0">Seguridad de RMN</FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>111,294</pos>
+      <size>534,19</size>
+    </texto>
+    <texto id="instance155">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Equipo de magnetización</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>71,443</pos>
+      <size>309,45</size>
+    </texto>
+    <texto id="instance156">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Aparato de radiofrecuencia</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>71,488</pos>
+      <size>309,45</size>
+    </texto>
+    <texto id="instance157">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Equipo de detección de datos</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>71,533</pos>
+      <size>309,45</size>
+    </texto>
+    <texto id="instance158">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Escudo aislante de ruido</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>71,578</pos>
+      <size>309,45</size>
+    </texto>
+    <texto id="instance159">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Trebuchet MS" SIZE="20" COLOR="#0066FF" LETTERSPACING="0" KERNING="0">Recepción y preparación del paciente:</FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>45,640</pos>
+      <size>551,31</size>
+    </texto>
+    <texto id="instance160">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Explicación al paciente del motivo de la prueba, resultados esperables de la misma y recomendaciones</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>71,671</pos>
+      <size>361,88</size>
+    </texto>
+    <texto id="instance161">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Confirmar los datos del paciente</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>71,759</pos>
+      <size>361,45</size>
+    </texto>
+    <texto id="instance162">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Consultar antecedentes</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>71,804</pos>
+      <size>361,45</size>
+    </texto>
+    <texto id="instance163">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Recordarle no introducir elementos metálicos</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>71,849</pos>
+      <size>361,66</size>
+    </texto>
+    <texto id="instance164">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Administrar contraste si fuera necesario</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>71,915</pos>
+      <size>360,45</size>
+    </texto>
+    <texto id="instance166">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="8"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="12" COLOR="#FFFFFF" LETTERSPACING="0" KERNING="0">Preparación del equipo</FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>111,154</pos>
+      <size>509,19</size>
+    </texto>
+  </textos>
+  <imagenes>
+    <imagen id="i0">
+      <ruta>teoria/conceptos_auxiliares/img/4_cabecera_mc.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>15,-2</pos>
+      <size>770,325</size>
+    </imagen>
+    <imagen id="mc_apartado0">
+      <ruta>teoria/img/flechita_subapartado.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>19,360</pos>
+      <size>28,30</size>
+    </imagen>
+    <imagen id="mc_flecha0">
+      <ruta>teoria/img/flechita_lista.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>56,403</pos>
+      <size>8,11</size>
+    </imagen>
+    <imagen id="mc_flecha1">
+      <ruta>teoria/img/flechita_lista.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>56,447</pos>
+      <size>8,11</size>
+    </imagen>
+    <imagen id="mc_flecha2">
+      <ruta>teoria/img/flechita_lista.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>56,492</pos>
+      <size>8,11</size>
+    </imagen>
+    <imagen id="mc_flecha3">
+      <ruta>teoria/img/flechita_lista.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>56,537</pos>
+      <size>8,11</size>
+    </imagen>
+    <imagen id="mc_flecha4">
+      <ruta>teoria/img/flechita_lista.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>56,582</pos>
+      <size>8,11</size>
+    </imagen>
+    <imagen id="mc_apartado1">
+      <ruta>teoria/img/flechita_subapartado.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>19,633</pos>
+      <size>28,30</size>
+    </imagen>
+    <imagen id="mc_flecha5">
+      <ruta>teoria/img/flechita_lista.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>56,676</pos>
+      <size>8,11</size>
+    </imagen>
+    <imagen id="mc_flecha6">
+      <ruta>teoria/img/flechita_lista.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>56,763</pos>
+      <size>8,11</size>
+    </imagen>
+    <imagen id="mc_flecha7">
+      <ruta>teoria/img/flechita_lista.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>56,808</pos>
+      <size>8,11</size>
+    </imagen>
+    <imagen id="mc_flecha8">
+      <ruta>teoria/img/flechita_lista.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>56,853</pos>
+      <size>8,11</size>
+    </imagen>
+    <imagen id="mc_flecha9">
+      <ruta>teoria/img/flechita_lista.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>56,919</pos>
+      <size>8,11</size>
+    </imagen>
+    <imagen id="mc_apartado2">
+      <ruta>teoria/img/flechita_subapartado.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>19,973</pos>
+      <size>28,30</size>
+    </imagen>
+    <imagen id="mc_flecha10">
+      <ruta>teoria/img/flechita_lista.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>56,1016</pos>
+      <size>8,11</size>
+    </imagen>
+    <imagen id="mc_flecha11">
+      <ruta>teoria/img/flechita_lista.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>56,1103</pos>
+      <size>8,11</size>
+    </imagen>
+    <imagen id="i3">
+      <ruta>teoria/conceptos_auxiliares/img/17.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>451,1278</pos>
+      <size>335,251</size>
+    </imagen>
+    <imagen id="mc_flecha12">
+      <ruta>teoria/img/flechita_lista.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>56,1170</pos>
+      <size>8,11</size>
+    </imagen>
+    <imagen id="mc_flecha14">
+      <ruta>teoria/img/flechita_lista.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>56,1237</pos>
+      <size>8,11</size>
+    </imagen>
+    <imagen id="mc_cuadrado0">
+      <ruta>teoria/img/cuad_allo.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>70,1284</pos>
+      <size>8,8</size>
+    </imagen>
+    <imagen id="mc_cuadrado1">
+      <ruta>teoria/img/cuad_allo.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>70,1329</pos>
+      <size>8,8</size>
+    </imagen>
+    <imagen id="mc_cuadrado2">
+      <ruta>teoria/img/cuad_allo.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>70,1374</pos>
+      <size>8,8</size>
+    </imagen>
+    <imagen id="mc_cuadrado3">
+      <ruta>teoria/img/cuad_allo.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>70,1419</pos>
+      <size>8,8</size>
+    </imagen>
+    <imagen id="mc_cuadrado4">
+      <ruta>teoria/img/cuad_allo.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>70,1464</pos>
+      <size>8,8</size>
+    </imagen>
+    <imagen id="mc_cuadrado5">
+      <ruta>teoria/img/cuad_allo.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>70,1509</pos>
+      <size>8,8</size>
+    </imagen>
+    <imagen id="mc_cuadrado6">
+      <ruta>teoria/img/cuad_allo.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>70,1554</pos>
+      <size>8,8</size>
+    </imagen>
+    <imagen id="mc_cuadrado7">
+      <ruta>teoria/img/cuad_allo.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>70,1599</pos>
+      <size>8,8</size>
+    </imagen>
+    <imagen id="mc_cuadrado8">
+      <ruta>teoria/img/cuad_allo.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>70,1644</pos>
+      <size>8,8</size>
+    </imagen>
+    <imagen id="i4">
+      <ruta>teoria/conceptos_auxiliares/img/18.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>449,1734</pos>
+      <size>335,251</size>
+    </imagen>
+    <imagen id="mc_apartado3">
+      <ruta>teoria/img/flechita_subapartado.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>19,1696</pos>
+      <size>28,30</size>
+    </imagen>
+    <imagen id="mc_flecha15">
+      <ruta>teoria/img/flechita_lista.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>56,1739</pos>
+      <size>8,11</size>
+    </imagen>
+    <imagen id="mc_flecha16">
+      <ruta>teoria/img/flechita_lista.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>56,1934</pos>
+      <size>8,11</size>
+    </imagen>
+    <imagen id="mc_apartado4">
+      <ruta>teoria/img/flechita_subapartado.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>19,2007</pos>
+      <size>28,30</size>
+    </imagen>
+    <imagen id="mc_flecha17">
+      <ruta>teoria/img/flechita_lista.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>56,2050</pos>
+      <size>8,11</size>
+    </imagen>
+    <imagen id="i5">
+      <ruta>teoria/conceptos_auxiliares/img/19.png</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>449,2045</pos>
+      <size>335,251</size>
+    </imagen>
+    <imagen id="mc_flecha18">
+      <ruta>teoria/img/flechita_lista.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>56,2117</pos>
+      <size>8,11</size>
+    </imagen>
+    <imagen id="mc_flecha19">
+      <ruta>teoria/img/flechita_lista.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>56,2205</pos>
+      <size>8,11</size>
+    </imagen>
+    <imagen id="mc_flecha20">
+      <ruta>teoria/img/flechita_lista.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>56,2336</pos>
+      <size>8,11</size>
+    </imagen>
+    <imagen id="mc_flecha21">
+      <ruta>teoria/img/flechita_lista.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>56,2423</pos>
+      <size>8,11</size>
+    </imagen>
+    <imagen id="i6">
+      <ruta>teoria/conceptos_auxiliares/img/20.png</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>449,2299</pos>
+      <size>335,251</size>
+    </imagen>
+    <imagen id="mc_apartado5">
+      <ruta>teoria/img/flechita_subapartado.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>19,2544</pos>
+      <size>28,30</size>
+    </imagen>
+    <imagen id="mc_flecha22">
+      <ruta>teoria/img/flechita_lista.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>56,2583</pos>
+      <size>8,11</size>
+    </imagen>
+    <imagen id="mc_flecha23">
+      <ruta>teoria/img/flechita_lista.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>56,2628</pos>
+      <size>8,11</size>
+    </imagen>
+    <imagen id="mc_apartado6">
+      <ruta>teoria/img/flechita_subapartado.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>19,2703</pos>
+      <size>28,30</size>
+    </imagen>
+    <imagen id="mc_flecha24">
+      <ruta>teoria/img/flechita_lista.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>56,2742</pos>
+      <size>8,11</size>
+    </imagen>
+    <imagen id="mc_flecha25">
+      <ruta>teoria/img/flechita_lista.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>56,2830</pos>
+      <size>8,11</size>
+    </imagen>
+    <imagen id="i7">
+      <ruta>teoria/conceptos_auxiliares/img/21.png</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>449,2737</pos>
+      <size>335,251</size>
+    </imagen>
+    <imagen id="mc_apartado7">
+      <ruta>teoria/img/flechita_subapartado.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>19,3013</pos>
+      <size>28,30</size>
+    </imagen>
+    <imagen id="mc_flecha26">
+      <ruta>teoria/img/flechita_lista.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>56,3082</pos>
+      <size>8,11</size>
+    </imagen>
+    <imagen id="mc_flecha27">
+      <ruta>teoria/img/flechita_lista.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>56,3126</pos>
+      <size>8,11</size>
+    </imagen>
+    <imagen id="mc_flecha28">
+      <ruta>teoria/img/flechita_lista.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>56,3193</pos>
+      <size>8,11</size>
+    </imagen>
+    <imagen id="mc_apartado8">
+      <ruta>teoria/img/flechita_subapartado.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>19,3265</pos>
+      <size>28,30</size>
+    </imagen>
+    <imagen id="mc_flecha29">
+      <ruta>teoria/img/flechita_lista.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>56,3304</pos>
+      <size>8,11</size>
+    </imagen>
+    <imagen id="mc_flecha30">
+      <ruta>teoria/img/flechita_lista.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>56,3413</pos>
+      <size>8,11</size>
+    </imagen>
+    <imagen id="i8">
+      <ruta>teoria/conceptos_auxiliares/img/22.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>449,3299</pos>
+      <size>335,251</size>
+    </imagen>
+    <imagen id="mc_flecha31">
+      <ruta>teoria/img/flechita_lista.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>56,3522</pos>
+      <size>8,11</size>
+    </imagen>
+    <imagen id="mc_apartado9">
+      <ruta>teoria/img/flechita_subapartado.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>19,3616</pos>
+      <size>28,30</size>
+    </imagen>
+    <imagen id="mc_flecha32">
+      <ruta>teoria/img/flechita_lista.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>56,3655</pos>
+      <size>8,11</size>
+    </imagen>
+    <imagen id="mc_flecha33">
+      <ruta>teoria/img/flechita_lista.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>56,3764</pos>
+      <size>8,11</size>
+    </imagen>
+    <imagen id="i9">
+      <ruta>teoria/conceptos_auxiliares/img/23.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>449,3650</pos>
+      <size>335,251</size>
+    </imagen>
+    <imagen id="mc_flecha34">
+      <ruta>teoria/img/flechita_lista.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>56,3873</pos>
+      <size>8,11</size>
+    </imagen>
+    <imagen id="mc_flecha35">
+      <ruta>teoria/img/flechita_lista.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>56,3961</pos>
+      <size>8,11</size>
+    </imagen>
+    <imagen id="mc_flecha13">
+      <ruta>teoria/img/flechita_lista.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>56,1170</pos>
+      <size>8,11</size>
+    </imagen>
+    <imagen id="i1">
+      <ruta>teoria/conceptos_auxiliares/img/15.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>430,400</pos>
+      <size>270,217</size>
+    </imagen>
+    <imagen id="i2">
+      <ruta>teoria/conceptos_auxiliares/img/16.png</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>450,671</pos>
+      <size>335,251</size>
+    </imagen>
+  </imagenes>
+</text_layout>

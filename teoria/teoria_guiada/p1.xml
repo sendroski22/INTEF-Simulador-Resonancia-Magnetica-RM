@@ -1,0 +1,66 @@
+﻿<text_layout>
+  <default_directory/>
+  <textos>
+    <texto id="t2">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">La resonancia magnética nuclear es la <FONT COLOR="#384858"><B>técnica radiológica basada en el empleo de las ondas electromagnéticas</B></FONT> en la adquisición de imágenes.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Sus bases físicas se fundamentan en la propiedad específica de determinados elementos de reaccionar ante la energía de radiofrecuencia.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Los átomos con número impar de protones y neutrones (isótopos) absorben energía de radiofrecuencia cuando se someten a un campo magnético.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#384858" LETTERSPACING="0" KERNING="0"><B>El núcleo atómico se subdivide en protones y neutrones</B><FONT COLOR="#333333">, mientras que los electrones permanecen rotando en una órbita alrededor del núcleo. <FONT COLOR="#384858"></FONT></FONT></FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#384858" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Según el número de protones situados en el núcleo definiremos el denominado <FONT COLOR="#384858"><B>número atómico</B></FONT>. No debe confundirse el término con el denominado número másico que se obtiene del cómputo de protones y neutrones. </FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Se denominan isótopos a los elementos que comparten el número atómico aunque tienen diferente peso atómico. </FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">En resonancia se emplea el átomo de hidrógeno por tratarse de un isótopo con número atómico impar y común en la naturaleza.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Los núcleos en su rotación generan un campo magnético alrededor con una orientación predeterminada por su eje de rotación.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">El movimiento de precesión de los núcleos de los átomos de hidrógeno será al azar fuera de un campo magnético o coordinado con dicho campo si está bajo su influjo. Mediante una ecuación matemática se establece una relación entre la frecuencia de precesión y el campo magnético aplicado, denominada ley de Larmor.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Este hecho es importante pero no aplicable en sí mismo por la RM. Sí es destacable el acto de combinar una onda de radiofrecuencia con una energía concreta sobre esos núcleos magnetizados orientados en un eje concreto, ya que esto producirá una absorción de la energía aplicada y una emisión a posteriori al cesar el pulso de radiofrecuencia. </FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">En este proceso de absorción-pérdida de energía, el eje de precesión de los núcleos se orientará de forma perpendicular al eje del campo magnético inicial. </FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Tras finalizarse el pulso de radiofrecuencia el eje de precesión de los núcleos se reorientará en la misma dirección del eje del campo magnético liberando energía. Este fenómeno de devolución de la energía previamente absorbida se denomina relajación.</FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>45,47</pos>
+      <size>730,925</size>
+    </texto>
+    <texto id="t1">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Trebuchet MS" SIZE="20" COLOR="#0066FF" LETTERSPACING="0" KERNING="0">Bases físicas de resonancia magnética nuclear</FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>45,16</pos>
+      <size>551,31</size>
+    </texto>
+    <texto id="t3">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Esta energía liberada de modo progresivo a medida que se produce la reorientación puede ser recogida y medida por un voltímetro. Este voltaje que se produce como consecuencia se denomina voltaje inducido o señal de resonancia magnética (Free Induction Decay).</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>45,972</pos>
+      <size>395,152</size>
+    </texto>
+    <texto id="t4">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Mediante un complejo análisis matemático denominado &quot;transformada de Fourier&quot; se puede transformar la señal eléctrica creada en una imagen. Si aplicamos esta secuencia a los organismos vivos, en función de la composición de los tejidos (agua o grasa) se originarán distintas frecuencias de resonancia.</FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>45,1124</pos>
+      <size>732,131</size>
+    </texto>
+    <texto id="t5">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Cada tejido se definirá por tiempo de retorno al nivel de energía basal de relajación longitudinal o T1 y un tiempo de relajación transversal o T2 concreto. Eso quiere decir que en función del tipo de estudio, potenciado en T1 o T2, los tejidos se manifestarán de una manera u otra en la imagen adquirida.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Se han diseñado múltiples secuencias basándose en estas básicas o fundamentales mediante la aplicación de distintos pulsos de radiofrecuencia con ángulos de 90, 180º, etc. Estas secuencias son muy variadas y complejas para extendernos en su definición: Spin Eco, HASTE, FLAIR...</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>45,1255</pos>
+      <size>396,324</size>
+    </texto>
+    <texto id="t6">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Mediante la transformación de la frecuencia de resonancia de los componentes de un tejido en un valor numérico, se establece una intensidad relativa en la escala de grises y se representa de manera bidimensional en una unidad básica o píxel. El conjunto de píxeles conformará la imagen adquirida y podrá manipularse, archivarse en una base de datos o reconstruir mediante un software específico.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>43,1579</pos>
+      <size>734,131</size>
+    </texto>
+    <texto id="t5">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">En términos generales, los tejidos se manifestarán en la imagen proporcionando una intensidad de señal desde blanca a negra en secuencias T1 o T2 en función de su composición en iones hidrógeno (agua, grasa, aire). Se puede observar en la gráfica de la izquierda.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>492,1710</pos>
+      <size>284,590</size>
+    </texto>
+  </textos>
+  <imagenes>
+    <imagen id="c1">
+      <ruta>teoria/img/flechita_subapartado.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>19,8</pos>
+      <size>32,20</size>
+    </imagen>
+    <imagen id="i1">
+      <ruta>teoria/teoria_guiada/img/01_teoria_guiada.png</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>463,972</pos>
+      <size>314,148</size>
+    </imagen>
+    <imagen id="c2">
+      <ruta>teoria/teoria_guiada/img/1_Símbolo 2.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>455,1255</pos>
+      <size>322,297</size>
+    </imagen>
+    <imagen id="i2">
+      <ruta>teoria/teoria_guiada/img/34_teoria_guiada.png</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>44,1709</pos>
+      <size>434,382</size>
+    </imagen>
+  </imagenes>
+</text_layout>

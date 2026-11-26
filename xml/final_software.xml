@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recursos>
+	<externalresources></externalresources>
+	<config>
+		<actores_locucion>
+			<actor id="0">narrador</actor>
+			<actor id="1">enfermera</actor>
+		</actores_locucion>
+		<emociones>
+			<emocion id="0">normal</emocion>
+			<emocion id="1">alegre</emocion>
+			<emocion id="2">triste</emocion>
+		</emociones>
+	</config>
+	<textos>
+		<texto id="texto">...</texto>
+	</textos>
+	<audios>
+	</audios>
+	<peliculas></peliculas>
+	<videos></videos>
+	<imagenes></imagenes>
+</recursos>

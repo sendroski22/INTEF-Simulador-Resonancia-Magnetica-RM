@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recursos>
+	<externalresources></externalresources>
+	<textos>
+		<texto id="continuar">Continuar</texto>
+		<texto id="hospital"><![CDATA[Hospital]]></texto>
+		
+		<texto id="noticia1_title"><![CDATA[Accidente de coches]]></texto>
+		<texto id="noticia1_text"><![CDATA[Cuatro personas resultaron heridas tras el grave accidente ocurrido anoche en las inmediaciones del hospital.
+<font color='#006699'>El próximo volante pertenece a uno de estos pacientes. Su nerviosismo es muy alto.</font>]]></texto>
+		
+		<texto id="noticia2_title"><![CDATA[Temblor en la tierra]]></texto>
+		<texto id="noticia2_text"><![CDATA[Un leve temblor de tierra provoca varios heridos.
+<font color='#006699'>El siguiente volante pertenece a uno de estos heridos. El nerviosismo del siguiente paciente es el más alto.</font>]]></texto>
+
+		<texto id="noticia3_title"><![CDATA[El precio de la fama]]></texto>
+		<texto id="noticia3_text"><![CDATA[Una famosa estrella del cine ha sufrido varias contusiones producidas por un admirador.
+<font color='#006699'>El siguiente paciente pertenece a este personaje. Su grado de nerviosismo es máximo.</font>]]></texto>
+
+	</textos>
+	<audios>
+		<audio
+			id="websound"
+			url="assets/audios/web/ID02.mp3" />
+	</audios>
+	<peliculas></peliculas>
+	<videos></videos>
+	<imagenes></imagenes>
+</recursos>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recursos>
+	<textos>
+		<texto id="informes_titulo">Informes</texto>
+		<texto id="informes_puntuacion">Puntuaciones</texto>
+		<texto id="informes_acciones">Acciones erradas</texto>
+		<texto id="informes_crisis">Crisis</texto>
+		<texto id="informes_inicial">Inicial</texto>
+		<texto id="informes_final">Final</texto>
+		<texto id="informes_cerrar">Volver</texto>
+		<texto id="informes_pt">Trabajo</texto>
+		<texto id="informes_pr">Interacción</texto>
+	</textos>
+	<audios>
+	</audios>
+	<peliculas></peliculas>
+	<videos></videos>
+	<imagenes></imagenes>
+</recursos>

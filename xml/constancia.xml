@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recursos>
+	<externalresources></externalresources>
+	<textos>
+		<texto id="salir">Volver</texto>
+		<texto id="hoja1"><![CDATA[<b>Reglamento</b>
+Se prohíbe el uso de objetos metálicos y electrónicos en la sala de examen. Estos artículos incluyen:
+•Joyas, relojes, tarjetas de crédito y audífonos, todos pueden dañarse.
+•Broches, horquillas, cierres metálicos y artículos metálicos similares, que pueden distorsionar las imágenes de la RMN. 
+•Aparatos dentales desmontables. 
+•Lapiceras, navajas y anteojos.
+Los bolígrafos, navajas y anteojos se pueden convertir en proyectiles peligrosos cuando se activa el imán, por lo que el paciente no los debe tener consigo en el área donde se encuentra el escáner.
+Las personas con los siguientes implantes no pueden ser exploradas y no deben ingresar al área de la RMN:
+•Desfibrilador interno (implantado).
+•Implante coclear (del oído).
+•Clips que se utilizan en los aneurismas cerebrales.]]></texto>
+		<texto id="hoja2"><![CDATA[Debe informarle al tecnólogo si tiene algún dispositivo médico o electrónico en su cuerpo, ya que pueden interferir en el examen o suponer potencialmente un riesgo para usted. Ejemplos de dispositivos de riesgo:
+•Válvulas cardíacas artificiales.
+•Puertos implantables para administrar medicamentos.
+•Catéter de infusión.
+•Dispositivo intrauterino (DIU).
+•Dispositivo electrónico implantable, incluyendo un marcapasos cardíaco.
+•Extremidades artificiales o prótesis metálicas para las articulaciones.
+•Estimuladores nerviosos implantables.
+•Broches metálicos, tornillos, placas o grapas quirúrgicas.
+Dejo constancia de que no poseo artículos de riesgos  mencionados en este documento para mi examen de resonancia magnética nuclear.
+Firma del paciente: ..............]]></texto>
+	</textos>
+	<audios>
+		<audio id="ruidohoja" url="assets/audios/constancia/ID08.mp3"/>
+	</audios>
+	<peliculas></peliculas>
+	<videos></videos>
+	<imagenes></imagenes>
+</recursos>

@@ -1,0 +1,34 @@
+﻿<text_layout>
+  <default_directory/>
+  <textos>
+    <texto id="t1">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Trebuchet MS" SIZE="20" COLOR="#0066FF" LETTERSPACING="0" KERNING="0">Elementos interactivos</FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>45,17</pos>
+      <size>736,31</size>
+    </texto>
+    <texto id="t2">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">En todos los escenarios hay varios elementos sobre los cuales puedes interactuar. Puede tratarse de <FONT COLOR="#384858"><B>objetos o de personas</B></FONT>. Cuando sitúas el ratón encima de ellos recibes información sobre las posibles interacciones y a su vez, se destacan sobre el fondo.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Las posibilidades de acción son tan amplias como la vida real, aunque por norma general las que se realizan sobre objetos implican la manipulación de los mismos, mientras que las que se refieren a personas suelen implicar establecer diálogos con ellas. </FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>45,48</pos>
+      <size>737,174</size>
+    </texto>
+    <texto id="t3">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">No olvides revisar los escenarios e ir probando aquellas interacciones que consideres correctas. Utiliza tu sentido común y todo lo que has aprendido con anterioridad sobre el tema.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>44,661</pos>
+      <size>735,88</size>
+    </texto>
+  </textos>
+  <imagenes>
+    <imagen id="c1">
+      <ruta>teoria/img/flechita_subapartado.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>19,11</pos>
+      <size>28,30</size>
+    </imagen>
+    <imagen id="i1">
+      <ruta>teoria/ayuda_funcional/img/img_02.png</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>44,221</pos>
+      <size>741,424</size>
+    </imagen>
+  </imagenes>
+</text_layout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recursos>
+	<externalresources></externalresources>
+	<config>
+		<actores_locucion>
+			<actor id="0">narrador</actor>
+			<actor id="1">enfermera</actor>
+		</actores_locucion>
+		<emociones>
+			<emocion id="0">normal</emocion>
+			<emocion id="1">alegre</emocion>
+			<emocion id="2">triste</emocion>
+		</emociones>
+	</config>
+	<textos>
+		
+		<texto id="titulo">
+			<![CDATA[Bienvenido al simulador de TAC]]>
+		</texto>
+		
+		<!-- HOMBRE -->
+		<texto id="texto0a">
+			<![CDATA[Aquí es donde empieza mi trabajo.]]>
+		</texto>
+		<texto id="texto1a">
+			<![CDATA[Debo estar muy atento y seguir todos los procedimientos.]]>
+		</texto>
+		<texto id="texto2a">
+			<![CDATA[Es mi oportunidad de demostrar que puedo ser un buen profesional <br/>y revisar todos mis conocimientos.]]>
+		</texto>
+		<texto id="texto3a">
+			<![CDATA[Lo mejor es que empecemos lo antes posible.]]>
+		</texto>
+
+		<!-- MUJER -->
+		<texto id="texto0b">
+			<![CDATA[Aquí es donde empieza mi trabajo.]]>
+		</texto>
+		<texto id="texto1b">
+			<![CDATA[Debo estar muy atenta y seguir todos los procedimientos.]]>
+		</texto>
+		<texto id="texto2b">
+			<![CDATA[Es mi oportunidad de demostrar que puedo ser una buena profesional <br/>y revisar todos mis conocimientos.]]>
+		</texto>
+		<texto id="texto3b">
+			<![CDATA[Lo mejor es que empecemos lo antes posible.]]>
+		</texto>
+
+
+		<texto id="continuar">Continuar</texto>
+	</textos>
+	<audios>
+	</audios>
+	<peliculas></peliculas>
+	<videos></videos>
+	<imagenes></imagenes>
+</recursos>

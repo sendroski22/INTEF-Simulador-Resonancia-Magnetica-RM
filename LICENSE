@@ -1,0 +1,88 @@
+Simulador de Resonancia Magnética (RM) – versión recuperada para navegadores actuales
+
+======================================================================
+1. OBRA ORIGINAL
+======================================================================
+
+Créditos oficiales (reproducidos tal y como exige Red.es):
+
+El presente material educativo digital es propiedad de la entidad
+pública empresarial Red.es y ha sido realizado en el marco del programa
+Internet en el Aula. Este programa ha sido desarrollado y ejecutado por
+el Ministerio de Industria, Turismo y Comercio, la entidad pública
+empresarial Red.es, el Ministerio de Educación -a través del Instituto
+de Tecnologías Educativas (ITE)- junto a las Consejerías de Educación de
+las distintas Comunidades Autónomas de España.
+
+Licencia de la obra original, según sus créditos:
+
+Creative Commons Reconocimiento-No Comercial-Compartir bajo la misma
+licencia España.
+
+La obra original no indica la versión concreta de la licencia.
+Información sobre las licencias Creative Commons:
+https://creativecommons.org/licenses/?lang=es
+
+Condiciones que establecen los propios créditos de la obra original
+(archivo xml/creditos.xml):
+
+  Por tanto Ud. está autorizado a:
+  Copiar, distribuir y comunicar públicamente este objeto digital
+  educativo. Puede, en detalle:
+  - Descargar los archivos y copiarlos para su reproducción digital
+  - Distribuirlos en entornos intranet o publicarlos en Internet.
+  - Realizar comunicación pública en el aula o fuera de la misma con
+    fines educativos.
+
+  y hacer obras derivadas. Puede, por ejemplo:
+  - integrar este objeto digital educativo en otras secuencias
+    didácticas e itinerarios formativos, gracias a las posibilidades
+    que ofrece el modelo de desagregación de SCORM 2004, junto con
+    otros materiales para su explotación educativa en entornos de
+    e-learning (LMS).
+
+  bajo las siguientes condiciones:
+
+  Reconocimiento: Debe reconocer los créditos del objeto digital
+  educativo de la manera especificada por Red.es, reproduciendo el
+  primer párrafo que aparece en este mismo documento. Este
+  reconocimiento no implica el apoyo por parte de Red.es al nuevo
+  contenido creado a partir de este objeto digital educativo.
+
+  No comercial: No puede utilizar este objeto digital educativo para
+  fines comerciales o integrarlo en otras obras que tengan fines
+  comerciales.
+
+  Compartir bajo la misma licencia: Tanto si distribuye, comunica
+  públicamente como si reutiliza este objeto digital educativo
+  recuerde que sólo puede distribuir la obra generada bajo una
+  licencia idéntica a esta.
+
+======================================================================
+2. ADAPTACIÓN TÉCNICA
+======================================================================
+
+Copyright (c) 2026 Pablo A. Sendra Lleó
+
+Cambios realizados: página sim.html con el emulador Ruffle y botón de
+pantalla completa, página index.html de entrada, corrección de las
+texturas verdes y corrección de la interacción con la bata. El
+contenido educativo, los textos, los casos y la lógica del simulador
+son los originales.
+
+Esta adaptación se distribuye bajo la misma licencia que la obra
+original: Creative Commons Reconocimiento-No Comercial-Compartir bajo
+la misma licencia España.
+
+Esta adaptación se desarrolló con la asistencia del modelo de
+inteligencia artificial Claude (Anthropic).
+
+======================================================================
+3. COMPONENTES DE TERCEROS
+======================================================================
+
+Ruffle (carpeta ruffle/)
+Copyright (c) 2018 Ruffle LLC <ruffle@ruffle.rs> and Ruffle contributors
+Licencia doble MIT o Apache 2.0. Los textos completos están en
+ruffle/LICENSE_MIT y ruffle/LICENSE_APACHE.
+https://ruffle.rs/

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recursos>
+	<textos>
+	    <texto id="intrucciones">Instrucciones:</texto>
+	</textos>
+	<audios></audios>
+	<peliculas></peliculas>
+	<videos></videos>
+	<imagenes></imagenes>
+</recursos>

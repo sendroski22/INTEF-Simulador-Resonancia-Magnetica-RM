@@ -1,0 +1,2960 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest xmlns="http://www.imsglobal.org/xsd/imscp_v1p1" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_v1p3" xmlns:adlseq="http://www.adlnet.org/xsd/adlseq_v1p3" xmlns:adlnav="http://www.adlnet.org/xsd/adlnav_v1p3" xmlns:imsss="http://www.imsglobal.org/xsd/imsss" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" identifier="pipwerksAS3_SCORM2004" version="1.0" xsi:schemaLocation="http://www.imsglobal.org/xsd/imscp_v1p1 imscp_v1p1.xsd    http://www.imsglobal.org/xsd/imsss imsss_v1p0.xsd    http://www.adlnet.org/xsd/adlcp_v1p3 adlcp_v1p3.xsd    http://www.adlnet.org/xsd/adlseq_v1p3 adlseq_v1p3.xsd    http://www.adlnet.org/xsd/adlnav_v1p3 adlnav_v1p3.xsd">
+	<metadata>
+		<schema>ADL SCORM</schema>
+		<schemaversion>2004 3rd Edition</schemaversion>
+		<lom xmlns="http://ltsc.ieee.org/xsd/LOM"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM lomCustom.xsd">
+			<general uniqueElementName="general">
+				<identifier>
+					<catalog uniqueElementName="catalog">Catálogo unificado mec-red.es-ccaa de identificación de ODE</catalog>
+					<entry uniqueElementName="entry">es_2009111112_1116700</entry>
+				</identifier>
+				<title uniqueElementName="title">
+					<string language="es">Imágenes de Resonancia Magnética para el Diagnóstico</string>
+				</title>
+				<language>es</language>
+				<description>
+					<string language="es">Mediante un escenario virtual se busca conseguir que los alumnos se familiaricen con  las resonancias magnéticas para el diagnóstico. Que sean capaces de conocer y aplicar los protocolos establecidos en la realización de este tratamiento y que puedan trabajar en un banco de imágenes de RM para reconocimiento e identificación en los estudios de zonas anatómicas, sus proyecciones, planos y cortes, localización de estructuras anatómicas y sus relaciones estructurales.</string>
+				</description>
+				<keyword>
+					<string language="es">Resonancia Magnética</string>
+				</keyword>
+				<keyword>
+					<string language="es">Imagen</string>
+				</keyword>
+				<keyword>
+					<string language="es">Anatomía</string>
+				</keyword>
+				<keyword>
+					<string language="es">Contraste</string>
+				</keyword>
+				<keyword>
+					<string language="es">Patología</string>
+				</keyword>
+				<keyword>
+					<string language="es">Localización</string>
+				</keyword>
+				<keyword>
+					<string language="es">Identificación</string>
+				</keyword>
+				<keyword>
+					<string language="es">Proyección</string>
+				</keyword>
+				<keyword>
+					<string language="es">Plano</string>
+				</keyword>
+				<keyword>
+					<string language="es">Antena</string>
+				</keyword>
+				<keyword>
+					<string language="es">Colocación</string>
+				</keyword>
+				<keyword>
+					<string language="es">Secuencia de rutina</string>
+				</keyword>
+				<coverage>
+					<string language="es">Universal</string>
+				</coverage>
+				<structure uniqueElementName="structure">
+					<source uniqueElementName="source">LOM-ESv1.0</source>
+					<value uniqueElementName="value">networked</value>
+				</structure>
+				<aggregationLevel uniqueElementName="aggregationLevel">
+					<source uniqueElementName="source">LOM-ESv1.0</source>
+					<value uniqueElementName="value">2</value>
+				</aggregationLevel>
+			</general>
+			<lifeCycle uniqueElementName="lifeCycle">
+				<version uniqueElementName="version">
+					<string language="es">V1.0</string>
+				</version>
+				<status uniqueElementName="status">
+					<source uniqueElementName="source">LOM-ESv1.0</source>
+					<value uniqueElementName="value">final</value>
+				</status>
+				<contribute>
+					<role uniqueElementName="role">
+						<source uniqueElementName="source">LOM-ESv1.0</source>
+						<value uniqueElementName="value">content provider</value>
+					</role>
+					<entity>BEGIN:VCARD VERSION:3.0 FN: EMAIL;TYPE=INTERNET:oneclickdireccion@oneclick.es ORG:Oneclick Diseño y Software S.L END:VCARD</entity>
+					<date uniqueElementName="date">
+						<dateTime uniqueElementName="dateTime">2009-11-16</dateTime>
+						<description>
+							<string language="es">Fecha de creación</string>
+						</description>
+					</date>
+				</contribute>
+				<contribute>
+					<role uniqueElementName="role">
+						<source uniqueElementName="source">LOM-ESv1.0</source>
+						<value uniqueElementName="value">publisher</value>
+					</role>
+					<entity>BEGIN:VCARD VERSION:3.0 FN:Simulador educativo para la Formación Profesional creado, catalogado y financiado con fondos FEDER dentro del expediente 729/07-Lote1 EMAIL;TYPE=INTERNET:sugerencias@red.es ORG:RED.ES END:VCARD</entity>
+					<date uniqueElementName="date">
+						<dateTime uniqueElementName="dateTime">2009-11-16</dateTime>
+						<description>
+							<string language="es">Fecha de publicación en Agrega</string>
+						</description>
+					</date>
+				</contribute>
+			</lifeCycle>
+			<metaMetadata uniqueElementName="metaMetadata">
+				<identifier>
+					<catalog uniqueElementName="catalog">Catálogo unificado mec-red.es-ccaa-meta de identificación de instancias de metadatos de ODE</catalog>
+					<entry uniqueElementName="entry">es_2009111112_1116700-meta</entry>
+				</identifier>
+				<contribute>
+					<role uniqueElementName="role">
+						<source uniqueElementName="source">LOM-ESv1.0</source>
+						<value uniqueElementName="value">creator</value>
+					</role>
+					<entity>BEGIN:VCARD VERSION:3.0 FN: EMAIL;TYPE=INTERNET:oneclickdireccion@oneclick.es ORG:Oneclick Diseño y Software S.L END:VCARD</entity>
+					<date uniqueElementName="date">
+						<dateTime uniqueElementName="dateTime">2009-11-16</dateTime>
+						<description>
+							<string language="es">Fecha de Catalogación</string>
+						</description>
+					</date>
+				</contribute>
+				<contribute>
+					<role uniqueElementName="role">
+						<source uniqueElementName="source">LOM-ESv1.0</source>
+						<value uniqueElementName="value">validator</value>
+					</role>
+					<entity>BEGIN:VCARD VERSION:3.0 FN:Simulador educativo para la Formación Profesional creado, catalogado y financiado con fondos FEDER dentro del expediente 729/07-Lote1 EMAIL;TYPE=INTERNET:sugerencias@red.es ORG:RED.ES END:VCARD</entity>
+					<date uniqueElementName="date">
+						<dateTime uniqueElementName="dateTime">2009-11-16</dateTime>
+						<description>
+							<string language="es">Fecha de publicación en Agrega</string>
+						</description>
+					</date>
+				</contribute>
+				<metadataSchema>LOM-ESv1.0</metadataSchema>
+				<language>es</language>
+			</metaMetadata>
+			<technical uniqueElementName="technical">
+				<format>application/x-shockwave-flash</format>
+				<format>text/xml</format>
+				<format>audio/mpeg</format>
+				<format>image/gif</format>
+				<format>image/tiff</format>
+				<format>image/jpeg</format>
+				<format>video/x-fly</format>
+				<size uniqueElementName="size">72065169</size>
+				<requirement>
+					<orComposite>
+						<type uniqueElementName="type">
+							<source uniqueElementName="source">LOM-ESv1.0</source>
+							<value uniqueElementName="value">browser</value>
+						</type>
+						<name uniqueElementName="name">
+							<source uniqueElementName="source">LOM-ESv1.0</source>
+							<value uniqueElementName="value">any</value>
+						</name>
+					</orComposite>
+					<orComposite>
+						<type uniqueElementName="type">
+							<source uniqueElementName="source">LOM-ESv1.0</source>
+							<value uniqueElementName="value">operating system</value>
+						</type>
+						<name uniqueElementName="name">
+							<source uniqueElementName="source">LOM-ESv1.0</source>
+							<value uniqueElementName="value">multi-os</value>
+						</name>
+					</orComposite>
+				</requirement>
+				<installationRemarks uniqueElementName="installationRemarks">
+					<string language="es">No requiere instalación</string>
+				</installationRemarks>
+				<otherPlatformRequirements>
+					<string language="es">El sistema soporta visualización ONLINE (para lo que se requiere el ultimo plugin flash (flash 9 ) para el navegador, recomendado IE 6 o 7 o Firefox. Memoria RAM:512 MB o superior (recomendado 1 GB). Procesador: 1.5 GHz (XP), 2-GHz (Vista) 32-bit (x86) o superior (recomendado doble núcleo). Resolución: 1024 * 768 (se adapta a la resolución siempre y cuando la relación de aspecto sea 1:333, 800x600, 1024x768, 1280x960)</string>
+				</otherPlatformRequirements>
+			</technical>
+			<educational>
+				<interactivityType uniqueElementName="interactivityType">
+					<source uniqueElementName="source">LOM-ESv1.0</source>
+					<value uniqueElementName="value">active</value>
+				</interactivityType>
+				<learningResourceType>
+					<source uniqueElementName="source">LOM-ESv1.0</source>
+					<value uniqueElementName="value">simulation</value>
+				</learningResourceType>
+				<interactivityLevel uniqueElementName="interactivityLevel">
+					<source uniqueElementName="source">LOM-ESv1.0</source>
+					<value uniqueElementName="value">very high</value>
+				</interactivityLevel>
+				<semanticDensity uniqueElementName="semanticDensity">
+					<source uniqueElementName="source">LOM-ESv1.0</source>
+					<value uniqueElementName="value">high</value>
+				</semanticDensity>
+				<intendedEndUserRole>
+					<source uniqueElementName="source">LOM-ESv1.0</source>
+					<value uniqueElementName="value">learner</value>
+				</intendedEndUserRole>
+				<intendedEndUserRole>
+					<source uniqueElementName="source">LOM-ESv1.0</source>
+					<value uniqueElementName="value">teacher</value>
+				</intendedEndUserRole>
+				<intendedEndUserRole>
+					<source uniqueElementName="source">LOM-ESv1.0</source>
+					<value uniqueElementName="value">general public</value>
+				</intendedEndUserRole>
+				<context>
+					<source uniqueElementName="source">LOM-ESv1.0</source>
+					<value uniqueElementName="value">mixed</value>
+				</context>
+				<context>
+					<source uniqueElementName="source">LOM-ESv1.0</source>
+					<value uniqueElementName="value">classroom</value>
+				</context>
+				<context>
+					<source uniqueElementName="source">LOM-ESv1.0</source>
+					<value uniqueElementName="value">independent</value>
+				</context>
+				<typicalAgeRange>
+					<string language="es">Edad mínima 16 años</string>
+				</typicalAgeRange>
+				<difficulty uniqueElementName="difficulty">
+					<source uniqueElementName="source">LOM-ESv1.0</source>
+					<value uniqueElementName="value">difficult</value>
+				</difficulty>
+				<typicalLearningTime uniqueElementName="typicalLearningTime">
+					<duration uniqueElementName="duration">PT18H</duration>
+					<description>
+						<string language="es">El tiempo de aprendizaje es de 18 horas</string>
+					</description>
+				</typicalLearningTime>
+				<description>
+					<string language="es">OBJETIVOS DIDÁCTICOS:GENERALES: Identificar en imágenes multiplanares de RM: Reconocer, nombrar y posicionar, identificando lateralidad, las articulaciones y huesos que conforman: extremidad superior, extremidad inferior, caja torácica, columna vertebral, cráneo y cara. Reconocer, nombrar y posicionar, identificando lateralidad,los órganos y estructuras que se encuentran en: cavidad torácica, cavidad abdominal, cavidad pélvica, médula espinal y mama. Identificar en la imagen de RM la zona de interés anatómica, plano de imagen, cortes y tipo de secuencia. ESPECÍFICOS CONCEPTUALES: Comprender las relaciones existentes entre los sistemas y aparatos que componen las estructuras anatómicas del cuerpo humano. Relacionar las estructuras anatómicas del cuerpo humano que intervienen en el movimiento y la actitud postural con la función locomotriz y postural. Conocer las estructuras anatómicas humanas de regulación endocrina y nerviosa, en relación con la funcionalidad de cada sistema y aparato. Identificar las estructuras anatómicas registradas que forman parte de los distintos sistemas y aparatos del cuerpo humano: tórax, abdomen, corazón, cráneo, columna lumbosacra y columna vertebral. Identificar patologías más relevantes de: masas tumorales, quistes, hemorragias, roturas de tejidos blandos, infartos, aneurismas, intracraneales o en el corazón, los grandes vasos arteriales, en la espina dorsal o discos vertebrales, en las glándulas y órganos abdominales, así como en las estructuras blandas de las articulaciones y de los músculos. Seleccionar imágenes más significativas que deben ser impresionadas en película radiográfica para tratamientos radioterápicos. ESPECÍFICAS PROCEDIMENTALES: Poseer una visión de conjunto de los diferentes procesos de registros gráficos con equipos de procesamiento informático de imágenes de RM, para la obtención de imágenes para el diagnóstico. Comprender las operaciones de centraje, planificación y exploración realizadas para los diferentes territorios anatómicos. Aplicar los conocimientos de imagen de RM en los procedimientos de simulación y de planificación de tratamientos en Radioterapia. Relacionar imágenes de RM con proyecciones y posiciones del paciente en simuladores de Radioterapia. Explicar el proceso de identificación de imágenes en el monitor, relacionándolo con la metodología de selección de imágenes más significativas que deben ser impresionadas en película radiográfica. ESPECÍFICOS ACTITUDINALES: Colocar al alumno ante situaciones nuevas para él, puesto que va implícito en el carácter aleatorio de la generación de los datos. Fomentar el trabajo en grupo. Potenciar las bases de la organización en el trabajo, tanto en la distribución del tiempo como en el reparto del trabajo. Promover que el alumno asuma la responsabilidad de las tareas encomendadas. Acostumbrar al alumno a trabajar con grandes cantidades de datos. Formar al alumno en la organización de información, tanto escrita como en soporte informático. Fomentar la disposición al autoaprendizaje. Promover en el alumno rigor y calidad en el trabajo. Demostrar resistencia al estrés, estabilidad de ánimo y control de impulsos. Identificar problemas y contingencias imprevistas. Actuar con rapidez y de forma autónoma en la resolución de imprevistos. Resolver problemas y tomar decisiones dentro del ámbito de su competencia, consultando dichas decisiones cuando sus repercusiones lo requieran.</string>
+				</description>
+				<language>es</language>
+				<cognitiveProcess uniqueElementName="cognitiveProcess">
+					<source uniqueElementName="source">LOM-ESv1.0</source>
+					<value uniqueElementName="value">simulate</value>
+				</cognitiveProcess>
+				<cognitiveProcess uniqueElementName="cognitiveProcess">
+					<source uniqueElementName="source">LOM-ESv1.0</source>
+					<value uniqueElementName="value">analyse</value>
+				</cognitiveProcess>
+				<cognitiveProcess uniqueElementName="cognitiveProcess">
+					<source uniqueElementName="source">LOM-ESv1.0</source>
+					<value uniqueElementName="value">decide</value>
+				</cognitiveProcess>
+				<cognitiveProcess uniqueElementName="cognitiveProcess">
+					<source uniqueElementName="source">LOM-ESv1.0</source>
+					<value uniqueElementName="value">self assessment</value>
+				</cognitiveProcess>
+				<cognitiveProcess uniqueElementName="cognitiveProcess">
+					<source uniqueElementName="source">LOM-ESv1.0</source>
+					<value uniqueElementName="value">communicate</value>
+				</cognitiveProcess>
+				<cognitiveProcess uniqueElementName="cognitiveProcess">
+					<source uniqueElementName="source">LOM-ESv1.0</source>
+					<value uniqueElementName="value">consider</value>
+				</cognitiveProcess>
+			</educational>
+			<rights uniqueElementName="rights">
+				<cost uniqueElementName="cost">
+					<source uniqueElementName="source">LOM-ESv1.0</source>
+					<value uniqueElementName="value">no</value>
+				</cost>
+				<copyrightAndOtherRestrictions uniqueElementName="copyrightAndOtherRestrictions">
+					<source uniqueElementName="source">LOM-ESv1.0</source>
+					<value uniqueElementName="value">creative commons: attribution - non commercial - share alike</value>
+				</copyrightAndOtherRestrictions>
+				<description>
+					<string language="es">La utilización de estos contenidos es universal, gratuita y abierta, siempre y cuando se trate de un uso educativo no comercial. Las acciones, productos y utilidades derivadas de su utilización no podrán, en consecuencia, generar ningún tipo de lucro. Asimismo, es obligada la referencia a la fuente.</string>
+				</description>
+				<access uniqueElementName="access">
+					<accessType uniqueElementName="accessType">
+						<source uniqueElementName="source">LOM-ESv1.0</source>
+						<value uniqueElementName="value">universal</value>
+					</accessType>
+					<description>
+						<string>MEC</string>
+					</description>
+				</access>
+			</rights>
+			<classification>
+				<purpose uniqueElementName="purpose">
+					<source uniqueElementName="source">LOM-ESv1.0</source>
+					<value uniqueElementName="value">accessibility restrictions</value>
+				</purpose>
+				<taxonPath>
+					<source uniqueElementName="source">
+						<string language="es">Accesibilidad LOM-ESv1.0</string>
+					</source>
+					<taxon>
+						<id uniqueElementName="id">10</id>
+						<entry>
+							<string language="es">TIPO DE CONTADOR DE EJECUCIÓN</string>
+						</entry>
+					</taxon>
+					<taxon>
+						<id uniqueElementName="id">10.1</id>
+						<entry>
+							<string language="es">Hacia delante modificable</string>
+						</entry>
+					</taxon>
+				</taxonPath>
+				<taxonPath>
+					<source uniqueElementName="source">
+						<string language="es">Accesibilidad LOM-ESv1.0</string>
+					</source>
+					<taxon>
+						<id uniqueElementName="id">9</id>
+						<entry>
+							<string language="es">TIENE CONTROL DEL TIEMPO DE EJECUCIÓN</string>
+						</entry>
+					</taxon>
+					<taxon>
+						<id uniqueElementName="id">9.1</id>
+						<entry>
+							<string language="es">Si</string>
+						</entry>
+					</taxon>
+				</taxonPath>
+				<taxonPath>
+					<source uniqueElementName="source">
+						<string language="es">Accesibilidad LOM-ESv1.0</string>
+					</source>
+					<taxon>
+						<id uniqueElementName="id">8</id>
+						<entry>
+							<string language="es">DECLARACIÓN DE ADAPTABILIDAD</string>
+						</entry>
+					</taxon>
+					<taxon>
+						<id uniqueElementName="id">8.1</id>
+						<entry>
+							<string language="es">Tipo de adaptación</string>
+						</entry>
+					</taxon>
+				</taxonPath>
+				<taxonPath>
+					<source uniqueElementName="source">
+						<string language="es">Accesibilidad LOM-ESv1.0</string>
+					</source>
+					<taxon>
+						<id uniqueElementName="id">6</id>
+						<entry>
+							<string language="es">PERMITE ADAPTAR LA VISUALIZACIÓN</string>
+						</entry>
+					</taxon>
+					<taxon>
+						<id uniqueElementName="id">6.1</id>
+						<entry>
+							<string language="es">Si</string>
+						</entry>
+					</taxon>
+				</taxonPath>
+				<taxonPath>
+					<source uniqueElementName="source">
+						<string language="es">Accesibilidad LOM-ESv1.0</string>
+					</source>
+					<taxon>
+						<id uniqueElementName="id">5</id>
+						<entry>
+							<string language="es">PERMITE CAMBIO DE RESOLUCIÓN CON AJUSTE DE CONTENIDO</string>
+						</entry>
+					</taxon>
+					<taxon>
+						<id uniqueElementName="id">5.1</id>
+						<entry>
+							<string language="es">Funciona con auto-ajuste</string>
+						</entry>
+					</taxon>
+				</taxonPath>
+				<taxonPath>
+					<source uniqueElementName="source">
+						<string language="es">Accesibilidad LOM-ESv1.0</string>
+					</source>
+					<taxon>
+						<id uniqueElementName="id">4</id>
+						<entry>
+							<string language="es">RESOLUCIÓN DE PANTALLA NATIVA</string>
+						</entry>
+					</taxon>
+					<taxon>
+						<id uniqueElementName="id">4.2</id>
+						<entry>
+							<string language="es">1024x768</string>
+						</entry>
+					</taxon>
+				</taxonPath>
+				<taxonPath>
+					<source uniqueElementName="source">
+						<string language="es">Accesibilidad LOM-ESv1.0</string>
+					</source>
+					<taxon>
+						<id uniqueElementName="id">3</id>
+						<entry>
+							<string language="es">TRABAJA A PANTALLA COMPLETA</string>
+						</entry>
+					</taxon>
+					<taxon>
+						<id uniqueElementName="id">3.1</id>
+						<entry>
+							<string language="es">Si</string>
+						</entry>
+					</taxon>
+				</taxonPath>
+				<taxonPath>
+					<source uniqueElementName="source">
+						<string language="es">Accesibilidad LOM-ESv1.0</string>
+					</source>
+					<taxon>
+						<id uniqueElementName="id">2</id>
+						<entry>
+							<string language="es">DECLARACIÓN DEL MODO DE INTERACCIÓN EN LA ACTIVIDAD DE APRENDIZAJE</string>
+						</entry>
+					</taxon>
+					<taxon>
+						<id uniqueElementName="id">2.1</id>
+						<entry>
+							<string language="es">Modo de presentación de la información dentro del objeto</string>
+						</entry>
+					</taxon>
+				</taxonPath>
+				<taxonPath>
+					<source uniqueElementName="source">
+						<string language="es">Accesibilidad LOM-ESv1.0</string>
+					</source>
+					<taxon>
+						<id uniqueElementName="id">1</id>
+						<entry>
+							<string language="es">DECLARACIÓN DEL MODO DE ACCESO AL SIGUIENTE NIVEL</string>
+						</entry>
+					</taxon>
+					<taxon>
+						<id uniqueElementName="id">1.2</id>
+						<entry>
+							<string language="es">Modo de interacción para el acceso</string>
+						</entry>
+					</taxon>
+				</taxonPath>
+				<description>
+					<string language="es">El simulador: _DECLARA EL MODO DE ACCESO AL SIGUIENTE ESTADO. _DECLARA DEL MODO DE INTERACCIÓN EN LA ACTIVIDAD DE APRENDIZAJE Y EN LA PROPIA SIMULACIÓN. _TRABAJA A PANTALLA COMPLETA.. _LA RESOLUCIÓN DE PANTALLA NATIVA ES 1024X768. _PERMITE CAMBIO DE RESOLUCIÓN CON AJUSTE DE CONTENIDO. _PERMITE ADAPTAR LA VISUALIZACIÓN. _LA VISUALIZACIÓN ES ADAPTABLE. _DECLARA LA ADAPTABILIDAD. _TIENE CONTROL DEL TIEMPO DE EJECUCIÓN. _TIPO DE CONTADOR DE EJECUCIÓN ES HACIA DELANTE.</string>
+				</description>
+				<keyword>
+					<string language="es">Interacción</string>
+				</keyword>
+				<keyword>
+					<string language="es">Pantalla completa</string>
+				</keyword>
+				<keyword>
+					<string language="es">Resolución 1024x768</string>
+				</keyword>
+				<keyword>
+					<string language="es">Cambio de resolución</string>
+				</keyword>
+				<keyword>
+					<string language="es">Visualización adaptable</string>
+				</keyword>
+				<keyword>
+					<string language="es">Declaración de adaptabilidad</string>
+				</keyword>
+				<keyword>
+					<string language="es">Tiempo de ejecución</string>
+				</keyword>
+				<keyword>
+					<string language="es">Contador de ejecución</string>
+				</keyword>
+			</classification>
+			<classification>
+				<purpose uniqueElementName="purpose">
+					<source uniqueElementName="source">LOM-ESv1.0</source>
+					<value uniqueElementName="value">discipline</value>
+				</purpose>
+				<taxonPath>
+					<source uniqueElementName="source">
+						<string language="es">Árbol curricular LOE 2006</string>
+					</source>
+					<taxon>
+						<id uniqueElementName="id">5</id>
+						<entry>
+							<string language="es">Formación Profesional Específica</string>
+						</entry>
+					</taxon>
+					<taxon>
+						<id uniqueElementName="id">5.1</id>
+						<entry>
+							<string language="es">Ciclos Formativos de Grado Medio</string>
+						</entry>
+					</taxon>
+				</taxonPath>
+				<taxonPath>
+					<source uniqueElementName="source">
+						<string language="es">Árbol curricular LOE 2006</string>
+					</source>
+					<taxon>
+						<id uniqueElementName="id">5</id>
+						<entry>
+							<string language="es">Formación Profesional Específica</string>
+						</entry>
+					</taxon>
+					<taxon>
+						<id uniqueElementName="id">5.1</id>
+						<entry>
+							<string language="es">Ciclos Formativos de Grado Medio</string>
+						</entry>
+					</taxon>
+					<taxon>
+						<id uniqueElementName="id">5.1.19</id>
+						<entry>
+							<string language="es">Sanidad</string>
+						</entry>
+					</taxon>
+				</taxonPath>
+				<taxonPath>
+					<source uniqueElementName="source">
+						<string language="es">Árbol curricular LOE 2006</string>
+					</source>
+					<taxon>
+						<id uniqueElementName="id">5</id>
+						<entry>
+							<string language="es">Formación Profesional Específica</string>
+						</entry>
+					</taxon>
+					<taxon>
+						<id uniqueElementName="id">5.1</id>
+						<entry>
+							<string language="es">Ciclos Formativos de Grado Medio</string>
+						</entry>
+					</taxon>
+					<taxon>
+						<id uniqueElementName="id">5.1.19</id>
+						<entry>
+							<string language="es">Sanidad</string>
+						</entry>
+					</taxon>
+					<taxon>
+						<id uniqueElementName="id">5.1.19.1</id>
+						<entry>
+							<string language="es">Cuidados Auxiliares de Enfermería</string>
+						</entry>
+					</taxon>
+					<taxon>
+						<id uniqueElementName="id">5.1.19.1.3</id>
+						<entry>
+							<string language="es">Higiene del medio hospitalario y limpieza del material</string>
+						</entry>
+					</taxon>
+				</taxonPath>
+				<taxonPath>
+					<source uniqueElementName="source">
+						<string language="es">Árbol curricular LOE 2006</string>
+					</source>
+					<taxon>
+						<id uniqueElementName="id">5</id>
+						<entry>
+							<string language="es">Formación Profesional Específica</string>
+						</entry>
+					</taxon>
+					<taxon>
+						<id uniqueElementName="id">5.1</id>
+						<entry>
+							<string language="es">Ciclos Formativos de Grado Medio</string>
+						</entry>
+					</taxon>
+					<taxon>
+						<id uniqueElementName="id">5.1.19</id>
+						<entry>
+							<string language="es">Sanidad</string>
+						</entry>
+					</taxon>
+					<taxon>
+						<id uniqueElementName="id">5.1.19.1</id>
+						<entry>
+							<string language="es">Cuidados Auxiliares de Enfermería</string>
+						</entry>
+					</taxon>
+					<taxon>
+						<id uniqueElementName="id">5.1.19.1.4</id>
+						<entry>
+							<string language="es">Promoción de la salud y apoyo psicológico al paciente</string>
+						</entry>
+					</taxon>
+				</taxonPath>
+				<taxonPath>
+					<source uniqueElementName="source">
+						<string language="es">Árbol curricular LOE 2006</string>
+					</source>
+					<taxon>
+						<id uniqueElementName="id">5</id>
+						<entry>
+							<string language="es">Formación Profesional Específica</string>
+						</entry>
+					</taxon>
+					<taxon>
+						<id uniqueElementName="id">5.1</id>
+						<entry>
+							<string language="es">Ciclos Formativos de Grado Medio</string>
+						</entry>
+					</taxon>
+					<taxon>
+						<id uniqueElementName="id">5.1.19</id>
+						<entry>
+							<string language="es">Sanidad</string>
+						</entry>
+					</taxon>
+					<taxon>
+						<id uniqueElementName="id">5.1.19.1</id>
+						<entry>
+							<string language="es">Cuidados Auxiliares de Enfermería</string>
+						</entry>
+					</taxon>
+					<taxon>
+						<id uniqueElementName="id">5.1.19.1.6</id>
+						<entry>
+							<string language="es">Relaciones en el entorno del trabajo</string>
+						</entry>
+					</taxon>
+				</taxonPath>
+				<taxonPath>
+					<source uniqueElementName="source">
+						<string language="es">Árbol curricular LOE 2006</string>
+					</source>
+					<taxon>
+						<id uniqueElementName="id">5</id>
+						<entry>
+							<string language="es">Formación Profesional Específica</string>
+						</entry>
+					</taxon>
+					<taxon>
+						<id uniqueElementName="id">5.1</id>
+						<entry>
+							<string language="es">Ciclos Formativos de Grado Medio</string>
+						</entry>
+					</taxon>
+					<taxon>
+						<id uniqueElementName="id">5.1.19</id>
+						<entry>
+							<string language="es">Sanidad</string>
+						</entry>
+					</taxon>
+					<taxon>
+						<id uniqueElementName="id">5.1.19.2</id>
+						<entry>
+							<string language="es">Farmacia</string>
+						</entry>
+					</taxon>
+					<taxon>
+						<id uniqueElementName="id">5.1.19.2.4</id>
+						<entry>
+							<string language="es">Realización de análisis clínicos elementales bajo la supervisión del facultativo</string>
+						</entry>
+					</taxon>
+				</taxonPath>
+				<taxonPath>
+					<source uniqueElementName="source">
+						<string language="es">ETB-LRE MEC-CCAA V.1.0</string>
+					</source>
+					<taxon>
+						<id uniqueElementName="id">M60</id>
+						<entry>
+							<string language="es">60 SISTEMA EDUCATIVO</string>
+						</entry>
+					</taxon>
+					<taxon>
+						<id uniqueElementName="id">386</id>
+						<entry>
+							<string language="es">educación</string>
+						</entry>
+					</taxon>
+					<taxon>
+						<id uniqueElementName="id">1369</id>
+						<entry>
+							<string language="es">formación profesional</string>
+						</entry>
+					</taxon>
+					<taxon>
+						<id uniqueElementName="id">4158</id>
+						<entry>
+							<string language="es">familias profesionales</string>
+						</entry>
+					</taxon>
+					<taxon>
+						<id uniqueElementName="id">4210</id>
+						<entry>
+							<string language="es">sanidad</string>
+						</entry>
+					</taxon>
+				</taxonPath>
+				<taxonPath>
+					<source uniqueElementName="source">
+						<string language="es">ETB-LRE MEC-CCAA V.1.0</string>
+					</source>
+					<taxon>
+						<id uniqueElementName="id">230</id>
+						<entry>
+							<string language="es">proceso cognitivo</string>
+						</entry>
+					</taxon>
+					<taxon>
+						<id uniqueElementName="id">959</id>
+						<entry>
+							<string language="es">percepción</string>
+						</entry>
+					</taxon>
+					<taxon>
+						<id uniqueElementName="id">4576</id>
+						<entry>
+							<string language="es">percepción social</string>
+						</entry>
+					</taxon>
+					<taxon>
+						<id uniqueElementName="id">3933</id>
+						<entry>
+							<string language="es">persona</string>
+						</entry>
+					</taxon>
+					<taxon>
+						<id uniqueElementName="id">582</id>
+						<entry>
+							<string language="es">salud</string>
+						</entry>
+					</taxon>
+					<taxon>
+						<id uniqueElementName="id">629</id>
+						<entry>
+							<string language="es">enfermedad</string>
+						</entry>
+					</taxon>
+					<taxon>
+						<id uniqueElementName="id">4241</id>
+						<entry>
+							<string language="es">enfermedades raras</string>
+						</entry>
+					</taxon>
+				</taxonPath>
+				<taxonPath>
+					<source uniqueElementName="source">
+						<string language="es">ETB-LRE MEC-CCAA V.1.0</string>
+					</source>
+					<taxon>
+						<id uniqueElementName="id">M120</id>
+						<entry>
+							<string language="es">120 SALUD/SEGURIDAD/DISCAPACIDAD</string>
+						</entry>
+					</taxon>
+					<taxon>
+						<id uniqueElementName="id">629</id>
+						<entry>
+							<string language="es">enfermedad</string>
+						</entry>
+					</taxon>
+					<taxon>
+						<id uniqueElementName="id">4241</id>
+						<entry>
+							<string language="es">enfermedades raras</string>
+						</entry>
+					</taxon>
+				</taxonPath>
+				<taxonPath>
+					<source uniqueElementName="source">
+						<string language="es">ETB-LRE MEC-CCAA V.1.0</string>
+					</source>
+					<taxon>
+						<id uniqueElementName="id">M70</id>
+						<entry>
+							<string language="es">70 CONTENIDO DE LA EDUCACIÓN</string>
+						</entry>
+					</taxon>
+					<taxon>
+						<id uniqueElementName="id">M70.40</id>
+						<entry>
+							<string language="es">70.40 MATEMÁTICAS Y CIENCIAS DE LA NATURALEZA</string>
+						</entry>
+					</taxon>
+					<taxon>
+						<id uniqueElementName="id">1143</id>
+						<entry>
+							<string language="es">ciencias</string>
+						</entry>
+					</taxon>
+					<taxon>
+						<id uniqueElementName="id">875</id>
+						<entry>
+							<string language="es">ciencias de la naturaleza</string>
+						</entry>
+					</taxon>
+					<taxon>
+						<id uniqueElementName="id">143</id>
+						<entry>
+							<string language="es">ciencias biológicas</string>
+						</entry>
+					</taxon>
+					<taxon>
+						<id uniqueElementName="id">144</id>
+						<entry>
+							<string language="es">biología</string>
+						</entry>
+					</taxon>
+					<taxon>
+						<id uniqueElementName="id">3050</id>
+						<entry>
+							<string language="es">inmunología</string>
+						</entry>
+					</taxon>
+					<taxon>
+						<id uniqueElementName="id">3046</id>
+						<entry>
+							<string language="es">enfermedad inmunológica</string>
+						</entry>
+					</taxon>
+					<taxon>
+						<id uniqueElementName="id">173</id>
+						<entry>
+							<string language="es">cáncer</string>
+						</entry>
+					</taxon>
+				</taxonPath>
+				<taxonPath>
+					<source uniqueElementName="source">
+						<string language="es">ETB-LRE MEC-CCAA V.1.0</string>
+					</source>
+					<taxon>
+						<id uniqueElementName="id">M70</id>
+						<entry>
+							<string language="es">70 CONTENIDO DE LA EDUCACIÓN</string>
+						</entry>
+					</taxon>
+					<taxon>
+						<id uniqueElementName="id">M70.40</id>
+						<entry>
+							<string language="es">70.40 MATEMÁTICAS Y CIENCIAS DE LA NATURALEZA</string>
+						</entry>
+					</taxon>
+					<taxon>
+						<id uniqueElementName="id">1143</id>
+						<entry>
+							<string language="es">ciencias</string>
+						</entry>
+					</taxon>
+					<taxon>
+						<id uniqueElementName="id">875</id>
+						<entry>
+							<string language="es">ciencias de la naturaleza</string>
+						</entry>
+					</taxon>
+					<taxon>
+						<id uniqueElementName="id">143</id>
+						<entry>
+							<string language="es">ciencias biológicas</string>
+						</entry>
+					</taxon>
+					<taxon>
+						<id uniqueElementName="id">144</id>
+						<entry>
+							<string language="es">biología</string>
+						</entry>
+					</taxon>
+					<taxon>
+						<id uniqueElementName="id">62</id>
+						<entry>
+							<string language="es">anatomía</string>
+						</entry>
+					</taxon>
+				</taxonPath>
+				<taxonPath>
+					<source uniqueElementName="source">
+						<string language="es">ETB-LRE MEC-CCAA V.1.0</string>
+					</source>
+					<taxon>
+						<id uniqueElementName="id">M70</id>
+						<entry>
+							<string language="es">70 CONTENIDO DE LA EDUCACIÓN</string>
+						</entry>
+					</taxon>
+					<taxon>
+						<id uniqueElementName="id">M70.40</id>
+						<entry>
+							<string language="es">70.40 MATEMÁTICAS Y CIENCIAS DE LA NATURALEZA</string>
+						</entry>
+					</taxon>
+					<taxon>
+						<id uniqueElementName="id">1143</id>
+						<entry>
+							<string language="es">ciencias</string>
+						</entry>
+					</taxon>
+					<taxon>
+						<id uniqueElementName="id">875</id>
+						<entry>
+							<string language="es">ciencias de la naturaleza</string>
+						</entry>
+					</taxon>
+					<taxon>
+						<id uniqueElementName="id">143</id>
+						<entry>
+							<string language="es">ciencias biológicas</string>
+						</entry>
+					</taxon>
+					<taxon>
+						<id uniqueElementName="id">144</id>
+						<entry>
+							<string language="es">biología</string>
+						</entry>
+					</taxon>
+					<taxon>
+						<id uniqueElementName="id">62</id>
+						<entry>
+							<string language="es">anatomía</string>
+						</entry>
+					</taxon>
+					<taxon>
+						<id uniqueElementName="id">2050</id>
+						<entry>
+							<string language="es">organografía comparada</string>
+						</entry>
+					</taxon>
+				</taxonPath>
+				<taxonPath>
+					<source uniqueElementName="source">
+						<string language="es">ETB-LRE MEC-CCAA V.1.0</string>
+					</source>
+					<taxon>
+						<id uniqueElementName="id">M70</id>
+						<entry>
+							<string language="es">70 CONTENIDO DE LA EDUCACIÓN</string>
+						</entry>
+					</taxon>
+					<taxon>
+						<id uniqueElementName="id">M70.40</id>
+						<entry>
+							<string language="es">70.40 MATEMÁTICAS Y CIENCIAS DE LA NATURALEZA</string>
+						</entry>
+					</taxon>
+					<taxon>
+						<id uniqueElementName="id">1143</id>
+						<entry>
+							<string language="es">ciencias</string>
+						</entry>
+					</taxon>
+					<taxon>
+						<id uniqueElementName="id">875</id>
+						<entry>
+							<string language="es">ciencias de la naturaleza</string>
+						</entry>
+					</taxon>
+					<taxon>
+						<id uniqueElementName="id">143</id>
+						<entry>
+							<string language="es">ciencias biológicas</string>
+						</entry>
+					</taxon>
+					<taxon>
+						<id uniqueElementName="id">144</id>
+						<entry>
+							<string language="es">biología</string>
+						</entry>
+					</taxon>
+					<taxon>
+						<id uniqueElementName="id">62</id>
+						<entry>
+							<string language="es">anatomía</string>
+						</entry>
+					</taxon>
+					<taxon>
+						<id uniqueElementName="id">2049</id>
+						<entry>
+							<string language="es">histología comparada</string>
+						</entry>
+					</taxon>
+				</taxonPath>
+				<description>
+					<string language="es">Resonancia magnética  para el diagnóstico y aplicación de  los protocolos establecidos en la realización de este procedimiento. Reconocimiento e identificación en los estudios de zonas anatómicas, sus proyecciones, planos y cortes, localización de estructuras anatómicas y sus relaciones estructurales.</string>
+				</description>
+				<keyword>
+					<string language="es">Resonancia Magnética</string>
+				</keyword>
+				<keyword>
+					<string language="es">Diagnóstico</string>
+				</keyword>
+				<keyword>
+					<string language="es">Protocolos</string>
+				</keyword>
+				<keyword>
+					<string language="es">Zonas anatómicas</string>
+				</keyword>
+				<keyword>
+					<string language="es">Relaciones estructurales</string>
+				</keyword>
+				<keyword>
+					<string language="es">Proyecciones</string>
+				</keyword>
+				<keyword>
+					<string language="es">Planos</string>
+				</keyword>
+				<keyword>
+					<string language="es">Cortes</string>
+				</keyword>
+				<keyword>
+					<string language="es">Imagen para el diagnóstico</string>
+				</keyword>
+			</classification>
+			<classification>
+				<purpose uniqueElementName="purpose">
+					<source uniqueElementName="source">LOM-ESv1.0</source>
+					<value uniqueElementName="value">competency</value>
+				</purpose>
+				<taxonPath>
+					<source uniqueElementName="source">
+						<string language="es">Competencia LOM-ESv1.0</string>
+					</source>
+					<taxon>
+						<id uniqueElementName="id">3</id>
+						<entry>
+							<string language="es">Competencias Sociales y de Trabajo en Equipo</string>
+						</entry>
+					</taxon>
+					<taxon>
+						<id uniqueElementName="id">3.2</id>
+						<entry>
+							<string language="es">Comprender y contribuir a la organización de los objetivos del grupo</string>
+						</entry>
+					</taxon>
+				</taxonPath>
+				<taxonPath>
+					<source uniqueElementName="source">
+						<string language="es">Competencia LOM-ESv1.0</string>
+					</source>
+					<taxon>
+						<id uniqueElementName="id">3</id>
+						<entry>
+							<string language="es">Competencias Sociales y de Trabajo en Equipo</string>
+						</entry>
+					</taxon>
+					<taxon>
+						<id uniqueElementName="id">3.3</id>
+						<entry>
+							<string language="es">Comprender y trabajar dentro de la cultura del grupo</string>
+						</entry>
+					</taxon>
+				</taxonPath>
+				<taxonPath>
+					<source uniqueElementName="source">
+						<string language="es">Competencia LOM-ESv1.0</string>
+					</source>
+					<taxon>
+						<id uniqueElementName="id">3</id>
+						<entry>
+							<string language="es">Competencias Sociales y de Trabajo en Equipo</string>
+						</entry>
+					</taxon>
+					<taxon>
+						<id uniqueElementName="id">3.5</id>
+						<entry>
+							<string language="es">Ejercitar la ayuda entre los miembros del grupo para alcanzar los resultados</string>
+						</entry>
+					</taxon>
+				</taxonPath>
+				<taxonPath>
+					<source uniqueElementName="source">
+						<string language="es">Competencia LOM-ESv1.0</string>
+					</source>
+					<taxon>
+						<id uniqueElementName="id">3</id>
+						<entry>
+							<string language="es">Competencias Sociales y de Trabajo en Equipo</string>
+						</entry>
+					</taxon>
+					<taxon>
+						<id uniqueElementName="id">3.6</id>
+						<entry>
+							<string language="es">Persuadir</string>
+						</entry>
+					</taxon>
+				</taxonPath>
+				<taxonPath>
+					<source uniqueElementName="source">
+						<string language="es">Competencia LOM-ESv1.0</string>
+					</source>
+					<taxon>
+						<id uniqueElementName="id">3</id>
+						<entry>
+							<string language="es">Competencias Sociales y de Trabajo en Equipo</string>
+						</entry>
+					</taxon>
+					<taxon>
+						<id uniqueElementName="id">3.9</id>
+						<entry>
+							<string language="es">Trabajar y/o aprender con otros</string>
+						</entry>
+					</taxon>
+				</taxonPath>
+				<taxonPath>
+					<source uniqueElementName="source">
+						<string language="es">Competencia LOM-ESv1.0</string>
+					</source>
+					<taxon>
+						<id uniqueElementName="id">3</id>
+						<entry>
+							<string language="es">Competencias Sociales y de Trabajo en Equipo</string>
+						</entry>
+					</taxon>
+					<taxon>
+						<id uniqueElementName="id">3.8</id>
+						<entry>
+							<string language="es">Tomar decisiones y planificar en grupo</string>
+						</entry>
+					</taxon>
+				</taxonPath>
+				<taxonPath>
+					<source uniqueElementName="source">
+						<string language="es">Competencia LOM-ESv1.0</string>
+					</source>
+					<taxon>
+						<id uniqueElementName="id">2</id>
+						<entry>
+							<string language="es">Competencias Académicas</string>
+						</entry>
+					</taxon>
+					<taxon>
+						<id uniqueElementName="id">2.2</id>
+						<entry>
+							<string language="es">Análisis de datos</string>
+						</entry>
+					</taxon>
+				</taxonPath>
+				<taxonPath>
+					<source uniqueElementName="source">
+						<string language="es">Competencia LOM-ESv1.0</string>
+					</source>
+					<taxon>
+						<id uniqueElementName="id">2</id>
+						<entry>
+							<string language="es">Competencias Académicas</string>
+						</entry>
+					</taxon>
+					<taxon>
+						<id uniqueElementName="id">2.3</id>
+						<entry>
+							<string language="es">Aprender a aprender</string>
+						</entry>
+					</taxon>
+				</taxonPath>
+				<taxonPath>
+					<source uniqueElementName="source">
+						<string language="es">Competencia LOM-ESv1.0</string>
+					</source>
+					<taxon>
+						<id uniqueElementName="id">2</id>
+						<entry>
+							<string language="es">Competencias Académicas</string>
+						</entry>
+					</taxon>
+					<taxon>
+						<id uniqueElementName="id">2.4</id>
+						<entry>
+							<string language="es">Comprender correctamente en el lenguaje de su disciplina</string>
+						</entry>
+					</taxon>
+				</taxonPath>
+				<taxonPath>
+					<source uniqueElementName="source">
+						<string language="es">Competencia LOM-ESv1.0</string>
+					</source>
+					<taxon>
+						<id uniqueElementName="id">2</id>
+						<entry>
+							<string language="es">Competencias Académicas</string>
+						</entry>
+					</taxon>
+					<taxon>
+						<id uniqueElementName="id">2.5</id>
+						<entry>
+							<string language="es">Conocimiento de los métodos científicos</string>
+						</entry>
+					</taxon>
+				</taxonPath>
+				<taxonPath>
+					<source uniqueElementName="source">
+						<string language="es">Competencia LOM-ESv1.0</string>
+					</source>
+					<taxon>
+						<id uniqueElementName="id">2</id>
+						<entry>
+							<string language="es">Competencias Académicas</string>
+						</entry>
+					</taxon>
+					<taxon>
+						<id uniqueElementName="id">2.8</id>
+						<entry>
+							<string language="es">Evaluar situaciones</string>
+						</entry>
+					</taxon>
+				</taxonPath>
+				<taxonPath>
+					<source uniqueElementName="source">
+						<string language="es">Competencia LOM-ESv1.0</string>
+					</source>
+					<taxon>
+						<id uniqueElementName="id">2</id>
+						<entry>
+							<string language="es">Competencias Académicas</string>
+						</entry>
+					</taxon>
+					<taxon>
+						<id uniqueElementName="id">2.11</id>
+						<entry>
+							<string language="es">Operaciones básicas de lecto-escritura</string>
+						</entry>
+					</taxon>
+				</taxonPath>
+				<taxonPath>
+					<source uniqueElementName="source">
+						<string language="es">Competencia LOM-ESv1.0</string>
+					</source>
+					<taxon>
+						<id uniqueElementName="id">2</id>
+						<entry>
+							<string language="es">Competencias Académicas</string>
+						</entry>
+					</taxon>
+					<taxon>
+						<id uniqueElementName="id">2.12</id>
+						<entry>
+							<string language="es">Operaciones básicas lógico-matemáticas</string>
+						</entry>
+					</taxon>
+				</taxonPath>
+				<taxonPath>
+					<source uniqueElementName="source">
+						<string language="es">Competencia LOM-ESv1.0</string>
+					</source>
+					<taxon>
+						<id uniqueElementName="id">2</id>
+						<entry>
+							<string language="es">Competencias Académicas</string>
+						</entry>
+					</taxon>
+					<taxon>
+						<id uniqueElementName="id">2.13</id>
+						<entry>
+							<string language="es">Pensar críticamente</string>
+						</entry>
+					</taxon>
+				</taxonPath>
+				<taxonPath>
+					<source uniqueElementName="source">
+						<string language="es">Competencia LOM-ESv1.0</string>
+					</source>
+					<taxon>
+						<id uniqueElementName="id">2</id>
+						<entry>
+							<string language="es">Competencias Académicas</string>
+						</entry>
+					</taxon>
+					<taxon>
+						<id uniqueElementName="id">2.17</id>
+						<entry>
+							<string language="es">Resolver problemas complejos</string>
+						</entry>
+					</taxon>
+				</taxonPath>
+				<taxonPath>
+					<source uniqueElementName="source">
+						<string language="es">Competencia LOM-ESv1.0</string>
+					</source>
+					<taxon>
+						<id uniqueElementName="id">2</id>
+						<entry>
+							<string language="es">Competencias Académicas</string>
+						</entry>
+					</taxon>
+					<taxon>
+						<id uniqueElementName="id">2.19</id>
+						<entry>
+							<string language="es">Tomar decisiones</string>
+						</entry>
+					</taxon>
+				</taxonPath>
+				<taxonPath>
+					<source uniqueElementName="source">
+						<string language="es">Competencia LOM-ESv1.0</string>
+					</source>
+					<taxon>
+						<id uniqueElementName="id">1</id>
+						<entry>
+							<string language="es">Competencias Generales y Personales</string>
+						</entry>
+					</taxon>
+					<taxon>
+						<id uniqueElementName="id">1.5</id>
+						<entry>
+							<string language="es">Autorreflexión y autoevaluación</string>
+						</entry>
+					</taxon>
+				</taxonPath>
+				<taxonPath>
+					<source uniqueElementName="source">
+						<string language="es">Competencia LOM-ESv1.0</string>
+					</source>
+					<taxon>
+						<id uniqueElementName="id">1</id>
+						<entry>
+							<string language="es">Competencias Generales y Personales</string>
+						</entry>
+					</taxon>
+					<taxon>
+						<id uniqueElementName="id">1.7</id>
+						<entry>
+							<string language="es">Búsqueda de información relevante</string>
+						</entry>
+					</taxon>
+				</taxonPath>
+				<taxonPath>
+					<source uniqueElementName="source">
+						<string language="es">Competencia LOM-ESv1.0</string>
+					</source>
+					<taxon>
+						<id uniqueElementName="id">1</id>
+						<entry>
+							<string language="es">Competencias Generales y Personales</string>
+						</entry>
+					</taxon>
+					<taxon>
+						<id uniqueElementName="id">1.15</id>
+						<entry>
+							<string language="es">Honestidad y ética personal</string>
+						</entry>
+					</taxon>
+				</taxonPath>
+				<taxonPath>
+					<source uniqueElementName="source">
+						<string language="es">Competencia LOM-ESv1.0</string>
+					</source>
+					<taxon>
+						<id uniqueElementName="id">1</id>
+						<entry>
+							<string language="es">Competencias Generales y Personales</string>
+						</entry>
+					</taxon>
+					<taxon>
+						<id uniqueElementName="id">1.20</id>
+						<entry>
+							<string language="es">Pensamiento crítico</string>
+						</entry>
+					</taxon>
+				</taxonPath>
+				<taxonPath>
+					<source uniqueElementName="source">
+						<string language="es">Competencia LOM-ESv1.0</string>
+					</source>
+					<taxon>
+						<id uniqueElementName="id">1</id>
+						<entry>
+							<string language="es">Competencias Generales y Personales</string>
+						</entry>
+					</taxon>
+					<taxon>
+						<id uniqueElementName="id">1.22</id>
+						<entry>
+							<string language="es">Planificación y gestión de recursos propios</string>
+						</entry>
+					</taxon>
+				</taxonPath>
+				<taxonPath>
+					<source uniqueElementName="source">
+						<string language="es">Competencia LOM-ESv1.0</string>
+					</source>
+					<taxon>
+						<id uniqueElementName="id">1</id>
+						<entry>
+							<string language="es">Competencias Generales y Personales</string>
+						</entry>
+					</taxon>
+					<taxon>
+						<id uniqueElementName="id">1.27</id>
+						<entry>
+							<string language="es">Responsabilidad</string>
+						</entry>
+					</taxon>
+				</taxonPath>
+				<taxonPath>
+					<source uniqueElementName="source">
+						<string language="es">Competencia LOM-ESv1.0</string>
+					</source>
+					<taxon>
+						<id uniqueElementName="id">1</id>
+						<entry>
+							<string language="es">Competencias Generales y Personales</string>
+						</entry>
+					</taxon>
+					<taxon>
+						<id uniqueElementName="id">1.28</id>
+						<entry>
+							<string language="es">Solución de problemas</string>
+						</entry>
+					</taxon>
+				</taxonPath>
+				<taxonPath>
+					<source uniqueElementName="source">
+						<string language="es">Competencia LOM-ESv1.0</string>
+					</source>
+					<taxon>
+						<id uniqueElementName="id">1</id>
+						<entry>
+							<string language="es">Competencias Generales y Personales</string>
+						</entry>
+					</taxon>
+					<taxon>
+						<id uniqueElementName="id">1.29</id>
+						<entry>
+							<string language="es">Uso eficiente de la información</string>
+						</entry>
+					</taxon>
+				</taxonPath>
+				<description>
+					<string language="es">El simulador a nivel de competencias sociales y de trabajo favorece: Comprender y contribuir a la organización de los objetivos del grupo Ejercitar la ayuda entre los miembros del grupo para alcanzar los resultados Persuadir Tomar decisiones y planificar en grupo Trabajar y/o aprender con otros El simulador a nivel académico favorece: Análisis de datos Aprender a aprender Comprender correctamente en el lenguaje de su disciplina Conocimiento de los métodos científicos Escuchar para entender y aprender Evaluar situaciones Interpretar y utilizar diferentes materiales escritos (gráficos, esquemas, cuadros, ...) Operaciones básicas de lecto-escritura Operaciones básicas lógico-matemáticas Pensar críticamente Resolver problemas complejos (cerrados y abiertos) Tomar decisiones El simulador a nivel personal favorece: Autorreflexión y autoevaluación Búsqueda de información relevante Honestidad y ética personal Pensamiento crítico Planificación y gestión de recursos propios Responsabilidad Solución de problemas Uso eficiente de la información</string>
+				</description>
+				<keyword>
+					<string language="es">Ayuda entre compañeros</string>
+				</keyword>
+				<keyword>
+					<string language="es">Cumplir objetivos del grupo</string>
+				</keyword>
+				<keyword>
+					<string language="es">Tomar decisiones y planificar en grupo</string>
+				</keyword>
+				<keyword>
+					<string language="es">Trabajar y aprender con otros</string>
+				</keyword>
+				<keyword>
+					<string language="es">Persuadir</string>
+				</keyword>
+				<keyword>
+					<string language="es">Aprender</string>
+				</keyword>
+				<keyword>
+					<string language="es">Análisis de datos</string>
+				</keyword>
+				<keyword>
+					<string language="es">Método científico</string>
+				</keyword>
+				<keyword>
+					<string language="es">Comprender lenguaje de la disciplina</string>
+				</keyword>
+				<keyword>
+					<string language="es">Evaluar situaciones</string>
+				</keyword>
+				<keyword>
+					<string language="es">Comprender materiales gráficos y esquemas</string>
+				</keyword>
+				<keyword>
+					<string language="es">Toma de decisiones</string>
+				</keyword>
+				<keyword>
+					<string language="es">Operaciones lecto escritura</string>
+				</keyword>
+				<keyword>
+					<string language="es">Operaciones lógico matemáticas</string>
+				</keyword>
+				<keyword>
+					<string language="es">Pensamiento crítico</string>
+				</keyword>
+				<keyword>
+					<string language="es">Resolución de problemas complejos</string>
+				</keyword>
+				<keyword>
+					<string language="es">Autoreflexión</string>
+				</keyword>
+				<keyword>
+					<string language="es">Autoevaluación</string>
+				</keyword>
+				<keyword>
+					<string language="es">Información relevante</string>
+				</keyword>
+				<keyword>
+					<string language="es">Ética personal y profesional</string>
+				</keyword>
+				<keyword>
+					<string language="es">Honestidad</string>
+				</keyword>
+				<keyword>
+					<string language="es">Gestión del tiempo</string>
+				</keyword>
+				<keyword>
+					<string language="es">Gestión de recursos</string>
+				</keyword>
+				<keyword>
+					<string language="es">Responsabilidad</string>
+				</keyword>
+				<keyword>
+					<string language="es">Solución de problemas</string>
+				</keyword>
+				<keyword>
+					<string language="es">Uso eficiente de la información</string>
+				</keyword>
+			</classification>
+			<classification>
+				<purpose uniqueElementName="purpose">
+					<source uniqueElementName="source">LOM-ESv1.0</source>
+					<value uniqueElementName="value">educational level</value>
+				</purpose>
+				<taxonPath>
+					<source uniqueElementName="source">
+						<string language="es">Nivel educativo LOM-ESv1.0</string>
+					</source>
+					<taxon>
+						<id uniqueElementName="id">8</id>
+						<entry>
+							<string language="es">Formación Profesional</string>
+						</entry>
+					</taxon>
+					<taxon>
+						<id uniqueElementName="id">8.2</id>
+						<entry>
+							<string language="es">Ciclo formativo grado superior</string>
+						</entry>
+					</taxon>
+				</taxonPath>
+				<description>
+					<string language="es">Familia de Sanidad: Ciclo Formativo de grado superior Imagen para el Diagnostico y Radioterapia. Segundo curso Formación continuada: Cursos de actualización de conocimiento</string>
+				</description>
+				<keyword>
+					<string language="es">Ciclo formativo grado superior</string>
+				</keyword>
+				<keyword>
+					<string language="es">Sanidad</string>
+				</keyword>
+				<keyword>
+					<string language="es">Imagen para el diagnóstico</string>
+				</keyword>
+				<keyword>
+					<string language="es">Familia de sanidad</string>
+				</keyword>
+				<keyword>
+					<string language="es">Radioterapia</string>
+				</keyword>
+			</classification>
+		</lom>
+	</metadata>
+	<organizations default="org_pipwerks">
+		<organization identifier="org_pipwerks">
+			<title>:: Simuladores ::</title>
+			<item identifier="pipwerksAS3SCORM2004_item01" identifierref="RES-EC607EFE39589A970CA420BF149D760B">
+				<title>Simuladores: Resonancia magnética nuclear</title>
+			</item>
+			<imsss:sequencing>
+				<imsss:controlMode choiceExit="true" flow="true" />
+				<imsss:deliveryControls completionSetByContent="true" objectiveSetByContent="true" />
+			</imsss:sequencing>
+		</organization>
+	</organizations>
+	<resources>
+		<resource identifier="RES-EC607EFE39589A970CA420BF149D760B" adlcp:scormType="sco" type="webcontent" href="sim.html">
+			<file href="ruffle/LICENSE_APACHE" />
+			<file href="ruffle/LICENSE_MIT" />
+			<file href="ruffle/ruffle.js" />
+			<file href="ruffle/ruffle_web-wasm_mvp_bg.CFHO6RHZ.wasm" />
+			<file href="ruffle/ruffle_web_bg.FV6CI6QL.wasm" />
+			<file href="index.html" />
+			<file href="README.md" />
+			<file href="LICENSE" />
+			<file href="docs/manual-ayuda-profesor-RM.pdf" />
+			<file href="accesibilidad.swf" />
+			<file href="area_docente.swf" />
+			<file href="assets/animaciones/01_bata.swf" />
+			<file href="assets/animaciones/02_cuadro_electrico.swf" />
+			<file href="assets/animaciones/03_web_hospital.swf" />
+			<file href="assets/animaciones/04_bata.swf" />
+			<file href="assets/animaciones/04_libro.swf" />
+			<file href="assets/animaciones/06_maquinacontraste.swf" />
+			<file href="assets/animaciones/07_aplicarcontraste.swf" />
+			<file href="assets/animaciones/07_revision_maquina_rm.swf" />
+			<file href="assets/animaciones/08_bombas.swf" />
+			<file href="assets/animaciones/08_revisartac.swf" />
+			<file href="assets/animaciones/09_traepaciente.swf" />
+			<file href="assets/animaciones/10_enfermeraentra.swf" />
+			<file href="assets/animaciones/10_revisar_soft.swf" />
+			<file href="assets/animaciones/11_llevapaciente.swf" />
+			<file href="assets/animaciones/12_material_paciente.swf" />
+			<file href="assets/animaciones/12_revisarmetal.fla.swf" />
+			<file href="assets/animaciones/12_revisarmetal.swf" />
+			<file href="assets/animaciones/13_maquina_snacks.swf" />
+			<file href="assets/animaciones/13_pedirconsentimiento.swf" />
+			<file href="assets/animaciones/14_entraluisa.swf" />
+			<file href="assets/animaciones/14_paciente_entra.swf" />
+			<file href="assets/animaciones/15_colocacion_paciente.swf" />
+			<file href="assets/animaciones/15_paciente_sale.swf" />
+			<file href="assets/animaciones/15_paciente_sale_tutorial.swf" />
+			<file href="assets/animaciones/16_entrajefa.swf" />
+			<file href="assets/animaciones/17_javier_inicio_tutorial.swf" />
+			<file href="assets/animaciones/22_permiso_contraste.swf" />
+			<file href="assets/animaciones/22_permiso_contraste_tutorial.swf" />
+			<file href="assets/animaciones/colocar_contraste.swf" />
+			<file href="assets/animaciones/escena1_cafe.swf" />
+			<file href="assets/animaciones/escena1_puerta.flv" />
+			<file href="assets/animaciones/escena1_puerta_sin_bata.flv" />
+			<file href="assets/animaciones/escena2_aplicar_contraste.swf" />
+			<file href="assets/animaciones/escena2_bombas.swf" />
+			<file href="assets/animaciones/escena2_puerta_sala_descanso.flv" />
+			<file href="assets/animaciones/escena2_puerta_sala_soft.flv" />
+			<file href="assets/animaciones/escena2_tac.swf" />
+			<file href="assets/animaciones/escena3_puerta.flv" />
+			<file href="assets/animaciones/imrttutorial1.flv" />
+			<file href="assets/animaciones/imrttutorial2.flv" />
+			<file href="assets/animaciones/interlocutor.swf" />
+			<file href="assets/animaciones/prueba.flv" />
+			<file href="assets/audios/audio1.mp3" />
+			<file href="assets/audios/celador_habla.mp3" />
+			<file href="assets/audios/constancia/ID08.mp3" />
+			<file href="assets/audios/enfermera_habla.mp3" />
+			<file href="assets/audios/genericos/click.mp3" />
+			<file href="assets/audios/genericos/clicksoft.mp3" />
+			<file href="assets/audios/menu/audio1.mp3" />
+			<file href="assets/audios/soft_tc/ruido.mp3" />
+			<file href="assets/audios/web/ID02.mp3" />
+			<file href="assets/biblioteca/background.swf" />
+			<file href="assets/biblioteca/biblioteca.swf" />
+			<file href="assets/biblioteca/loader.swf" />
+			<file href="assets/imagenes/glosario/axial.jpg" />
+			<file href="assets/imagenes/glosario/contraste.jpg" />
+			<file href="assets/imagenes/glosario/coronal.jpg" />
+			<file href="assets/imagenes/glosario/densidad.jpg" />
+			<file href="assets/imagenes/glosario/fase_opuesta.jpg" />
+			<file href="assets/imagenes/glosario/flair.jpg" />
+			<file href="assets/imagenes/glosario/potenciacion_T1.jpg" />
+			<file href="assets/imagenes/glosario/potenciacion_T2.jpg" />
+			<file href="assets/imagenes/glosario/realce.jpg" />
+			<file href="assets/imagenes/glosario/sagital.jpg" />
+			<file href="assets/imagenes/mapa_conceptual/img01.jpg" />
+			<file href="assets/imagenes/mapa_conceptual/img02.jpg" />
+			<file href="assets/imagenes/mapa_conceptual/img03.jpg" />
+			<file href="assets/imagenes/mapa_conceptual/img04.jpg" />
+			<file href="assets/imagenes/mapa_conceptual/img05.jpg" />
+			<file href="assets/imagenes/mapa_conceptual/img06.jpg" />
+			<file href="assets/imagenes/mapa_conceptual/img07.jpg" />
+			<file href="assets/imagenes/mapa_conceptual/img08.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_axial/rm_abdomen_axial_t1/ABDOMEN0119.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_axial/rm_abdomen_axial_t1/ABDOMEN0120.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_axial/rm_abdomen_axial_t1/ABDOMEN0121.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_axial/rm_abdomen_axial_t1/ABDOMEN0122.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_axial/rm_abdomen_axial_t1/ABDOMEN0123.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_axial/rm_abdomen_axial_t1/ABDOMEN0124.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_axial/rm_abdomen_axial_t1/ABDOMEN0125.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_axial/rm_abdomen_axial_t1/ABDOMEN0126.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_axial/rm_abdomen_axial_t1/ABDOMEN0127.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_axial/rm_abdomen_axial_t1/ABDOMEN0128.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_axial/rm_abdomen_axial_t1/ABDOMEN0129.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_axial/rm_abdomen_axial_t1/ABDOMEN0130.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_axial/rm_abdomen_axial_t1/ABDOMEN0131.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_axial/rm_abdomen_axial_t1/ABDOMEN0132.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_axial/rm_abdomen_axial_t1/ABDOMEN0133.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_axial/rm_abdomen_axial_t1/ABDOMEN0134.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_axial/rm_abdomen_axial_t1/ABDOMEN0135.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_axial/rm_abdomen_axial_t1/ABDOMEN0136.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_axial/rm_abdomen_axial_t1/ABDOMEN0137.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_axial/rm_abdomen_axial_t1/ABDOMEN0138.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_axial/rm_abdomen_axial_t1/ABDOMEN0139.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_axial/rm_abdomen_axial_t1/ABDOMEN0140.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_axial/rm_abdomen_axial_t1/ABDOMEN0141.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_axial/rm_abdomen_axial_t1/ABDOMEN0142.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_axial/rm_abdomen_axial_t1/ABDOMEN0143.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_axial/rm_abdomen_axial_t1/ABDOMEN0144.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_axial/rm_abdomen_axial_t1/ABDOMEN0145.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_axial/rm_abdomen_axial_t1/ABDOMEN0146.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_axial/rm_abdomen_axial_t1/ABDOMEN0147.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_axial/rm_abdomen_axial_t1/ABDOMEN0148.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_axial/rm_abdomen_axial_t1/ABDOMEN0149.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_axial/rm_abdomen_axial_t1/ABDOMEN0150.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_axial/rm_abdomen_axial_t1/ABDOMEN0151.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_axial/rm_abdomen_axial_t1/ABDOMEN0152.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_axial/rm_abdomen_axial_t2/ABDOMEN0017.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_axial/rm_abdomen_axial_t2/ABDOMEN0018.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_axial/rm_abdomen_axial_t2/ABDOMEN0019.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_axial/rm_abdomen_axial_t2/ABDOMEN0020.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_axial/rm_abdomen_axial_t2/ABDOMEN0021.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_axial/rm_abdomen_axial_t2/ABDOMEN0022.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_axial/rm_abdomen_axial_t2/ABDOMEN0023.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_axial/rm_abdomen_axial_t2/ABDOMEN0024.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_axial/rm_abdomen_axial_t2/ABDOMEN0025.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_axial/rm_abdomen_axial_t2/ABDOMEN0026.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_axial/rm_abdomen_axial_t2/ABDOMEN0027.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_axial/rm_abdomen_axial_t2/ABDOMEN0028.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_axial/rm_abdomen_axial_t2/ABDOMEN0029.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_axial/rm_abdomen_axial_t2/ABDOMEN0030.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_axial/rm_abdomen_axial_t2/ABDOMEN0031.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_axial/rm_abdomen_axial_t2/ABDOMEN0032.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_axial/rm_abdomen_axial_t2/ABDOMEN0033.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_axial/rm_abdomen_axial_t2/ABDOMEN0034.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_axial/rm_abdomen_axial_t2/ABDOMEN0035.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_axial/rm_abdomen_axial_t2/ABDOMEN0036.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_axial/rm_abdomen_axial_t2/ABDOMEN0037.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_axial/rm_abdomen_axial_t2/ABDOMEN0038.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_axial/rm_abdomen_axial_t2/ABDOMEN0039.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_axial/rm_abdomen_axial_t2/ABDOMEN0040.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_axial/rm_abdomen_axial_t2/ABDOMEN0041.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_axial/rm_abdomen_axial_t2/ABDOMEN0042.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_axial/rm_abdomen_axial_t2/ABDOMEN0043.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_axial/rm_abdomen_axial_t2/ABDOMEN0044.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_axial/rm_abdomen_axial_t2/ABDOMEN0045.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_axial/rm_abdomen_axial_t2/ABDOMEN0046.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_axial/rm_abdomen_axial_t2/ABDOMEN0047.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_axial/rm_abdomen_axial_t2/ABDOMEN0048.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_axial/rm_abdomen_axial_t2/ABDOMEN0049.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_axial/rm_abdomen_axial_t2/ABDOMEN0050.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_coronal/rm_abdomen_coronal_t1/8138631_10.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_coronal/rm_abdomen_coronal_t1/8138631_11.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_coronal/rm_abdomen_coronal_t1/8138631_12.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_coronal/rm_abdomen_coronal_t1/8138631_13.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_coronal/rm_abdomen_coronal_t1/8138631_14.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_coronal/rm_abdomen_coronal_t1/8138631_15.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_coronal/rm_abdomen_coronal_t1/8138631_2.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_coronal/rm_abdomen_coronal_t1/8138631_3.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_coronal/rm_abdomen_coronal_t1/8138631_4.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_coronal/rm_abdomen_coronal_t1/8138631_5.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_coronal/rm_abdomen_coronal_t1/8138631_6.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_coronal/rm_abdomen_coronal_t1/8138631_7.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_coronal/rm_abdomen_coronal_t1/8138631_8.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_coronal/rm_abdomen_coronal_t1/8138631_9.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_coronal/rm_abdomen_t2_coronal/ABDOMEN0001.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_coronal/rm_abdomen_t2_coronal/ABDOMEN0002.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_coronal/rm_abdomen_t2_coronal/ABDOMEN0003.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_coronal/rm_abdomen_t2_coronal/ABDOMEN0004.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_coronal/rm_abdomen_t2_coronal/ABDOMEN0005.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_coronal/rm_abdomen_t2_coronal/ABDOMEN0006.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_coronal/rm_abdomen_t2_coronal/ABDOMEN0007.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_coronal/rm_abdomen_t2_coronal/ABDOMEN0008.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_coronal/rm_abdomen_t2_coronal/ABDOMEN0009.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_coronal/rm_abdomen_t2_coronal/ABDOMEN0010.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_coronal/rm_abdomen_t2_coronal/ABDOMEN0011.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_coronal/rm_abdomen_t2_coronal/ABDOMEN0012.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_coronal/rm_abdomen_t2_coronal/ABDOMEN0013.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_coronal/rm_abdomen_t2_coronal/ABDOMEN0014.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_coronal/rm_abdomen_t2_coronal/ABDOMEN0015.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_coronal/rm_abdomen_t2_coronal/ABDOMEN0016.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_sagital/rm_abdomen_sagital_t1/abdomen0285.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_sagital/rm_abdomen_sagital_t1/abdomen0286.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_sagital/rm_abdomen_sagital_t1/abdomen0287.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_sagital/rm_abdomen_sagital_t1/abdomen0288.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_sagital/rm_abdomen_sagital_t1/abdomen0289.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_sagital/rm_abdomen_sagital_t1/abdomen0290.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_sagital/rm_abdomen_sagital_t1/abdomen0291.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_sagital/rm_abdomen_sagital_t1/abdomen0292.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_sagital/rm_abdomen_sagital_t1/abdomen0293.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_sagital/rm_abdomen_sagital_t1/abdomen0294.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_sagital/rm_abdomen_sagital_t1/abdomen0295.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_sagital/rm_abdomen_sagital_t1/abdomen0296.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_sagital/rm_abdomen_sagital_t1/abdomen0297.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_sagital/rm_abdomen_sagital_t1/abdomen0298.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_sagital/rm_abdomen_sagital_t1/abdomen0299.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_sagital/rm_abdomen_sagital_t1/abdomen0300.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_sagital/rm_abdomen_sagital_t1/abdomen0301.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_sagital/rm_abdomen_sagital_t1/abdomen0302.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_sagital/rm_abdomen_sagital_t1/abdomen0303.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_sagital/rm_abdomen_sagital_t1/abdomen0304.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_sagital/rm_abdomen_sagital_t1/abdomen0305.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_sagital/rm_abdomen_sagital_t1/abdomen0306.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_sagital/rm_abdomen_sagital_t1/abdomen0307.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_sagital/rm_abdomen_sagital_t2/abdomen0213.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_sagital/rm_abdomen_sagital_t2/abdomen0214.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_sagital/rm_abdomen_sagital_t2/abdomen0215.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_sagital/rm_abdomen_sagital_t2/abdomen0216.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_sagital/rm_abdomen_sagital_t2/abdomen0217.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_sagital/rm_abdomen_sagital_t2/abdomen0218.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_sagital/rm_abdomen_sagital_t2/abdomen0219.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_sagital/rm_abdomen_sagital_t2/abdomen0220.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_sagital/rm_abdomen_sagital_t2/abdomen0221.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_sagital/rm_abdomen_sagital_t2/abdomen0222.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_sagital/rm_abdomen_sagital_t2/abdomen0223.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_sagital/rm_abdomen_sagital_t2/abdomen0224.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_sagital/rm_abdomen_sagital_t2/abdomen0225.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_sagital/rm_abdomen_sagital_t2/abdomen0226.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_sagital/rm_abdomen_sagital_t2/abdomen0227.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_sagital/rm_abdomen_sagital_t2/abdomen0228.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_sagital/rm_abdomen_sagital_t2/abdomen0229.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_sagital/rm_abdomen_sagital_t2/abdomen0230.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_sagital/rm_abdomen_sagital_t2/abdomen0231.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_sagital/rm_abdomen_sagital_t2/abdomen0232.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_sagital/rm_abdomen_sagital_t2/abdomen0233.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_sagital/rm_abdomen_sagital_t2/abdomen0234.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_sagital/rm_abdomen_sagital_t2/abdomen0235.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_sagital/rm_abdomen_sagital_t2/abdomen0236.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_sagital/rm_abdomen_sagital_t2/abdomen0237.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_sagital/rm_abdomen_sagital_t2/abdomen0238.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_sagital/rm_abdomen_sagital_t2/abdomen0239.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_sagital/rm_abdomen_sagital_t2/abdomen0240.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_sagital/rm_abdomen_sagital_t2/abdomen0241.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_sagital/rm_abdomen_sagital_t2/abdomen0242.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_sagital/rm_abdomen_sagital_t2/abdomen0243.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_sagital/rm_abdomen_sagital_t2/abdomen0244.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_sagital/rm_abdomen_sagital_t2/abdomen0245.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_sagital/rm_abdomen_sagital_t2/abdomen0246.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_sagital/rm_abdomen_sagital_t2/abdomen0247.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_sagital/rm_abdomen_sagital_t2/abdomen0248.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_sagital/rm_abdomen_sagital_t2/abdomen0249.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_sagital/rm_abdomen_sagital_t2/abdomen0250.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_sagital/rm_abdomen_sagital_t2/abdomen0251.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_sagital/rm_abdomen_sagital_t2/abdomen0252.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_sagital/rm_abdomen_sagital_t2/abdomen0253.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_sagital/rm_abdomen_sagital_t2/abdomen0254.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_sagital/rm_abdomen_sagital_t2/abdomen0255.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_sagital/rm_abdomen_sagital_t2/abdomen0256.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_sagital/rm_abdomen_sagital_t2/abdomen0257.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_sagital/rm_abdomen_sagital_t2/abdomen0258.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_sagital/rm_abdomen_sagital_t2/abdomen0259.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_sagital/rm_abdomen_sagital_t2/abdomen0260.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_sagital/rm_abdomen_sagital_t2/abdomen0261.jpg" />
+			<file href="assets/imagenes/soft_tc/ABDOMEN/rm_abdomen_sagital/rm_abdomen_sagital_t2/abdomen0262.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_axial/rm_cadera_axial_t1/CADERAS0095.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_axial/rm_cadera_axial_t1/CADERAS0096.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_axial/rm_cadera_axial_t1/CADERAS0097.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_axial/rm_cadera_axial_t1/CADERAS0098.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_axial/rm_cadera_axial_t1/CADERAS0099.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_axial/rm_cadera_axial_t1/CADERAS0100.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_axial/rm_cadera_axial_t1/CADERAS0101.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_axial/rm_cadera_axial_t1/CADERAS0102.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_axial/rm_cadera_axial_t1/CADERAS0103.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_axial/rm_cadera_axial_t1/CADERAS0104.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_axial/rm_cadera_axial_t1/CADERAS0105.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_axial/rm_cadera_axial_t1/CADERAS0106.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_axial/rm_cadera_axial_t1/CADERAS0107.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_axial/rm_cadera_axial_t1/CADERAS0108.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_axial/rm_cadera_axial_t1/CADERAS0109.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_axial/rm_cadera_axial_t1/CADERAS0110.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_axial/rm_cadera_axial_t1/CADERAS0111.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_axial/rm_cadera_axial_t1/CADERAS0112.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_axial/rm_cadera_axial_t1/CADERAS0113.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_axial/rm_cadera_axial_t1/CADERAS0114.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_axial/rm_cadera_axial_t1/CADERAS0115.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_axial/rm_cadera_axial_t1/CADERAS0116.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_axial/rm_cadera_axial_t1/CADERAS0117.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_axial/rm_cadera_axial_t1/CADERAS0118.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_axial/rm_cadera_axial_t1/CADERAS0119.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_axial/rm_cadera_axial_t1/CADERAS0120.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_axial/rm_cadera_axial_t1/CADERAS0121.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_axial/rm_cadera_axial_t1/CADERAS0122.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_axial/rm_cadera_axial_t1/CADERAS0123.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_axial/rm_cadera_axial_t1/CADERAS0124.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_axial/rm_cadera_axial_t1/CADERAS0125.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_axial/rm_cadera_axial_t1/CADERAS0126.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_axial/rm_cadera_axial_t1/CADERAS0140.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_axial/rm_cadera_axial_t1/CADERAS0141.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_axial/rm_cadera_axial_t1/CADERAS0142.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_axial/rm_cadera_axial_t1/CADERAS0143.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_axial/rm_cadera_axial_t1/CADERAS0144.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_axial/rm_cadera_axial_t1/CADERAS0145.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_axial/rm_cadera_axial_t1/CADERAS0146.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_axial/rm_cadera_axial_t2/CADERAS0057.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_axial/rm_cadera_axial_t2/CADERAS0058.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_axial/rm_cadera_axial_t2/CADERAS0059.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_axial/rm_cadera_axial_t2/CADERAS0060.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_axial/rm_cadera_axial_t2/CADERAS0061.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_axial/rm_cadera_axial_t2/CADERAS0062.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_axial/rm_cadera_axial_t2/CADERAS0063.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_axial/rm_cadera_axial_t2/CADERAS0064.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_axial/rm_cadera_axial_t2/CADERAS0065.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_axial/rm_cadera_axial_t2/CADERAS0066.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_axial/rm_cadera_axial_t2/CADERAS0067.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_axial/rm_cadera_axial_t2/CADERAS0068.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_axial/rm_cadera_axial_t2/CADERAS0069.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_axial/rm_cadera_axial_t2/CADERAS0070.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_axial/rm_cadera_axial_t2/CADERAS0071.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_axial/rm_cadera_axial_t2/CADERAS0072.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_axial/rm_cadera_axial_t2/CADERAS0073.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_axial/rm_cadera_axial_t2/CADERAS0074.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_axial/rm_cadera_axial_t2/CADERAS0075.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_axial/rm_cadera_axial_t2/CADERAS0076.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_axial/rm_cadera_axial_t2/CADERAS0077.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_axial/rm_cadera_axial_t2/CADERAS0078.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_axial/rm_cadera_axial_t2/CADERAS0079.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_axial/rm_cadera_axial_t2/CADERAS0080.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_axial/rm_cadera_axial_t2/CADERAS0081.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_axial/rm_cadera_axial_t2/CADERAS0082.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_axial/rm_cadera_axial_t2/CADERAS0083.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_axial/rm_cadera_axial_t2/CADERAS0084.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_axial/rm_cadera_axial_t2/CADERAS0085.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_axial/rm_cadera_axial_t2/CADERAS0086.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_axial/rm_cadera_axial_t2/CADERAS0087.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_axial/rm_cadera_axial_t2/CADERAS0088.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_axial/rm_cadera_axial_t2/CADERAS0089.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_axial/rm_cadera_axial_t2/CADERAS0090.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_axial/rm_cadera_axial_t2/CADERAS0091.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_axial/rm_cadera_axial_t2/CADERAS0092.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_axial/rm_cadera_axial_t2/CADERAS0093.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_axial/rm_cadera_axial_t2/CADERAS0094.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_coronal/rm_cadera_coronal_t1/CADERAS0029.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_coronal/rm_cadera_coronal_t1/CADERAS0030.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_coronal/rm_cadera_coronal_t1/CADERAS0031.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_coronal/rm_cadera_coronal_t1/CADERAS0032.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_coronal/rm_cadera_coronal_t1/CADERAS0033.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_coronal/rm_cadera_coronal_t1/CADERAS0034.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_coronal/rm_cadera_coronal_t1/CADERAS0035.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_coronal/rm_cadera_coronal_t1/CADERAS0036.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_coronal/rm_cadera_coronal_t1/CADERAS0037.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_coronal/rm_cadera_coronal_t1/CADERAS0038.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_coronal/rm_cadera_coronal_t1/CADERAS0039.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_coronal/rm_cadera_coronal_t1/CADERAS0040.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_coronal/rm_cadera_coronal_t1/CADERAS0041.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_coronal/rm_cadera_coronal_t1/CADERAS0042.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_coronal/rm_cadera_coronal_t1/CADERAS0043.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_coronal/rm_cadera_coronal_t1/CADERAS0044.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_coronal/rm_cadera_coronal_t1/CADERAS0045.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_coronal/rm_cadera_coronal_t1/CADERAS0046.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_coronal/rm_cadera_coronal_t1/CADERAS0047.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_coronal/rm_cadera_coronal_t1/CADERAS0048.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_coronal/rm_cadera_coronal_t1/CADERAS0049.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_coronal/rm_cadera_coronal_t1/CADERAS0050.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_coronal/rm_cadera_coronal_t1/CADERAS0051.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_coronal/rm_cadera_coronal_t1/CADERAS0052.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_coronal/rm_cadera_coronal_t1/CADERAS0053.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_coronal/rm_cadera_coronal_t1/CADERAS0054.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_coronal/rm_cadera_coronal_t1/CADERAS0055.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_coronal/rm_cadera_coronal_t1/CADERAS0056.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_coronal/rm_cadera_coronal_t2/CADERAS0001.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_coronal/rm_cadera_coronal_t2/CADERAS0002.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_coronal/rm_cadera_coronal_t2/CADERAS0003.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_coronal/rm_cadera_coronal_t2/CADERAS0004.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_coronal/rm_cadera_coronal_t2/CADERAS0005.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_coronal/rm_cadera_coronal_t2/CADERAS0006.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_coronal/rm_cadera_coronal_t2/CADERAS0007.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_coronal/rm_cadera_coronal_t2/CADERAS0008.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_coronal/rm_cadera_coronal_t2/CADERAS0009.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_coronal/rm_cadera_coronal_t2/CADERAS0010.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_coronal/rm_cadera_coronal_t2/CADERAS0011.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_coronal/rm_cadera_coronal_t2/CADERAS0012.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_coronal/rm_cadera_coronal_t2/CADERAS0013.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_coronal/rm_cadera_coronal_t2/CADERAS0014.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_coronal/rm_cadera_coronal_t2/CADERAS0015.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_coronal/rm_cadera_coronal_t2/CADERAS0016.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_coronal/rm_cadera_coronal_t2/CADERAS0017.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_coronal/rm_cadera_coronal_t2/CADERAS0018.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_coronal/rm_cadera_coronal_t2/CADERAS0019.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_coronal/rm_cadera_coronal_t2/CADERAS0020.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_coronal/rm_cadera_coronal_t2/CADERAS0021.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_coronal/rm_cadera_coronal_t2/CADERAS0022.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_coronal/rm_cadera_coronal_t2/CADERAS0023.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_coronal/rm_cadera_coronal_t2/CADERAS0024.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_coronal/rm_cadera_coronal_t2/CADERAS0025.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_coronal/rm_cadera_coronal_t2/CADERAS0026.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_coronal/rm_cadera_coronal_t2/CADERAS0027.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_coronal/rm_cadera_coronal_t2/CADERAS0028.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_coronal/rm_cadera_coronal_t2/CADERAS0127.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_coronal/rm_cadera_coronal_t2/CADERAS0128.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_coronal/rm_cadera_coronal_t2/CADERAS0129.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_coronal/rm_cadera_coronal_t2/CADERAS0130.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_coronal/rm_cadera_coronal_t2/CADERAS0131.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_coronal/rm_cadera_coronal_t2/CADERAS0132.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_coronal/rm_cadera_coronal_t2/CADERAS0133.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_coronal/rm_cadera_coronal_t2/CADERAS0134.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_coronal/rm_cadera_coronal_t2/CADERAS0135.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_coronal/rm_cadera_coronal_t2/CADERAS0136.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_coronal/rm_cadera_coronal_t2/CADERAS0137.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_coronal/rm_cadera_coronal_t2/CADERAS0138.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_coronal/rm_cadera_coronal_t2/CADERAS0139.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_sagital/rm_cadera_sagital_t1/artro_caderas0139.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_sagital/rm_cadera_sagital_t1/artro_caderas0140.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_sagital/rm_cadera_sagital_t1/artro_caderas0141.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_sagital/rm_cadera_sagital_t1/artro_caderas0142.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_sagital/rm_cadera_sagital_t1/artro_caderas0143.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_sagital/rm_cadera_sagital_t1/artro_caderas0144.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_sagital/rm_cadera_sagital_t1/artro_caderas0145.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_sagital/rm_cadera_sagital_t1/artro_caderas0146.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_sagital/rm_cadera_sagital_t1/artro_caderas0147.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_sagital/rm_cadera_sagital_t1/artro_caderas0148.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_sagital/rm_cadera_sagital_t1/artro_caderas0149.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_sagital/rm_cadera_sagital_t1/artro_caderas0150.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_sagital/rm_cadera_sagital_t1/artro_caderas0151.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_sagital/rm_cadera_sagital_t1/artro_caderas0152.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_sagital/rm_cadera_sagital_t1/artro_caderas0153.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_sagital/rm_cadera_sagital_t1/artro_caderas0154.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_sagital/rm_cadera_sagital_t1/artro_caderas0155.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_sagital/rm_cadera_sagital_t1/artro_caderas0156.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_sagital/rm_cadera_sagital_t1/artro_caderas0157.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_sagital/rm_cadera_sagital_t1/artro_caderas0158.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_sagital/rm_cadera_sagital_t1/artro_caderas0159.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_sagital/rm_cadera_sagital_t1/artro_caderas0160.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_sagital/rm_cadera_sagital_t1/artro_caderas0161.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_sagital/rm_cadera_sagital_t1/artro_caderas0162.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_sagital/rm_cadera_sagital_t2/artro_caderas0115.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_sagital/rm_cadera_sagital_t2/artro_caderas0116.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_sagital/rm_cadera_sagital_t2/artro_caderas0117.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_sagital/rm_cadera_sagital_t2/artro_caderas0118.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_sagital/rm_cadera_sagital_t2/artro_caderas0119.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_sagital/rm_cadera_sagital_t2/artro_caderas0120.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_sagital/rm_cadera_sagital_t2/artro_caderas0121.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_sagital/rm_cadera_sagital_t2/artro_caderas0122.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_sagital/rm_cadera_sagital_t2/artro_caderas0123.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_sagital/rm_cadera_sagital_t2/artro_caderas0124.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_sagital/rm_cadera_sagital_t2/artro_caderas0125.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_sagital/rm_cadera_sagital_t2/artro_caderas0126.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_sagital/rm_cadera_sagital_t2/artro_caderas0127.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_sagital/rm_cadera_sagital_t2/artro_caderas0128.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_sagital/rm_cadera_sagital_t2/artro_caderas0129.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_sagital/rm_cadera_sagital_t2/artro_caderas0130.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_sagital/rm_cadera_sagital_t2/artro_caderas0131.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_sagital/rm_cadera_sagital_t2/artro_caderas0132.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_sagital/rm_cadera_sagital_t2/artro_caderas0133.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_sagital/rm_cadera_sagital_t2/artro_caderas0134.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_sagital/rm_cadera_sagital_t2/artro_caderas0135.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_sagital/rm_cadera_sagital_t2/artro_caderas0136.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_sagital/rm_cadera_sagital_t2/artro_caderas0137.jpg" />
+			<file href="assets/imagenes/soft_tc/CADERAS/rm_cadera_sagital/rm_cadera_sagital_t2/artro_caderas0138.jpg" />
+			<file href="assets/imagenes/soft_tc/CARDIO/rm_cardio_axial/rm_cardio_axial_t2/cardio0023.jpg" />
+			<file href="assets/imagenes/soft_tc/CARDIO/rm_cardio_axial/rm_cardio_axial_t2/cardio0024.jpg" />
+			<file href="assets/imagenes/soft_tc/CARDIO/rm_cardio_axial/rm_cardio_axial_t2/cardio0025.jpg" />
+			<file href="assets/imagenes/soft_tc/CARDIO/rm_cardio_axial/rm_cardio_axial_t2/cardio0026.jpg" />
+			<file href="assets/imagenes/soft_tc/CARDIO/rm_cardio_axial/rm_cardio_axial_t2/cardio0027.jpg" />
+			<file href="assets/imagenes/soft_tc/CARDIO/rm_cardio_axial/rm_cardio_axial_t2/cardio0028.jpg" />
+			<file href="assets/imagenes/soft_tc/CARDIO/rm_cardio_axial/rm_cardio_axial_t2/cardio0029.jpg" />
+			<file href="assets/imagenes/soft_tc/CARDIO/rm_cardio_axial/rm_cardio_axial_t2/cardio0030.jpg" />
+			<file href="assets/imagenes/soft_tc/CARDIO/rm_cardio_axial/rm_cardio_axial_t2/cardio0031.jpg" />
+			<file href="assets/imagenes/soft_tc/CARDIO/rm_cardio_axial/rm_cardio_axial_t2/cardio0032.jpg" />
+			<file href="assets/imagenes/soft_tc/CARDIO/rm_cardio_axial/rm_cardio_axial_t2/cardio0033.jpg" />
+			<file href="assets/imagenes/soft_tc/CARDIO/rm_cardio_axial/rm_cardio_axial_t2/cardio0034.jpg" />
+			<file href="assets/imagenes/soft_tc/CARDIO/rm_cardio_axial/rm_cardio_axial_t2/cardio0035.jpg" />
+			<file href="assets/imagenes/soft_tc/CARDIO/rm_cardio_axial/rm_cardio_axial_t2/cardio0036.jpg" />
+			<file href="assets/imagenes/soft_tc/CARDIO/rm_cardio_axial/rm_cardio_axial_t2/cardio0037.jpg" />
+			<file href="assets/imagenes/soft_tc/CARDIO/rm_cardio_axial/rm_cardio_axial_t2/cardio0038.jpg" />
+			<file href="assets/imagenes/soft_tc/CARDIO/rm_cardio_axial/rm_cardio_axial_t2/cardio0039.jpg" />
+			<file href="assets/imagenes/soft_tc/CARDIO/rm_cardio_axial/rm_cardio_axial_t2/cardio0040.jpg" />
+			<file href="assets/imagenes/soft_tc/CARDIO/rm_cardio_axial/rm_cardio_axial_t2/cardio0041.jpg" />
+			<file href="assets/imagenes/soft_tc/CARDIO/rm_cardio_axial/rm_cardio_axial_t2/cardio0042.jpg" />
+			<file href="assets/imagenes/soft_tc/CARDIO/rm_cardio_axial/rm_cardio_axial_t2/cardio0043.jpg" />
+			<file href="assets/imagenes/soft_tc/CARDIO/rm_cardio_axial/rm_cardio_axial_t2/cardio0044.jpg" />
+			<file href="assets/imagenes/soft_tc/CARDIO/rm_cardio_sagital/rm_cardio_sagital_t2_bicamara/cardio0045.jpg" />
+			<file href="assets/imagenes/soft_tc/CARDIO/rm_cardio_sagital/rm_cardio_sagital_t2_bicamara/cardio0046.jpg" />
+			<file href="assets/imagenes/soft_tc/CARDIO/rm_cardio_sagital/rm_cardio_sagital_t2_bicamara/cardio0047.jpg" />
+			<file href="assets/imagenes/soft_tc/CARDIO/rm_cardio_sagital/rm_cardio_sagital_t2_bicamara/cardio0048.jpg" />
+			<file href="assets/imagenes/soft_tc/CARDIO/rm_cardio_sagital/rm_cardio_sagital_t2_bicamara/cardio0049.jpg" />
+			<file href="assets/imagenes/soft_tc/CARDIO/rm_cardio_sagital/rm_cardio_sagital_t2_bicamara/cardio0050.jpg" />
+			<file href="assets/imagenes/soft_tc/CARDIO/rm_cardio_sagital/rm_cardio_sagital_t2_bicamara/cardio0051.jpg" />
+			<file href="assets/imagenes/soft_tc/CARDIO/rm_cardio_sagital/rm_cardio_sagital_t2_bicamara/cardio0052.jpg" />
+			<file href="assets/imagenes/soft_tc/CARDIO/rm_cardio_sagital/rm_cardio_sagital_t2_bicamara/cardio0053.jpg" />
+			<file href="assets/imagenes/soft_tc/CARDIO/rm_cardio_sagital/rm_cardio_sagital_t2_bicamara/cardio0054.jpg" />
+			<file href="assets/imagenes/soft_tc/CARDIO/rm_cardio_sagital/rm_cardio_sagital_t2_bicamara/cardio0055.jpg" />
+			<file href="assets/imagenes/soft_tc/CARDIO/rm_cardio_sagital/rm_cardio_sagital_t2_bicamara/cardio0056.jpg" />
+			<file href="assets/imagenes/soft_tc/CARDIO/rm_cardio_sagital/rm_cardio_sagital_t2_bicamara/cardio0057.jpg" />
+			<file href="assets/imagenes/soft_tc/CARDIO/rm_cardio_sagital/rm_cardio_sagital_t2_bicamara/cardio0058.jpg" />
+			<file href="assets/imagenes/soft_tc/CARDIO/rm_cardio_sagital/rm_cardio_sagital_t2_bicamara/cardio0059.jpg" />
+			<file href="assets/imagenes/soft_tc/CARDIO/rm_cardio_sagital/rm_cardio_sagital_t2_bicamara/cardio0060.jpg" />
+			<file href="assets/imagenes/soft_tc/CARDIO/rm_cardio_sagital/rm_cardio_sagital_t2_bicamara/cardio0061.jpg" />
+			<file href="assets/imagenes/soft_tc/CARDIO/rm_cardio_sagital/rm_cardio_sagital_t2_bicamara/cardio0062.jpg" />
+			<file href="assets/imagenes/soft_tc/CARDIO/rm_cardio_sagital/rm_cardio_sagital_t2_bicamara/cardio0063.jpg" />
+			<file href="assets/imagenes/soft_tc/CARDIO/rm_cardio_sagital/rm_cardio_sagital_t2_bicamara/cardio0064.jpg" />
+			<file href="assets/imagenes/soft_tc/CARDIO/rm_cardio_sagital/rm_cardio_sagital_t2_bicamara/cardio0065.jpg" />
+			<file href="assets/imagenes/soft_tc/CARDIO/rm_cardio_sagital/rm_cardio_sagital_t2_bicamara/cardio0066.jpg" />
+			<file href="assets/imagenes/soft_tc/CARDIO/rm_cardio_sagital/rm_cardio_sagital_t2_bicamara/cardio0067.jpg" />
+			<file href="assets/imagenes/soft_tc/CARDIO/rm_cardio_sagital/rm_cardio_sagital_t2_tricamera/cardio0001.jpg" />
+			<file href="assets/imagenes/soft_tc/CARDIO/rm_cardio_sagital/rm_cardio_sagital_t2_tricamera/cardio0002.jpg" />
+			<file href="assets/imagenes/soft_tc/CARDIO/rm_cardio_sagital/rm_cardio_sagital_t2_tricamera/cardio0003.jpg" />
+			<file href="assets/imagenes/soft_tc/CARDIO/rm_cardio_sagital/rm_cardio_sagital_t2_tricamera/cardio0004.jpg" />
+			<file href="assets/imagenes/soft_tc/CARDIO/rm_cardio_sagital/rm_cardio_sagital_t2_tricamera/cardio0005.jpg" />
+			<file href="assets/imagenes/soft_tc/CARDIO/rm_cardio_sagital/rm_cardio_sagital_t2_tricamera/cardio0006.jpg" />
+			<file href="assets/imagenes/soft_tc/CARDIO/rm_cardio_sagital/rm_cardio_sagital_t2_tricamera/cardio0007.jpg" />
+			<file href="assets/imagenes/soft_tc/CARDIO/rm_cardio_sagital/rm_cardio_sagital_t2_tricamera/cardio0008.jpg" />
+			<file href="assets/imagenes/soft_tc/CARDIO/rm_cardio_sagital/rm_cardio_sagital_t2_tricamera/cardio0009.jpg" />
+			<file href="assets/imagenes/soft_tc/CARDIO/rm_cardio_sagital/rm_cardio_sagital_t2_tricamera/cardio0010.jpg" />
+			<file href="assets/imagenes/soft_tc/CARDIO/rm_cardio_sagital/rm_cardio_sagital_t2_tricamera/cardio0011.jpg" />
+			<file href="assets/imagenes/soft_tc/CARDIO/rm_cardio_sagital/rm_cardio_sagital_t2_tricamera/cardio0012.jpg" />
+			<file href="assets/imagenes/soft_tc/CARDIO/rm_cardio_sagital/rm_cardio_sagital_t2_tricamera/cardio0013.jpg" />
+			<file href="assets/imagenes/soft_tc/CARDIO/rm_cardio_sagital/rm_cardio_sagital_t2_tricamera/cardio0014.jpg" />
+			<file href="assets/imagenes/soft_tc/CARDIO/rm_cardio_sagital/rm_cardio_sagital_t2_tricamera/cardio0015.jpg" />
+			<file href="assets/imagenes/soft_tc/CARDIO/rm_cardio_sagital/rm_cardio_sagital_t2_tricamera/cardio0016.jpg" />
+			<file href="assets/imagenes/soft_tc/CARDIO/rm_cardio_sagital/rm_cardio_sagital_t2_tricamera/cardio0017.jpg" />
+			<file href="assets/imagenes/soft_tc/CARDIO/rm_cardio_sagital/rm_cardio_sagital_t2_tricamera/cardio0018.jpg" />
+			<file href="assets/imagenes/soft_tc/CARDIO/rm_cardio_sagital/rm_cardio_sagital_t2_tricamera/cardio0019.jpg" />
+			<file href="assets/imagenes/soft_tc/CARDIO/rm_cardio_sagital/rm_cardio_sagital_t2_tricamera/cardio0020.jpg" />
+			<file href="assets/imagenes/soft_tc/CARDIO/rm_cardio_sagital/rm_cardio_sagital_t2_tricamera/cardio0021.jpg" />
+			<file href="assets/imagenes/soft_tc/CARDIO/rm_cardio_sagital/rm_cardio_sagital_t2_tricamera/cardio0022.jpg" />
+			<file href="assets/imagenes/soft_tc/CERVICAL/rm_cervical_axial/rm_cervical_axial_t1/CERVICAL0023.jpg" />
+			<file href="assets/imagenes/soft_tc/CERVICAL/rm_cervical_axial/rm_cervical_axial_t1/CERVICAL0024.jpg" />
+			<file href="assets/imagenes/soft_tc/CERVICAL/rm_cervical_axial/rm_cervical_axial_t1/CERVICAL0025.jpg" />
+			<file href="assets/imagenes/soft_tc/CERVICAL/rm_cervical_axial/rm_cervical_axial_t1/CERVICAL0026.jpg" />
+			<file href="assets/imagenes/soft_tc/CERVICAL/rm_cervical_axial/rm_cervical_axial_t1/CERVICAL0027.jpg" />
+			<file href="assets/imagenes/soft_tc/CERVICAL/rm_cervical_axial/rm_cervical_axial_t1/CERVICAL0028.jpg" />
+			<file href="assets/imagenes/soft_tc/CERVICAL/rm_cervical_axial/rm_cervical_axial_t1/CERVICAL0029.jpg" />
+			<file href="assets/imagenes/soft_tc/CERVICAL/rm_cervical_axial/rm_cervical_axial_t1/CERVICAL0030.jpg" />
+			<file href="assets/imagenes/soft_tc/CERVICAL/rm_cervical_axial/rm_cervical_axial_t1/CERVICAL0031.jpg" />
+			<file href="assets/imagenes/soft_tc/CERVICAL/rm_cervical_axial/rm_cervical_axial_t1/CERVICAL0032.jpg" />
+			<file href="assets/imagenes/soft_tc/CERVICAL/rm_cervical_axial/rm_cervical_axial_t1/CERVICAL0033.jpg" />
+			<file href="assets/imagenes/soft_tc/CERVICAL/rm_cervical_axial/rm_cervical_axial_t1/CERVICAL0034.jpg" />
+			<file href="assets/imagenes/soft_tc/CERVICAL/rm_cervical_axial/rm_cervical_axial_t1/CERVICAL0035.jpg" />
+			<file href="assets/imagenes/soft_tc/CERVICAL/rm_cervical_axial/rm_cervical_axial_t1/CERVICAL0036.jpg" />
+			<file href="assets/imagenes/soft_tc/CERVICAL/rm_cervical_axial/rm_cervical_axial_t1/CERVICAL0037.jpg" />
+			<file href="assets/imagenes/soft_tc/CERVICAL/rm_cervical_axial/rm_cervical_axial_t1/CERVICAL0038.jpg" />
+			<file href="assets/imagenes/soft_tc/CERVICAL/rm_cervical_axial/rm_cervical_axial_t1/CERVICAL0039.jpg" />
+			<file href="assets/imagenes/soft_tc/CERVICAL/rm_cervical_axial/rm_cervical_axial_t1/CERVICAL0040.jpg" />
+			<file href="assets/imagenes/soft_tc/CERVICAL/rm_cervical_axial/rm_cervical_axial_t1/CERVICAL0041.jpg" />
+			<file href="assets/imagenes/soft_tc/CERVICAL/rm_cervical_axial/rm_cervical_axial_t2/CERVICAL0042.jpg" />
+			<file href="assets/imagenes/soft_tc/CERVICAL/rm_cervical_axial/rm_cervical_axial_t2/CERVICAL0043.jpg" />
+			<file href="assets/imagenes/soft_tc/CERVICAL/rm_cervical_axial/rm_cervical_axial_t2/CERVICAL0044.jpg" />
+			<file href="assets/imagenes/soft_tc/CERVICAL/rm_cervical_axial/rm_cervical_axial_t2/CERVICAL0045.jpg" />
+			<file href="assets/imagenes/soft_tc/CERVICAL/rm_cervical_axial/rm_cervical_axial_t2/CERVICAL0046.jpg" />
+			<file href="assets/imagenes/soft_tc/CERVICAL/rm_cervical_axial/rm_cervical_axial_t2/CERVICAL0047.jpg" />
+			<file href="assets/imagenes/soft_tc/CERVICAL/rm_cervical_axial/rm_cervical_axial_t2/CERVICAL0048.jpg" />
+			<file href="assets/imagenes/soft_tc/CERVICAL/rm_cervical_axial/rm_cervical_axial_t2/CERVICAL0049.jpg" />
+			<file href="assets/imagenes/soft_tc/CERVICAL/rm_cervical_axial/rm_cervical_axial_t2/CERVICAL0050.jpg" />
+			<file href="assets/imagenes/soft_tc/CERVICAL/rm_cervical_axial/rm_cervical_axial_t2/CERVICAL0051.jpg" />
+			<file href="assets/imagenes/soft_tc/CERVICAL/rm_cervical_axial/rm_cervical_axial_t2/CERVICAL0052.jpg" />
+			<file href="assets/imagenes/soft_tc/CERVICAL/rm_cervical_axial/rm_cervical_axial_t2/CERVICAL0053.jpg" />
+			<file href="assets/imagenes/soft_tc/CERVICAL/rm_cervical_axial/rm_cervical_axial_t2/CERVICAL0054.jpg" />
+			<file href="assets/imagenes/soft_tc/CERVICAL/rm_cervical_axial/rm_cervical_axial_t2/CERVICAL0055.jpg" />
+			<file href="assets/imagenes/soft_tc/CERVICAL/rm_cervical_axial/rm_cervical_axial_t2/CERVICAL0056.jpg" />
+			<file href="assets/imagenes/soft_tc/CERVICAL/rm_cervical_axial/rm_cervical_axial_t2/CERVICAL0057.jpg" />
+			<file href="assets/imagenes/soft_tc/CERVICAL/rm_cervical_axial/rm_cervical_axial_t2/CERVICAL0058.jpg" />
+			<file href="assets/imagenes/soft_tc/CERVICAL/rm_cervical_axial/rm_cervical_axial_t2/CERVICAL0059.jpg" />
+			<file href="assets/imagenes/soft_tc/CERVICAL/rm_cervical_axial/rm_cervical_axial_t2/CERVICAL0060.jpg" />
+			<file href="assets/imagenes/soft_tc/CERVICAL/rm_cervical_sagital/rm_cervical_sagital_t1/CERVICAL0001.jpg" />
+			<file href="assets/imagenes/soft_tc/CERVICAL/rm_cervical_sagital/rm_cervical_sagital_t1/CERVICAL0002.jpg" />
+			<file href="assets/imagenes/soft_tc/CERVICAL/rm_cervical_sagital/rm_cervical_sagital_t1/CERVICAL0003.jpg" />
+			<file href="assets/imagenes/soft_tc/CERVICAL/rm_cervical_sagital/rm_cervical_sagital_t1/CERVICAL0004.jpg" />
+			<file href="assets/imagenes/soft_tc/CERVICAL/rm_cervical_sagital/rm_cervical_sagital_t1/CERVICAL0005.jpg" />
+			<file href="assets/imagenes/soft_tc/CERVICAL/rm_cervical_sagital/rm_cervical_sagital_t1/CERVICAL0006.jpg" />
+			<file href="assets/imagenes/soft_tc/CERVICAL/rm_cervical_sagital/rm_cervical_sagital_t1/CERVICAL0007.jpg" />
+			<file href="assets/imagenes/soft_tc/CERVICAL/rm_cervical_sagital/rm_cervical_sagital_t1/CERVICAL0008.jpg" />
+			<file href="assets/imagenes/soft_tc/CERVICAL/rm_cervical_sagital/rm_cervical_sagital_t1/CERVICAL0009.jpg" />
+			<file href="assets/imagenes/soft_tc/CERVICAL/rm_cervical_sagital/rm_cervical_sagital_t1/CERVICAL0010.jpg" />
+			<file href="assets/imagenes/soft_tc/CERVICAL/rm_cervical_sagital/rm_cervical_sagital_t1/CERVICAL0011.jpg" />
+			<file href="assets/imagenes/soft_tc/CERVICAL/rm_cervical_sagital/rm_cervical_sagital_t1/CERVICAL0012.jpg" />
+			<file href="assets/imagenes/soft_tc/CERVICAL/rm_cervical_sagital/rm_cervical_sagital_t1/CERVICAL0013.jpg" />
+			<file href="assets/imagenes/soft_tc/CERVICAL/rm_cervical_sagital/rm_cervical_sagital_t1/CERVICAL0014.jpg" />
+			<file href="assets/imagenes/soft_tc/CERVICAL/rm_cervical_sagital/rm_cervical_sagital_t1/CERVICAL0015.jpg" />
+			<file href="assets/imagenes/soft_tc/CERVICAL/rm_cervical_sagital/rm_cervical_sagital_t1/CERVICAL0016.jpg" />
+			<file href="assets/imagenes/soft_tc/CERVICAL/rm_cervical_sagital/rm_cervical_sagital_t1/CERVICAL0017.jpg" />
+			<file href="assets/imagenes/soft_tc/CERVICAL/rm_cervical_sagital/rm_cervical_sagital_t1/CERVICAL0018.jpg" />
+			<file href="assets/imagenes/soft_tc/CERVICAL/rm_cervical_sagital/rm_cervical_sagital_t1/CERVICAL0019.jpg" />
+			<file href="assets/imagenes/soft_tc/CERVICAL/rm_cervical_sagital/rm_cervical_sagital_t1/CERVICAL0020.jpg" />
+			<file href="assets/imagenes/soft_tc/CERVICAL/rm_cervical_sagital/rm_cervical_sagital_t1/CERVICAL0021.jpg" />
+			<file href="assets/imagenes/soft_tc/CERVICAL/rm_cervical_sagital/rm_cervical_sagital_t1/CERVICAL0022.jpg" />
+			<file href="assets/imagenes/soft_tc/CERVICAL/rm_cervical_sagital/rm_cervical_sagital_t2/CERVICAL0061.jpg" />
+			<file href="assets/imagenes/soft_tc/CERVICAL/rm_cervical_sagital/rm_cervical_sagital_t2/CERVICAL0062.jpg" />
+			<file href="assets/imagenes/soft_tc/CERVICAL/rm_cervical_sagital/rm_cervical_sagital_t2/CERVICAL0063.jpg" />
+			<file href="assets/imagenes/soft_tc/CERVICAL/rm_cervical_sagital/rm_cervical_sagital_t2/CERVICAL0064.jpg" />
+			<file href="assets/imagenes/soft_tc/CERVICAL/rm_cervical_sagital/rm_cervical_sagital_t2/CERVICAL0065.jpg" />
+			<file href="assets/imagenes/soft_tc/CERVICAL/rm_cervical_sagital/rm_cervical_sagital_t2/CERVICAL0066.jpg" />
+			<file href="assets/imagenes/soft_tc/CERVICAL/rm_cervical_sagital/rm_cervical_sagital_t2/CERVICAL0067.jpg" />
+			<file href="assets/imagenes/soft_tc/CERVICAL/rm_cervical_sagital/rm_cervical_sagital_t2/CERVICAL0068.jpg" />
+			<file href="assets/imagenes/soft_tc/CERVICAL/rm_cervical_sagital/rm_cervical_sagital_t2/CERVICAL0069.jpg" />
+			<file href="assets/imagenes/soft_tc/CERVICAL/rm_cervical_sagital/rm_cervical_sagital_t2/CERVICAL0070.jpg" />
+			<file href="assets/imagenes/soft_tc/CERVICAL/rm_cervical_sagital/rm_cervical_sagital_t2/CERVICAL0071.jpg" />
+			<file href="assets/imagenes/soft_tc/CRANEO/rm_craneo_axial/rm_craneo_axial_t1/CRANEO0081.jpg" />
+			<file href="assets/imagenes/soft_tc/CRANEO/rm_craneo_axial/rm_craneo_axial_t1/CRANEO0082.jpg" />
+			<file href="assets/imagenes/soft_tc/CRANEO/rm_craneo_axial/rm_craneo_axial_t1/CRANEO0083.jpg" />
+			<file href="assets/imagenes/soft_tc/CRANEO/rm_craneo_axial/rm_craneo_axial_t1/CRANEO0084.jpg" />
+			<file href="assets/imagenes/soft_tc/CRANEO/rm_craneo_axial/rm_craneo_axial_t1/CRANEO0085.jpg" />
+			<file href="assets/imagenes/soft_tc/CRANEO/rm_craneo_axial/rm_craneo_axial_t1/CRANEO0086.jpg" />
+			<file href="assets/imagenes/soft_tc/CRANEO/rm_craneo_axial/rm_craneo_axial_t1/CRANEO0087.jpg" />
+			<file href="assets/imagenes/soft_tc/CRANEO/rm_craneo_axial/rm_craneo_axial_t1/CRANEO0088.jpg" />
+			<file href="assets/imagenes/soft_tc/CRANEO/rm_craneo_axial/rm_craneo_axial_t1/CRANEO0089.jpg" />
+			<file href="assets/imagenes/soft_tc/CRANEO/rm_craneo_axial/rm_craneo_axial_t1/CRANEO0090.jpg" />
+			<file href="assets/imagenes/soft_tc/CRANEO/rm_craneo_axial/rm_craneo_axial_t1/CRANEO0091.jpg" />
+			<file href="assets/imagenes/soft_tc/CRANEO/rm_craneo_axial/rm_craneo_axial_t1/CRANEO0092.jpg" />
+			<file href="assets/imagenes/soft_tc/CRANEO/rm_craneo_axial/rm_craneo_axial_t1/CRANEO0093.jpg" />
+			<file href="assets/imagenes/soft_tc/CRANEO/rm_craneo_axial/rm_craneo_axial_t1/CRANEO0094.jpg" />
+			<file href="assets/imagenes/soft_tc/CRANEO/rm_craneo_axial/rm_craneo_axial_t1/CRANEO0095.jpg" />
+			<file href="assets/imagenes/soft_tc/CRANEO/rm_craneo_axial/rm_craneo_axial_t1/CRANEO0096.jpg" />
+			<file href="assets/imagenes/soft_tc/CRANEO/rm_craneo_axial/rm_craneo_axial_t1/CRANEO0097.jpg" />
+			<file href="assets/imagenes/soft_tc/CRANEO/rm_craneo_axial/rm_craneo_axial_t1/CRANEO0098.jpg" />
+			<file href="assets/imagenes/soft_tc/CRANEO/rm_craneo_axial/rm_craneo_axial_t1/CRANEO0099.jpg" />
+			<file href="assets/imagenes/soft_tc/CRANEO/rm_craneo_axial/rm_craneo_axial_t1/CRANEO0100.jpg" />
+			<file href="assets/imagenes/soft_tc/CRANEO/rm_craneo_axial/rm_craneo_axial_t1/CRANEO0101.jpg" />
+			<file href="assets/imagenes/soft_tc/CRANEO/rm_craneo_axial/rm_craneo_axial_t2/CRANEO0018.jpg" />
+			<file href="assets/imagenes/soft_tc/CRANEO/rm_craneo_axial/rm_craneo_axial_t2/CRANEO0019.jpg" />
+			<file href="assets/imagenes/soft_tc/CRANEO/rm_craneo_axial/rm_craneo_axial_t2/CRANEO0020.jpg" />
+			<file href="assets/imagenes/soft_tc/CRANEO/rm_craneo_axial/rm_craneo_axial_t2/CRANEO0021.jpg" />
+			<file href="assets/imagenes/soft_tc/CRANEO/rm_craneo_axial/rm_craneo_axial_t2/CRANEO0022.jpg" />
+			<file href="assets/imagenes/soft_tc/CRANEO/rm_craneo_axial/rm_craneo_axial_t2/CRANEO0023.jpg" />
+			<file href="assets/imagenes/soft_tc/CRANEO/rm_craneo_axial/rm_craneo_axial_t2/CRANEO0024.jpg" />
+			<file href="assets/imagenes/soft_tc/CRANEO/rm_craneo_axial/rm_craneo_axial_t2/CRANEO0025.jpg" />
+			<file href="assets/imagenes/soft_tc/CRANEO/rm_craneo_axial/rm_craneo_axial_t2/CRANEO0026.jpg" />
+			<file href="assets/imagenes/soft_tc/CRANEO/rm_craneo_axial/rm_craneo_axial_t2/CRANEO0027.jpg" />
+			<file href="assets/imagenes/soft_tc/CRANEO/rm_craneo_axial/rm_craneo_axial_t2/CRANEO0028.jpg" />
+			<file href="assets/imagenes/soft_tc/CRANEO/rm_craneo_axial/rm_craneo_axial_t2/CRANEO0029.jpg" />
+			<file href="assets/imagenes/soft_tc/CRANEO/rm_craneo_axial/rm_craneo_axial_t2/CRANEO0030.jpg" />
+			<file href="assets/imagenes/soft_tc/CRANEO/rm_craneo_axial/rm_craneo_axial_t2/CRANEO0031.jpg" />
+			<file href="assets/imagenes/soft_tc/CRANEO/rm_craneo_axial/rm_craneo_axial_t2/CRANEO0032.jpg" />
+			<file href="assets/imagenes/soft_tc/CRANEO/rm_craneo_axial/rm_craneo_axial_t2/CRANEO0033.jpg" />
+			<file href="assets/imagenes/soft_tc/CRANEO/rm_craneo_axial/rm_craneo_axial_t2/CRANEO0034.jpg" />
+			<file href="assets/imagenes/soft_tc/CRANEO/rm_craneo_axial/rm_craneo_axial_t2/CRANEO0035.jpg" />
+			<file href="assets/imagenes/soft_tc/CRANEO/rm_craneo_axial/rm_craneo_axial_t2/CRANEO0036.jpg" />
+			<file href="assets/imagenes/soft_tc/CRANEO/rm_craneo_axial/rm_craneo_axial_t2/CRANEO0037.jpg" />
+			<file href="assets/imagenes/soft_tc/CRANEO/rm_craneo_axial/rm_craneo_axial_t2/CRANEO0038.jpg" />
+			<file href="assets/imagenes/soft_tc/CRANEO/rm_craneo_coronal/rm_craneo_coronal_t1/CRANEO0102.jpg" />
+			<file href="assets/imagenes/soft_tc/CRANEO/rm_craneo_coronal/rm_craneo_coronal_t1/CRANEO0103.jpg" />
+			<file href="assets/imagenes/soft_tc/CRANEO/rm_craneo_coronal/rm_craneo_coronal_t1/CRANEO0104.jpg" />
+			<file href="assets/imagenes/soft_tc/CRANEO/rm_craneo_coronal/rm_craneo_coronal_t1/CRANEO0105.jpg" />
+			<file href="assets/imagenes/soft_tc/CRANEO/rm_craneo_coronal/rm_craneo_coronal_t1/CRANEO0106.jpg" />
+			<file href="assets/imagenes/soft_tc/CRANEO/rm_craneo_coronal/rm_craneo_coronal_t1/CRANEO0107.jpg" />
+			<file href="assets/imagenes/soft_tc/CRANEO/rm_craneo_coronal/rm_craneo_coronal_t1/CRANEO0108.jpg" />
+			<file href="assets/imagenes/soft_tc/CRANEO/rm_craneo_coronal/rm_craneo_coronal_t1/CRANEO0109.jpg" />
+			<file href="assets/imagenes/soft_tc/CRANEO/rm_craneo_coronal/rm_craneo_coronal_t1/CRANEO0110.jpg" />
+			<file href="assets/imagenes/soft_tc/CRANEO/rm_craneo_coronal/rm_craneo_coronal_t1/CRANEO0111.jpg" />
+			<file href="assets/imagenes/soft_tc/CRANEO/rm_craneo_coronal/rm_craneo_coronal_t1/CRANEO0112.jpg" />
+			<file href="assets/imagenes/soft_tc/CRANEO/rm_craneo_coronal/rm_craneo_coronal_t1/CRANEO0113.jpg" />
+			<file href="assets/imagenes/soft_tc/CRANEO/rm_craneo_coronal/rm_craneo_coronal_t1/CRANEO0114.jpg" />
+			<file href="assets/imagenes/soft_tc/CRANEO/rm_craneo_coronal/rm_craneo_coronal_t1/CRANEO0115.jpg" />
+			<file href="assets/imagenes/soft_tc/CRANEO/rm_craneo_coronal/rm_craneo_coronal_t1/CRANEO0116.jpg" />
+			<file href="assets/imagenes/soft_tc/CRANEO/rm_craneo_coronal/rm_craneo_coronal_t1/CRANEO0117.jpg" />
+			<file href="assets/imagenes/soft_tc/CRANEO/rm_craneo_coronal/rm_craneo_coronal_t1/CRANEO0118.jpg" />
+			<file href="assets/imagenes/soft_tc/CRANEO/rm_craneo_coronal/rm_craneo_coronal_t1/CRANEO0119.jpg" />
+			<file href="assets/imagenes/soft_tc/CRANEO/rm_craneo_coronal/rm_craneo_coronal_t1/CRANEO0120.jpg" />
+			<file href="assets/imagenes/soft_tc/CRANEO/rm_craneo_sagital/rm_craneo_sagital_t1/CRANEO0060.jpg" />
+			<file href="assets/imagenes/soft_tc/CRANEO/rm_craneo_sagital/rm_craneo_sagital_t1/CRANEO0061.jpg" />
+			<file href="assets/imagenes/soft_tc/CRANEO/rm_craneo_sagital/rm_craneo_sagital_t1/CRANEO0062.jpg" />
+			<file href="assets/imagenes/soft_tc/CRANEO/rm_craneo_sagital/rm_craneo_sagital_t1/CRANEO0063.jpg" />
+			<file href="assets/imagenes/soft_tc/CRANEO/rm_craneo_sagital/rm_craneo_sagital_t1/CRANEO0064.jpg" />
+			<file href="assets/imagenes/soft_tc/CRANEO/rm_craneo_sagital/rm_craneo_sagital_t1/CRANEO0065.jpg" />
+			<file href="assets/imagenes/soft_tc/CRANEO/rm_craneo_sagital/rm_craneo_sagital_t1/CRANEO0066.jpg" />
+			<file href="assets/imagenes/soft_tc/CRANEO/rm_craneo_sagital/rm_craneo_sagital_t1/CRANEO0067.jpg" />
+			<file href="assets/imagenes/soft_tc/CRANEO/rm_craneo_sagital/rm_craneo_sagital_t1/CRANEO0068.jpg" />
+			<file href="assets/imagenes/soft_tc/CRANEO/rm_craneo_sagital/rm_craneo_sagital_t1/CRANEO0069.jpg" />
+			<file href="assets/imagenes/soft_tc/CRANEO/rm_craneo_sagital/rm_craneo_sagital_t1/CRANEO0070.jpg" />
+			<file href="assets/imagenes/soft_tc/CRANEO/rm_craneo_sagital/rm_craneo_sagital_t1/CRANEO0071.jpg" />
+			<file href="assets/imagenes/soft_tc/CRANEO/rm_craneo_sagital/rm_craneo_sagital_t1/CRANEO0072.jpg" />
+			<file href="assets/imagenes/soft_tc/CRANEO/rm_craneo_sagital/rm_craneo_sagital_t1/CRANEO0073.jpg" />
+			<file href="assets/imagenes/soft_tc/CRANEO/rm_craneo_sagital/rm_craneo_sagital_t1/CRANEO0074.jpg" />
+			<file href="assets/imagenes/soft_tc/CRANEO/rm_craneo_sagital/rm_craneo_sagital_t1/CRANEO0075.jpg" />
+			<file href="assets/imagenes/soft_tc/CRANEO/rm_craneo_sagital/rm_craneo_sagital_t1/CRANEO0076.jpg" />
+			<file href="assets/imagenes/soft_tc/CRANEO/rm_craneo_sagital/rm_craneo_sagital_t1/CRANEO0077.jpg" />
+			<file href="assets/imagenes/soft_tc/CRANEO/rm_craneo_sagital/rm_craneo_sagital_t1/CRANEO0078.jpg" />
+			<file href="assets/imagenes/soft_tc/CRANEO/rm_craneo_sagital/rm_craneo_sagital_t1/CRANEO0079.jpg" />
+			<file href="assets/imagenes/soft_tc/CRANEO/rm_craneo_sagital/rm_craneo_sagital_t1/CRANEO0080.jpg" />
+			<file href="assets/imagenes/soft_tc/HOMBRO/rm_hombro_axial/rm_hombro_axial_t1/ARTRO_HOMBRO0039.jpg" />
+			<file href="assets/imagenes/soft_tc/HOMBRO/rm_hombro_axial/rm_hombro_axial_t1/ARTRO_HOMBRO0040.jpg" />
+			<file href="assets/imagenes/soft_tc/HOMBRO/rm_hombro_axial/rm_hombro_axial_t1/ARTRO_HOMBRO0041.jpg" />
+			<file href="assets/imagenes/soft_tc/HOMBRO/rm_hombro_axial/rm_hombro_axial_t1/ARTRO_HOMBRO0042.jpg" />
+			<file href="assets/imagenes/soft_tc/HOMBRO/rm_hombro_axial/rm_hombro_axial_t1/ARTRO_HOMBRO0043.jpg" />
+			<file href="assets/imagenes/soft_tc/HOMBRO/rm_hombro_axial/rm_hombro_axial_t1/ARTRO_HOMBRO0044.jpg" />
+			<file href="assets/imagenes/soft_tc/HOMBRO/rm_hombro_axial/rm_hombro_axial_t1/ARTRO_HOMBRO0045.jpg" />
+			<file href="assets/imagenes/soft_tc/HOMBRO/rm_hombro_axial/rm_hombro_axial_t1/ARTRO_HOMBRO0046.jpg" />
+			<file href="assets/imagenes/soft_tc/HOMBRO/rm_hombro_axial/rm_hombro_axial_t1/ARTRO_HOMBRO0047.jpg" />
+			<file href="assets/imagenes/soft_tc/HOMBRO/rm_hombro_axial/rm_hombro_axial_t1/ARTRO_HOMBRO0048.jpg" />
+			<file href="assets/imagenes/soft_tc/HOMBRO/rm_hombro_axial/rm_hombro_axial_t1/ARTRO_HOMBRO0049.jpg" />
+			<file href="assets/imagenes/soft_tc/HOMBRO/rm_hombro_axial/rm_hombro_axial_t1/ARTRO_HOMBRO0050.jpg" />
+			<file href="assets/imagenes/soft_tc/HOMBRO/rm_hombro_axial/rm_hombro_axial_t1/ARTRO_HOMBRO0051.jpg" />
+			<file href="assets/imagenes/soft_tc/HOMBRO/rm_hombro_axial/rm_hombro_axial_t1/ARTRO_HOMBRO0052.jpg" />
+			<file href="assets/imagenes/soft_tc/HOMBRO/rm_hombro_axial/rm_hombro_axial_t1/ARTRO_HOMBRO0053.jpg" />
+			<file href="assets/imagenes/soft_tc/HOMBRO/rm_hombro_axial/rm_hombro_axial_t1/ARTRO_HOMBRO0054.jpg" />
+			<file href="assets/imagenes/soft_tc/HOMBRO/rm_hombro_axial/rm_hombro_axial_t1/ARTRO_HOMBRO0055.jpg" />
+			<file href="assets/imagenes/soft_tc/HOMBRO/rm_hombro_axial/rm_hombro_axial_t1/ARTRO_HOMBRO0056.jpg" />
+			<file href="assets/imagenes/soft_tc/HOMBRO/rm_hombro_axial/rm_hombro_axial_t1/ARTRO_HOMBRO0057.jpg" />
+			<file href="assets/imagenes/soft_tc/HOMBRO/rm_hombro_axial/rm_hombro_axial_t1/ARTRO_HOMBRO0058.jpg" />
+			<file href="assets/imagenes/soft_tc/HOMBRO/rm_hombro_axial/rm_hombro_axial_t1/ARTRO_HOMBRO0059.jpg" />
+			<file href="assets/imagenes/soft_tc/HOMBRO/rm_hombro_axial/rm_hombro_axial_t2/HOMBRO0001.jpg" />
+			<file href="assets/imagenes/soft_tc/HOMBRO/rm_hombro_axial/rm_hombro_axial_t2/HOMBRO0002.jpg" />
+			<file href="assets/imagenes/soft_tc/HOMBRO/rm_hombro_axial/rm_hombro_axial_t2/HOMBRO0003.jpg" />
+			<file href="assets/imagenes/soft_tc/HOMBRO/rm_hombro_axial/rm_hombro_axial_t2/HOMBRO0004.jpg" />
+			<file href="assets/imagenes/soft_tc/HOMBRO/rm_hombro_axial/rm_hombro_axial_t2/HOMBRO0005.jpg" />
+			<file href="assets/imagenes/soft_tc/HOMBRO/rm_hombro_axial/rm_hombro_axial_t2/HOMBRO0006.jpg" />
+			<file href="assets/imagenes/soft_tc/HOMBRO/rm_hombro_axial/rm_hombro_axial_t2/HOMBRO0007.jpg" />
+			<file href="assets/imagenes/soft_tc/HOMBRO/rm_hombro_axial/rm_hombro_axial_t2/HOMBRO0008.jpg" />
+			<file href="assets/imagenes/soft_tc/HOMBRO/rm_hombro_axial/rm_hombro_axial_t2/HOMBRO0009.jpg" />
+			<file href="assets/imagenes/soft_tc/HOMBRO/rm_hombro_axial/rm_hombro_axial_t2/HOMBRO0010.jpg" />
+			<file href="assets/imagenes/soft_tc/HOMBRO/rm_hombro_axial/rm_hombro_axial_t2/HOMBRO0011.jpg" />
+			<file href="assets/imagenes/soft_tc/HOMBRO/rm_hombro_axial/rm_hombro_axial_t2/HOMBRO0012.jpg" />
+			<file href="assets/imagenes/soft_tc/HOMBRO/rm_hombro_axial/rm_hombro_axial_t2/HOMBRO0013.jpg" />
+			<file href="assets/imagenes/soft_tc/HOMBRO/rm_hombro_axial/rm_hombro_axial_t2/HOMBRO0014.jpg" />
+			<file href="assets/imagenes/soft_tc/HOMBRO/rm_hombro_axial/rm_hombro_axial_t2/HOMBRO0015.jpg" />
+			<file href="assets/imagenes/soft_tc/HOMBRO/rm_hombro_axial/rm_hombro_axial_t2/HOMBRO0016.jpg" />
+			<file href="assets/imagenes/soft_tc/HOMBRO/rm_hombro_axial/rm_hombro_axial_t2/HOMBRO0017.jpg" />
+			<file href="assets/imagenes/soft_tc/HOMBRO/rm_hombro_axial/rm_hombro_axial_t2/HOMBRO0018.jpg" />
+			<file href="assets/imagenes/soft_tc/HOMBRO/rm_hombro_axial/rm_hombro_axial_t2/HOMBRO0019.jpg" />
+			<file href="assets/imagenes/soft_tc/HOMBRO/rm_hombro_axial/rm_hombro_axial_t2/HOMBRO0020.jpg" />
+			<file href="assets/imagenes/soft_tc/HOMBRO/rm_hombro_coronal/rm_hombro_coronal_t1/HOMBRO0036.jpg" />
+			<file href="assets/imagenes/soft_tc/HOMBRO/rm_hombro_coronal/rm_hombro_coronal_t1/HOMBRO0037.jpg" />
+			<file href="assets/imagenes/soft_tc/HOMBRO/rm_hombro_coronal/rm_hombro_coronal_t1/HOMBRO0038.jpg" />
+			<file href="assets/imagenes/soft_tc/HOMBRO/rm_hombro_coronal/rm_hombro_coronal_t1/HOMBRO0039.jpg" />
+			<file href="assets/imagenes/soft_tc/HOMBRO/rm_hombro_coronal/rm_hombro_coronal_t1/HOMBRO0040.jpg" />
+			<file href="assets/imagenes/soft_tc/HOMBRO/rm_hombro_coronal/rm_hombro_coronal_t1/HOMBRO0041.jpg" />
+			<file href="assets/imagenes/soft_tc/HOMBRO/rm_hombro_coronal/rm_hombro_coronal_t1/HOMBRO0042.jpg" />
+			<file href="assets/imagenes/soft_tc/HOMBRO/rm_hombro_coronal/rm_hombro_coronal_t1/HOMBRO0043.jpg" />
+			<file href="assets/imagenes/soft_tc/HOMBRO/rm_hombro_coronal/rm_hombro_coronal_t1/HOMBRO0044.jpg" />
+			<file href="assets/imagenes/soft_tc/HOMBRO/rm_hombro_coronal/rm_hombro_coronal_t1/HOMBRO0045.jpg" />
+			<file href="assets/imagenes/soft_tc/HOMBRO/rm_hombro_coronal/rm_hombro_coronal_t1/HOMBRO0046.jpg" />
+			<file href="assets/imagenes/soft_tc/HOMBRO/rm_hombro_coronal/rm_hombro_coronal_t1/HOMBRO0047.jpg" />
+			<file href="assets/imagenes/soft_tc/HOMBRO/rm_hombro_coronal/rm_hombro_coronal_t1/HOMBRO0048.jpg" />
+			<file href="assets/imagenes/soft_tc/HOMBRO/rm_hombro_coronal/rm_hombro_coronal_t1/HOMBRO0049.jpg" />
+			<file href="assets/imagenes/soft_tc/HOMBRO/rm_hombro_coronal/rm_hombro_coronal_t1/HOMBRO0050.jpg" />
+			<file href="assets/imagenes/soft_tc/HOMBRO/rm_hombro_coronal/rm_hombro_coronal_t2/HOMBRO0021.jpg" />
+			<file href="assets/imagenes/soft_tc/HOMBRO/rm_hombro_coronal/rm_hombro_coronal_t2/HOMBRO0022.jpg" />
+			<file href="assets/imagenes/soft_tc/HOMBRO/rm_hombro_coronal/rm_hombro_coronal_t2/HOMBRO0023.jpg" />
+			<file href="assets/imagenes/soft_tc/HOMBRO/rm_hombro_coronal/rm_hombro_coronal_t2/HOMBRO0024.jpg" />
+			<file href="assets/imagenes/soft_tc/HOMBRO/rm_hombro_coronal/rm_hombro_coronal_t2/HOMBRO0025.jpg" />
+			<file href="assets/imagenes/soft_tc/HOMBRO/rm_hombro_coronal/rm_hombro_coronal_t2/HOMBRO0026.jpg" />
+			<file href="assets/imagenes/soft_tc/HOMBRO/rm_hombro_coronal/rm_hombro_coronal_t2/HOMBRO0027.jpg" />
+			<file href="assets/imagenes/soft_tc/HOMBRO/rm_hombro_coronal/rm_hombro_coronal_t2/HOMBRO0028.jpg" />
+			<file href="assets/imagenes/soft_tc/HOMBRO/rm_hombro_coronal/rm_hombro_coronal_t2/HOMBRO0029.jpg" />
+			<file href="assets/imagenes/soft_tc/HOMBRO/rm_hombro_coronal/rm_hombro_coronal_t2/HOMBRO0030.jpg" />
+			<file href="assets/imagenes/soft_tc/HOMBRO/rm_hombro_coronal/rm_hombro_coronal_t2/HOMBRO0031.jpg" />
+			<file href="assets/imagenes/soft_tc/HOMBRO/rm_hombro_coronal/rm_hombro_coronal_t2/HOMBRO0032.jpg" />
+			<file href="assets/imagenes/soft_tc/HOMBRO/rm_hombro_coronal/rm_hombro_coronal_t2/HOMBRO0033.jpg" />
+			<file href="assets/imagenes/soft_tc/HOMBRO/rm_hombro_coronal/rm_hombro_coronal_t2/HOMBRO0034.jpg" />
+			<file href="assets/imagenes/soft_tc/HOMBRO/rm_hombro_coronal/rm_hombro_coronal_t2/HOMBRO0035.jpg" />
+			<file href="assets/imagenes/soft_tc/HOMBRO/rm_hombro_sagital/hombro_sagital_t1/HOMBRO0066.jpg" />
+			<file href="assets/imagenes/soft_tc/HOMBRO/rm_hombro_sagital/hombro_sagital_t1/HOMBRO0067.jpg" />
+			<file href="assets/imagenes/soft_tc/HOMBRO/rm_hombro_sagital/hombro_sagital_t1/HOMBRO0068.jpg" />
+			<file href="assets/imagenes/soft_tc/HOMBRO/rm_hombro_sagital/hombro_sagital_t1/HOMBRO0069.jpg" />
+			<file href="assets/imagenes/soft_tc/HOMBRO/rm_hombro_sagital/hombro_sagital_t1/HOMBRO0070.jpg" />
+			<file href="assets/imagenes/soft_tc/HOMBRO/rm_hombro_sagital/hombro_sagital_t1/HOMBRO0071.jpg" />
+			<file href="assets/imagenes/soft_tc/HOMBRO/rm_hombro_sagital/hombro_sagital_t1/HOMBRO0072.jpg" />
+			<file href="assets/imagenes/soft_tc/HOMBRO/rm_hombro_sagital/hombro_sagital_t1/HOMBRO0073.jpg" />
+			<file href="assets/imagenes/soft_tc/HOMBRO/rm_hombro_sagital/hombro_sagital_t1/HOMBRO0074.jpg" />
+			<file href="assets/imagenes/soft_tc/HOMBRO/rm_hombro_sagital/hombro_sagital_t1/HOMBRO0075.jpg" />
+			<file href="assets/imagenes/soft_tc/HOMBRO/rm_hombro_sagital/hombro_sagital_t1/HOMBRO0076.jpg" />
+			<file href="assets/imagenes/soft_tc/HOMBRO/rm_hombro_sagital/hombro_sagital_t1/HOMBRO0077.jpg" />
+			<file href="assets/imagenes/soft_tc/HOMBRO/rm_hombro_sagital/hombro_sagital_t1/HOMBRO0078.jpg" />
+			<file href="assets/imagenes/soft_tc/HOMBRO/rm_hombro_sagital/hombro_sagital_t1/HOMBRO0079.jpg" />
+			<file href="assets/imagenes/soft_tc/HOMBRO/rm_hombro_sagital/hombro_sagital_t1/HOMBRO0080.jpg" />
+			<file href="assets/imagenes/soft_tc/HOMBRO/rm_hombro_sagital/hombro_sagital_t2/HOMBRO0051.jpg" />
+			<file href="assets/imagenes/soft_tc/HOMBRO/rm_hombro_sagital/hombro_sagital_t2/HOMBRO0052.jpg" />
+			<file href="assets/imagenes/soft_tc/HOMBRO/rm_hombro_sagital/hombro_sagital_t2/HOMBRO0053.jpg" />
+			<file href="assets/imagenes/soft_tc/HOMBRO/rm_hombro_sagital/hombro_sagital_t2/HOMBRO0054.jpg" />
+			<file href="assets/imagenes/soft_tc/HOMBRO/rm_hombro_sagital/hombro_sagital_t2/HOMBRO0055.jpg" />
+			<file href="assets/imagenes/soft_tc/HOMBRO/rm_hombro_sagital/hombro_sagital_t2/HOMBRO0056.jpg" />
+			<file href="assets/imagenes/soft_tc/HOMBRO/rm_hombro_sagital/hombro_sagital_t2/HOMBRO0057.jpg" />
+			<file href="assets/imagenes/soft_tc/HOMBRO/rm_hombro_sagital/hombro_sagital_t2/HOMBRO0058.jpg" />
+			<file href="assets/imagenes/soft_tc/HOMBRO/rm_hombro_sagital/hombro_sagital_t2/HOMBRO0059.jpg" />
+			<file href="assets/imagenes/soft_tc/HOMBRO/rm_hombro_sagital/hombro_sagital_t2/HOMBRO0060.jpg" />
+			<file href="assets/imagenes/soft_tc/HOMBRO/rm_hombro_sagital/hombro_sagital_t2/HOMBRO0061.jpg" />
+			<file href="assets/imagenes/soft_tc/HOMBRO/rm_hombro_sagital/hombro_sagital_t2/HOMBRO0062.jpg" />
+			<file href="assets/imagenes/soft_tc/HOMBRO/rm_hombro_sagital/hombro_sagital_t2/HOMBRO0063.jpg" />
+			<file href="assets/imagenes/soft_tc/HOMBRO/rm_hombro_sagital/hombro_sagital_t2/HOMBRO0064.jpg" />
+			<file href="assets/imagenes/soft_tc/HOMBRO/rm_hombro_sagital/hombro_sagital_t2/HOMBRO0065.jpg" />
+			<file href="assets/imagenes/soft_tc/RODILLA/rm_rodilla_axial/rm_rodilla_axial_t2/RODILLA0067.jpg" />
+			<file href="assets/imagenes/soft_tc/RODILLA/rm_rodilla_axial/rm_rodilla_axial_t2/RODILLA0068.jpg" />
+			<file href="assets/imagenes/soft_tc/RODILLA/rm_rodilla_axial/rm_rodilla_axial_t2/RODILLA0069.jpg" />
+			<file href="assets/imagenes/soft_tc/RODILLA/rm_rodilla_axial/rm_rodilla_axial_t2/RODILLA0070.jpg" />
+			<file href="assets/imagenes/soft_tc/RODILLA/rm_rodilla_axial/rm_rodilla_axial_t2/RODILLA0071.jpg" />
+			<file href="assets/imagenes/soft_tc/RODILLA/rm_rodilla_axial/rm_rodilla_axial_t2/RODILLA0072.jpg" />
+			<file href="assets/imagenes/soft_tc/RODILLA/rm_rodilla_axial/rm_rodilla_axial_t2/RODILLA0073.jpg" />
+			<file href="assets/imagenes/soft_tc/RODILLA/rm_rodilla_axial/rm_rodilla_axial_t2/RODILLA0074.jpg" />
+			<file href="assets/imagenes/soft_tc/RODILLA/rm_rodilla_axial/rm_rodilla_axial_t2/RODILLA0075.jpg" />
+			<file href="assets/imagenes/soft_tc/RODILLA/rm_rodilla_axial/rm_rodilla_axial_t2/RODILLA0076.jpg" />
+			<file href="assets/imagenes/soft_tc/RODILLA/rm_rodilla_axial/rm_rodilla_axial_t2/RODILLA0077.jpg" />
+			<file href="assets/imagenes/soft_tc/RODILLA/rm_rodilla_axial/rm_rodilla_axial_t2/RODILLA0078.jpg" />
+			<file href="assets/imagenes/soft_tc/RODILLA/rm_rodilla_axial/rm_rodilla_axial_t2/RODILLA0079.jpg" />
+			<file href="assets/imagenes/soft_tc/RODILLA/rm_rodilla_axial/rm_rodilla_axial_t2/RODILLA0080.jpg" />
+			<file href="assets/imagenes/soft_tc/RODILLA/rm_rodilla_axial/rm_rodilla_axial_t2/RODILLA0081.jpg" />
+			<file href="assets/imagenes/soft_tc/RODILLA/rm_rodilla_axial/rm_rodilla_axial_t2/RODILLA0103.jpg" />
+			<file href="assets/imagenes/soft_tc/RODILLA/rm_rodilla_axial/rm_rodilla_axial_t2/RODILLA0104.jpg" />
+			<file href="assets/imagenes/soft_tc/RODILLA/rm_rodilla_axial/rm_rodilla_axial_t2/RODILLA0105.jpg" />
+			<file href="assets/imagenes/soft_tc/RODILLA/rm_rodilla_coronal/rm_rodilla_coronal_t1/RODILLA0053.jpg" />
+			<file href="assets/imagenes/soft_tc/RODILLA/rm_rodilla_coronal/rm_rodilla_coronal_t1/RODILLA0054.jpg" />
+			<file href="assets/imagenes/soft_tc/RODILLA/rm_rodilla_coronal/rm_rodilla_coronal_t1/RODILLA0055.jpg" />
+			<file href="assets/imagenes/soft_tc/RODILLA/rm_rodilla_coronal/rm_rodilla_coronal_t1/RODILLA0056.jpg" />
+			<file href="assets/imagenes/soft_tc/RODILLA/rm_rodilla_coronal/rm_rodilla_coronal_t1/RODILLA0057.jpg" />
+			<file href="assets/imagenes/soft_tc/RODILLA/rm_rodilla_coronal/rm_rodilla_coronal_t1/RODILLA0058.jpg" />
+			<file href="assets/imagenes/soft_tc/RODILLA/rm_rodilla_coronal/rm_rodilla_coronal_t1/RODILLA0059.jpg" />
+			<file href="assets/imagenes/soft_tc/RODILLA/rm_rodilla_coronal/rm_rodilla_coronal_t1/RODILLA0060.jpg" />
+			<file href="assets/imagenes/soft_tc/RODILLA/rm_rodilla_coronal/rm_rodilla_coronal_t1/RODILLA0061.jpg" />
+			<file href="assets/imagenes/soft_tc/RODILLA/rm_rodilla_coronal/rm_rodilla_coronal_t1/RODILLA0062.jpg" />
+			<file href="assets/imagenes/soft_tc/RODILLA/rm_rodilla_coronal/rm_rodilla_coronal_t1/RODILLA0063.jpg" />
+			<file href="assets/imagenes/soft_tc/RODILLA/rm_rodilla_coronal/rm_rodilla_coronal_t1/RODILLA0064.jpg" />
+			<file href="assets/imagenes/soft_tc/RODILLA/rm_rodilla_coronal/rm_rodilla_coronal_t1/RODILLA0065.jpg" />
+			<file href="assets/imagenes/soft_tc/RODILLA/rm_rodilla_coronal/rm_rodilla_coronal_t1/RODILLA0066.jpg" />
+			<file href="assets/imagenes/soft_tc/RODILLA/rm_rodilla_coronal/rm_rodilla_coronal_t2/RODILLA0039.jpg" />
+			<file href="assets/imagenes/soft_tc/RODILLA/rm_rodilla_coronal/rm_rodilla_coronal_t2/RODILLA0040.jpg" />
+			<file href="assets/imagenes/soft_tc/RODILLA/rm_rodilla_coronal/rm_rodilla_coronal_t2/RODILLA0041.jpg" />
+			<file href="assets/imagenes/soft_tc/RODILLA/rm_rodilla_coronal/rm_rodilla_coronal_t2/RODILLA0042.jpg" />
+			<file href="assets/imagenes/soft_tc/RODILLA/rm_rodilla_coronal/rm_rodilla_coronal_t2/RODILLA0043.jpg" />
+			<file href="assets/imagenes/soft_tc/RODILLA/rm_rodilla_coronal/rm_rodilla_coronal_t2/RODILLA0044.jpg" />
+			<file href="assets/imagenes/soft_tc/RODILLA/rm_rodilla_coronal/rm_rodilla_coronal_t2/RODILLA0045.jpg" />
+			<file href="assets/imagenes/soft_tc/RODILLA/rm_rodilla_coronal/rm_rodilla_coronal_t2/RODILLA0046.jpg" />
+			<file href="assets/imagenes/soft_tc/RODILLA/rm_rodilla_coronal/rm_rodilla_coronal_t2/RODILLA0047.jpg" />
+			<file href="assets/imagenes/soft_tc/RODILLA/rm_rodilla_coronal/rm_rodilla_coronal_t2/RODILLA0048.jpg" />
+			<file href="assets/imagenes/soft_tc/RODILLA/rm_rodilla_coronal/rm_rodilla_coronal_t2/RODILLA0049.jpg" />
+			<file href="assets/imagenes/soft_tc/RODILLA/rm_rodilla_coronal/rm_rodilla_coronal_t2/RODILLA0050.jpg" />
+			<file href="assets/imagenes/soft_tc/RODILLA/rm_rodilla_coronal/rm_rodilla_coronal_t2/RODILLA0051.jpg" />
+			<file href="assets/imagenes/soft_tc/RODILLA/rm_rodilla_coronal/rm_rodilla_coronal_t2/RODILLA0052.jpg" />
+			<file href="assets/imagenes/soft_tc/RODILLA/rm_rodilla_sagital/rm_rodilla_sagital_t1/RODILLA0020.jpg" />
+			<file href="assets/imagenes/soft_tc/RODILLA/rm_rodilla_sagital/rm_rodilla_sagital_t1/RODILLA0021.jpg" />
+			<file href="assets/imagenes/soft_tc/RODILLA/rm_rodilla_sagital/rm_rodilla_sagital_t1/RODILLA0022.jpg" />
+			<file href="assets/imagenes/soft_tc/RODILLA/rm_rodilla_sagital/rm_rodilla_sagital_t1/RODILLA0023.jpg" />
+			<file href="assets/imagenes/soft_tc/RODILLA/rm_rodilla_sagital/rm_rodilla_sagital_t1/RODILLA0024.jpg" />
+			<file href="assets/imagenes/soft_tc/RODILLA/rm_rodilla_sagital/rm_rodilla_sagital_t1/RODILLA0025.jpg" />
+			<file href="assets/imagenes/soft_tc/RODILLA/rm_rodilla_sagital/rm_rodilla_sagital_t1/RODILLA0026.jpg" />
+			<file href="assets/imagenes/soft_tc/RODILLA/rm_rodilla_sagital/rm_rodilla_sagital_t1/RODILLA0027.jpg" />
+			<file href="assets/imagenes/soft_tc/RODILLA/rm_rodilla_sagital/rm_rodilla_sagital_t1/RODILLA0028.jpg" />
+			<file href="assets/imagenes/soft_tc/RODILLA/rm_rodilla_sagital/rm_rodilla_sagital_t1/RODILLA0029.jpg" />
+			<file href="assets/imagenes/soft_tc/RODILLA/rm_rodilla_sagital/rm_rodilla_sagital_t1/RODILLA0030.jpg" />
+			<file href="assets/imagenes/soft_tc/RODILLA/rm_rodilla_sagital/rm_rodilla_sagital_t1/RODILLA0031.jpg" />
+			<file href="assets/imagenes/soft_tc/RODILLA/rm_rodilla_sagital/rm_rodilla_sagital_t1/RODILLA0032.jpg" />
+			<file href="assets/imagenes/soft_tc/RODILLA/rm_rodilla_sagital/rm_rodilla_sagital_t1/RODILLA0033.jpg" />
+			<file href="assets/imagenes/soft_tc/RODILLA/rm_rodilla_sagital/rm_rodilla_sagital_t1/RODILLA0034.jpg" />
+			<file href="assets/imagenes/soft_tc/RODILLA/rm_rodilla_sagital/rm_rodilla_sagital_t1/RODILLA0035.jpg" />
+			<file href="assets/imagenes/soft_tc/RODILLA/rm_rodilla_sagital/rm_rodilla_sagital_t1/RODILLA0036.jpg" />
+			<file href="assets/imagenes/soft_tc/RODILLA/rm_rodilla_sagital/rm_rodilla_sagital_t1/RODILLA0037.jpg" />
+			<file href="assets/imagenes/soft_tc/RODILLA/rm_rodilla_sagital/rm_rodilla_sagital_t1/RODILLA0038.jpg" />
+			<file href="assets/imagenes/soft_tc/RODILLA/rm_rodilla_sagital/rm_rodilla_sagital_t2/RODILLA0001.jpg" />
+			<file href="assets/imagenes/soft_tc/RODILLA/rm_rodilla_sagital/rm_rodilla_sagital_t2/RODILLA0002.jpg" />
+			<file href="assets/imagenes/soft_tc/RODILLA/rm_rodilla_sagital/rm_rodilla_sagital_t2/RODILLA0003.jpg" />
+			<file href="assets/imagenes/soft_tc/RODILLA/rm_rodilla_sagital/rm_rodilla_sagital_t2/RODILLA0004.jpg" />
+			<file href="assets/imagenes/soft_tc/RODILLA/rm_rodilla_sagital/rm_rodilla_sagital_t2/RODILLA0005.jpg" />
+			<file href="assets/imagenes/soft_tc/RODILLA/rm_rodilla_sagital/rm_rodilla_sagital_t2/RODILLA0006.jpg" />
+			<file href="assets/imagenes/soft_tc/RODILLA/rm_rodilla_sagital/rm_rodilla_sagital_t2/RODILLA0007.jpg" />
+			<file href="assets/imagenes/soft_tc/RODILLA/rm_rodilla_sagital/rm_rodilla_sagital_t2/RODILLA0008.jpg" />
+			<file href="assets/imagenes/soft_tc/RODILLA/rm_rodilla_sagital/rm_rodilla_sagital_t2/RODILLA0009.jpg" />
+			<file href="assets/imagenes/soft_tc/RODILLA/rm_rodilla_sagital/rm_rodilla_sagital_t2/RODILLA0010.jpg" />
+			<file href="assets/imagenes/soft_tc/RODILLA/rm_rodilla_sagital/rm_rodilla_sagital_t2/RODILLA0011.jpg" />
+			<file href="assets/imagenes/soft_tc/RODILLA/rm_rodilla_sagital/rm_rodilla_sagital_t2/RODILLA0012.jpg" />
+			<file href="assets/imagenes/soft_tc/RODILLA/rm_rodilla_sagital/rm_rodilla_sagital_t2/RODILLA0013.jpg" />
+			<file href="assets/imagenes/soft_tc/RODILLA/rm_rodilla_sagital/rm_rodilla_sagital_t2/RODILLA0014.jpg" />
+			<file href="assets/imagenes/soft_tc/RODILLA/rm_rodilla_sagital/rm_rodilla_sagital_t2/RODILLA0015.jpg" />
+			<file href="assets/imagenes/soft_tc/RODILLA/rm_rodilla_sagital/rm_rodilla_sagital_t2/RODILLA0016.jpg" />
+			<file href="assets/imagenes/soft_tc/RODILLA/rm_rodilla_sagital/rm_rodilla_sagital_t2/RODILLA0017.jpg" />
+			<file href="assets/imagenes/soft_tc/RODILLA/rm_rodilla_sagital/rm_rodilla_sagital_t2/RODILLA0018.jpg" />
+			<file href="assets/imagenes/soft_tc/RODILLA/rm_rodilla_sagital/rm_rodilla_sagital_t2/RODILLA0019.jpg" />
+			<file href="assets/imagenes/soft_tc/TOBILLO/rm_tobillo_axial/rm_tobillo_axial_t1/TOBILLO0069.jpg" />
+			<file href="assets/imagenes/soft_tc/TOBILLO/rm_tobillo_axial/rm_tobillo_axial_t1/TOBILLO0070.jpg" />
+			<file href="assets/imagenes/soft_tc/TOBILLO/rm_tobillo_axial/rm_tobillo_axial_t1/TOBILLO0071.jpg" />
+			<file href="assets/imagenes/soft_tc/TOBILLO/rm_tobillo_axial/rm_tobillo_axial_t1/TOBILLO0072.jpg" />
+			<file href="assets/imagenes/soft_tc/TOBILLO/rm_tobillo_axial/rm_tobillo_axial_t1/TOBILLO0073.jpg" />
+			<file href="assets/imagenes/soft_tc/TOBILLO/rm_tobillo_axial/rm_tobillo_axial_t1/TOBILLO0074.jpg" />
+			<file href="assets/imagenes/soft_tc/TOBILLO/rm_tobillo_axial/rm_tobillo_axial_t1/TOBILLO0075.jpg" />
+			<file href="assets/imagenes/soft_tc/TOBILLO/rm_tobillo_axial/rm_tobillo_axial_t1/TOBILLO0076.jpg" />
+			<file href="assets/imagenes/soft_tc/TOBILLO/rm_tobillo_axial/rm_tobillo_axial_t1/TOBILLO0077.jpg" />
+			<file href="assets/imagenes/soft_tc/TOBILLO/rm_tobillo_axial/rm_tobillo_axial_t1/TOBILLO0078.jpg" />
+			<file href="assets/imagenes/soft_tc/TOBILLO/rm_tobillo_axial/rm_tobillo_axial_t1/TOBILLO0079.jpg" />
+			<file href="assets/imagenes/soft_tc/TOBILLO/rm_tobillo_axial/rm_tobillo_axial_t1/TOBILLO0080.jpg" />
+			<file href="assets/imagenes/soft_tc/TOBILLO/rm_tobillo_axial/rm_tobillo_axial_t1/TOBILLO0081.jpg" />
+			<file href="assets/imagenes/soft_tc/TOBILLO/rm_tobillo_axial/rm_tobillo_axial_t1/TOBILLO0082.jpg" />
+			<file href="assets/imagenes/soft_tc/TOBILLO/rm_tobillo_axial/rm_tobillo_axial_t1/TOBILLO0083.jpg" />
+			<file href="assets/imagenes/soft_tc/TOBILLO/rm_tobillo_axial/rm_tobillo_axial_t1/TOBILLO0084.jpg" />
+			<file href="assets/imagenes/soft_tc/TOBILLO/rm_tobillo_axial/rm_tobillo_axial_t1/TOBILLO0085.jpg" />
+			<file href="assets/imagenes/soft_tc/TOBILLO/rm_tobillo_axial/rm_tobillo_axial_t1/TOBILLO0086.jpg" />
+			<file href="assets/imagenes/soft_tc/TOBILLO/rm_tobillo_axial/rm_tobillo_axial_t1/TOBILLO0087.jpg" />
+			<file href="assets/imagenes/soft_tc/TOBILLO/rm_tobillo_coronal/rm_tobillo_coronal_t1/TOBILLO0088.jpg" />
+			<file href="assets/imagenes/soft_tc/TOBILLO/rm_tobillo_coronal/rm_tobillo_coronal_t1/TOBILLO0089.jpg" />
+			<file href="assets/imagenes/soft_tc/TOBILLO/rm_tobillo_coronal/rm_tobillo_coronal_t1/TOBILLO0090.jpg" />
+			<file href="assets/imagenes/soft_tc/TOBILLO/rm_tobillo_coronal/rm_tobillo_coronal_t1/TOBILLO0091.jpg" />
+			<file href="assets/imagenes/soft_tc/TOBILLO/rm_tobillo_coronal/rm_tobillo_coronal_t1/TOBILLO0092.jpg" />
+			<file href="assets/imagenes/soft_tc/TOBILLO/rm_tobillo_coronal/rm_tobillo_coronal_t1/TOBILLO0093.jpg" />
+			<file href="assets/imagenes/soft_tc/TOBILLO/rm_tobillo_coronal/rm_tobillo_coronal_t1/TOBILLO0094.jpg" />
+			<file href="assets/imagenes/soft_tc/TOBILLO/rm_tobillo_coronal/rm_tobillo_coronal_t1/TOBILLO0095.jpg" />
+			<file href="assets/imagenes/soft_tc/TOBILLO/rm_tobillo_coronal/rm_tobillo_coronal_t1/TOBILLO0096.jpg" />
+			<file href="assets/imagenes/soft_tc/TOBILLO/rm_tobillo_coronal/rm_tobillo_coronal_t1/TOBILLO0097.jpg" />
+			<file href="assets/imagenes/soft_tc/TOBILLO/rm_tobillo_coronal/rm_tobillo_coronal_t1/TOBILLO0098.jpg" />
+			<file href="assets/imagenes/soft_tc/TOBILLO/rm_tobillo_coronal/rm_tobillo_coronal_t1/TOBILLO0099.jpg" />
+			<file href="assets/imagenes/soft_tc/TOBILLO/rm_tobillo_coronal/rm_tobillo_coronal_t1/TOBILLO0100.jpg" />
+			<file href="assets/imagenes/soft_tc/TOBILLO/rm_tobillo_coronal/rm_tobillo_coronal_t1/TOBILLO0101.jpg" />
+			<file href="assets/imagenes/soft_tc/TOBILLO/rm_tobillo_coronal/rm_tobillo_coronal_t1/TOBILLO0102.jpg" />
+			<file href="assets/imagenes/soft_tc/TOBILLO/rm_tobillo_coronal/rm_tobillo_coronal_t1/TOBILLO0103.jpg" />
+			<file href="assets/imagenes/soft_tc/TOBILLO/rm_tobillo_coronal/rm_tobillo_coronal_t1/TOBILLO0104.jpg" />
+			<file href="assets/imagenes/soft_tc/TOBILLO/rm_tobillo_coronal/rm_tobillo_coronal_t1/TOBILLO0105.jpg" />
+			<file href="assets/imagenes/soft_tc/TOBILLO/rm_tobillo_coronal/rm_tobillo_coronal_t1/TOBILLO0106.jpg" />
+			<file href="assets/imagenes/soft_tc/TOBILLO/rm_tobillo_coronal/rm_tobillo_coronal_t2/TOBILLO0050.jpg" />
+			<file href="assets/imagenes/soft_tc/TOBILLO/rm_tobillo_coronal/rm_tobillo_coronal_t2/TOBILLO0051.jpg" />
+			<file href="assets/imagenes/soft_tc/TOBILLO/rm_tobillo_coronal/rm_tobillo_coronal_t2/TOBILLO0052.jpg" />
+			<file href="assets/imagenes/soft_tc/TOBILLO/rm_tobillo_coronal/rm_tobillo_coronal_t2/TOBILLO0053.jpg" />
+			<file href="assets/imagenes/soft_tc/TOBILLO/rm_tobillo_coronal/rm_tobillo_coronal_t2/TOBILLO0054.jpg" />
+			<file href="assets/imagenes/soft_tc/TOBILLO/rm_tobillo_coronal/rm_tobillo_coronal_t2/TOBILLO0055.jpg" />
+			<file href="assets/imagenes/soft_tc/TOBILLO/rm_tobillo_coronal/rm_tobillo_coronal_t2/TOBILLO0056.jpg" />
+			<file href="assets/imagenes/soft_tc/TOBILLO/rm_tobillo_coronal/rm_tobillo_coronal_t2/TOBILLO0057.jpg" />
+			<file href="assets/imagenes/soft_tc/TOBILLO/rm_tobillo_coronal/rm_tobillo_coronal_t2/TOBILLO0058.jpg" />
+			<file href="assets/imagenes/soft_tc/TOBILLO/rm_tobillo_coronal/rm_tobillo_coronal_t2/TOBILLO0059.jpg" />
+			<file href="assets/imagenes/soft_tc/TOBILLO/rm_tobillo_coronal/rm_tobillo_coronal_t2/TOBILLO0060.jpg" />
+			<file href="assets/imagenes/soft_tc/TOBILLO/rm_tobillo_coronal/rm_tobillo_coronal_t2/TOBILLO0061.jpg" />
+			<file href="assets/imagenes/soft_tc/TOBILLO/rm_tobillo_coronal/rm_tobillo_coronal_t2/TOBILLO0062.jpg" />
+			<file href="assets/imagenes/soft_tc/TOBILLO/rm_tobillo_coronal/rm_tobillo_coronal_t2/TOBILLO0063.jpg" />
+			<file href="assets/imagenes/soft_tc/TOBILLO/rm_tobillo_coronal/rm_tobillo_coronal_t2/TOBILLO0064.jpg" />
+			<file href="assets/imagenes/soft_tc/TOBILLO/rm_tobillo_coronal/rm_tobillo_coronal_t2/TOBILLO0065.jpg" />
+			<file href="assets/imagenes/soft_tc/TOBILLO/rm_tobillo_coronal/rm_tobillo_coronal_t2/TOBILLO0066.jpg" />
+			<file href="assets/imagenes/soft_tc/TOBILLO/rm_tobillo_coronal/rm_tobillo_coronal_t2/TOBILLO0067.jpg" />
+			<file href="assets/imagenes/soft_tc/TOBILLO/rm_tobillo_coronal/rm_tobillo_coronal_t2/TOBILLO0068.jpg" />
+			<file href="assets/imagenes/soft_tc/TOBILLO/rm_tobillo_sagital/rm_tobillo_sagital_t1/TOBILLO0001.jpg" />
+			<file href="assets/imagenes/soft_tc/TOBILLO/rm_tobillo_sagital/rm_tobillo_sagital_t1/TOBILLO0002.jpg" />
+			<file href="assets/imagenes/soft_tc/TOBILLO/rm_tobillo_sagital/rm_tobillo_sagital_t1/TOBILLO0003.jpg" />
+			<file href="assets/imagenes/soft_tc/TOBILLO/rm_tobillo_sagital/rm_tobillo_sagital_t1/TOBILLO0004.jpg" />
+			<file href="assets/imagenes/soft_tc/TOBILLO/rm_tobillo_sagital/rm_tobillo_sagital_t1/TOBILLO0005.jpg" />
+			<file href="assets/imagenes/soft_tc/TOBILLO/rm_tobillo_sagital/rm_tobillo_sagital_t1/TOBILLO0006.jpg" />
+			<file href="assets/imagenes/soft_tc/TOBILLO/rm_tobillo_sagital/rm_tobillo_sagital_t1/TOBILLO0007.jpg" />
+			<file href="assets/imagenes/soft_tc/TOBILLO/rm_tobillo_sagital/rm_tobillo_sagital_t1/TOBILLO0008.jpg" />
+			<file href="assets/imagenes/soft_tc/TOBILLO/rm_tobillo_sagital/rm_tobillo_sagital_t1/TOBILLO0009.jpg" />
+			<file href="assets/imagenes/soft_tc/TOBILLO/rm_tobillo_sagital/rm_tobillo_sagital_t1/TOBILLO0010.jpg" />
+			<file href="assets/imagenes/soft_tc/TOBILLO/rm_tobillo_sagital/rm_tobillo_sagital_t1/TOBILLO0011.jpg" />
+			<file href="assets/imagenes/soft_tc/TOBILLO/rm_tobillo_sagital/rm_tobillo_sagital_t1/TOBILLO0012.jpg" />
+			<file href="assets/imagenes/soft_tc/TOBILLO/rm_tobillo_sagital/rm_tobillo_sagital_t1/TOBILLO0013.jpg" />
+			<file href="assets/imagenes/soft_tc/TOBILLO/rm_tobillo_sagital/rm_tobillo_sagital_t1/TOBILLO0014.jpg" />
+			<file href="assets/imagenes/soft_tc/TOBILLO/rm_tobillo_sagital/rm_tobillo_sagital_t1/TOBILLO0015.jpg" />
+			<file href="assets/imagenes/soft_tc/TOBILLO/rm_tobillo_sagital/rm_tobillo_sagital_t2/TOBILLO0016.jpg" />
+			<file href="assets/imagenes/soft_tc/TOBILLO/rm_tobillo_sagital/rm_tobillo_sagital_t2/TOBILLO0017.jpg" />
+			<file href="assets/imagenes/soft_tc/TOBILLO/rm_tobillo_sagital/rm_tobillo_sagital_t2/TOBILLO0018.jpg" />
+			<file href="assets/imagenes/soft_tc/TOBILLO/rm_tobillo_sagital/rm_tobillo_sagital_t2/TOBILLO0019.jpg" />
+			<file href="assets/imagenes/soft_tc/TOBILLO/rm_tobillo_sagital/rm_tobillo_sagital_t2/TOBILLO0020.jpg" />
+			<file href="assets/imagenes/soft_tc/TOBILLO/rm_tobillo_sagital/rm_tobillo_sagital_t2/TOBILLO0021.jpg" />
+			<file href="assets/imagenes/soft_tc/TOBILLO/rm_tobillo_sagital/rm_tobillo_sagital_t2/TOBILLO0022.jpg" />
+			<file href="assets/imagenes/soft_tc/TOBILLO/rm_tobillo_sagital/rm_tobillo_sagital_t2/TOBILLO0023.jpg" />
+			<file href="assets/imagenes/soft_tc/TOBILLO/rm_tobillo_sagital/rm_tobillo_sagital_t2/TOBILLO0024.jpg" />
+			<file href="assets/imagenes/soft_tc/TOBILLO/rm_tobillo_sagital/rm_tobillo_sagital_t2/TOBILLO0025.jpg" />
+			<file href="assets/imagenes/soft_tc/TOBILLO/rm_tobillo_sagital/rm_tobillo_sagital_t2/TOBILLO0026.jpg" />
+			<file href="assets/imagenes/soft_tc/TOBILLO/rm_tobillo_sagital/rm_tobillo_sagital_t2/TOBILLO0027.jpg" />
+			<file href="assets/imagenes/soft_tc/TOBILLO/rm_tobillo_sagital/rm_tobillo_sagital_t2/TOBILLO0028.jpg" />
+			<file href="assets/imagenes/soft_tc/TOBILLO/rm_tobillo_sagital/rm_tobillo_sagital_t2/TOBILLO0029.jpg" />
+			<file href="assets/imagenes/soft_tc/TOBILLO/rm_tobillo_sagital/rm_tobillo_sagital_t2/TOBILLO0030.jpg" />
+			<file href="assets/imagenes/soft_tc/TORAX/rm_torax_axial/rm_torax_axial_t1/torax0021.jpg" />
+			<file href="assets/imagenes/soft_tc/TORAX/rm_torax_axial/rm_torax_axial_t1/torax0022.jpg" />
+			<file href="assets/imagenes/soft_tc/TORAX/rm_torax_axial/rm_torax_axial_t1/torax0023.jpg" />
+			<file href="assets/imagenes/soft_tc/TORAX/rm_torax_axial/rm_torax_axial_t1/torax0024.jpg" />
+			<file href="assets/imagenes/soft_tc/TORAX/rm_torax_axial/rm_torax_axial_t1/torax0025.jpg" />
+			<file href="assets/imagenes/soft_tc/TORAX/rm_torax_axial/rm_torax_axial_t1/torax0026.jpg" />
+			<file href="assets/imagenes/soft_tc/TORAX/rm_torax_axial/rm_torax_axial_t1/torax0027.jpg" />
+			<file href="assets/imagenes/soft_tc/TORAX/rm_torax_axial/rm_torax_axial_t1/torax0028.jpg" />
+			<file href="assets/imagenes/soft_tc/TORAX/rm_torax_axial/rm_torax_axial_t1/torax0029.jpg" />
+			<file href="assets/imagenes/soft_tc/TORAX/rm_torax_axial/rm_torax_axial_t1/torax0030.jpg" />
+			<file href="assets/imagenes/soft_tc/TORAX/rm_torax_axial/rm_torax_axial_t1/torax0031.jpg" />
+			<file href="assets/imagenes/soft_tc/TORAX/rm_torax_axial/rm_torax_axial_t1/torax0032.jpg" />
+			<file href="assets/imagenes/soft_tc/TORAX/rm_torax_axial/rm_torax_axial_t1/torax0033.jpg" />
+			<file href="assets/imagenes/soft_tc/TORAX/rm_torax_axial/rm_torax_axial_t1/torax0034.jpg" />
+			<file href="assets/imagenes/soft_tc/TORAX/rm_torax_axial/rm_torax_axial_t1/torax0035.jpg" />
+			<file href="assets/imagenes/soft_tc/TORAX/rm_torax_axial/rm_torax_axial_t1/torax0036.jpg" />
+			<file href="assets/imagenes/soft_tc/TORAX/rm_torax_axial/rm_torax_axial_t1/torax0037.jpg" />
+			<file href="assets/imagenes/soft_tc/TORAX/rm_torax_axial/rm_torax_axial_t1/torax0038.jpg" />
+			<file href="assets/imagenes/soft_tc/TORAX/rm_torax_axial/rm_torax_axial_t1/torax0039.jpg" />
+			<file href="assets/imagenes/soft_tc/TORAX/rm_torax_axial/rm_torax_axial_t1/torax0040.jpg" />
+			<file href="assets/imagenes/soft_tc/TORAX/rm_torax_axial/rm_torax_axial_t1/torax0041.jpg" />
+			<file href="assets/imagenes/soft_tc/TORAX/rm_torax_axial/rm_torax_axial_t1/torax0042.jpg" />
+			<file href="assets/imagenes/soft_tc/TORAX/rm_torax_axial/rm_torax_axial_t1/torax0043.jpg" />
+			<file href="assets/imagenes/soft_tc/TORAX/rm_torax_axial/rm_torax_axial_t1/torax0044.jpg" />
+			<file href="assets/imagenes/soft_tc/TORAX/rm_torax_axial/rm_torax_axial_t1/torax0045.jpg" />
+			<file href="assets/imagenes/soft_tc/TORAX/rm_torax_axial/rm_torax_axial_t1/torax0046.jpg" />
+			<file href="assets/imagenes/soft_tc/TORAX/rm_torax_axial/rm_torax_axial_t1/torax0047.jpg" />
+			<file href="assets/imagenes/soft_tc/TORAX/rm_torax_axial/rm_torax_axial_t1/torax0048.jpg" />
+			<file href="assets/imagenes/soft_tc/TORAX/rm_torax_axial/rm_torax_axial_t1/torax0049.jpg" />
+			<file href="assets/imagenes/soft_tc/TORAX/rm_torax_axial/rm_torax_axial_t1/torax0050.jpg" />
+			<file href="assets/imagenes/soft_tc/TORAX/rm_torax_axial/rm_torax_axial_t1/torax0051.jpg" />
+			<file href="assets/imagenes/soft_tc/TORAX/rm_torax_axial/rm_torax_axial_t1/torax0052.jpg" />
+			<file href="assets/imagenes/soft_tc/TORAX/rm_torax_axial/rm_torax_axial_t1/torax0053.jpg" />
+			<file href="assets/imagenes/soft_tc/TORAX/rm_torax_axial/rm_torax_axial_t1/torax0054.jpg" />
+			<file href="assets/imagenes/soft_tc/TORAX/rm_torax_axial/rm_torax_axial_t1/torax0055.jpg" />
+			<file href="assets/imagenes/soft_tc/TORAX/rm_torax_coronal/rm_torax_coronal_t1/torax0001.jpg" />
+			<file href="assets/imagenes/soft_tc/TORAX/rm_torax_coronal/rm_torax_coronal_t1/torax0002.jpg" />
+			<file href="assets/imagenes/soft_tc/TORAX/rm_torax_coronal/rm_torax_coronal_t1/torax0003.jpg" />
+			<file href="assets/imagenes/soft_tc/TORAX/rm_torax_coronal/rm_torax_coronal_t1/torax0004.jpg" />
+			<file href="assets/imagenes/soft_tc/TORAX/rm_torax_coronal/rm_torax_coronal_t1/torax0005.jpg" />
+			<file href="assets/imagenes/soft_tc/TORAX/rm_torax_coronal/rm_torax_coronal_t1/torax0006.jpg" />
+			<file href="assets/imagenes/soft_tc/TORAX/rm_torax_coronal/rm_torax_coronal_t1/torax0007.jpg" />
+			<file href="assets/imagenes/soft_tc/TORAX/rm_torax_coronal/rm_torax_coronal_t1/torax0008.jpg" />
+			<file href="assets/imagenes/soft_tc/TORAX/rm_torax_coronal/rm_torax_coronal_t1/torax0009.jpg" />
+			<file href="assets/imagenes/soft_tc/TORAX/rm_torax_coronal/rm_torax_coronal_t1/torax0010.jpg" />
+			<file href="assets/imagenes/soft_tc/TORAX/rm_torax_coronal/rm_torax_coronal_t1/torax0011.jpg" />
+			<file href="assets/imagenes/soft_tc/TORAX/rm_torax_coronal/rm_torax_coronal_t1/torax0012.jpg" />
+			<file href="assets/imagenes/soft_tc/TORAX/rm_torax_coronal/rm_torax_coronal_t1/torax0013.jpg" />
+			<file href="assets/imagenes/soft_tc/TORAX/rm_torax_coronal/rm_torax_coronal_t1/torax0014.jpg" />
+			<file href="assets/imagenes/soft_tc/TORAX/rm_torax_coronal/rm_torax_coronal_t1/torax0015.jpg" />
+			<file href="assets/imagenes/soft_tc/TORAX/rm_torax_coronal/rm_torax_coronal_t1/torax0016.jpg" />
+			<file href="assets/imagenes/soft_tc/TORAX/rm_torax_coronal/rm_torax_coronal_t1/torax0017.jpg" />
+			<file href="assets/imagenes/soft_tc/TORAX/rm_torax_coronal/rm_torax_coronal_t1/torax0018.jpg" />
+			<file href="assets/imagenes/soft_tc/TORAX/rm_torax_coronal/rm_torax_coronal_t1/torax0019.jpg" />
+			<file href="assets/imagenes/soft_tc/TORAX/rm_torax_coronal/rm_torax_coronal_t1/torax0020.jpg" />
+			<file href="assets/imagenes/teoria_guiada/img1.jpg" />
+			<file href="assets/imagenes/teoria_guiada/img2.jpg" />
+			<file href="assets/imagenes/teoria_guiada/img3.jpg" />
+			<file href="assets/imagenes/teoria_guiada/img4.jpg" />
+			<file href="assets/imagenes/teoria_guiada/img5.jpg" />
+			<file href="assets/imagenes/video.flv" />
+			<file href="assets/videos/video.flv" />
+			<file href="ayuda_funcional.swf" />
+			<file href="constancia.swf" />
+			<file href="constancia_tutorial.swf" />
+			<file href="creditos.swf" />
+			<file href="demo.swf" />
+			<file href="final.swf" />
+			<file href="final_software.swf" />
+			<file href="glosario.swf" />
+			<file href="html/accesibilidad/01_accesibilidad_simulador.html" />
+			<file href="html/accesibilidad/02_accesibilidad_auditivos.html" />
+			<file href="html/accesibilidad/03_accesibilidad_minusvalidos.html" />
+			<file href="html/accesibilidad/imagenes/01_accesibilidad.jpg" />
+			<file href="html/accesibilidad/imagenes/02_accesibilidad.jpg" />
+			<file href="html/accesibilidad/imagenes/03_accesibilidad.jpg" />
+			<file href="html/accesibilidad/imagenes/detalle_lista.gif" />
+			<file href="html/accesibilidad/imagenes/detalle_lista2.gif" />
+			<file href="html/accesibilidad/imagenes/detalle_lista3.gif" />
+			<file href="html/accesibilidad/img/cabecera1_mc.swf" />
+			<file href="html/accesibilidad/img/detalle_lista.gif" />
+			<file href="html/accesibilidad/img/detalle_lista2.gif" />
+			<file href="html/accesibilidad/img/detalle_lista3.gif" />
+			<file href="html/accesibilidad/img/detalle_subitem.png" />
+			<file href="html/accesibilidad/img/p1_1.jpg" />
+			<file href="html/accesibilidad/img/p1_2.jpg" />
+			<file href="html/accesibilidad/img/p1_3.jpg" />
+			<file href="html/accesibilidad/index.html" />
+			<file href="html/accesibilidad/p1.xml" />
+			<file href="html/area_docentes/01_como_empiezo.html" />
+			<file href="html/area_docentes/02_tus_alumnos.html" />
+			<file href="html/area_docentes/03_siguientes_sesiones.html" />
+			<file href="html/area_docentes/04_aprendiendo_protocolos.html" />
+			<file href="html/area_docentes/05_tomando_decisiones.html" />
+			<file href="html/area_docentes/06_mas_dificil.html" />
+			<file href="html/area_docentes/07_no_esperan.html" />
+			<file href="html/area_docentes/08_examen_final.html" />
+			<file href="html/area_docentes/09_revision.html" />
+			<file href="html/area_docentes/10_puedo_configurar.html" />
+			<file href="html/area_docentes/11_donde_configurar.html" />
+			<file href="html/area_docentes/12_controlar_volantes.html" />
+			<file href="html/area_docentes/13_grado_dificultad.html" />
+			<file href="html/area_docentes/14_personalizar_pacientes.html" />
+			<file href="html/area_docentes/15_sesiones_usuario.html" />
+			<file href="html/area_docentes/16_maximo_provecho.html" />
+			<file href="html/area_docentes/contenido_01.html" />
+			<file href="html/area_docentes/img/13_teoria_guiada.jpg" />
+			<file href="html/area_docentes/img/45_area_docentes.jpg" />
+			<file href="html/area_docentes/img/46_area_docentes.jpg" />
+			<file href="html/area_docentes/img/47_area_docentes.jpg" />
+			<file href="html/area_docentes/img/48_area_docentes.jpg" />
+			<file href="html/area_docentes/img/49_area_docentes.jpg" />
+			<file href="html/area_docentes/img/50_area_docentes.jpg" />
+			<file href="html/area_docentes/img/51_area_docentes.jpg" />
+			<file href="html/area_docentes/img/52_area_docentes.jpg" />
+			<file href="html/area_docentes/img/53_area_docentes.jpg" />
+			<file href="html/area_docentes/img/54_area_docentes.jpg" />
+			<file href="html/area_docentes/img/detalle_lista.gif" />
+			<file href="html/area_docentes/img/detalle_lista2.gif" />
+			<file href="html/area_docentes/img/detalle_lista3.gif" />
+			<file href="html/area_docentes/img/detalle_subitem.png" />
+			<file href="html/area_docentes/index.html" />
+			<file href="html/area_docentes/test.html" />
+			<file href="html/ayuda_funcional/01_vida_simulada.html" />
+			<file href="html/ayuda_funcional/02_elementos_interactivos.html" />
+			<file href="html/ayuda_funcional/03_yo_virtual.html" />
+			<file href="html/ayuda_funcional/04_estados_yo_virtual.html" />
+			<file href="html/ayuda_funcional/05_saber_mas.html" />
+			<file href="html/ayuda_funcional/06_recordando_tu_vida.html" />
+			<file href="html/ayuda_funcional/07_guardando_recuerdos.html" />
+			<file href="html/ayuda_funcional/08_final_inesperado.html" />
+			<file href="html/ayuda_funcional/09_puntuacion.html" />
+			<file href="html/ayuda_funcional/10_estado_crisis.html" />
+			<file href="html/ayuda_funcional/imagenes/34_ayuda_funcional.jpg" />
+			<file href="html/ayuda_funcional/imagenes/35_ayuda_funcional.jpg" />
+			<file href="html/ayuda_funcional/imagenes/36_ayuda_funcional.jpg" />
+			<file href="html/ayuda_funcional/imagenes/37_ayuda_funcional.jpg" />
+			<file href="html/ayuda_funcional/imagenes/38_ayuda_funcional.jpg" />
+			<file href="html/ayuda_funcional/imagenes/39_ayuda_funcional.jpg" />
+			<file href="html/ayuda_funcional/imagenes/40_ayuda_funcional.jpg" />
+			<file href="html/ayuda_funcional/imagenes/41_ayuda_funcional.jpg" />
+			<file href="html/ayuda_funcional/imagenes/42_ayuda_funcional.jpg" />
+			<file href="html/ayuda_funcional/imagenes/43_ayuda_funcional.jpg" />
+			<file href="html/ayuda_funcional/imagenes/44_ayuda_funcional.jpg" />
+			<file href="html/ayuda_funcional/imagenes/detalle_lista.gif" />
+			<file href="html/ayuda_funcional/imagenes/detalle_lista2.gif" />
+			<file href="html/ayuda_funcional/imagenes/detalle_lista3.gif" />
+			<file href="html/ayuda_funcional/index.html" />
+			<file href="html/conceptos_auxiliares/01_bases_conceptuales.html" />
+			<file href="html/conceptos_auxiliares/02_unidades_medidas.html" />
+			<file href="html/conceptos_auxiliares/03_secuencias.html" />
+			<file href="html/conceptos_auxiliares/imagenes/01.jpg" />
+			<file href="html/conceptos_auxiliares/imagenes/01_sec.jpg" />
+			<file href="html/conceptos_auxiliares/imagenes/01_um.jpg" />
+			<file href="html/conceptos_auxiliares/imagenes/02.jpg" />
+			<file href="html/conceptos_auxiliares/imagenes/02_sec.jpg" />
+			<file href="html/conceptos_auxiliares/imagenes/02_um.jpg" />
+			<file href="html/conceptos_auxiliares/imagenes/03_um.jpg" />
+			<file href="html/conceptos_auxiliares/imagenes/04.jpg" />
+			<file href="html/conceptos_auxiliares/imagenes/04_um.jpg" />
+			<file href="html/conceptos_auxiliares/imagenes/05.jpg" />
+			<file href="html/conceptos_auxiliares/imagenes/06.jpg" />
+			<file href="html/conceptos_auxiliares/imagenes/09.jpg" />
+			<file href="html/conceptos_auxiliares/imagenes/13.jpg" />
+			<file href="html/conceptos_auxiliares/imagenes/detalle_lista.gif" />
+			<file href="html/conceptos_auxiliares/imagenes/detalle_lista2.gif" />
+			<file href="html/conceptos_auxiliares/imagenes/detalle_lista3.gif" />
+			<file href="html/conceptos_auxiliares/imagenes/detalle_subitem.png" />
+			<file href="html/conceptos_auxiliares/imagenes/img_inicio_01.jpg" />
+			<file href="html/conceptos_auxiliares/imagenes/img_inicio_02.jpg" />
+			<file href="html/conceptos_auxiliares/imagenes/img_inicio_03.jpg" />
+			<file href="html/conceptos_auxiliares/index.html" />
+			<file href="html/style.css" />
+			<file href="html/teoria_guiada/01_base_fisicas.html" />
+			<file href="html/teoria_guiada/02_equipo_rm.html" />
+			<file href="html/teoria_guiada/03_soft_hdd.html" />
+			<file href="html/teoria_guiada/04_e_magnet.html" />
+			<file href="html/teoria_guiada/05_aparato_radio.html" />
+			<file href="html/teoria_guiada/06_detec_datos.html" />
+			<file href="html/teoria_guiada/07_escudo_ruido.html" />
+			<file href="html/teoria_guiada/08_recep_prep_paciente.html" />
+			<file href="html/teoria_guiada/09_protocolos_especif.html" />
+			<file href="html/teoria_guiada/10_uso_contrastes.html" />
+			<file href="html/teoria_guiada/11_prep_equipo.html" />
+			<file href="html/teoria_guiada/12_centraje.html" />
+			<file href="html/teoria_guiada/13_terr_anatomicos.html" />
+			<file href="html/teoria_guiada/14_id_imgs_en_monitor.html" />
+			<file href="html/teoria_guiada/15_seleccion_imgs.html" />
+			<file href="html/teoria_guiada/16_control_calidad.html" />
+			<file href="html/teoria_guiada/17_seguridad_rm.html" />
+			<file href="html/teoria_guiada/imagenes/01_teoria_guiada.jpg" />
+			<file href="html/teoria_guiada/imagenes/02_teoria_guiada.jpg" />
+			<file href="html/teoria_guiada/imagenes/03_teoria_guiada.jpg" />
+			<file href="html/teoria_guiada/imagenes/04_teoria_guiada.jpg" />
+			<file href="html/teoria_guiada/imagenes/05_teoria_guiada.jpg" />
+			<file href="html/teoria_guiada/imagenes/06_teoria_guiada.jpg" />
+			<file href="html/teoria_guiada/imagenes/07_teoria_guiada.jpg" />
+			<file href="html/teoria_guiada/imagenes/08_teoria_guiada.jpg" />
+			<file href="html/teoria_guiada/imagenes/09_teoria_guiada.jpg" />
+			<file href="html/teoria_guiada/imagenes/10_teoria_guiada.jpg" />
+			<file href="html/teoria_guiada/imagenes/11_teoria_guiada.jpg" />
+			<file href="html/teoria_guiada/imagenes/12_teoria_guiada.jpg" />
+			<file href="html/teoria_guiada/imagenes/13_teoria_guiada.jpg" />
+			<file href="html/teoria_guiada/imagenes/14_teoria_guiada.jpg" />
+			<file href="html/teoria_guiada/imagenes/15_teoria_guiada.jpg" />
+			<file href="html/teoria_guiada/imagenes/16_teoria_guiada.jpg" />
+			<file href="html/teoria_guiada/imagenes/17_teoria_guiada.jpg" />
+			<file href="html/teoria_guiada/imagenes/18_teoria_guiada.jpg" />
+			<file href="html/teoria_guiada/imagenes/19_teoria_guiada.jpg" />
+			<file href="html/teoria_guiada/imagenes/20_teoria_guiada.jpg" />
+			<file href="html/teoria_guiada/imagenes/21_teoria_guiada.jpg" />
+			<file href="html/teoria_guiada/imagenes/22_teoria_guiada.jpg" />
+			<file href="html/teoria_guiada/imagenes/23_teoria_guiada.jpg" />
+			<file href="html/teoria_guiada/imagenes/24_teoria_guiada.jpg" />
+			<file href="html/teoria_guiada/imagenes/25_teoria_guiada.jpg" />
+			<file href="html/teoria_guiada/imagenes/26_teoria_guiada.jpg" />
+			<file href="html/teoria_guiada/imagenes/27_teoria_guiada.jpg" />
+			<file href="html/teoria_guiada/imagenes/a_teoria_guiada.jpg" />
+			<file href="html/teoria_guiada/imagenes/b_teoria_guiada.jpg" />
+			<file href="html/teoria_guiada/imagenes/detalle_lista.gif" />
+			<file href="html/teoria_guiada/imagenes/detalle_lista2.gif" />
+			<file href="html/teoria_guiada/imagenes/detalle_lista3.gif" />
+			<file href="html/teoria_guiada/index.html" />
+			<file href="imgs/img_bottom.gif" />
+			<file href="imgs/img_left.gif" />
+			<file href="imgs/img_right.gif" />
+			<file href="imgs/img_top.gif" />
+			<file href="intro.swf" />
+			<file href="juego_colocacion_paciente.swf" />
+			<file href="juego_revisar_bombas.swf" />
+			<file href="juego_revisar_material.swf" />
+			<file href="juego_revisar_volante.swf" />
+			<file href="juego_revision_maquina_rm.swf" />
+			<file href="mapa_conceptual.swf" />
+			<file href="menu.swf" />
+			<file href="minijuego01.swf" />
+			<file href="minijuego02.swf" />
+			<file href="panelcargarsesion.swf" />
+			<file href="panelInformes.swf" />
+			<file href="portada.swf" />
+			<file href="SCORM_API_wrapper.js" />
+			<file href="sim.html" />
+			<file href="Simulador.swf" />
+			<file href="SkinUnderAllNoVolNoCaptionNoFull.swf" />
+			<file href="soft_tc.swf" />
+			<file href="swfobject.js" />
+			<file href="teoria/accesibilidad/img/01_accesibilidad.png" />
+			<file href="teoria/accesibilidad/img/02_accesibilidad.png" />
+			<file href="teoria/accesibilidad/img/03_accesibilidad.png" />
+			<file href="teoria/accesibilidad/img/cabecera1_mc.swf" />
+			<file href="teoria/accesibilidad/img/cabecera_mc.swf" />
+			<file href="teoria/accesibilidad/img/detalle_lista.gif" />
+			<file href="teoria/accesibilidad/img/detalle_lista2.gif" />
+			<file href="teoria/accesibilidad/img/detalle_lista3.gif" />
+			<file href="teoria/accesibilidad/img/detalle_subitem.png" />
+			<file href="teoria/accesibilidad/img/p1_1.jpg" />
+			<file href="teoria/accesibilidad/img/p1_2.jpg" />
+			<file href="teoria/accesibilidad/img/p1_3.jpg" />
+			<file href="teoria/accesibilidad/index.html" />
+			<file href="teoria/accesibilidad/p1.xml" />
+			<file href="teoria/area_docentes/img/3_cabecera_mc.swf" />
+			<file href="teoria/area_docentes/img/4_anim_01.swf" />
+			<file href="teoria/area_docentes/img/4_anim_02.swf" />
+			<file href="teoria/area_docentes/img/4_anim_03.swf" />
+			<file href="teoria/area_docentes/img/4_cabecera_mc.swf" />
+			<file href="teoria/area_docentes/img/5_imagen.swf" />
+			<file href="teoria/area_docentes/img/anim_01.swf" />
+			<file href="teoria/area_docentes/img/anim_02.swf" />
+			<file href="teoria/area_docentes/img/detalle_lista.gif" />
+			<file href="teoria/area_docentes/img/detalle_lista2.gif" />
+			<file href="teoria/area_docentes/img/detalle_lista3.gif" />
+			<file href="teoria/area_docentes/img/detalle_subitem.png" />
+			<file href="teoria/area_docentes/img/ia.jpg" />
+			<file href="teoria/area_docentes/img/ib.jpg" />
+			<file href="teoria/area_docentes/img/ic.jpg" />
+			<file href="teoria/area_docentes/img/id.jpg" />
+			<file href="teoria/area_docentes/img/img_01.png" />
+			<file href="teoria/area_docentes/img/img_02.png" />
+			<file href="teoria/area_docentes/img/img_03.png" />
+			<file href="teoria/area_docentes/img/img_04.png" />
+			<file href="teoria/area_docentes/img/img_05.png" />
+			<file href="teoria/area_docentes/img/img_06.png" />
+			<file href="teoria/area_docentes/img/img_07.png" />
+			<file href="teoria/area_docentes/img/img_08.png" />
+			<file href="teoria/area_docentes/img/img_09.png" />
+			<file href="teoria/area_docentes/img/img_10.png" />
+			<file href="teoria/area_docentes/img/img_11.png" />
+			<file href="teoria/area_docentes/img/img_12.png" />
+			<file href="teoria/area_docentes/img/img_13.png" />
+			<file href="teoria/area_docentes/img/img_14.png" />
+			<file href="teoria/area_docentes/img/img_15.png" />
+			<file href="teoria/area_docentes/img/img_16.png" />
+			<file href="teoria/area_docentes/img/img_17.png" />
+			<file href="teoria/area_docentes/img/img_18.png" />
+			<file href="teoria/area_docentes/img/img_19.png" />
+			<file href="teoria/area_docentes/img/img_20.png" />
+			<file href="teoria/area_docentes/img/img_21.png" />
+			<file href="teoria/area_docentes/img/img_22.png" />
+			<file href="teoria/area_docentes/img/img_23.png" />
+			<file href="teoria/area_docentes/img/img_24.png" />
+			<file href="teoria/area_docentes/img/img_25.png" />
+			<file href="teoria/area_docentes/p1.xml" />
+			<file href="teoria/area_docentes/p2.xml" />
+			<file href="teoria/ayuda_funcional/img/10_anim_01.swf" />
+			<file href="teoria/ayuda_funcional/img/3_anim_01.swf" />
+			<file href="teoria/ayuda_funcional/img/6_anim_01.swf" />
+			<file href="teoria/ayuda_funcional/img/7_anim_01.swf" />
+			<file href="teoria/ayuda_funcional/img/8_anim_01.swf" />
+			<file href="teoria/ayuda_funcional/img/img_01.png" />
+			<file href="teoria/ayuda_funcional/img/img_02.png" />
+			<file href="teoria/ayuda_funcional/img/img_03.png" />
+			<file href="teoria/ayuda_funcional/img/img_04.png" />
+			<file href="teoria/ayuda_funcional/img/img_05.jpg" />
+			<file href="teoria/ayuda_funcional/img/img_06.jpg" />
+			<file href="teoria/ayuda_funcional/img/img_07.png" />
+			<file href="teoria/ayuda_funcional/img/img_08.png" />
+			<file href="teoria/ayuda_funcional/img/img_09.png" />
+			<file href="teoria/ayuda_funcional/img/img_10.png" />
+			<file href="teoria/ayuda_funcional/img/img_11.png" />
+			<file href="teoria/ayuda_funcional/img/img_12.png" />
+			<file href="teoria/ayuda_funcional/img/img_13.png" />
+			<file href="teoria/ayuda_funcional/img/img_14.png" />
+			<file href="teoria/ayuda_funcional/p1.xml" />
+			<file href="teoria/ayuda_funcional/p10.xml" />
+			<file href="teoria/ayuda_funcional/p2.xml" />
+			<file href="teoria/ayuda_funcional/p3.xml" />
+			<file href="teoria/ayuda_funcional/p4.xml" />
+			<file href="teoria/ayuda_funcional/p5.xml" />
+			<file href="teoria/ayuda_funcional/p6.xml" />
+			<file href="teoria/ayuda_funcional/p7.xml" />
+			<file href="teoria/ayuda_funcional/p8.xml" />
+			<file href="teoria/ayuda_funcional/p9.xml" />
+			<file href="teoria/conceptos_auxiliares/img/01.jpg" />
+			<file href="teoria/conceptos_auxiliares/img/01_sec.jpg" />
+			<file href="teoria/conceptos_auxiliares/img/01_um.jpg" />
+			<file href="teoria/conceptos_auxiliares/img/02.jpg" />
+			<file href="teoria/conceptos_auxiliares/img/02_sec.jpg" />
+			<file href="teoria/conceptos_auxiliares/img/02_um.jpg" />
+			<file href="teoria/conceptos_auxiliares/img/03_um.jpg" />
+			<file href="teoria/conceptos_auxiliares/img/04.jpg" />
+			<file href="teoria/conceptos_auxiliares/img/04_um.jpg" />
+			<file href="teoria/conceptos_auxiliares/img/05.jpg" />
+			<file href="teoria/conceptos_auxiliares/img/06.jpg" />
+			<file href="teoria/conceptos_auxiliares/img/09.jpg" />
+			<file href="teoria/conceptos_auxiliares/img/13.jpg" />
+			<file href="teoria/conceptos_auxiliares/img/14.jpg" />
+			<file href="teoria/conceptos_auxiliares/img/15.swf" />
+			<file href="teoria/conceptos_auxiliares/img/16.png" />
+			<file href="teoria/conceptos_auxiliares/img/17.swf" />
+			<file href="teoria/conceptos_auxiliares/img/18.swf" />
+			<file href="teoria/conceptos_auxiliares/img/19.png" />
+			<file href="teoria/conceptos_auxiliares/img/20.png" />
+			<file href="teoria/conceptos_auxiliares/img/21.png" />
+			<file href="teoria/conceptos_auxiliares/img/22.swf" />
+			<file href="teoria/conceptos_auxiliares/img/23.swf" />
+			<file href="teoria/conceptos_auxiliares/img/4_cabecera_mc.swf" />
+			<file href="teoria/conceptos_auxiliares/img/cabecera_mc.swf" />
+			<file href="teoria/conceptos_auxiliares/p1.xml" />
+			<file href="teoria/conceptos_auxiliares/p2.xml" />
+			<file href="teoria/conceptos_auxiliares/p3.xml" />
+			<file href="teoria/conceptos_auxiliares/p4.xml" />
+			<file href="teoria/img/cuad_allo.swf" />
+			<file href="teoria/img/flechita_lista.swf" />
+			<file href="teoria/img/flechita_subapartado.swf" />
+			<file href="teoria/teoria_guiada/bibliografia.xml" />
+			<file href="teoria/teoria_guiada/img/01_teoria_guiada.png" />
+			<file href="teoria/teoria_guiada/img/02_teoria_guiada.png" />
+			<file href="teoria/teoria_guiada/img/03_teoria_guiada.png" />
+			<file href="teoria/teoria_guiada/img/04_teoria_guiada.png" />
+			<file href="teoria/teoria_guiada/img/05_teoria_guiada.png" />
+			<file href="teoria/teoria_guiada/img/06_teoria_guiada.png" />
+			<file href="teoria/teoria_guiada/img/07_teoria_guiada.png" />
+			<file href="teoria/teoria_guiada/img/08_teoria_guiada.png" />
+			<file href="teoria/teoria_guiada/img/09_teoria_guiada.png" />
+			<file href="teoria/teoria_guiada/img/10_teoria_guiada.png" />
+			<file href="teoria/teoria_guiada/img/11_imagen.swf" />
+			<file href="teoria/teoria_guiada/img/11_teoria_guiada.png" />
+			<file href="teoria/teoria_guiada/img/12_imagen.swf" />
+			<file href="teoria/teoria_guiada/img/12_teoria_guiada.png" />
+			<file href="teoria/teoria_guiada/img/13_teoria_guiada.png" />
+			<file href="teoria/teoria_guiada/img/14_teoria_guiada.png" />
+			<file href="teoria/teoria_guiada/img/15_teoria_guiada.png" />
+			<file href="teoria/teoria_guiada/img/16_teoria_guiada.png" />
+			<file href="teoria/teoria_guiada/img/17_teoria_guiada.png" />
+			<file href="teoria/teoria_guiada/img/18_teoria_guiada.png" />
+			<file href="teoria/teoria_guiada/img/19_teoria_guiada.png" />
+			<file href="teoria/teoria_guiada/img/1_Símbolo 2.swf" />
+			<file href="teoria/teoria_guiada/img/20_teoria_guiada.png" />
+			<file href="teoria/teoria_guiada/img/21_teoria_guiada.png" />
+			<file href="teoria/teoria_guiada/img/22_teoria_guiada.png" />
+			<file href="teoria/teoria_guiada/img/23_teoria_guiada.png" />
+			<file href="teoria/teoria_guiada/img/24_teoria_guiada.png" />
+			<file href="teoria/teoria_guiada/img/25_teoria_guiada.png" />
+			<file href="teoria/teoria_guiada/img/26_teoria_guiada.png" />
+			<file href="teoria/teoria_guiada/img/27_teoria_guiada.png" />
+			<file href="teoria/teoria_guiada/img/28_teoria_guiada.png" />
+			<file href="teoria/teoria_guiada/img/29_teoria_guiada.png" />
+			<file href="teoria/teoria_guiada/img/2_cabecera_mc.swf" />
+			<file href="teoria/teoria_guiada/img/30_teoria_guiada.png" />
+			<file href="teoria/teoria_guiada/img/31_teoria_guiada.png" />
+			<file href="teoria/teoria_guiada/img/32_teoria_guiada.png" />
+			<file href="teoria/teoria_guiada/img/33_teoria_guiada.png" />
+			<file href="teoria/teoria_guiada/img/34_teoria_guiada.png" />
+			<file href="teoria/teoria_guiada/img/3_imagen copia 4.swf" />
+			<file href="teoria/teoria_guiada/img/3_imagen.swf" />
+			<file href="teoria/teoria_guiada/img/4_imagen.swf" />
+			<file href="teoria/teoria_guiada/img/5_imagen.swf" />
+			<file href="teoria/teoria_guiada/p1.xml" />
+			<file href="teoria/teoria_guiada/p10.xml" />
+			<file href="teoria/teoria_guiada/p11.xml" />
+			<file href="teoria/teoria_guiada/p12.xml" />
+			<file href="teoria/teoria_guiada/p2.xml" />
+			<file href="teoria/teoria_guiada/p3.xml" />
+			<file href="teoria/teoria_guiada/p4.xml" />
+			<file href="teoria/teoria_guiada/p5.xml" />
+			<file href="teoria/teoria_guiada/p6.xml" />
+			<file href="teoria/teoria_guiada/p7.xml" />
+			<file href="teoria/teoria_guiada/p8.xml" />
+			<file href="teoria/teoria_guiada/p9.xml" />
+			<file href="teoria_guiada.swf" />
+			<file href="tutorial.swf" />
+			<file href="version.swf" />
+			<file href="video1.swf" />
+			<file href="video2.swf" />
+			<file href="web.swf" />
+			<file href="xml/accesibilidad.xml" />
+			<file href="xml/area_docente.xml" />
+			<file href="xml/ayuda_funcional.xml" />
+			<file href="xml/casos.xml" />
+			<file href="xml/config_navtab.xml" />
+			<file href="xml/constancia.xml" />
+			<file href="xml/constancia_tutorial.xml" />
+			<file href="xml/creditos.xml" />
+			<file href="xml/demo.xml" />
+			<file href="xml/final.xml" />
+			<file href="xml/final_software.xml" />
+			<file href="xml/glosario.xml" />
+			<file href="xml/images.xml" />
+			<file href="xml/indice.xml" />
+			<file href="xml/informes2.xml" />
+			<file href="xml/intro.xml" />
+			<file href="xml/juego_colocar_paciente.xml" />
+			<file href="xml/juego_maquina_contraste.xml" />
+			<file href="xml/juego_revisar_bombas.xml" />
+			<file href="xml/juego_revisar_maquina_rm.xml" />
+			<file href="xml/juego_revisar_material.xml" />
+			<file href="xml/juego_revisar_volante.xml" />
+			<file href="xml/mapa_conceptual.xml" />
+			<file href="xml/menu.xml" />
+			<file href="xml/minijuego01.xml" />
+			<file href="xml/minijuego02.xml" />
+			<file href="xml/panelcargarsesion2.xml" />
+			<file href="xml/portada.xml" />
+			<file href="xml/recursos.xml" />
+			<file href="xml/simulador.xml" />
+			<file href="xml/soft_images.xml" />
+			<file href="xml/soft_mapas.xml" />
+			<file href="xml/soft_tc.xml" />
+			<file href="xml/teoria_guiada.xml" />
+			<file href="xml/tutorial.xml" />
+			<file href="xml/version.xml" />
+			<file href="xml/videoampliacion1.xml" />
+			<file href="xml/videoampliacion2.xml" />
+			<file href="xml/videoimrt.xml" />
+			<file href="xml/web.xml" />
+			<file href="xml/_soft_mapas.xml" />
+		</resource>
+	</resources>
+</manifest>
+

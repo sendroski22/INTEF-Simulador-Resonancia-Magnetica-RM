@@ -1,0 +1,3039 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fases>
+	<fase1>
+		<estados>
+			<estado
+				nodeType="0"
+				nombre="INICIAL"
+				ayuda="ayuda_estado_INICIAL">
+				<acciones>
+					<!-- Acciones genericas -->
+					<accion id="_over">
+						<feedback />
+						<link
+							from="INICIAL"
+							to="INICIAL" />
+					</accion>
+					<accion id="_click">
+						<feedback />
+						<link
+							from="INICIAL"
+							to="INICIAL" />
+					</accion>
+					<!-- Acciones de revision de bombas y mesa de rmn -->
+					<accion id="ver_alerta_animacion_revisar_bombas">
+						<feedback>alerta_animacion_revisar_bombas</feedback>
+						<link
+							from="INICIAL"
+							to="INICIAL" />
+					</accion>
+					<accion id="ver_alerta_animacion_revisar_maquina">
+						<feedback>alerta_animacion_revisar_maquina</feedback>
+						<link
+							from="INICIAL"
+							to="INICIAL" />
+					</accion>
+
+
+					<!-- ESCENA 1: SALA DE DESCANSO -->
+					<!-- Volantes -->
+					<accion id="bandeja_over">
+						<feedback>feed_bandeja_over</feedback>
+						<link
+							from="INICIAL"
+							to="INICIAL" />
+					</accion>
+					<accion id="bandeja_opazar">
+						<link
+							from="INICIAL"
+							to="EVAL_VOLANTE" />
+						<valor efecto="true">obtener_volante</valor>
+					</accion>
+					<accion id="bandeja_oppracticar">
+						<link
+							from="INICIAL"
+							to="EVAL_VOLANTE" />
+						<valor efecto="true">obtener_volante</valor>
+					</accion>
+					<accion id="bandeja_opllibre">
+						<link
+							from="INICIAL"
+							to="EVAL_VOLANTE" />
+						<valor efecto="true">obtener_volante</valor>
+					</accion>
+					<accion id="bandeja_opnoelegir">
+						<feedback>feed_bandeja_opnoelegir</feedback>
+						<link
+							from="INICIAL"
+							to="INICIAL" />
+					</accion>
+
+					<!-- BATA -->
+					<accion id="tomar_bata_over">
+						<feedback>feed_tomar_bata_over</feedback>
+						<link
+							from="INICIAL"
+							to="INICIAL" />
+					</accion>
+
+					<!-- ACCIONES PUERTA -->
+					<accion id="puerta_escena1_over">
+						<feedback>texto_puerta_a_sala_tac</feedback>
+						<link
+							from="INICIAL"
+							to="INICIAL" />
+					</accion>
+					<accion id="puerta_escena2_over1">
+						<feedback>texto_puerta_a_sala_soft</feedback>
+						<link
+							from="INICIAL"
+							to="INICIAL" />
+					</accion>
+					<accion id="puerta_escena2_over2">
+						<feedback>texto_puerta_a_sala_descanzo</feedback>
+						<link
+							from="INICIAL"
+							to="INICIAL" />
+					</accion>
+					<accion id="puerta_escena3_over">
+						<feedback>texto_puerta_a_sala_tac</feedback>
+						<link
+							from="INICIAL"
+							to="INICIAL" />
+					</accion>
+					<!-- SNACKS -->
+					<accion id="maquina_cafe_over">
+						<feedback>feed_maquina_cafe_over</feedback>
+						<link
+							from="INICIAL"
+							to="INICIAL" />
+					</accion>
+					<accion
+						id="tomaste_mucho_cafe"
+						textoerror="error_mucho_cafe">
+						<feedback></feedback>
+						<link
+							from="INICIAL"
+							to="INICIAL" />
+					</accion>
+
+					<!-- Acciones equivocas del uso del snacks -->
+					<accion id="alerta_inactividad50">
+						<feedback>alerta_inactividad50</feedback>
+						<link
+							from="INICIAL"
+							to="INICIAL" />
+
+					</accion>
+					<accion
+						id="alerta_inactividad55"
+						textoerror="error_alerta_inactividad55">
+						<feedback>alerta_inactividad55</feedback>
+						<link
+							from="INICIAL"
+							to="INICIAL" />
+						<consecuencias>
+							<variable
+								nombre="pr"
+								operacion="decrementar"
+								cantidad="5" />
+						</consecuencias>
+					</accion>
+					<accion
+						id="alerta_inactividad60"
+						textoerror="error_alerta_inactividad60">
+						<feedback>alerta_inactividad60</feedback>
+						<link
+							from="INICIAL"
+							to="INICIAL" />
+						<consecuencias>
+							<variable
+								nombre="pr"
+								operacion="decrementar"
+								cantidad="10" />
+						</consecuencias>
+					</accion>
+
+
+
+
+
+					<!-- Cartel Anatomico -->
+					<accion id="cartel_anatomico_over">
+						<feedback>feed_cartel_anatomico_over</feedback>
+						<link
+							from="INICIAL"
+							to="INICIAL" />
+					</accion>
+					<accion id="cartel_anatomico_click">
+						<feedback>feed_cartel_anatomico_click</feedback>
+						<link
+							from="INICIAL"
+							to="INICIAL" />
+					</accion>
+					<!-- Tablero Electricidad -->
+					<accion id="tablero_electricidad_over">
+						<feedback>feed_tablero_electricidad_over</feedback>
+						<link
+							from="INICIAL"
+							to="INICIAL" />
+					</accion>
+					<!-- Libros -->
+					<accion id="libros_over">
+						<feedback>feed_libros_over</feedback>
+						<link
+							from="INICIAL"
+							to="INICIAL" />
+					</accion>
+					<!-- PC -->
+					<accion id="radio_over">
+						<feedback>feed_radio_over</feedback>
+						<link
+							from="INICIAL"
+							to="INICIAL" />
+					</accion>
+					<!-- Acciones Imagen Hospital -->
+					<accion id="orla_over">
+						<feedback>feed_orla_over</feedback>
+						<link
+							from="INICIAL"
+							to="INICIAL" />
+					</accion>
+					<!-- Supervisor -->
+					<accion id="supervisor_over">
+						<feedback>string_supervisor_over</feedback>
+						<link
+							from="INICIAL"
+							to="INICIAL" />
+					</accion>
+					<accion id="supervisor_click">
+						<feedback>dialogo_supervisor_click</feedback>
+						<link
+							from="INICIAL"
+							to="INICIAL" />
+					</accion>
+
+
+
+					<!-- ***ACCIONES DE ERROR*** -->
+					<accion
+						id="eleccion_volante_no_urgente"
+						textoerror="error_eleccion_volante_no_urgente">
+						<feedback />
+						<link
+							from="INICIAL"
+							to="INICIAL">
+						</link>
+					</accion>
+					<!-- FIN ESCENA 1: SALA DE DESCANSO -->
+					<!-- ESCENA 2: SALA DE RMN -->
+					<!-- Bombas de contraste-->
+					<accion id="revisar_bombas_over">
+						<feedback>string_revisar_bombas_over</feedback>
+						<link
+							from="INICIAL"
+							to="INICIAL">
+						</link>
+					</accion>
+					<accion id="revisar_bombas_click">
+						<feedback />
+						<link
+							from="INICIAL"
+							to="INICIAL">
+						</link>
+					</accion>
+
+					<!-- Equipo  de RMN -->
+					<accion id="revisar_mesa_tac_over">
+						<feedback>string_revisar_mesa_tac_over</feedback>
+						<link
+							from="INICIAL"
+							to="INICIAL">
+						</link>
+					</accion>
+					<accion id="revisar_mesa_tac_click">
+						<feedback />
+						<link
+							from="INICIAL"
+							to="INICIAL">
+						</link>
+					</accion>
+					<!-- Materiales de RMN -->
+					<accion id="materiales_over">
+						<feedback>string_materiales_over</feedback>
+						<link
+							from="INICIAL"
+							to="INICIAL">
+						</link>
+					</accion>
+					<accion id="materiales_click">
+						<feedback />
+						<link
+							from="INICIAL"
+							to="INICIAL">
+						</link>
+					</accion>
+					<!-- Intercomunicador -->
+					<accion id="intercomunicador_escenario2_over">
+						<feedback>
+							string_intercomunicador_escenario2_over
+						</feedback>
+						<link
+							from="INICIAL"
+							to="INICIAL">
+						</link>
+					</accion>
+					<accion id="intercomunicador_escenario2_click">
+						<feedback>
+							dialogo_intercomunicador_escenario2_click
+						</feedback>
+						<link
+							from="INICIAL"
+							to="INICIAL">
+						</link>
+					</accion>
+					<accion
+						id="quitar_puntos_traer_paciente_sin_volante"
+						textoerror="error_quitar_puntos_traer_paciente_sin_volante">
+						<feedback></feedback>
+						<link
+							from="INICIAL"
+							to="INICIAL">
+						</link>
+						<consecuencias>
+							<!--  Esto no es aplicable en el modelo actual ya que no se pueden descontar puntos en este estado
+								<variable
+								nombre="pr"
+								operacion="decrementar"
+								cantidad="5" />
+							-->
+						</consecuencias>
+					</accion>
+
+					<!-- FIN ESCENA 2: SALA DE RMN -->
+					<!-- ESCENA 3: SALA DE SOFT-->
+					<!-- Equipo de Software -->
+					<accion id="software_pc_over">
+						<feedback>string_pc_over</feedback>
+						<link
+							from="INICIAL"
+							to="INICIAL">
+						</link>
+					</accion>
+
+					<accion id="software_pc_click">
+						<feedback />
+						<link
+							from="INICIAL"
+							to="INICIAL">
+						</link>
+					</accion>
+					<!-- Intercom escenario 3 -->
+					<accion id="intercomunicador_escenario3_over">
+						<feedback />
+						<link
+							from="INICIAL"
+							to="INICIAL">
+						</link>
+					</accion>
+
+					<accion id="intercomunicador_escenario3_click">
+						<feedback />
+						<link
+							from="INICIAL"
+							to="INICIAL">
+						</link>
+					</accion>
+
+
+					<!-- FIN ESCENA 3: SALA DE SOFT -->
+					<accion
+						id="final_por_puntos_pt"
+						textoerror="error_perdida_por_puntos_de_trabajo">
+						<feedback></feedback>
+						<link
+							from="estado1"
+							to="FINAL_POR_PUNTOS_PT" />
+					</accion>
+					<accion
+						id="final_por_puntos_pr"
+						textoerror="error_perdida_por_puntos_de_relacion">
+						<feedback></feedback>
+						<link
+							from="estado1"
+							to="FINAL_POR_PUNTOS_PR" />
+					</accion>
+
+					<!-- Otras acciones -->
+					<accion id="cerrar_sesion">
+						<feedback>feed_cerrar_sesion</feedback>
+						<link
+							from="INICIAL"
+							to="cerrar_sesion" />
+					</accion>
+					<!-- TEST ACTIONS TO DELETE -->
+					<accion id="info_cambio">
+						<feedback />
+						<link
+							from="INICIAL"
+							to="INICIAL" />
+					</accion>
+
+					<accion id="minijuego_volante_return">
+						<feedback />
+						<link
+							from="INICIAL"
+							to="INICIAL" />
+						<valor efecto="true">comprobar_datos_personales</valor>
+					</accion>
+
+					<accion id="colocar_paciente_mesa_tac_OK">
+						<feedback>paciente_esta_colocado_alert</feedback>
+						<link
+							from="INICIAL"
+							to="INICIAL" />
+						<consecuencias>
+							<feedbackgrafico>
+								mostrar_paciente_colocado
+							</feedbackgrafico>
+						</consecuencias>
+						<valor efecto="true">colocar_paciente</valor>
+					</accion>
+
+					<accion
+						id="datos_mal_comprobados"
+						textoerror="error_datos_mal_comprobados">
+						<feedback />
+						<link
+							from="estado1"
+							to="estado1">
+						</link>
+					</accion>
+
+					<accion
+						id="colocar_mal_al_paciente"
+						textoerror="error_colocar_mal_al_paciente">
+						<feedback />
+						<link
+							from="INICIAL"
+							to="COLOCAR_MAL_PACIENTE" />
+						<consecuencias>
+							<variable
+								nombre="pt"
+								operacion="decrementar"
+								cantidad="10" />
+						</consecuencias>
+					</accion>
+
+					<accion id="det_rev_materiales_post_colocar">
+						<link
+							from="INICIAL"
+							to="DET_REV_MATERIALES_POST_COLOCAR" />
+					</accion>
+
+					<accion id="a_estado_imagenes_obtenidas">
+						<valor efecto="true">operar_soft</valor>
+						<link
+							from="INICIAL"
+							to="IMAGENES_OBTENIDAS" />
+					</accion>
+
+					<!-- Errores que lanza la maquina de soft -->
+					<accion
+						id="error_soft_posicion_paciente"
+						textoerror="str_error_soft_posicion_paciente">
+						<feedback />
+						<link
+							from="INICIAL"
+							to="INICIAL" />
+					</accion>
+
+					<accion
+						id="error_soft_protocolo"
+						textoerror="str_error_soft_protocolo">
+						<feedback />
+						<link
+							from="INICIAL"
+							to="INICIAL" />
+					</accion>
+
+					<accion id="error_soft_seccion">
+						<feedback />
+						<link
+							from="INICIAL"
+							to="DET_ERROR_SOFT_SECCION_POR_CASO" />
+					</accion>
+					<accion id="error_soft_secuencia">
+						<feedback />
+						<link
+							from="INICIAL"
+							to="DET_ERROR_SOFT_SECUENCIA_POR_CASO" />
+					</accion>
+					<accion
+						id="error_soft_con_contraste"
+						textoerror="str_error_soft_con_contraste">
+						<feedback />
+						<link
+							from="INICIAL"
+							to="INICIAL" />
+					</accion>
+					<accion
+						id="error_soft_sin_contraste"
+						textoerror="str_error_soft_sin_contraste">
+						<feedback />
+						<link
+							from="INICIAL"
+							to="INICIAL" />
+					</accion>
+					<accion
+						id="error_soft_imagenes_mala_calidad"
+						textoerror="str_error_soft_imagenes_mala_calidad">
+						<feedback />
+						<link
+							from="INICIAL"
+							to="INICIAL" />
+					</accion>
+					<accion
+						id="error_soft_sin_revisar_imagenes"
+						textoerror="str_error_soft_sin_revisar_imagenes">
+						<feedback />
+						<link
+							from="INICIAL"
+							to="INICIAL" />
+					</accion>
+					<accion
+						id="error_soft_fallo_id"
+						textoerror="str_error_soft_fallo_id">
+						<feedback />
+						<link
+							from="INICIAL"
+							to="INICIAL" />
+					</accion>
+					<accion
+						id="error_soft_imagenes_buenas"
+						textoerror="str_error_soft_imagenes_buenas">
+						<feedback />
+						<link
+							from="INICIAL"
+							to="INICIAL" />
+					</accion>
+					<!--Fin Errores que lanza la maquina de soft -->
+
+
+					<!-- Acciones del resto del simualdor -->
+					<accion id="bomba_revisada" />
+					<accion id="mostrar_opciones_revisar_bomba" />
+					<accion id="revisar_bombas" />
+					<accion id="mostrar_opciones_revisar_equipormn" />
+					<accion id="revisar_maquina" />
+					<accion id="equipormn_revisado" />
+					<accion id="mostrar_opciones_revisar_materiales" />
+					<accion id="revisar_materiales" />
+					<accion id="materiales_revisados" />
+					<accion id="mostrar_paciente" />
+					<accion id="mostrar_enfermera" />
+					<accion id="traer_paciente" />
+					<accion id="traer_enfermera" />
+					<accion id="paciente_over" />
+					<accion id="pre_paciente_pablar" />
+					<accion id="mostrar_interaccion_crisis_bata" />
+					<accion
+						id="calmar_personalmenete_paciente_y_ponerse_la_bata" />
+					<accion id="ana_calma_y_ponerse_la_bata" />
+					<accion id="ignorar_paciente_sin_ponerse_la_bata" />
+					<accion id="mostrar_dialogo_paciente" />
+					<accion id="tranquilizar_paciente_dialogo_paciente" />
+					<accion id="preguntar_por_embarazo" />
+					<accion id="mostrar_pedir_constancia_constraste" />
+					<accion id="penalizar_pedido_aplicacion_contraste" />
+					<accion id="evaluar_si_pedir_constancia_volante" />
+					<accion id="pedir_constancia_objetos_de_metal" />
+					<accion id="comprobar_datos_personales" />
+					<accion id="evaluar_colocacion_paciente" />
+					<accion id="debes_comprobar_datos_primero" />
+					<accion id="aplicar_contraste" />
+					<accion id="debes_pedir_contraste_primero" />
+					<accion id="carmen_escenario2_over" />
+					<accion id="carmen_escenario2_click" />
+					<accion
+						id="carmen_no_deberia_revisar_bombas"
+						textoerror="error_carmen_no_deberia_hacerlo1" />
+					<accion
+						id="carmen_no_deberia_revisar_maquina"
+						textoerror="error_carmen_no_deberia_hacerlo1" />
+					<accion id="carmen_aplica_contraste" />
+					<accion id="carmen_no_pida_contraste" />
+					<accion id="carmen_avisa_pedir_cons_contraste" />
+					<accion id="bomba_falla" />
+					<accion id="dialogo_ante_fallo_personalmente" />
+					<accion id="dialogo_ante_fallo_ana_atiende" />
+					<accion id="dialogo_ante_fallo_esperar" />
+					<accion
+						id="dialogo_ante_fallo_volver_intentarlo"
+						textoerror="error_ante_fallo_volver_intentarlo">
+						<feedback></feedback>
+						<link
+							from="INICIAL"
+							to="FINAL_POR_PUNTOS_PT" />
+						<consecuencias>
+							<variable
+								nombre="pt"
+								operacion="put"
+								cantidad="0" />
+						</consecuencias>
+					</accion>
+					<accion id="contraste_aplicado_ok" />
+					<accion id="fracaso_aplicacion_contraste" />
+					<accion id="olvido_preguntar_sobre_embarazo" />
+					<accion id="mostrar_juego_colocarpaciente" />
+					<accion id="alerta_ya_hemos_terminado" />
+					<accion id="olvido_revisar_materiales" />
+					<accion id="revisar_equipo_soft" />
+					<accion id="usar_equipo_soft" />
+					<accion id="ana_avisa_falla_iman" />
+					<accion id="revisar_personalemete_maquina_rmn" />
+					<accion id="pedirle_a_ana_la_revise" />
+					<accion id="hablar_paciente_por_intercom" />
+					<accion id="despedir_a_paciente" />
+					<accion id="revisar_software" />
+					<accion id="equipo_soft_revisado" />
+					<accion id="debes_colocar_paciente_antes_de_usar_soft" />
+					<accion id="debes_controlar_metales_antes_de_usar_soft" />
+					<accion id="debes_revisar_soft_antes_de_usar_soft" />
+					<accion id="listo_para_soft" />
+					<accion id="feed_imagenes_obtenidas" />
+					<accion id="descontarpuntos_ana_despide" />
+					<accion id="descontarpuntos_personalmente_hostil" />
+					<accion id="descontarpuntos_despedida_impersonal" />
+					<accion id="biendespedir" />
+
+					<accion id="evaluar_nino_en_crisis" />
+					<accion id="mostrar_crisis_en_adulto" />
+					<accion id="mostrar_crisis_en_nino" />
+					<!-- 24/feb/2009 -->
+					<accion
+						id="quitar_puntos_por_olvidar_preguntar_embarazo"
+						textoerror="error_olvido_preguntar_sobre_embarazo" />
+					<accion
+						id="revisar_maquina_otra_sala"
+						textoerror="error_al_revisar_software" />
+
+					<accion
+						id="espere_mientras_reviso"
+						textoerror="error_al_revisar_software" />
+
+
+					<accion
+						id="forzar_nino_en_mesa"
+						textoerror="error_forzar_nino_en_mesa">
+						<link
+							from="INICIAL"
+							to="FINAL_POR_PUNTOS_PR" />
+						<consecuencias>
+							<variable
+								nombre="pr"
+								operacion="put"
+								cantidad="0" />
+						</consecuencias>
+					</accion>
+					<accion
+						id="forzar_adulto_en_mesa"
+						textoerror="error_forzar_adulto_en_mesa">
+						<link
+							from="INICIAL"
+							to="FINAL_POR_PUNTOS_PR" />
+						<consecuencias>
+							<variable
+								nombre="pr"
+								operacion="put"
+								cantidad="0" />
+						</consecuencias>
+					</accion>
+					<accion
+						id="forzar_nervioso_colocacion_de_contraste"
+						textoerror="error_forzar_nervioso_colocacion_de_contraste">
+
+						<link
+							from="INICIAL"
+							to="FINAL_POR_PUNTOS_PR" />
+						<consecuencias>
+							<variable
+								nombre="pr"
+								operacion="put"
+								cantidad="0" />
+						</consecuencias>
+					</accion>
+					<!-- Ampliacion 67 ROE -->
+
+					<accion id="activar_sin_puntos">
+						<consecuencias>
+							<variable
+								nombre="sin_puntos"
+								operacion="put"
+								cantidad="true" />
+						</consecuencias>
+					</accion>
+					<accion id="minijuego01_bien">
+						<feedback>supervisor_recon3d_postminijuego1_2</feedback>
+					</accion>
+					<accion
+						id="minijuego01_mal"
+						textoerror="error_minijuego01_mal">
+						<feedback />
+
+						<consecuencias>
+							<variable
+								nombre="pt"
+								operacion="decrementar"
+								cantidad="0" />
+						</consecuencias>
+
+					</accion>
+					<accion id="minijuego02_bien">
+						<feedback>supervisor_recon3d_postminijuego2_2</feedback>
+					</accion>
+					<accion
+						id="minijuego02_mal"
+						textoerror="error_minijuego02_mal">
+						<feedback />
+
+						<consecuencias>
+							<variable
+								nombre="pt"
+								operacion="decrementar"
+								cantidad="0" />
+						</consecuencias>
+
+					</accion>
+
+
+
+
+				</acciones>
+				<tareas>
+					<tarea
+						id="obtener_volante"
+						habilitado="1"
+						textoayuda="ayuda_obtener_volante" />
+					<tarea
+						id="revisar_maquina"
+						habilitado="0"
+						textoayuda="ayuda_revisar_maquina" />
+					<tarea
+						id="revisar_bombas"
+						habilitado="0"
+						textoayuda="ayuda_revisar_bombas" />
+					<tarea
+						id="revisar_materiales"
+						habilitado="0"
+						textoayuda="ayuda_revisar_materiales" />
+					<tarea
+						id="traer_paciente"
+						habilitado="0"
+						textoayuda="ayuda_traer_paciente" />
+					<tarea
+						id="traer_enfermera"
+						habilitado="0"
+						textoayuda="ayuda_traer_paciente" />
+					<tarea
+						id="preguntar_por_embarazo"
+						habilitado="0"
+						textoayuda="ayuda_preguntar_por_embarazo" />
+					<tarea
+						id="pedir_constancia_contraste"
+						habilitado="0"
+						textoayuda="ayuda_pedir_constancia_contraste" />
+					<tarea
+						id="pedir_constancia_objetos_de_metal"
+						habilitado="0"
+						textoayuda="ayuda_pedir_constancia_objetos_de_metal" />
+					<tarea
+						id="comprobar_datos_personales"
+						habilitado="1"
+						textoayuda="ayuda_comprobar_datos_personales" />
+					<tarea
+						id="aplicar_contraste"
+						habilitado="0"
+						textoayuda="ayuda_aplicar_contraste" />
+					<tarea
+						id="colocar_paciente"
+						habilitado="1"
+						textoayuda="ayuda_aplicar_contraste" />
+					<tarea
+						id="revisar_software"
+						habilitado="0"
+						textoayuda="ayuda_revisar_software" />
+
+					<tarea
+						id="operar_soft"
+						habilitado="1"
+						textoayuda="ayuda_operar_soft" />
+
+					<!-- Generica -->
+					<tarea
+						id=""
+						habilitado="0"
+						textoayuda="ayuda_" />
+				</tareas>
+			</estado>
+
+			<estado
+				nodeType="1"
+				nombre="FINAL" />
+			<!-- *************ESTADO COMPROBACION**************** -->
+			<estado
+				nodeType="3"
+				nombre="EVAL_VOLANTE">
+				<link>CON_VOLANTE</link>
+				<acciones></acciones>
+				<requeridos>
+					<tarea>obtener_volante</tarea>
+				</requeridos>
+			</estado>
+
+			<estado
+				nodeType="2"
+				nombre="CON_VOLANTE"
+				ayuda="ayuda_estado_CON_VOLANTE">
+				<acciones>
+					<accion id="bandeja_over">
+						<feedback>feed_bandeja_over_CON_VOLANTE</feedback>
+						<link
+							from="CON_VOLANTE"
+							to="CON_VOLANTE" />
+					</accion>
+
+					<accion id="revisar_bombas_click">
+						<link
+							from="CON_VOLANTE"
+							to="DET_REV_BOMBA" />
+					</accion>
+					<accion id="revisar_mesa_tac_click">
+						<link
+							from="CON_VOLANTE"
+							to="DET_REV_EQUIPORMN" />
+					</accion>
+					<accion id="materiales_click">
+						<link
+							from="CON_VOLANTE"
+							to="DET_REV_MATERIALES" />
+					</accion>
+					<accion id="materiales_over">
+						<feedback>string_materiales_over_CON_VOLANTE</feedback>
+						<link
+							from="CON_VOLANTE"
+							to="CON_VOLANTE">
+						</link>
+					</accion>
+					<accion id="intercomunicador_escenario2_over">
+						<feedback>
+							string_intercomunicador_escenario2_over_CON_VOLANTE
+						</feedback>
+						<link
+							from="CON_VOLANTE"
+							to="CON_VOLANTE">
+						</link>
+					</accion>
+					<accion id="intercomunicador_escenario2_click">
+						<feedback>
+							dialogo_intercomunicador_escenario2_click_CON_VOLANTE
+						</feedback>
+						<link
+							from="CON_VOLANTE"
+							to="CON_VOLANTE">
+						</link>
+					</accion>
+					<accion id="mostrar_paciente">
+						<feedback>fbg_mostrar_paciente</feedback>
+						<link
+							from="CON_VOLANTE"
+							to="CON_VOLANTE">
+						</link>
+					</accion>
+					<accion id="mostrar_enfermera">
+						<feedback>fbg_mostrar_enfermera_sala</feedback>
+						<link
+							from="CON_VOLANTE"
+							to="CON_VOLANTE">
+						</link>
+					</accion>
+					<accion id="traer_paciente">
+						<valor efecto="true">traer_paciente</valor>
+						<link
+							from="CON_VOLANTE"
+							to="EVAL_TRAER_PACIENTE" />
+					</accion>
+					<accion id="revisar_mesa_tac_over">
+						<feedback>
+							string_revisar_mesa_tac_over_CON_VOLANTE
+						</feedback>
+						<link
+							from="CON_VOLANTE"
+							to="CON_VOLANTE">
+						</link>
+					</accion>
+
+
+
+
+				</acciones>
+				<tareas>
+					<tarea
+						id="obtener_volante"
+						habilitado="1" />
+					<tarea
+						id="revisar_maquina"
+						habilitado="1" />
+					<tarea
+						id="revisar_bombas"
+						habilitado="1" />
+					<tarea
+						id="revisar_materiales"
+						habilitado="1" />
+					<tarea
+						id="traer_paciente"
+						habilitado="1" />
+					<tarea
+						id="traer_enfermera"
+						habilitado="1" />
+					<tarea
+						id="revisar_software"
+						habilitado="0" />
+
+				</tareas>
+				<accionintro>info_cambio</accionintro>
+			</estado>
+			<!-- ********** ESTADOS REVISION DE LA BOMBA ************* -->
+			<estado
+				nodeType="4"
+				nombre="DET_REV_BOMBA">
+				<opcion>
+					<clausula>
+						<tarea
+							id="revisar_bombas"
+							value="false" />
+					</clausula>
+					<tareas />
+					<enlace
+						from="DET_REV_BOMBA"
+						to="MOSTRAR_OPCIONES_REVISAR_BOMBA" />
+				</opcion>
+				<opcion>
+					<clausula>
+						<tarea
+							id="revisar_bombas"
+							value="true" />
+					</clausula>
+					<tareas />
+					<enlace
+						from="DET_REV_BOMBA"
+						to="MOSTRAR_BOMBA_REVISADA" />
+				</opcion>
+			</estado>
+			<estado
+				nodeType="2"
+				nombre="MOSTRAR_OPCIONES_REVISAR_BOMBA">
+				<acciones>
+					<accion id="mostrar_opciones_revisar_bomba">
+						<feedback>dialogo_revisar_bombas</feedback>
+						<link
+							from="MOSTRAR_OPCIONES_REVISAR_BOMBA"
+							to="MOSTRAR_OPCIONES_REVISAR_BOMBA" />
+					</accion>
+					<accion id="revisar_bombas">
+						<valor efecto="true">revisar_bombas</valor>
+					</accion>
+				</acciones>
+				<accionintro>mostrar_opciones_revisar_bomba</accionintro>
+			</estado>
+			<estado
+				nodeType="2"
+				nombre="MOSTRAR_BOMBA_REVISADA">
+				<acciones>
+					<accion id="bomba_revisada">
+						<feedback>alerta_bomba_revisada</feedback>
+						<link
+							from="MOSTRAR_BOMBA_REVISADA"
+							to="MOSTRAR_BOMBA_REVISADA" />
+					</accion>
+				</acciones>
+				<accionintro>bomba_revisada</accionintro>
+			</estado>
+			<!-- ********** FIN ESTADOS REVISION DE LA BOMBA ************* -->
+			<!-- ********** ESTADOS REVISION DEL EQUIPO RMN************* -->
+			<estado
+				nodeType="4"
+				nombre="DET_REV_EQUIPORMN">
+				<opcion>
+					<clausula>
+						<tarea
+							id="revisar_maquina"
+							value="false" />
+					</clausula>
+					<tareas />
+					<enlace
+						from="DET_REV_EQUIPORMN"
+						to="MOSTRAR_OPCIONES_REVISAR_EQUIPORMN" />
+				</opcion>
+				<opcion>
+					<clausula>
+						<tarea
+							id="revisar_maquina"
+							value="true" />
+					</clausula>
+					<tareas />
+					<enlace
+						from="DET_REV_EQUIPORMN"
+						to="MOSTRAR_EQUIPORMN_REVISADO" />
+				</opcion>
+			</estado>
+			<estado
+				nodeType="2"
+				nombre="MOSTRAR_OPCIONES_REVISAR_EQUIPORMN">
+				<acciones>
+					<accion id="mostrar_opciones_revisar_equipormn">
+						<feedback>dialogo_revisar_maquina</feedback>
+						<link
+							from="MOSTRAR_OPCIONES_REVISAR_EQUIPORMN"
+							to="MOSTRAR_OPCIONES_REVISAR_EQUIPORMN" />
+					</accion>
+					<accion id="revisar_maquina">
+						<valor efecto="true">revisar_maquina</valor>
+						<link
+							from="MOSTRAR_OPCIONES_REVISAR_EQUIPORMN"
+							to="DESHABILITAR_FEED_MESA" />
+					</accion>
+				</acciones>
+				<accionintro>mostrar_opciones_revisar_equipormn</accionintro>
+			</estado>
+
+			<estado
+				nodeType="2"
+				nombre="DESHABILITAR_FEED_MESA">
+				<acciones>
+					<accion id="revisar_mesa_tac_over">
+						<feedback />
+					</accion>
+				</acciones>
+				<accionintro>revisar_mesa_tac_over</accionintro>
+			</estado>
+
+			<estado
+				nodeType="2"
+				nombre="MOSTRAR_EQUIPORMN_REVISADO">
+				<acciones>
+					<accion id="equipormn_revisado">
+						<feedback>alerta_equipormn_revisado</feedback>
+						<link
+							from="MOSTRAR_EQUIPORMN_REVISADO"
+							to="MOSTRAR_EQUIPORMN_REVISADO" />
+					</accion>
+				</acciones>
+				<accionintro>equipormn_revisado</accionintro>
+			</estado>
+			<!-- ********** FIN ESTADOS REVISION DEL EQUIPO RMN************* -->
+			<!-- ********** ESTADOS REVISION DEL MATERIALES RMN************* -->
+			<estado
+				nodeType="4"
+				nombre="DET_REV_MATERIALES">
+				<opcion>
+					<clausula>
+						<tarea
+							id="revisar_materiales"
+							value="false" />
+					</clausula>
+					<tareas />
+					<enlace
+						from="DET_REV_MATERIALES"
+						to="MOSTRAR_OPCIONES_REVISAR_MATERIALES" />
+				</opcion>
+				<opcion>
+					<clausula>
+						<tarea
+							id="revisar_materiales"
+							value="true" />
+					</clausula>
+					<tareas />
+					<enlace
+						from="DET_REV_MATERIALES"
+						to="MOSTRAR_MATERIALES_REVISADOS" />
+				</opcion>
+			</estado>
+
+
+
+			<estado
+				nodeType="2"
+				nombre="MOSTRAR_OPCIONES_REVISAR_MATERIALES">
+				<acciones>
+					<accion id="mostrar_opciones_revisar_materiales">
+						<feedback>dialogo_revisar_materiales</feedback>
+						<link
+							from="MOSTRAR_OPCIONES_REVISAR_MATERIALES"
+							to="MOSTRAR_OPCIONES_REVISAR_MATERIALES" />
+					</accion>
+					<accion id="revisar_materiales">
+						<valor efecto="true">revisar_materiales</valor>
+						<link
+							from="MOSTRAR_OPCIONES_REVISAR_MATERIALES"
+							to="DESHABILITAR_FEED_MATERIALES" />
+					</accion>
+				</acciones>
+				<accionintro>mostrar_opciones_revisar_materiales</accionintro>
+			</estado>
+
+			<estado
+				nodeType="2"
+				nombre="DESHABILITAR_FEED_MATERIALES">
+				<acciones>
+					<accion id="materiales_over">
+						<feedback />
+					</accion>
+				</acciones>
+				<accionintro>materiales_over</accionintro>
+			</estado>
+
+			<estado
+				nodeType="2"
+				nombre="MOSTRAR_MATERIALES_REVISADOS">
+				<acciones>
+					<accion id="materiales_revisados">
+						<feedback>alerta_materiales_revisados</feedback>
+						<link
+							from="MOSTRAR_MATERIALES_REVISADOS"
+							to="MOSTRAR_MATERIALES_REVISADOS" />
+					</accion>
+				</acciones>
+				<accionintro>materiales_revisados</accionintro>
+			</estado>
+			<!-- ********** FIN ESTADOS REVISION DEL MATERIALES RMN************* -->
+			<estado
+				nodeType="3"
+				nombre="EVAL_TRAER_PACIENTE">
+				<link>CON_PACIENTE</link>
+				<acciones></acciones>
+				<requeridos>
+					<tarea>traer_paciente</tarea>
+				</requeridos>
+			</estado>
+			<estado
+				nodeType="2"
+				nombre="CON_PACIENTE"
+				ayuda="ayuda_estado_CON_PACIENTE">
+				<acciones>
+					<accion id="intercomunicador_escenario2_click">
+						<feedback />
+						<link
+							from="CON_PACIENTE"
+							to="CON_PACIENTE">
+						</link>
+					</accion>
+					<accion id="intercomunicador_escenario2_over">
+						<feedback />
+					</accion>
+					<!-- Si se alcanza este estado la enfermera esta presente -->
+					<accion id="traer_enfermera">
+						<valor efecto="true">traer_enfermera</valor>
+					</accion>
+					<accion id="paciente_over">
+						<feedback>str_paciente_over</feedback>
+						<link
+							from="CON_PACIENTE"
+							to="CON_PACIENTE">
+						</link>
+					</accion>
+					<accion id="pre_paciente_pablar">
+						<feedback />
+						<link
+							from="CON_PACIENTE"
+							to="EVALUAR_BATA_PUESTA">
+						</link>
+					</accion>
+					<accion id="carmen_escenario2_over">
+						<feedback>
+							str_carmen_escenario2_over_CON_PACIENTE
+						</feedback>
+						<link
+							from="CON_PACIENTE"
+							to="CON_PACIENTE">
+						</link>
+					</accion>
+					<accion id="carmen_escenario2_click">
+						<feedback>dialogo_enfermera</feedback>
+						<link
+							from="CON_PACIENTE"
+							to="CON_PACIENTE">
+						</link>
+					</accion>
+					<accion
+						id="carmen_no_deberia_revisar_bombas"
+						textoerror="error_carmen_no_deberia_hacerlo2">
+						<valor efecto="true">revisar_bombas</valor>
+						<consecuencias>
+							<variable
+								nombre="pr"
+								operacion="decrementar"
+								cantidad="10" />
+							<variable
+								nombre="interaccion_dialogo_enfermera_op2"
+								operacion="put"
+								cantidad="true" />
+						</consecuencias>
+					</accion>
+					<accion
+						id="carmen_no_deberia_revisar_maquina"
+						textoerror="error_carmen_no_deberia_hacerlo1">
+						<valor efecto="true">revisar_maquina</valor>
+						<consecuencias>
+							<variable
+								nombre="pr"
+								operacion="decrementar"
+								cantidad="10" />
+							<variable
+								nombre="interaccion_dialogo_enfermera_op3"
+								operacion="put"
+								cantidad="true" />
+						</consecuencias>
+					</accion>
+					<accion id="carmen_aplica_contraste">
+						<link
+							from="CON_PACIENTE"
+							to="EVALUAR_CARMEN_PIDA_CONTRASTE">
+						</link>
+					</accion>
+
+					<accion id="software_pc_over">
+						<feedback>string_pc_over_CON_PACIENTE</feedback>
+					</accion>
+					<accion id="software_pc_click">
+						<feedback>dialogo_equipo_soft</feedback>
+					</accion>
+					<accion id="revisar_equipo_soft">
+						<link
+							from="CON_PACIENTE"
+							to="EQUIPO_EVALUAR_SI_REVISO_EQUIPORMN" />
+					</accion>
+
+					<accion id="revisar_software">
+						<valor efecto="true">revisar_software</valor>
+					</accion>
+					<accion id="revisar_maquina">
+						<valor efecto="true">revisar_maquina</valor>
+					</accion>
+
+					<accion id="revisar_personalemete_maquina_rmn">
+						<feedback />
+						<valor efecto="true">revisar_maquina</valor>
+						<consecuencias>
+							<variable
+								nombre="pt"
+								operacion="decrementar"
+								cantidad="10" />
+						</consecuencias>
+					</accion>
+					<accion id="pedirle_a_ana_la_revise">
+						<feedback />
+						<valor efecto="true">revisar_maquina</valor>
+						<consecuencias>
+							<variable
+								nombre="pt"
+								operacion="decrementar"
+								cantidad="10" />
+							<variable
+								nombre="pr"
+								operacion="decrementar"
+								cantidad="5" />
+						</consecuencias>
+					</accion>
+					<accion id="hablar_paciente_por_intercom">
+						<feedback />
+						<consecuencias>
+							<variable
+								nombre="pt"
+								operacion="decrementar"
+								cantidad="10" />
+						</consecuencias>
+					</accion>
+					<accion id="despedir_a_paciente">
+						<feedback />
+						<consecuencias>
+							<variable
+								nombre="pt"
+								operacion="put"
+								cantidad="0" />
+						</consecuencias>
+					</accion>
+					<accion id="usar_equipo_soft">
+						<feedback />
+						<link
+							from="CON_PACIENTE"
+							to="PUEDES_USAR_SOFT" />
+					</accion>
+					<!-- Supervisor -->
+					<accion id="supervisor_over">
+						<feedback>string_supervisor_over_CON_PACIENTE</feedback>
+						<link
+							from="CON_PACIENTE"
+							to="CON_PACIENTE" />
+					</accion>
+					<accion id="supervisor_click">
+						<feedback>
+							dialogo_supervisor_click_CON_PACIENTE
+						</feedback>
+						<link
+							from="CON_PACIENTE"
+							to="CON_PACIENTE" />
+					</accion>
+
+
+
+
+
+
+				</acciones>
+				<tareas>
+					<tarea
+						id="obtener_volante"
+						habilitado="1" />
+					<tarea
+						id="revisar_maquina"
+						habilitado="1" />
+					<tarea
+						id="revisar_bombas"
+						habilitado="1" />
+					<tarea
+						id="revisar_materiales"
+						habilitado="1" />
+					<tarea
+						id="traer_paciente"
+						habilitado="1" />
+					<tarea
+						id="traer_enfermera"
+						habilitado="1" />
+					<tarea
+						id="aplicar_contraste"
+						habilitado="1" />
+					<tarea
+						id="revisar_software"
+						habilitado="1" />
+				</tareas>
+				<accionintro>traer_enfermera</accionintro>
+			</estado>
+
+
+			<!-- ********** ESTADOS REVISION BATA PUESTA************* -->
+			<estado
+				nodeType="4"
+				nombre="EVALUAR_BATA_PUESTA">
+				<opcion>
+					<clausula>
+						<variable
+							id="bata_puesta"
+							type="ISTRUE" />
+					</clausula>
+					<tareas />
+					<enlace
+						from="EVALUAR_BATA_PUESTA"
+						to="CRISIS_BATA_SUPERADA" />
+				</opcion>
+				<opcion>
+					<clausula>
+						<variable
+							id="bata_puesta"
+							type="ISFALSE" />
+					</clausula>
+					<tareas />
+					<enlace
+						from="EVALUAR_BATA_PUESTA"
+						to="CRISIS_BATA" />
+				</opcion>
+			</estado>
+			<estado
+				nodeType="2"
+				nombre="CRISIS_BATA"
+				textocrisis="str_CRISIS_BATA">
+				<acciones>
+					<accion id="mostrar_interaccion_crisis_bata">
+						<feedback>interaccion_crisis_bata</feedback>
+						<link
+							from="CRISIS_BATA"
+							to="CRISIS_BATA">
+						</link>
+					</accion>
+					<accion
+						id="calmar_personalmenete_paciente_y_ponerse_la_bata"
+						textoerror="str_error_calmar_personalmenete_paciente_y_ponerse_la_bata">
+						<consecuencias>
+							<variable
+								nombre="pr"
+								operacion="decrementar"
+								cantidad="10" />
+							<variable
+								nombre="bata_puesta"
+								operacion="put"
+								cantidad="true" />
+						</consecuencias>
+					</accion>
+					<accion
+						id="ana_calma_y_ponerse_la_bata"
+						textoerror="str_error_ana_calma_y_ponerse_la_bata">
+						<consecuencias>
+							<variable
+								nombre="pr"
+								operacion="decrementar"
+								cantidad="10" />
+							<variable
+								nombre="bata_puesta"
+								operacion="put"
+								cantidad="true" />
+						</consecuencias>
+					</accion>
+					<accion
+						id="ignorar_paciente_sin_ponerse_la_bata"
+						textoerror="error_ignorar_paciente_sin_ponerse_la_bata">
+						<feedback></feedback>
+						<link
+							from="INICIAL"
+							to="FINAL_POR_PUNTOS_PT" />
+						<consecuencias>
+							<variable
+								nombre="pr"
+								operacion="put"
+								cantidad="0" />
+						</consecuencias>
+					</accion>
+				</acciones>
+				<accionintro>mostrar_interaccion_crisis_bata</accionintro>
+			</estado>
+			<estado
+				nodeType="2"
+				nombre="CRISIS_BATA_SUPERADA">
+				<acciones>
+					<accion id="mostrar_dialogo_paciente">
+						<feedback>dialogo_con_paciente</feedback>
+					</accion>
+					<accion id="tranquilizar_paciente_dialogo_paciente">
+						<feedback />
+						<consecuencias>
+							<variable
+								nombre="nivel_estres"
+								operacion="put"
+								cantidad="0" />
+						</consecuencias>
+					</accion>
+					<accion id="preguntar_por_embarazo">
+						<feedback />
+						<valor efecto="true">preguntar_por_embarazo</valor>
+					</accion>
+					<accion id="pedir_constancia_objetos_de_metal">
+						<feedback />
+						<valor efecto="true">
+							pedir_constancia_objetos_de_metal
+						</valor>
+					</accion>
+					<accion id="comprobar_datos_personales">
+						<feedback />
+						<valor efecto="true">comprobar_datos_personales</valor>
+					</accion>
+					<accion id="aplicar_contraste">
+						<feedback />
+						<valor efecto="true">aplicar_contraste</valor>
+					</accion>
+
+					<accion id="evaluar_si_pedir_constancia_volante">
+						<feedback />
+						<link
+							from="CRISIS_BATA_SUPERADA"
+							to="EVALUAR_SI_PEDIR_CONSTANCIA_CONTRASTE" />
+					</accion>
+					<accion id="evaluar_colocacion_paciente">
+						<feedback />
+						<link
+							from="CRISIS_BATA_SUPERADA"
+							to="EVALUAR_COLOCACION" />
+					</accion>
+				</acciones>
+				<tareas>
+					<tarea
+						id="preguntar_por_embarazo"
+						habilitado="1" />
+					<tarea
+						id="pedir_constancia_contraste"
+						habilitado="1" />
+					<tarea
+						id="pedir_constancia_objetos_de_metal"
+						habilitado="1" />
+					<tarea
+						id="comprobar_datos_personales"
+						habilitado="1" />
+					<tarea
+						id="aplicar_contraste"
+						habilitado="1" />
+
+				</tareas>
+				<accionintro>mostrar_dialogo_paciente</accionintro>
+			</estado>
+
+			<estado
+				nodeType="4"
+				nombre="EVALUAR_SI_PEDIR_CONSTANCIA_CONTRASTE">
+				<opcion>
+					<clausula>
+						<variable
+							id="requiere_contraste"
+							type="ISTRUE" />
+					</clausula>
+					<tareas />
+					<enlace
+						from="EVALUAR_SI_PEDIR_CONSTANCIA_CONTRASTE"
+						to="PEDIR_CONSTANCIA_CONTRASTE" />
+				</opcion>
+				<opcion>
+					<clausula>
+						<variable
+							id="requiere_contraste"
+							type="ISFALSE" />
+					</clausula>
+					<tareas />
+					<enlace
+						from="EVALUAR_SI_PEDIR_CONSTANCIA_CONTRASTE"
+						to="NO_PEDIR_CONSTANCIA_CONTRASTE" />
+				</opcion>
+			</estado>
+
+			<estado
+				nodeType="2"
+				nombre="PEDIR_CONSTANCIA_CONTRASTE">
+				<acciones>
+					<accion id="mostrar_pedir_constancia_constraste">
+						<feedback>pedir_constancia_constraste</feedback>
+						<valor efecto="true">pedir_constancia_contraste</valor>
+					</accion>
+				</acciones>
+
+				<accionintro>mostrar_pedir_constancia_constraste</accionintro>
+			</estado>
+			<estado
+				nodeType="2"
+				nombre="NO_PEDIR_CONSTANCIA_CONTRASTE">
+				<acciones>
+					<accion
+						id="penalizar_pedido_aplicacion_contraste"
+						textoerror="error_penalizar_pedido_aplicacion_contraste">
+						<feedback>
+							alerta_el_volante_no_mencionaba_contraste
+						</feedback>
+						<valor efecto="true">pedir_constancia_contraste</valor>
+						<consecuencias>
+							<variable
+								nombre="pt"
+								operacion="decrementar"
+								cantidad="5" />
+						</consecuencias>
+					</accion>
+				</acciones>
+				<accionintro>penalizar_pedido_aplicacion_contraste</accionintro>
+			</estado>
+			<!-- COLOCACION DE PACIENTE -->
+			<estado
+				nodeType="4"
+				nombre="EVALUAR_COLOCACION">
+				<opcion>
+					<clausula>
+						<tarea
+							id="comprobar_datos_personales"
+							value="false" />
+					</clausula>
+					<tareas />
+					<enlace
+						from="EVALUAR_COLOCACION"
+						to="MOSTRAR_DEBES_COMPROBAR_DATOS_PACIENTE" />
+				</opcion>
+				<opcion>
+					<clausula>
+						<clausula>
+							<tarea
+								id="comprobar_datos_personales"
+								value="true" />
+						</clausula>
+					</clausula>
+					<tareas />
+					<enlace
+						from="EVALUAR_COLOCACION"
+						to="EVALUAR_APLICACION_CONTRASTE" />
+				</opcion>
+			</estado>
+			<estado
+				nodeType="2"
+				nombre="MOSTRAR_DEBES_COMPROBAR_DATOS_PACIENTE">
+				<acciones>
+					<accion
+						id="debes_comprobar_datos_primero"
+						textoerror="error_debes_comprobar_datos_primero">
+						<feedback>alert_debes_comprobar_datos_primero</feedback>
+						<consecuencias>
+							<variable
+								nombre="pt"
+								operacion="decrementar"
+								cantidad="10" />
+						</consecuencias>
+					</accion>
+				</acciones>
+				<accionintro>debes_comprobar_datos_primero</accionintro>
+			</estado>
+
+
+			<estado
+				nodeType="4"
+				nombre="EVALUAR_APLICACION_CONTRASTE">
+				<opcion>
+					<clausula>
+						<variable
+							id="requiere_contraste"
+							type="ISFALSE" />
+					</clausula>
+					<tareas />
+					<enlace
+						from="EVALUAR_APLICACION_CONTRASTE"
+						to="EVALUAR_PREGUNTA_EMBARAZO" />
+				</opcion>
+				<opcion>
+					<clausula>
+						<variable
+							id="requiere_contraste"
+							type="ISTRUE" />
+						<tarea
+							id="aplicar_contraste"
+							value="true" />
+
+					</clausula>
+					<tareas />
+					<enlace
+						from="EVALUAR_APLICACION_CONTRASTE"
+						to="EVALUAR_PREGUNTA_EMBARAZO" />
+				</opcion>
+				<opcion>
+					<clausula>
+						<variable
+							id="requiere_contraste"
+							type="ISTRUE" />
+						<tarea
+							id="aplicar_contraste"
+							value="false" />
+					</clausula>
+					<tareas />
+					<enlace
+						from="EVALUAR_APLICACION_CONTRASTE"
+						to="MOSTRAR_PEDIR_CONSTRASTE" />
+				</opcion>
+			</estado>
+			<estado
+				nodeType="2"
+				nombre="MOSTRAR_PEDIR_CONSTRASTE">
+				<acciones>
+					<accion
+						id="debes_pedir_contraste_primero"
+						textoerror="error_debes_pedir_contraste_primero">
+						<feedback>
+							dialog_debes_pedir_contraste_primero
+						</feedback>
+						<consecuencias>
+							<variable
+								nombre="pt"
+								operacion="decrementar"
+								cantidad="10" />
+						</consecuencias>
+					</accion>
+				</acciones>
+				<accionintro>debes_pedir_contraste_primero</accionintro>
+			</estado>
+
+
+
+			<estado
+				nodeType="4"
+				nombre="EVALUAR_PREGUNTA_EMBARAZO">
+				<opcion>
+					<clausula>
+						<variable
+							id="es_mujer"
+							type="ISTRUE" />
+						<tarea
+							id="preguntar_por_embarazo"
+							value="false" />
+					</clausula>
+					<tareas />
+					<enlace
+						from="EVALUAR_PREGUNTA_EMBARAZO"
+						to="OLVIDO_PREGUNTAR_SOBRE_EMBARAZO" />
+				</opcion>
+
+
+
+				<opcion>
+					<clausula>
+						<variable
+							id="es_mujer"
+							type="ISTRUE" />
+						<tarea
+							id="preguntar_por_embarazo"
+							value="true" />
+					</clausula>
+					<tareas />
+					<enlace
+						from="EVALUAR_PREGUNTA_EMBARAZO"
+						to="EVALUAR_NERVIOS_AL_COLOCAR" />
+				</opcion>
+				<opcion>
+					<clausula>
+						<variable
+							id="es_mujer"
+							type="ISFALSE" />
+					</clausula>
+					<tareas />
+					<enlace
+						from="EVALUAR_PREGUNTA_EMBARAZO"
+						to="EVALUAR_NERVIOS_AL_COLOCAR" />
+				</opcion>
+			</estado>
+
+			<estado
+				nodeType="2"
+				nombre="OLVIDO_PREGUNTAR_SOBRE_EMBARAZO">
+				<acciones>
+					<accion
+						id="olvido_preguntar_sobre_embarazo"
+						textoerror="error_olvido_preguntar_sobre_embarazo">
+						<feedback>
+							dialog_olvido_preguntar_sobre_embarazo
+						</feedback>
+					</accion>
+					<!-- 
+						24/feb/2009
+						La accion anterior se desdobla en esta asi podemos
+						mostrar la perdida de puntos en el momento adcuado
+					-->
+					<accion
+						id="quitar_puntos_por_olvidar_preguntar_embarazo"
+						textoerror="error_olvido_preguntar_sobre_embarazo">
+						<feedback />
+						<valor efecto="true">preguntar_por_embarazo</valor>
+						<consecuencias>
+							<variable
+								nombre="pr"
+								operacion="decrementar"
+								cantidad="7" />
+						</consecuencias>
+					</accion>
+
+				</acciones>
+				<accionintro>olvido_preguntar_sobre_embarazo</accionintro>
+			</estado>
+			<estado
+				nombre="EVALUAR_NERVIOS_AL_COLOCAR"
+				nodeType="4">
+				<!-- tranquilo -->
+				<opcion>
+					<clausula>
+						<variable
+							id="nivel_estres"
+							type="IGUAL"
+							valor="0" />
+					</clausula>
+					<tareas />
+					<enlace
+						from="EVALUAR_NERVIOS_AL_COLOCAR"
+						to="MINIJUEGO_COLOCAR_PACIENTE" />
+				</opcion>
+				<opcion>
+					<clausula>
+						<variable
+							id="nivel_estres"
+							type="MAYOR"
+							valor="0" />
+					</clausula>
+					<tareas />
+					<enlace
+						from="EVALUAR_NERVIOS_AL_COLOCAR"
+						to="EVALUAR_SI_ES_NINO_EN_CRISIS" />
+				</opcion>
+			</estado>
+
+			<estado
+				nodeType="2"
+				nombre="MINIJUEGO_COLOCAR_PACIENTE">
+				<acciones>
+					<accion id="mostrar_juego_colocarpaciente">
+						<feedback>juegocolocarpaciente_do</feedback>
+					</accion>
+				</acciones>
+				<!-- Como se sale del juego perdiendo o colocando al paciente deshabilito la mesa aqui-->
+				<accion id="revisar_mesa_tac_over">
+					<feedback />
+					<link
+						from="MINIJUEGO_COLOCAR_PACIENTE"
+						to="MINIJUEGO_COLOCAR_PACIENTE">
+					</link>
+				</accion>
+
+				<accionintro>mostrar_juego_colocarpaciente</accionintro>
+			</estado>
+			<!-- Se ha hecho un by pass en la crisis de estress -->
+			<estado
+				nodeType="2"
+				textocrisis="error_CRISIS_ESTRES"
+				nombre="CRISIS_ESTRES">
+				<acciones>
+					<accion id="evaluar_nino_en_crisis">
+						<link
+							from="CRISIS_ESTRES"
+							to="EVALUAR_SI_ES_NINO_EN_CRISIS" />
+					</accion>
+				</acciones>
+				<accionintro>evaluar_nino_en_crisis</accionintro>
+			</estado>
+
+			<!--***********EVALUAR SI EL PACIENTE ES NIÑO**************** -->
+			<estado
+				nombre="EVALUAR_SI_ES_NINO_EN_CRISIS"
+				nodeType="4">
+				<!-- tranquilo -->
+				<opcion>
+					<clausula>
+						<variable
+							id="es_nino"
+							type="ISTRUE" />
+					</clausula>
+					<tareas />
+					<enlace
+						from="EVALUAR_SI_ES_NINO_EN_CRISIS"
+						to="CRISIS_EN_NINO" />
+				</opcion>
+				<opcion>
+					<clausula>
+						<variable
+							id="es_nino"
+							type="ISFALSE" />
+					</clausula>
+					<tareas />
+					<enlace
+						from="EVALUAR_SI_ES_NINO_EN_CRISIS"
+						to="CRISIS_EN_ADULTO" />
+				</opcion>
+			</estado>
+			<estado
+				nodeType="2"
+				textocrisis="error_CRISIS_ESTRES"
+				nombre="CRISIS_EN_NINO">
+				<link
+					from="CRISIS_EN_NINO"
+					to="CRISIS_EN_NINO" />
+				<acciones>
+					<accion
+						id="mostrar_crisis_en_nino"
+						textoerror="error_mostrar_crisis_en_nino">
+						<feedback>interaccion_crisis_en_nino</feedback>
+						<consecuencias>
+							<variable
+								nombre="pr"
+								operacion="decrementar"
+								cantidad="5" />
+						</consecuencias>
+					</accion>
+					<accion
+						id="forzar_nino_en_mesa"
+						textoerror="error_forzar_nino_en_mesa">
+						<feedback></feedback>
+						<link
+							from="CRISIS_EN_NINO"
+							to="FINAL_POR_PUNTOS_PT" />
+					</accion>
+				</acciones>
+				<accionintro>mostrar_crisis_en_nino</accionintro>
+			</estado>
+			<estado
+				nodeType="2"
+				textocrisis="error_CRISIS_ESTRES"
+				nombre="CRISIS_EN_ADULTO">
+				<link
+					from="CRISIS_EN_ADULTO"
+					to="CRISIS_EN_ADULTO" />
+				<acciones>
+					<accion
+						id="mostrar_crisis_en_adulto"
+						textoerror="error_mostrar_crisis_en_adulto">
+						<feedback>interaccion_crisis_en_adulto</feedback>
+						<consecuencias>
+							<variable
+								nombre="pr"
+								operacion="decrementar"
+								cantidad="5" />
+						</consecuencias>
+					</accion>
+					<accion
+						id="forzar_adulto_en_mesa"
+						textoerror="error_forzar_adulto_en_mesa">
+						<feedback></feedback>
+						<link
+							from="CRISIS_EN_NINO"
+							to="FINAL_POR_PUNTOS_PT" />
+					</accion>
+				</acciones>
+				<accionintro>mostrar_crisis_en_adulto</accionintro>
+			</estado>
+
+			<!-- ********** FIN ESTADOS REVISION BATA PUESTA************* -->
+
+
+			<!-- ********** ENFERMERA APLICA CONTASTE ******************** -->
+			<estado
+				nodeType="4"
+				nombre="EVALUAR_CARMEN_PIDA_CONTRASTE">
+				<opcion>
+					<clausula>
+						<variable
+							id="requiere_contraste"
+							type="ISTRUE" />
+					</clausula>
+					<tareas />
+					<enlace
+						from="EVALUAR_SI_PEDIR_CONSTANCIA_CONTRASTE"
+						to="CARMEN_EVALUA_CONSTANCIA_CONTASTE" />
+				</opcion>
+				<opcion>
+					<clausula>
+						<variable
+							id="requiere_contraste"
+							type="ISFALSE" />
+					</clausula>
+					<tareas />
+					<enlace
+						from="EVALUAR_SI_PEDIR_CONSTANCIA_CONTRASTE"
+						to="CARMEN_NO_PIDA_CONTRASTE" />
+				</opcion>
+			</estado>
+			<estado
+				nombre="CARMEN_NO_PIDA_CONTRASTE"
+				nodeType="2">
+				<acciones>
+					<accion
+						id="carmen_no_pida_contraste"
+						textoerror="error_carmen_no_pida_contraste">
+						<feedback>dialog_carmen_no_pida_contraste</feedback>
+						<consecuencias>
+							<variable
+								nombre="pt"
+								operacion="decrementar"
+								cantidad="5" />
+							<variable
+								nombre="pr"
+								operacion="decrementar"
+								cantidad="5" />
+						</consecuencias>
+					</accion>
+				</acciones>
+				<accionintro>carmen_no_pida_contraste</accionintro>
+			</estado>
+
+			<estado
+				nombre="CARMEN_EVALUA_CONSTANCIA_CONTASTE"
+				nodeType="4">
+				<!-- Solicita contraste -->
+				<opcion>
+					<clausula>
+						<tarea
+							id="pedir_constancia_contraste"
+							value="true" />
+					</clausula>
+					<tareas />
+					<enlace
+						from="CARMEN_EVALUA_CONSTANCIA_CONTASTE"
+						to="CARMEN_EVALUA_SI_REVISO_BOMBA" />
+				</opcion>
+				<opcion>
+					<clausula>
+						<tarea
+							id="pedir_constancia_contraste"
+							value="false" />
+					</clausula>
+					<tareas />
+					<enlace
+						from="CARMEN_EVALUA_CONSTANCIA_CONTASTE"
+						to="CARMEN_AVISA_PEDIR_CONS_CONTRASTE" />
+				</opcion>
+			</estado>
+			<estado
+				nombre="CARMEN_AVISA_PEDIR_CONS_CONTRASTE"
+				nodeType="2">
+				<acciones>
+					<accion
+						id="carmen_avisa_pedir_cons_contraste"
+						textoerror="error_carmen_avisa_pedir_cons_contraste">
+						<feedback>
+							interaccion_carmen_avisa_pedir_cons_contraste
+						</feedback>
+						<consecuencias>
+							<variable
+								nombre="pt"
+								operacion="decrementar"
+								cantidad="5" />
+
+						</consecuencias>
+					</accion>
+				</acciones>
+				<accionintro>carmen_avisa_pedir_cons_contraste</accionintro>
+			</estado>
+			<estado
+				nombre="CARMEN_EVALUA_SI_REVISO_BOMBA"
+				nodeType="4">
+				<!-- se evalua se revisen las bomas de contraste -->
+				<opcion>
+					<clausula>
+						<tarea
+							id="revisar_bombas"
+							value="true" />
+					</clausula>
+					<tareas />
+					<enlace
+						from="CARMEN_EVALUA_SI_REVISO_BOMBA"
+						to="EVALUAR_NERVIOS_EN_APLICACION" />
+				</opcion>
+				<opcion>
+					<clausula>
+						<tarea
+							id="revisar_bombas"
+							value="false" />
+					</clausula>
+					<tareas />
+					<enlace
+						from="CARMEN_EVALUA_SI_REVISO_BOMBA"
+						to="LA_BOMBA_FALLA" />
+				</opcion>
+			</estado>
+			<estado
+				nombre="LA_BOMBA_FALLA"
+				textocrisis="str_LA_BOMBA_FALLA"
+				nodeType="2">
+				<acciones>
+					<accion
+						id="bomba_falla"
+						textoerror="error_bomba_falla">
+						<feedback>interaccion_bomba_falla</feedback>
+						<consecuencias>
+							<variable
+								nombre="pt"
+								operacion="decrementar"
+								cantidad="10" />
+						</consecuencias>
+					</accion>
+
+					<accion id="dialogo_ante_fallo_personalmente">
+						<valor efecto="true">revisar_bombas</valor>
+						<consecuencias>
+							<variable
+								nombre="pr"
+								operacion="decrementar"
+								cantidad="5" />
+							<variable
+								nombre="nivel_estres"
+								operacion="put"
+								cantidad="0" />
+
+						</consecuencias>
+					</accion>
+					<accion id="dialogo_ante_fallo_ana_atiende">
+						<valor efecto="true">revisar_bombas</valor>
+						<consecuencias>
+							<variable
+								nombre="pr"
+								operacion="decrementar"
+								cantidad="5" />
+							<variable
+								nombre="nivel_estres"
+								operacion="put"
+								cantidad="0" />
+						</consecuencias>
+					</accion>
+					<accion id="dialogo_ante_fallo_esperar">
+						<valor efecto="true">revisar_bombas</valor>
+						<consecuencias>
+							<variable
+								nombre="pr"
+								operacion="decrementar"
+								cantidad="10" />
+							<variable
+								nombre="nivel_estres"
+								operacion="put"
+								cantidad="0" />
+						</consecuencias>
+					</accion>
+					<accion id="dialogo_ante_fallo_volver_intentarlo">
+						<link
+							from="CRISIS_BATA_SUPERADA"
+							to="FINAL_POR_PUNTOS_PT" />
+						<consecuencias>
+							<variable
+								nombre="pt"
+								operacion="put"
+								cantidad="0" />
+						</consecuencias>
+					</accion>
+				</acciones>
+				<accionintro>bomba_falla</accionintro>
+			</estado>
+
+			<estado
+				nombre="EVALUAR_NERVIOS_EN_APLICACION"
+				nodeType="4">
+				<!-- tranquilo -->
+				<opcion>
+					<clausula>
+						<variable
+							id="nivel_estres"
+							type="IGUAL"
+							valor="0" />
+					</clausula>
+					<tareas />
+					<enlace
+						from="EVALUAR_NERVIOS_EN_APLICACION"
+						to="CONTRASTE_APLICADO" />
+				</opcion>
+				<opcion>
+					<clausula>
+						<variable
+							id="nivel_estres"
+							type="MAYOR"
+							valor="0" />
+					</clausula>
+					<tareas />
+					<enlace
+						from="EVALUAR_NERVIOS_EN_APLICACION"
+						to="CONTRASTE_FRACASO" />
+				</opcion>
+			</estado>
+
+
+			<estado
+				nombre="CONTRASTE_APLICADO"
+				nodeType="2">
+				<acciones>
+
+					<accion id="contraste_aplicado_ok">
+						<feedback>
+							interaccion_carmen_avisa_contraste_aplicado_ok
+						</feedback>
+						<valor efecto="true">aplicar_contraste</valor>
+					</accion>
+				</acciones>
+				<accionintro>contraste_aplicado_ok</accionintro>
+			</estado>
+			<estado
+				nombre="CONTRASTE_FRACASO"
+				textocrisis="str_CONTRASTE_FRACASO"
+				nodeType="2">
+				<acciones>
+					<accion
+						id="fracaso_aplicacion_contraste"
+						textoerror="error_fracaso_aplicacion_contraste">
+						<feedback>
+							interaccion_fracaso_aplicacion_contraste
+						</feedback>
+					</accion>
+					<!-- Necesito estas acciones actualizadas 24/02/2009 -->
+					<accion id="dialogo_ante_fallo_personalmente">
+						<valor efecto="true">revisar_bombas</valor>
+						<consecuencias>
+							<variable
+								nombre="pr"
+								operacion="decrementar"
+								cantidad="5" />
+							<variable
+								nombre="nivel_estres"
+								operacion="put"
+								cantidad="0" />
+
+						</consecuencias>
+					</accion>
+					<accion id="dialogo_ante_fallo_ana_atiende">
+						<valor efecto="true">revisar_bombas</valor>
+						<consecuencias>
+							<variable
+								nombre="pr"
+								operacion="decrementar"
+								cantidad="5" />
+							<variable
+								nombre="nivel_estres"
+								operacion="put"
+								cantidad="0" />
+						</consecuencias>
+					</accion>
+					<accion id="dialogo_ante_fallo_esperar">
+						<valor efecto="true">revisar_bombas</valor>
+						<consecuencias>
+							<variable
+								nombre="pr"
+								operacion="decrementar"
+								cantidad="10" />
+							<variable
+								nombre="nivel_estres"
+								operacion="put"
+								cantidad="0" />
+						</consecuencias>
+					</accion>
+
+
+
+				</acciones>
+				<accionintro>fracaso_aplicacion_contraste</accionintro>
+			</estado>
+
+
+			<!-- ********** FIN ENFERMERA APLICA CONTASTE ******************** -->
+
+
+
+			<!-- ********** REVISAR EQUIPO SOFT ******************** -->
+			<estado
+				nodeType="4"
+				nombre="EQUIPO_EVALUAR_SI_REVISO_EQUIPORMN">
+				<opcion>
+					<clausula>
+						<tarea
+							id="revisar_maquina"
+							value="false" />
+					</clausula>
+					<tareas />
+					<enlace
+						from="EQUIPO_EVALUAR_SI_REVISO_EQUIPORMN"
+						to="CRISIS_DEBIA_REVISAR_RMN_ANTES_DE_REVISAR_SOFT" />
+				</opcion>
+				<opcion>
+					<clausula>
+						<tarea
+							id="revisar_maquina"
+							value="true" />
+					</clausula>
+					<tareas />
+					<enlace
+						from="EQUIPO_EVALUAR_SI_REVISO_EQUIPORMN"
+						to="MOSTRAR_EQUIPO_SOFT_REVISADO" />
+				</opcion>
+			</estado>
+
+			<estado
+				nombre="CRISIS_DEBIA_REVISAR_RMN_ANTES_DE_REVISAR_SOFT"
+				textocrisis="crisis_debia_revisar_rmn_antes_de_revisar_soft"
+				nodeType="2">
+				<acciones>
+					<accion id="revisar_software">
+						<valor efecto="true">revisar_software</valor>
+					</accion>
+					<accion id="revisar_maquina">
+						<valor efecto="true">revisar_maquina</valor>
+					</accion>
+
+					<!-- nuevas -->
+					<accion
+						id="revisar_maquina_otra_sala"
+						textoerror="error_al_revisar_software">
+						<valor efecto="true">revisar_software</valor>
+						<consecuencias>
+							<variable
+								nombre="pt"
+								operacion="decrementar"
+								cantidad="10" />
+						</consecuencias>
+					</accion>
+
+					<accion
+						id="espere_mientras_reviso"
+						textoerror="error_al_revisar_software">
+						<consecuencias>
+							<variable
+								nombre="pt"
+								operacion="decrementar"
+								cantidad="10" />
+						</consecuencias>
+					</accion>
+
+
+
+
+
+					<accion id="ana_avisa_falla_iman">
+						<feedback>interaccion_ana_avisa_falla_iman</feedback>
+					</accion>
+				</acciones>
+				<accionintro>ana_avisa_falla_iman</accionintro>
+			</estado>
+
+			<estado
+				nodeType="2"
+				nombre="MOSTRAR_EQUIPO_SOFT_REVISADO">
+				<acciones>
+					<accion id="equipo_soft_revisado">
+						<feedback>animacion_revisar_soft</feedback>
+						<valor efecto="true">revisar_software</valor>
+						<link
+							from="MOSTRAR_EQUIPO_SOFT_REVISADO"
+							to="MOSTRAR_EQUIPO_SOFT_REVISADO" />
+					</accion>
+				</acciones>
+				<accionintro>equipo_soft_revisado</accionintro>
+			</estado>
+
+			<!-- EVALUAR SI COLOCO PACIENTE DESPUES DE COLOCARLO -->
+			<estado
+				nodeType="4"
+				nombre="DET_REV_MATERIALES_POST_COLOCAR">
+				<opcion>
+					<clausula>
+						<tarea
+							id="revisar_materiales"
+							value="false" />
+					</clausula>
+					<tareas />
+					<enlace
+						from="DET_REV_MATERIALES_POST_COLOCAR"
+						to="OLVIDO_REVISAR_MATERIALES" />
+				</opcion>
+				<opcion>
+					<clausula>
+						<tarea
+							id="revisar_materiales"
+							value="true" />
+					</clausula>
+					<tareas />
+					<enlace
+						from="DET_REV_MATERIALES_POST_COLOCAR"
+						to="NO_OLVIDO_REVISAR_MATERIALES" />
+				</opcion>
+			</estado>
+			<estado
+				nombre="NO_OLVIDO_REVISAR_MATERIALES"
+				nodeType="2">
+				<acciones>
+					<accion id="alerta_ya_hemos_terminado">
+						<feedback>alerta_ya_hemos_terminado</feedback>
+					</accion>
+
+				</acciones>
+				<accionintro>alerta_ya_hemos_terminado</accionintro>
+			</estado>
+
+			<estado
+				nombre="OLVIDO_REVISAR_MATERIALES"
+				nodeType="2">
+				<acciones>
+					<accion
+						id="olvido_revisar_materiales"
+						textoerror="error_olvido_revisar_materiales">
+						<feedback>olvido_revisar_materiales</feedback>
+						<valor efecto="true">revisar_materiales</valor>
+						<consecuencias>
+							<variable
+								nombre="pr"
+								operacion="decrementar"
+								cantidad="10" />
+						</consecuencias>
+					</accion>
+				</acciones>
+
+				<accionintro>olvido_revisar_materiales</accionintro>
+			</estado>
+
+			<estado
+				nodeType="2"
+				nombre="COLOCAR_MAL_PACIENTE">
+				<acciones />
+				<tareas />
+
+			</estado>
+			<!-- ************************** PUEDES USAR SOFT********************************* -->
+			<estado
+				nodeType="4"
+				nombre="PUEDES_USAR_SOFT">
+				<opcion>
+					<clausula>
+						<tarea
+							id="colocar_paciente"
+							value="false" />
+					</clausula>
+					<tareas />
+					<enlace
+						from="PUEDES_USAR_SOFT"
+						to="DEBES_COLOCAR_PACIENTE_ANTES_DE_USAR_SOFT" />
+				</opcion>
+				<opcion>
+					<clausula>
+						<tarea
+							id="colocar_paciente"
+							value="true" />
+					</clausula>
+					<tareas />
+					<enlace
+						from="PUEDES_USAR_SOFT"
+						to="CONTROLASTE_METAL_ANTES_DE_USAR_SOFT" />
+				</opcion>
+			</estado>
+
+			<estado
+				nodeType="2"
+				nombre="DEBES_COLOCAR_PACIENTE_ANTES_DE_USAR_SOFT">
+				<acciones>
+					<accion
+						id="debes_colocar_paciente_antes_de_usar_soft"
+						textoerror="error_debes_colocar_paciente_antes_de_usar_soft">
+						<feedback>
+							debes_colocar_paciente_antes_de_usar_soft
+						</feedback>
+						<consecuencias>
+							<variable
+								nombre="pt"
+								operacion="decrementar"
+								cantidad="10" />
+						</consecuencias>
+					</accion>
+				</acciones>
+				<accionintro>
+					debes_colocar_paciente_antes_de_usar_soft
+				</accionintro>
+			</estado>
+			<estado
+				nodeType="4"
+				nombre="CONTROLASTE_METAL_ANTES_DE_USAR_SOFT">
+				<opcion>
+					<clausula>
+						<tarea
+							id="pedir_constancia_objetos_de_metal"
+							value="false" />
+					</clausula>
+					<tareas />
+					<enlace
+						from="CONTROLASTE_METAL_ANTES_DE_USAR_SOFT"
+						to="DEBES_CONTROLAR_METALES_ANTES_DE_USAR_SOFT" />
+				</opcion>
+				<opcion>
+					<clausula>
+						<tarea
+							id="pedir_constancia_objetos_de_metal"
+							value="true" />
+					</clausula>
+					<tareas />
+					<enlace
+						from="CONTROLASTE_METAL_ANTES_DE_USAR_SOFT"
+						to="SE_REVISO_SOFT_ANTES_DE_USAR_SOFT" />
+				</opcion>
+			</estado>
+			<estado
+				nodeType="2"
+				nombre="DEBES_CONTROLAR_METALES_ANTES_DE_USAR_SOFT">
+				<acciones>
+					<accion
+						id="debes_controlar_metales_antes_de_usar_soft"
+						textoerror="error_debes_controlar_metales_antes_de_usar_soft">
+						<feedback>
+							debes_controlar_metales_antes_de_usar_soft
+						</feedback>
+						<consecuencias>
+							<variable
+								nombre="pt"
+								operacion="decrementar"
+								cantidad="10" />
+						</consecuencias>
+					</accion>
+				</acciones>
+				<accionintro>
+					debes_controlar_metales_antes_de_usar_soft
+				</accionintro>
+			</estado>
+			<estado
+				nodeType="4"
+				nombre="SE_REVISO_SOFT_ANTES_DE_USAR_SOFT">
+				<opcion>
+					<clausula>
+						<tarea
+							id="revisar_software"
+							value="false" />
+					</clausula>
+					<tareas />
+					<enlace
+						from="SE_REVISO_SOFT_ANTES_DE_USAR_SOFT"
+						to="DEBES_REVISAR_SOFT_ANTES_DE_USAR_SOFT" />
+				</opcion>
+				<opcion>
+					<clausula>
+						<tarea
+							id="revisar_software"
+							value="true" />
+					</clausula>
+					<tareas />
+					<enlace
+						from="SE_REVISO_SOFT_ANTES_DE_USAR_SOFT"
+						to="LISTO_PARA_SOFT" />
+				</opcion>
+			</estado>
+			<estado
+				nodeType="2"
+				nombre="DEBES_REVISAR_SOFT_ANTES_DE_USAR_SOFT">
+				<acciones>
+					<accion
+						id="debes_revisar_soft_antes_de_usar_soft"
+						textoerror="error_debes_revisar_soft_antes_de_usar_soft">
+						<feedback>
+							debes_revisar_soft_antes_de_usar_soft
+						</feedback>
+						<consecuencias>
+							<variable
+								nombre="pt"
+								operacion="decrementar"
+								cantidad="10" />
+						</consecuencias>
+					</accion>
+				</acciones>
+				<accionintro>debes_revisar_soft_antes_de_usar_soft</accionintro>
+			</estado>
+
+			<estado
+				nodeType="2"
+				nombre="LISTO_PARA_SOFT"
+				ayuda="ayuda_estado_LISTO_PARA_SOFT">
+				<acciones>
+					<accion id="listo_para_soft">
+						<feedback>pre_software</feedback>
+						<!--Se pone en true luego de operar el soft 
+							<valor efecto="true">operar_soft</valor>
+						-->
+					</accion>
+				</acciones>
+				<accionintro>listo_para_soft</accionintro>
+			</estado>
+			<!-- **************************UNA VEZ CULMINADO EL SOFTWARE********************** -->
+			<estado
+				nodeType="2"
+				nombre="IMAGENES_OBTENIDAS"
+				ayuda="ayuda_estado_IMAGENES_OBTENIDAS">
+				<acciones>
+					<accion id="software_pc_over">
+						<feedback />
+					</accion>
+					<accion id="software_pc_click">
+						<feedback />
+					</accion>
+
+					<accion id="feed_imagenes_obtenidas">
+						<feedback>feed_imagenes_obtenidas</feedback>
+					</accion>
+					<accion id="carmen_escenario2_over">
+						<feedback>
+							carmen_escenario2_over_IMAGENES_OBTENIDAS
+						</feedback>
+					</accion>
+					<accion id="carmen_escenario2_click">
+						<feedback>dialogo_ana_despide_paciente</feedback>
+					</accion>
+
+					<accion id="paciente_over">
+						<feedback>paciente_over_IMAGENES_OBTENIDAS</feedback>
+					</accion>
+					<accion id="pre_paciente_pablar">
+						<feedback>
+							dialogo_despedir_paciente_personalmente
+						</feedback>
+					</accion>
+
+
+					<accion id="intercomunicador_escenario2_over">
+						<feedback>
+							intercomunicador_escenario2_over_IMAGENES_OBTENIDAS
+						</feedback>
+					</accion>
+					<accion id="intercomunicador_escenario2_click">
+						<feedback>
+							dialogo_intercomunicador_para_despedir
+						</feedback>
+					</accion>
+
+					<accion
+						id="descontarpuntos_ana_despide"
+						textoerror="error_no_despediste_amablemente_paciente">
+						<consecuencias>
+							<variable
+								nombre="pr"
+								operacion="decrementar"
+								cantidad="5" />
+						</consecuencias>
+						<link
+							from="IMAGENES_OBTENIDAS"
+							to="FINAL_POR_PUNTOS_PT" />
+					</accion>
+					<accion id="biendespedir">
+						<link
+							from="IMAGENES_OBTENIDAS"
+							to="FINAL_POR_PUNTOS_PT" />
+					</accion>
+					<accion
+						id="descontarpuntos_personalmente_hostil"
+						textoerror="error_no_despediste_amablemente_paciente">
+						<consecuencias>
+							<variable
+								nombre="pr"
+								operacion="decrementar"
+								cantidad="5" />
+						</consecuencias>
+						<link
+							from="IMAGENES_OBTENIDAS"
+							to="FINAL_POR_PUNTOS_PT" />
+					</accion>
+					<accion
+						id="descontarpuntos_despedida_impersonal"
+						textoerror="error_no_despediste_amablemente_paciente">
+						<consecuencias>
+							<variable
+								nombre="pr"
+								operacion="decrementar"
+								cantidad="5" />
+						</consecuencias>
+						<link
+							from="IMAGENES_OBTENIDAS"
+							to="FINAL_POR_PUNTOS_PT" />
+					</accion>
+				</acciones>
+				<accionintro>feed_imagenes_obtenidas</accionintro>
+			</estado>
+			<!-- **************************************************************************** -->
+			<!-- Posibles culminaciones del FSM -->
+			<estado
+				nodeType="5"
+				nombre="RESET">
+				<enlace
+					form="RESET"
+					to="INTERACCION_PACIENTE" />
+				<reset_estado>INTERACCION_PACIENTE</reset_estado>
+			</estado>
+			<estado
+				nodeType="5"
+				nombre="cerrar_sesion">
+				<enlace
+					form="INICIAL"
+					to="INICIAL" />
+				<reset_estado>INICIAL</reset_estado>
+			</estado>
+			<estado
+				nodeType="5"
+				nombre="FINAL_POR_PUNTOS_PT">
+				<enlace
+					form="INICIAL"
+					to="INICIAL" />
+				<reset_estado>INICIAL</reset_estado>
+			</estado>
+			<estado
+				nodeType="5"
+				nombre="FINAL_POR_PUNTOS_PR">
+				<enlace
+					form="INICIAL"
+					to="INICIAL" />
+				<reset_estado>INICIAL</reset_estado>
+			</estado>
+			<!-- ***************************************************************************************************** -->
+			<!-- ***MODIFICACIONES SIM 67 ROE*** -->
+			<estado
+				nodeType="4"
+				nombre="DET_ERROR_SOFT_SECUENCIA_POR_CASO">
+				<opcion>
+					<clausula>
+						<variable
+							id="caso_elegido"
+							type="IGUAL"
+							valor="1" />
+					</clausula>
+					<tareas />
+					<enlace
+						from="DET_ERROR_SOFT_SECUENCIA_POR_CASO"
+						to="ERROR_SOFT_SECUENCIA_1" />
+				</opcion>
+				<opcion>
+					<clausula>
+						<variable
+							id="caso_elegido"
+							type="IGUAL"
+							valor="2" />
+					</clausula>
+					<tareas />
+					<enlace
+						from="DET_ERROR_SOFT_SECUENCIA_POR_CASO"
+						to="ERROR_SOFT_SECUENCIA_2" />
+				</opcion>
+				<opcion>
+					<clausula>
+						<variable
+							id="caso_elegido"
+							type="IGUAL"
+							valor="3" />
+					</clausula>
+					<tareas />
+					<enlace
+						from="DET_ERROR_SOFT_SECUENCIA_POR_CASO"
+						to="ERROR_SOFT_SECUENCIA_3" />
+				</opcion>
+				<opcion>
+					<clausula>
+						<variable
+							id="caso_elegido"
+							type="IGUAL"
+							valor="4" />
+					</clausula>
+					<tareas />
+					<enlace
+						from="DET_ERROR_SOFT_SECUENCIA_POR_CASO"
+						to="ERROR_SOFT_SECUENCIA_4" />
+				</opcion>
+				<opcion>
+					<clausula>
+						<variable
+							id="caso_elegido"
+							type="IGUAL"
+							valor="5" />
+					</clausula>
+					<tareas />
+					<enlace
+						from="DET_ERROR_SOFT_SECUENCIA_POR_CASO"
+						to="ERROR_SOFT_SECUENCIA_5" />
+				</opcion>
+				<opcion>
+					<clausula>
+						<variable
+							id="caso_elegido"
+							type="IGUAL"
+							valor="6" />
+					</clausula>
+					<tareas />
+					<enlace
+						from="DET_ERROR_SOFT_SECUENCIA_POR_CASO"
+						to="ERROR_SOFT_SECUENCIA_6" />
+				</opcion>
+				<opcion>
+					<clausula>
+						<variable
+							id="caso_elegido"
+							type="IGUAL"
+							valor="7" />
+					</clausula>
+					<tareas />
+					<enlace
+						from="DET_ERROR_SOFT_SECUENCIA_POR_CASO"
+						to="ERROR_SOFT_SECUENCIA_7" />
+				</opcion>
+				<opcion>
+					<clausula>
+						<variable
+							id="caso_elegido"
+							type="IGUAL"
+							valor="8" />
+					</clausula>
+					<tareas />
+					<enlace
+						from="DET_ERROR_SOFT_SECUENCIA_POR_CASO"
+						to="ERROR_SOFT_SECUENCIA_8" />
+				</opcion>
+			</estado>
+
+			<estado
+				nombre="ERROR_SOFT_SECUENCIA_1"
+				nodeType="2">
+				<acciones>
+					<accion
+						id="error_soft_secuencia"
+						textoerror="str_error_soft_secuencia_1">
+						<feedback />
+					</accion>
+				</acciones>
+				<accionintro>error_soft_protocolo</accionintro>
+			</estado>
+			<estado
+				nombre="ERROR_SOFT_SECUENCIA_2"
+				nodeType="2">
+				<acciones>
+					<accion
+						id="error_soft_secuencia"
+						textoerror="str_error_soft_secuencia_2">
+						<feedback />
+					</accion>
+				</acciones>
+				<accionintro>error_soft_protocolo</accionintro>
+			</estado>
+			<estado
+				nombre="ERROR_SOFT_SECUENCIA_3"
+				nodeType="2">
+				<acciones>
+					<accion
+						id="error_soft_secuencia"
+						textoerror="str_error_soft_secuencia_3">
+						<feedback />
+					</accion>
+				</acciones>
+				<accionintro>error_soft_protocolo</accionintro>
+			</estado>
+			<estado
+				nombre="ERROR_SOFT_SECUENCIA_4"
+				nodeType="2">
+				<acciones>
+					<accion
+						id="error_soft_secuencia"
+						textoerror="str_error_soft_secuencia_4">
+						<feedback />
+					</accion>
+				</acciones>
+				<accionintro>error_soft_protocolo</accionintro>
+			</estado>
+			<estado
+				nombre="ERROR_SOFT_SECUENCIA_5"
+				nodeType="2">
+				<acciones>
+					<accion
+						id="error_soft_secuencia"
+						textoerror="str_error_soft_secuencia_5">
+						<feedback />
+					</accion>
+				</acciones>
+				<accionintro>error_soft_protocolo</accionintro>
+			</estado>
+			<estado
+				nombre="ERROR_SOFT_SECUENCIA_6"
+				nodeType="2">
+				<acciones>
+					<accion
+						id="error_soft_secuencia"
+						textoerror="str_error_soft_secuencia_6">
+						<feedback />
+					</accion>
+				</acciones>
+				<accionintro>error_soft_protocolo</accionintro>
+			</estado>
+			<estado
+				nombre="ERROR_SOFT_SECUENCIA_7"
+				nodeType="2">
+				<acciones>
+					<accion
+						id="error_soft_secuencia"
+						textoerror="str_error_soft_secuencia_7">
+						<feedback />
+					</accion>
+				</acciones>
+				<accionintro>error_soft_protocolo</accionintro>
+			</estado>
+			<estado
+				nombre="ERROR_SOFT_SECUENCIA_8"
+				nodeType="2">
+				<acciones>
+					<accion
+						id="error_soft_secuencia"
+						textoerror="str_error_soft_secuencia_8">
+						<feedback />
+					</accion>
+				</acciones>
+				<accionintro>error_soft_protocolo</accionintro>
+			</estado>
+			<!-- ERROR EN LA SECCION -->
+			<estado
+				nodeType="4"
+				nombre="DET_ERROR_SOFT_SECCION_POR_CASO">
+				<opcion>
+					<clausula>
+						<variable
+							id="caso_elegido"
+							type="IGUAL"
+							valor="1" />
+					</clausula>
+					<tareas />
+					<enlace
+						from="DET_ERROR_SOFT_SECCION_POR_CASO"
+						to="ERROR_SOFT_SECCION_1" />
+				</opcion>
+				<opcion>
+					<clausula>
+						<variable
+							id="caso_elegido"
+							type="IGUAL"
+							valor="2" />
+					</clausula>
+					<tareas />
+					<enlace
+						from="DET_ERROR_SOFT_SECCION_POR_CASO"
+						to="ERROR_SOFT_SECCION_2" />
+				</opcion>
+				<opcion>
+					<clausula>
+						<variable
+							id="caso_elegido"
+							type="IGUAL"
+							valor="3" />
+					</clausula>
+					<tareas />
+					<enlace
+						from="DET_ERROR_SOFT_SECCION_POR_CASO"
+						to="ERROR_SOFT_SECCION_3" />
+				</opcion>
+				<opcion>
+					<clausula>
+						<variable
+							id="caso_elegido"
+							type="IGUAL"
+							valor="4" />
+					</clausula>
+					<tareas />
+					<enlace
+						from="DET_ERROR_SOFT_SECCION_POR_CASO"
+						to="ERROR_SOFT_SECCION_4" />
+				</opcion>
+				<opcion>
+					<clausula>
+						<variable
+							id="caso_elegido"
+							type="IGUAL"
+							valor="5" />
+					</clausula>
+					<tareas />
+					<enlace
+						from="DET_ERROR_SOFT_SECCION_POR_CASO"
+						to="ERROR_SOFT_SECCION_5" />
+				</opcion>
+				<opcion>
+					<clausula>
+						<variable
+							id="caso_elegido"
+							type="IGUAL"
+							valor="6" />
+					</clausula>
+					<tareas />
+					<enlace
+						from="DET_ERROR_SOFT_SECCION_POR_CASO"
+						to="ERROR_SOFT_SECCION_6" />
+				</opcion>
+				<opcion>
+					<clausula>
+						<variable
+							id="caso_elegido"
+							type="IGUAL"
+							valor="7" />
+					</clausula>
+					<tareas />
+					<enlace
+						from="DET_ERROR_SOFT_SECCION_POR_CASO"
+						to="ERROR_SOFT_SECCION_7" />
+				</opcion>
+				<opcion>
+					<clausula>
+						<variable
+							id="caso_elegido"
+							type="IGUAL"
+							valor="8" />
+					</clausula>
+					<tareas />
+					<enlace
+						from="DET_ERROR_SOFT_SECCION_POR_CASO"
+						to="ERROR_SOFT_SECCION_8" />
+				</opcion>
+			</estado>
+
+			<estado
+				nombre="ERROR_SOFT_SECCION_1"
+				nodeType="2">
+				<acciones>
+					<accion
+						id="error_soft_seccion"
+						textoerror="str_error_soft_seccion_1">
+						<feedback />
+					</accion>
+				</acciones>
+				<accionintro>error_soft_seccion</accionintro>
+			</estado>
+			<estado
+				nombre="ERROR_SOFT_SECCION_2"
+				nodeType="2">
+				<acciones>
+					<accion
+						id="error_soft_seccion"
+						textoerror="str_error_soft_seccion_2">
+						<feedback />
+					</accion>
+				</acciones>
+				<accionintro>error_soft_seccion</accionintro>
+			</estado>
+			<estado
+				nombre="ERROR_SOFT_SECCION_3"
+				nodeType="2">
+				<acciones>
+					<accion
+						id="error_soft_seccion"
+						textoerror="str_error_soft_seccion_3">
+						<feedback />
+					</accion>
+				</acciones>
+				<accionintro>error_soft_seccion</accionintro>
+			</estado>
+			<estado
+				nombre="ERROR_SOFT_SECCION_4"
+				nodeType="2">
+				<acciones>
+					<accion
+						id="error_soft_seccion"
+						textoerror="str_error_soft_seccion_4">
+						<feedback />
+					</accion>
+				</acciones>
+				<accionintro>error_soft_seccion</accionintro>
+			</estado>
+			<estado
+				nombre="ERROR_SOFT_SECCION_5"
+				nodeType="2">
+				<acciones>
+					<accion
+						id="error_soft_seccion"
+						textoerror="str_error_soft_seccion_5">
+						<feedback />
+					</accion>
+				</acciones>
+				<accionintro>error_soft_seccion</accionintro>
+			</estado>
+			<estado
+				nombre="ERROR_SOFT_SECCION_6"
+				nodeType="2">
+				<acciones>
+					<accion
+						id="error_soft_seccion"
+						textoerror="str_error_soft_seccion_6">
+						<feedback />
+					</accion>
+				</acciones>
+				<accionintro>error_soft_seccion</accionintro>
+			</estado>
+			<estado
+				nombre="ERROR_SOFT_SECCION_7"
+				nodeType="2">
+				<acciones>
+					<accion
+						id="error_soft_seccion"
+						textoerror="str_error_soft_seccion_7">
+						<feedback />
+					</accion>
+				</acciones>
+				<accionintro>error_soft_seccion</accionintro>
+			</estado>
+			<estado
+				nombre="ERROR_SOFT_SECCION_8"
+				nodeType="2">
+				<acciones>
+					<accion
+						id="error_soft_seccion"
+						textoerror="str_error_soft_seccion_8">
+						<feedback />
+					</accion>
+				</acciones>
+				<accionintro>error_soft_seccion</accionintro>
+			</estado>
+			<!-- ***FIN MODIFICACIONES SIM 67 ROE*** -->
+
+		</estados>
+	</fase1>
+</fases>

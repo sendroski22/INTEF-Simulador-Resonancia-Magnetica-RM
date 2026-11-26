@@ -1,0 +1,31 @@
+﻿td{
+	width:750px; 
+	font-family: verdana; 
+	font-size:16px; 
+	color: #000000;
+}
+
+.links_volver{
+	font-weight: bold;
+	color: #000000;
+	text-align: left;
+}
+
+.links_indice{
+	color: #738b1b;
+}
+
+.links_texto{
+	color: #60ff00;
+}
+
+.links_indice_2{
+	color: #333333;
+	font-size: 16px;
+	font-family: verdana;
+}
+
+.links_subindice{
+	color: #2d85aa;
+	font-size: 12px;
+}

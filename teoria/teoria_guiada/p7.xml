@@ -1,0 +1,29 @@
+﻿<text_layout>
+  <default_directory/>
+  <textos>
+    <texto id="t2">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Una vez seleccionado el protocolo a realizar y valorado el área anatómica que se deberá explorar debemos <FONT COLOR="#384858"><B>situar al enfermo sobre la mesa de estudio</B></FONT> en una posición adecuada, de manera que esté lo más cómodo posible y no interfiera en su colocación con el movimiento de la camilla bajo el aro.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Tras ello se puede desplazar la mesa con el enfermo hasta poder centrarlo bajo el imán, ya sea en forma manual o preprogramado.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>45,47</pos>
+      <size>375,303</size>
+    </texto>
+    <texto id="t1">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Trebuchet MS" SIZE="20" COLOR="#0066FF" LETTERSPACING="0" KERNING="0">Operaciones de centraje</FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>45,16</pos>
+      <size>729,27</size>
+    </texto>
+  </textos>
+  <imagenes>
+    <imagen id="c1">
+      <ruta>teoria/img/flechita_subapartado.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>19,8</pos>
+      <size>28,30</size>
+    </imagen>
+    <imagen id="i1">
+      <ruta>teoria/teoria_guiada/img/24_teoria_guiada.png</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>440,47</pos>
+      <size>335,251</size>
+    </imagen>
+  </imagenes>
+</text_layout>

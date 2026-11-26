@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<images>
+	<titulo>Visor de Imágenes</titulo>
+	<imgs>
+		<minis>
+			<mini>imagenes/minis/img01.jpg</mini>
+			<mini>imagenes/minis/img02.jpg</mini>
+			<mini>imagenes/minis/img03.jpg</mini>
+			<mini>imagenes/minis/img04.jpg</mini>
+			<mini>imagenes/minis/img05.jpg</mini>
+			<mini>imagenes/minis/img06.jpg</mini>
+		</minis>
+		<bigs>
+			<big>imagenes/bigs/img01.jpg</big>
+			<big>imagenes/bigs/img02.jpg</big>
+			<big>imagenes/bigs/img03.jpg</big>
+			<big>imagenes/bigs/img04.jpg</big>
+			<big>imagenes/bigs/img05.jpg</big>
+			<big>imagenes/bigs/img06.jpg</big>
+		</bigs>
+	</imgs>
+</images>

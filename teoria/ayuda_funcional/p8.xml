@@ -1,0 +1,34 @@
+﻿<text_layout>
+  <default_directory/>
+  <textos>
+    <texto id="t1">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Trebuchet MS" SIZE="20" COLOR="#0066FF" LETTERSPACING="0" KERNING="0">¿Un final inesperado?:</FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>45,17</pos>
+      <size>736,31</size>
+    </texto>
+    <texto id="t2">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Aunque en la vida real las consecuencias de hacer las cosas mal suelen ser muy graves, en esta simulación sólo tienen <FONT COLOR="#384858"><B>consecuencias &quot;virtuales&quot;</B></FONT>. </FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Si te equivocas en las decisiones demasiadas veces, ya sea no realizando bien tu trabajo o tratando mal a los personajes, la simulación llegará a una situación (distinta según</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>45,48</pos>
+      <size>734,131</size>
+    </texto>
+    <texto id="t3">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">el contexto en que te encuentres) en la cual volverás al estado inicial y tendrás que empezar la simulación desde la misma. Estos finales te permiten <FONT COLOR="#384858"><B>aprender lo que no debes hacer y te muestran las posibles consecuencias que tendrían esas acciones en la vida real</B></FONT>. </FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Ten cuidado, y utiliza todo lo que te han enseñado para tratar de evitar estas situaciones no deseadas.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>45,159</pos>
+      <size>367,281</size>
+    </texto>
+  </textos>
+  <imagenes>
+    <imagen id="c1">
+      <ruta>teoria/img/flechita_subapartado.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>19,11</pos>
+      <size>28,30</size>
+    </imagen>
+    <imagen id="c2">
+      <ruta>teoria/ayuda_funcional/img/8_anim_01.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>414,160</pos>
+      <size>375,276</size>
+    </imagen>
+  </imagenes>
+</text_layout>

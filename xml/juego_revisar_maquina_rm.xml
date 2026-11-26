@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recursos>
+	<textos>
+	    <texto id="t0">Para revisar la máquina debes arrastrar los nombres de los componentes a su lugar.</texto>
+		<texto id="t1">Revisión del escáner de RMN</texto>
+		<texto id="t2">Ya hemos revisado todos los componentes. Prosigamos.</texto>
+		
+		<texto id="op0">Bobinas de gradiente</texto>		
+		<texto id="op1">Mesa de exploración</texto>
+		<texto id="op2">Bobinas de radiofrecuencia</texto>
+		<texto id="op3">Imán</texto>
+		
+		
+		<texto id="btn">Continuar</texto> 
+	</textos>
+	<audios>
+		<audio id="s1" url="assets/audios/soft_tc/ruido.mp3"/>
+	</audios>
+	<peliculas></peliculas>
+	<videos></videos>
+	<imagenes></imagenes>
+</recursos>

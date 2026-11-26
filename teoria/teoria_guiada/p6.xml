@@ -1,0 +1,50 @@
+﻿<text_layout>
+  <default_directory/>
+  <textos>
+    <texto id="t2">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Una vez conocidos cuáles son los componentes de un equipo de RM y la complejidad de los aparatos,  es razonable pensar que es muy importante realizar un ajuste periódico de los mismos según las indicaciones del fabricante.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Es imprescindible <FONT COLOR="#384858"><B>cumplir con las normas de seguridad</B></FONT> en la sala de RM, no sólo por el potencial riesgo de fallo de la maquinaria, sino por el posible daño a personal sanitario o pacientes próximos al equipo.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>45,47</pos>
+      <size>375,281</size>
+    </texto>
+    <texto id="t1">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Trebuchet MS" SIZE="20" COLOR="#0066FF" LETTERSPACING="0" KERNING="0">Preparación del equipo</FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>45,16</pos>
+      <size>729,27</size>
+    </texto>
+    <texto id="t3">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">El imán tiene tal potencia que arrastra literalmente cuerpos ferromagnéticos (tijeras, bolígrafos, pinzas, sillas de ruedas, balas de oxígeno, enceradoras, etcétera) contra el arco, de tal forma que supondría un potencial peligro de contusión o lesión corporal de los presentes en la sala en ese momento.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">El <FONT COLOR="#384858"><B>sistema de refrigeración del equipo</B></FONT> es fundamental. Habitualmente se emplea un sistema cerrado de helio u otro material similar para ello. Pero si se dieran las condiciones y se produjera un fallo que diera lugar a una pérdida del refrigerante en la sala de RM, provocaría riesgo de congelación o por el contrario, peligro de sobrecalientamiento del equipo con riesgo de accidente eléctrico, incendio o explosión.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>45,327</pos>
+      <size>731,238</size>
+    </texto>
+    <texto id="t4">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Antes de comenzar el estudio debemos asegurarnos de la <FONT COLOR="#384858"><B>presencia de todo el material necesario</B></FONT>: sacos, vendas fijadoras, antenas, vías venosas, sueros y botellas de contraste.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Se deberán encender el equipo y software antes del comienzo de la sesión de RM, para reducir el tiempo de espera del enfermo en la sala vestuario o sobre la camilla de exploración. Es imprescindible <FONT COLOR="#384858"><B>mantener limpia y recogida la sala de RM.</B></FONT></FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>391,565</pos>
+      <size>384,281</size>
+    </texto>
+    <texto id="t5">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Deben introducirse los datos del paciente, nombre y apellidos, tipo de estudio a realizar, protocolo designado, secuencias a realizar, médico que solicita el examen, etc.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Deberá prepararse el sistema de infusión de contraste y bomba, sincronizándolo con el equipo de RM en función de si se procederá a la inyección automática o manual.</FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>45,846</pos>
+      <size>731,131</size>
+    </texto>
+  </textos>
+  <imagenes>
+    <imagen id="c1">
+      <ruta>teoria/img/flechita_subapartado.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>19,8</pos>
+      <size>32,20</size>
+    </imagen>
+    <imagen id="i1">
+      <ruta>teoria/teoria_guiada/img/22_teoria_guiada.png</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>440,47</pos>
+      <size>335,251</size>
+    </imagen>
+    <imagen id="i2">
+      <ruta>teoria/teoria_guiada/img/23_teoria_guiada.png</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>45,564</pos>
+      <size>335,251</size>
+    </imagen>
+  </imagenes>
+</text_layout>

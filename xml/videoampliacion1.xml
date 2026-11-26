@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recursos>
+	<textos>
+		<texto id="intrucciones">Instrucciones:</texto>
+		<texto id="goto">supervisor_recon3d_postvideo1_2</texto>
+	</textos>
+	<audios></audios>
+	<peliculas></peliculas>
+	<videos></videos>
+	<imagenes></imagenes>
+</recursos>

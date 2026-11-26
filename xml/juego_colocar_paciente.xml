@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recursos>
+	<externalresources></externalresources>
+	<config>
+		<actores_locucion>
+			<actor id="0">narrador</actor>
+			<actor id="1">enfermera</actor>
+		</actores_locucion>
+		<emociones>
+			<emocion id="0">normal</emocion>
+			<emocion id="1">alegre</emocion>
+			<emocion id="2">triste</emocion>
+		</emociones>
+	</config>
+	<textos>
+		<texto id="t0">Cabeza primero</texto>
+		<texto id="t1">Pies primero</texto>
+		<texto id="t2">Posición del paciente</texto>
+		<texto id="t3">Indica la posición en la que debes colocar al paciente.</texto>
+		<texto id="t4">Continuar</texto>
+
+		<texto id="t5">SUPINO</texto>
+		<texto id="t6">PRONO</texto>
+		<texto id="t7">VARIABLE</texto>
+
+		<!--errores -->
+		<texto id="e0">Esa no es la posición correcta. Tengo que volver a colocarlo.</texto>
+		<texto id="e1">Creo que no sabe lo que está haciendo. Preferiría que me atendiese otra persona.</texto>
+
+		<!--feedback-->
+		<texto id="f0">Tengo que aprenderme bien todas las posiciones y evitar equivocarme. No puedo hacer mal mi trabajo.</texto>
+
+		<!--puntos -->
+		<texto id="pts">10</texto>
+		<texto id="pr">10</texto>
+
+	</textos>
+	<audios>
+	</audios>
+	<peliculas></peliculas>
+	<videos></videos>
+	<imagenes></imagenes>
+</recursos>

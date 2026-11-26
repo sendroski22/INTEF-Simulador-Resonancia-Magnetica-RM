@@ -1,0 +1,175 @@
+﻿<text_layout>
+  <default_directory/>
+  <textos>
+    <texto id="t1">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Trebuchet MS" SIZE="20" COLOR="#0066FF" LETTERSPACING="0" KERNING="0">Densidad de espín</FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>45,17</pos>
+      <size>551,31</size>
+    </texto>
+    <texto id="t2">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Se refiere al número de espines por unidad de espacio en un área dada, proporcional a la intensidad de la señal de resonancia.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>43,48</pos>
+      <size>742,66</size>
+    </texto>
+    <texto id="t3">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Trebuchet MS" SIZE="20" COLOR="#0066FF" LETTERSPACING="0" KERNING="0">Gauss (G)</FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>45,114</pos>
+      <size>551,31</size>
+    </texto>
+    <texto id="t4">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Antiguo sistema de cuantificación de la densidad de campo magnético, equivalente a 1/10000 Teslas.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>45,145</pos>
+      <size>739,66</size>
+    </texto>
+    <texto id="t7">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Trebuchet MS" SIZE="20" COLOR="#0066FF" LETTERSPACING="0" KERNING="0">Precesión</FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>45,391</pos>
+      <size>551,31</size>
+    </texto>
+    <texto id="t8">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Movimiento de giro de un átomo.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>45,422</pos>
+      <size>739,45</size>
+    </texto>
+    <texto id="t5">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Trebuchet MS" SIZE="20" COLOR="#0066FF" LETTERSPACING="0" KERNING="0">Píxel</FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>45,211</pos>
+      <size>551,31</size>
+    </texto>
+    <texto id="t6">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Unidad básica en imagen bidimensional.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>45,242</pos>
+      <size>526,45</size>
+    </texto>
+    <texto id="t9">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Trebuchet MS" SIZE="20" COLOR="#0066FF" LETTERSPACING="0" KERNING="0">Relación señal-ruido</FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>45,467</pos>
+      <size>551,31</size>
+    </texto>
+    <texto id="t10">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Se define así a la relación existente entre la señal de radiofrecuencia real y aquellas señales artefacto.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>45,498</pos>
+      <size>739,66</size>
+    </texto>
+    <texto id="t11">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Trebuchet MS" SIZE="20" COLOR="#0066FF" LETTERSPACING="0" KERNING="0">Tesla (T)</FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>45,564</pos>
+      <size>551,31</size>
+    </texto>
+    <texto id="t12">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Medida actual de la intensidad de un campo magnético, equivalente a 10000 Gauss.</FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>45,595</pos>
+      <size>527,66</size>
+    </texto>
+    <texto id="t13">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Trebuchet MS" SIZE="20" COLOR="#0066FF" LETTERSPACING="0" KERNING="0">Tiempo de relajación</FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>45,744</pos>
+      <size>551,31</size>
+    </texto>
+    <texto id="t14">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Tiempo de retorno al nivel de energía basal de un espín.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>45,775</pos>
+      <size>525,45</size>
+    </texto>
+    <texto id="t15">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Trebuchet MS" SIZE="20" COLOR="#0066FF" LETTERSPACING="0" KERNING="0">Tiempo de repetición (TR)</FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>45,925</pos>
+      <size>551,31</size>
+    </texto>
+    <texto id="t16">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Segundos entre una secuencia de pulso hasta que se produce la inmediata.</FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>45,956</pos>
+      <size>741,45</size>
+    </texto>
+    <texto id="t17">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Trebuchet MS" SIZE="20" COLOR="#0066FF" LETTERSPACING="0" KERNING="0">Vóxel</FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>45,1001</pos>
+      <size>551,31</size>
+    </texto>
+    <texto id="t18">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Unidad básica de la imagen tridimensional en forma de volumen.</FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>45,1032</pos>
+      <size>527,66</size>
+    </texto>
+  </textos>
+  <imagenes>
+    <imagen id="i1">
+      <ruta>teoria/conceptos_auxiliares/img/01_um.jpg</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>586,240</pos>
+      <size>200,150</size>
+    </imagen>
+    <imagen id="i2">
+      <ruta>teoria/conceptos_auxiliares/img/02_um.jpg</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>585,595</pos>
+      <size>200,150</size>
+    </imagen>
+    <imagen id="i3">
+      <ruta>teoria/conceptos_auxiliares/img/03_um.jpg</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>585,775</pos>
+      <size>200,150</size>
+    </imagen>
+    <imagen id="i4">
+      <ruta>teoria/conceptos_auxiliares/img/04_um.jpg</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>585,1032</pos>
+      <size>200,150</size>
+    </imagen>
+    <imagen id="c1">
+      <ruta>teoria/img/flechita_subapartado.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>19,9</pos>
+      <size>28,30</size>
+    </imagen>
+    <imagen id="c3">
+      <ruta>teoria/img/flechita_subapartado.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>19,205</pos>
+      <size>28,30</size>
+    </imagen>
+    <imagen id="c2">
+      <ruta>teoria/img/flechita_subapartado.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>19,108</pos>
+      <size>28,30</size>
+    </imagen>
+    <imagen id="c4">
+      <ruta>teoria/img/flechita_subapartado.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>19,385</pos>
+      <size>28,30</size>
+    </imagen>
+    <imagen id="c5">
+      <ruta>teoria/img/flechita_subapartado.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>19,460</pos>
+      <size>28,30</size>
+    </imagen>
+    <imagen id="c6">
+      <ruta>teoria/img/flechita_subapartado.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>19,557</pos>
+      <size>28,30</size>
+    </imagen>
+    <imagen id="c7">
+      <ruta>teoria/img/flechita_subapartado.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>19,735</pos>
+      <size>28,30</size>
+    </imagen>
+    <imagen id="c8">
+      <ruta>teoria/img/flechita_subapartado.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>19,920</pos>
+      <size>28,30</size>
+    </imagen>
+    <imagen id="c9">
+      <ruta>teoria/img/flechita_subapartado.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>19,994</pos>
+      <size>28,30</size>
+    </imagen>
+  </imagenes>
+</text_layout>

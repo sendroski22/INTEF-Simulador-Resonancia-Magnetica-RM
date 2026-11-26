@@ -1,0 +1,34 @@
+﻿<text_layout>
+  <default_directory/>
+  <textos>
+    <texto id="t1">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Trebuchet MS" SIZE="20" COLOR="#0066FF" LETTERSPACING="0" KERNING="0">¿Quieres saber más?:</FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>45,17</pos>
+      <size>736,31</size>
+    </texto>
+    <texto id="t2">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Durante toda la simulación tendrás disponible un pequeño <FONT COLOR="#384858"><B>menú en la parte superior de la pantalla</B></FONT>. El objeto de este menú es ayudarte y hacerte la &quot;vida&quot; más sencilla. </FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>45,48</pos>
+      <size>734,66</size>
+    </texto>
+    <texto id="t3">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Desde el mismo puedes acceder a varios temas desarrollados, importantes conceptos y un glosario. Todos ellos son <FONT COLOR="#384858"><B>ayudas en formato de texto</B></FONT> enriquecido, mediante los cuales puedes repasar conocimientos que te serán de máxima importancia durante la simulación. La mayoría son aspectos que ya conoces, pero  siempre es bueno tenerlos a mano, ¿no crees?</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>43,491</pos>
+      <size>734,131</size>
+    </texto>
+  </textos>
+  <imagenes>
+    <imagen id="c1">
+      <ruta>teoria/img/flechita_subapartado.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>19,11</pos>
+      <size>28,30</size>
+    </imagen>
+    <imagen id="i1">
+      <ruta>teoria/ayuda_funcional/img/img_04.png</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>90,122</pos>
+      <size>646,359</size>
+    </imagen>
+  </imagenes>
+</text_layout>

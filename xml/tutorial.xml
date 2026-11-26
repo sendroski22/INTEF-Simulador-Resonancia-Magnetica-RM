@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recursos>
+	<externalresources></externalresources>
+	<config>
+		<actores_locucion>
+			<actor id="0">narrador</actor>
+			<actor id="1">enfermera</actor>
+		</actores_locucion>
+		<emociones>
+			<emocion id="0">normal</emocion>
+			<emocion id="1">alegre</emocion>
+			<emocion id="2">triste</emocion>
+		</emociones>
+	</config>
+	<textos>
+
+		<texto id="btn">Elegir</texto>
+		<texto id="continuar">Continuar</texto>
+		<texto id="salir">Cerrar</texto>
+		<texto id="si">Sí</texto>
+		<texto id="no">No</texto>
+		<texto id="paso">Siguiente paso</texto>
+		
+
+
+		<texto id="t0">Ésta es la sala de descanso donde podrás adquirir tus volantes antes de dirigirte a la siguiente sala.</texto>
+		<texto id="t1">Haz clic en el icono de flecha para rotar la vista.</texto>
+		<texto id="t2">Primero ponte la bata situada en la pared.</texto>
+		<texto id="t3">Ahora elige un volante...</texto>
+		<texto id="t4">Ahora elige un volante del listado.</texto>
+		<texto id="t5">Usa la puerta para ir a la siguiente sala.</texto>
+		<texto id="t6">Revisa la máquina de RMN antes de continuar.</texto>
+		<texto id="t7">Ahora revisa la máquina de contraste.</texto>
+		<texto id="t8">Utiliza el intercomunicador para que el celador traiga al paciente y para que venga la enfermera.</texto>
+		<texto id="t9">Habla con el paciente y solicítale todos los documentos y permisos.</texto>
+		<texto id="t10">Pídele a la enfermera que le aplique contraste al paciente.</texto>
+		<texto id="t11">Ahora sólo te falta colocar al paciente en la máquina.</texto>
+		<texto id="t12">Aquí eliges la posición.</texto>
+		<texto id="t13">Aquí eliges como colocar al paciente en la mesa de exploración.</texto>
+		<texto id="t14">Haz clic en el icono de flecha para rotar la vista.</texto>
+		<texto id="t15">Ahora entremos en la sala de control.</texto>
+		<texto id="t16">Antes de empezar a manejar el software, revisa el equipo y mira que todo esté funcionando bien.</texto>
+		<texto id="t17">Una vez revisado el software, utilízalo.</texto>
+		<texto id="t18">Lo primero es revisar el volante y ver que estudios hay que realizar. En este caso sólo vamos a realizar uno.</texto>
+		<texto id="t19">Aquí debes elegir...</texto>
+		<texto id="t20">La posición del paciente.</texto>
+		<texto id="t21">Eliges el número de secuencia.</texto>
+		<texto id="t22">Seleccionas la región sobre la que vas a trabajar.</texto>
+		<texto id="t23">Eliges el protocolo.</texto> 
+		<texto id="t24">Debes indicar la secuencia del estudio que vas a realizar.</texto>
+		<texto id="t25">Si tiene contraste debes marcar esta opción.</texto>
+		<texto id="t26">Indicas la sección a estudiar.</texto>
+		<texto id="t27">Pinchas en "Cargar" para que aparezcan las imágenes.</texto>
+		<texto id="t28">Después de obtener las imágenes hay que revisarlas y detectar las estructuras anatómicas.</texto>
+		<texto id="t29">Aunque esto tendrás que descubrirlo más adelante. No te preocupes, es fácil para alguien con tus conocimientos. Ahora, guarda las imágenes</texto>
+		<texto id="t30">Aquí seleccionarás el nombre de la estructura que te marca en la imagen.</texto>
+		<texto id="t31">Ya has finalizado. Ahora el celador se llevará al paciente.</texto>
+		<texto id="t32">Tu turno. El siguiente volante tendrás que hacerlo sin mi ayuda ¡Mucha suerte!</texto>
+		<texto id="t33"></texto>
+		<texto id="t34">Revisamos si tiene objetos de metal...</texto>
+		<texto id="t35">Luego procedes a comprobar sus datos.</texto>
+		<texto id="t36">Seleccione la opción...</texto>
+		<texto id="t37">Seleccione la opción...</texto>
+        <!-- Colocar paciente -->
+		<texto id="te1">Posición del paciente</texto>
+		<texto id="te2">Indica la posición en la que debes colocar al paciente.</texto>
+		<texto id="te3">Supino</texto>
+		<texto id="te4">Cabeza primero</texto>
+		<texto id="te5">Pies primero</texto>
+
+		<texto id="te6">Eliges aquí la posición del paciente</texto>
+		<texto id="te7">Aquí eliges el modo de posición</texto>
+		<texto id="te8">Pincha aquí para continuar</texto>
+
+		
+		<!--visor de videos -->
+		<texto id="vid0">Visor de vídeos</texto>
+		<texto id="vid1">Volumen</texto>
+		<texto id="path">assets/videos/video.flv</texto>
+
+		<!-- visor de volantes -->
+		<texto id="v0">Selecciona un volante de la lista</texto>
+		<texto id="v1">Volante médico</texto>
+		<texto id="v2">Datos del paciente</texto>
+		<texto id="v3">DNI: 50206742-2</texto>
+		<texto id="v4">Nombre: Ernesto Fidalgo</texto>
+		<texto id="v5">Sexo: Hombre</texto>
+		<texto id="v6">Especificaciones del protocolo: T1 Axial Gadolinio</texto>
+		<texto id="v7">Región a trabajar: Abdomen</texto>
+		<texto id="v8">Tipo de contraste: Gadolinio</texto>
+		<texto id="v9">Protocolo: Riñones</texto>
+		
+				
+		<!-- hojas -->
+		<texto id="a0">Urgente</texto>
+		<texto id="a1">CRÁNEO</texto>
+		<texto id="a2">------</texto>
+		<texto id="a3">NO</texto>
+		<texto id="a4">50206742-I</texto>
+		<texto id="a5">ERNESTO</texto>
+		<texto id="a6">ÁLVAREZ VERA</texto>
+		<texto id="a7">37</texto>
+		<texto id="a8">Masculino</texto>
+
+
+		<texto id="b0">Normal</texto>
+		<texto id="b1">ABDOMEN</texto>
+		<texto id="b2">------</texto>
+		<texto id="b3">SI</texto>
+		<texto id="b4">40266742-I</texto>
+		<texto id="b5">Carlos</texto>
+		<texto id="b7">25</texto>
+		<texto id="b8">Masculino</texto>
+
+
+
+		<texto id="c0">Urgente</texto>
+		<texto id="c1">ABDOMEN</texto>
+		<texto id="c2">Sí</texto>
+		<texto id="c3">Sí</texto>
+		<texto id="c4">20006742-D</texto>
+		<texto id="c5">María</texto>
+		<texto id="c6">Valenzuela Virna</texto>
+		<texto id="c7">35</texto>
+		<texto id="c8">Femenino</texto>
+
+
+
+		<texto id="d0">Urgente</texto>
+		<texto id="d1">CRÁNEO</texto>
+		<texto id="d2">------</texto>
+		<texto id="d3">No</texto>
+		<texto id="d4">60206742-I</texto>
+		<texto id="d5">Martín</texto>
+		<texto id="d6">Solana Vega</texto>
+		<texto id="d7">22</texto>
+		<texto id="d8">Masculino</texto>
+
+		
+
+
+		<!-- tutorial volantes-->
+		<texto id="paso0">¿Cuál es su nombre?
+Paciente: Marta</texto>
+		<texto id="paso1">Estos son los datos reales del paciente.</texto>
+		<texto id="paso2">Aquí comprobaremos y marcaremos como correctos o incorrectos los datos del volante.</texto>
+		<texto id="paso3">Una vez comprobados los datos podemos validar los mismos.</texto>
+		<texto id="paso4">¡Listo! Hemos validado nuestro volante, ahora continuemos.</texto>
+		
+	
+        <texto id="dato0">Ernesto Fidalgo</texto>
+		<texto id="dato1">Comprobar datos del volante.</texto>
+		<texto id="dato2">DNI: 50206742-2</texto>
+		<texto id="dato3">Nombre: Carlos Fidalgo</texto>
+		<texto id="dato4">Apellidos: Fernandillo</texto>
+		<texto id="dato5">Fecha de nac: 13-11-1980</texto>
+		<texto id="dato6">Sexo: Hombre</texto>
+		<texto id="dato7">Correcto</texto>
+		<texto id="dato8">Incorrecto</texto>
+		<texto id="dato9">Validar datos</texto>
+		
+		
+		<!--  iteraccion 1 -->
+	   <texto id="iter1">Tu dices:</texto>
+       <texto id="iter2">¿Puede darme la constancia firmada para aplicarle contraste?</texto>
+       <texto id="iter3">¿Puede darme la constancia firmada de que no lleva objetos de metal?</texto>
+       <texto id="iter4">Comprobemos sus datos.</texto>
+       <texto id="iter5">Necesito hablar de otros temas.</texto>
+       
+       
+       <!--  iteraccion 2 -->
+       <texto id="iter11">¿Puedes ponerle contraste al paciente?</texto>
+       <texto id="iter22">¿Puedes revisar las bombas de contraste y suero?</texto>
+       <texto id="iter33">¿Puedes revisar la máquina RMN?</texto>
+       <texto id="iter44">Luego hablo con ella.</texto>
+       
+
+       <!-- Tutorial soft -->
+        <texto id="titulo">Sistema de control RM</texto>
+		<texto id="area">Área de exploración</texto>
+		<texto id="sesion">Iniciando Sesión</texto>
+		<texto id="proto">Protocolo de exploración</texto>
+		<texto id="posicion">Posición del paciente</texto>
+		<texto id="prono">Prono</texto>
+		<texto id="supino">Supino</texto>
+		<texto id="variable">Variable</texto>
+		<texto id="proceso">Control del proceso</texto>
+		<texto id="espera">En espera</texto>
+		<texto id="guardar">Guardar</texto>
+		<texto id="cargar">Cargar</texto>
+		<texto id="enviar">Enviar</texto>
+		<texto id="revisar">Análisis.</texto>
+		<texto id="contraste">Contraste</texto>
+		<texto id="nrosecuencia">Nº de Secuencia</texto>
+		<texto id="protocolo">Protocolo</texto>
+		<texto id="seccion">Sección</texto>
+		<texto id="secuencia">Secuencia</texto>
+		<texto id="t111">T1</texto>
+		<texto id="t222">T2</texto>
+		<texto id="contraste">Gadolinio</texto>
+		<texto id="si">Sí</texto>
+		<texto id="no">No</texto>
+		
+				
+
+	</textos>
+	<audios>
+	</audios>
+	<peliculas></peliculas>
+	<videos></videos>
+	<imagenes></imagenes>
+</recursos>

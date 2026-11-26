@@ -1,0 +1,641 @@
+﻿<text_layout>
+  <default_directory/>
+  <textos>
+    <texto id="instance7">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">En el modo <FONT COLOR="#384858"><B>normal</B></FONT>, que es el que aparece por defecto, tienes <FONT COLOR="#384858"><B>100</B></FONT> puntos. </FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>71,4162</pos>
+      <size>356,66</size>
+    </texto>
+    <texto id="instance9">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">En el <FONT COLOR="#384858"><B>difícil</B></FONT> sólo empiezas con <FONT COLOR="#384858"><B>75</B></FONT>. </FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>71,4228</pos>
+      <size>356,45</size>
+    </texto>
+    <texto id="instance10">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">La dificultad establece el número de errores que pueden cometerse.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">En el modo difícil hay que estar muy atento, y tener claro los procesos a seguir. </FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>43,4273</pos>
+      <size>386,131</size>
+    </texto>
+    <texto id="instance11">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">En el panel de administración tienes una opción llamada <FONT COLOR="#384858"><B>&quot;Dificultad&quot;</B></FONT>. Si pinchas sobre ella, podrás establecer la dificultad que quieres para el simulador. </FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Hay tres niveles: <FONT COLOR="#384858"><B>Fácil, normal y difícil</B></FONT>. </FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">La diferencia entre ellos reside en la puntuación de <FONT COLOR="#384858"><B>PT y PI</B></FONT> con la que empiezas. </FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>44,3944</pos>
+      <size>740,152</size>
+    </texto>
+    <texto id="instance12">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Trebuchet MS" SIZE="20" COLOR="#0066FF" LETTERSPACING="0" KERNING="0"> ¿Puedo configurar el simulador?:</FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>44,3185</pos>
+      <size>551,27</size>
+    </texto>
+    <texto id="instance13">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Definitivamente sí. Integrada en la simulación hay un <FONT COLOR="#384858"><B>acceso al panel de control del simulador</B></FONT>. En la primera sala, dirígete al <FONT COLOR="#384858"><B>cuadro de electricidad</B></FONT> y pincha sobre el mismo. Así accedes al cuadro de configuración del profesor. </FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Desde este panel, puedes <FONT COLOR="#384858"><B>controlar los volantes sobre los que se puede trabajar</B></FONT>. Podrás seleccionar el grado de dificultad de la simulación e incluso podrás personalizar el estado de los pacientes. Desde este lugar también podrás <FONT COLOR="#384858"><B>acceder a una guía de cómo utilizar el simulador</B></FONT> en las clases y cómo sacarle el máximo partido.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>45,3222</pos>
+      <size>355,367</size>
+    </texto>
+    <texto id="instance14">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Trebuchet MS" SIZE="20" COLOR="#0066FF" LETTERSPACING="0" KERNING="0">¿Cómo puedo controlar los conflictos sobre los que trabajar?:</FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>44,3589</pos>
+      <size>741,27</size>
+    </texto>
+    <texto id="instance15">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Una vez que estés en el panel de administración verás, que hay una opción llamada <FONT COLOR="#384858"><B>&quot;Configurar volantes&quot;</B></FONT>. </FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Si pinchas sobre ella podrás seleccionar <FONT COLOR="#384858"><B>que volantes quieres que permanezcan activos</B></FONT>, y cuales quieres que estén desactivados durante la sesión. </FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Si por ejemplo quieres que solo haya un volante disponible, tendrás que desactivar el resto. </FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>399,3626</pos>
+      <size>385,281</size>
+    </texto>
+    <texto id="instance16">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">En el modo <FONT COLOR="#384858"><B>fácil</B></FONT> comienzas con <FONT COLOR="#384858"><B>150</B></FONT> puntos en ambos valores. </FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>71,4096</pos>
+      <size>356,66</size>
+    </texto>
+    <texto id="instance19">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Trebuchet MS" SIZE="20" COLOR="#0066FF" LETTERSPACING="0" KERNING="0">¿Puedo consultar las sesiones de usuarios?:</FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>44,4404</pos>
+      <size>739,27</size>
+    </texto>
+    <texto id="instance20">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Uno de los objetivos clave de este simulador es que puedas <FONT COLOR="#384858"><B>consultar las distintas sesiones de los alumnos y los informes finales</B></FONT> que se crean cuando terminan las simulaciones. De este modo podrás saber en que han fallado, que conocimientos no controlan… todo ello para que puedas repasarlo en clase e incidir sobre estos aspectos en tus explicaciones.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>425,4441</pos>
+      <size>359,346</size>
+    </texto>
+    <texto id="instance23">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Trebuchet MS" SIZE="20" COLOR="#0066FF" LETTERSPACING="0" KERNING="0">¿Puedo seleccionar el grado de dificultad del simulador?</FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>44,3907</pos>
+      <size>739,27</size>
+    </texto>
+    <texto id="instance26">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Trebuchet MS" SIZE="20" COLOR="#0066FF" LETTERSPACING="0" KERNING="0">Destinatarios:</FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>44,351</pos>
+      <size>551,27</size>
+    </texto>
+    <texto id="instance27">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Válido para la formación de técnicos superiores en imagen para el diagnóstico, radioterapia, diplomaturas universitarias de enfermería, fisioterapia y estudios universitarios pregrado de medicina y ciencias de la salud.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>44,388</pos>
+      <size>727,88</size>
+    </texto>
+    <texto id="instance33">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Trebuchet MS" SIZE="20" COLOR="#0066FF" LETTERSPACING="0" KERNING="0">Temporización del simulador:</FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>42,2804</pos>
+      <size>551,27</size>
+    </texto>
+    <texto id="instance34">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">El <FONT COLOR="#384858"><B>tiempo de simulación para la resolución de un caso</B></FONT> es de, aproximadamente, <FONT COLOR="#384858"><B>30 minutos</B></FONT>.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>78,2841</pos>
+      <size>695,66</size>
+    </texto>
+    <texto id="instance35">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">El tiempo de <FONT COLOR="#384858"><B>simulación total</B></FONT>, es decir, para la realización de todos los casos propuestos es de, aproximadamente, <FONT COLOR="#384858"><B>30 horas.</B></FONT></FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>78,2907</pos>
+      <size>695,66</size>
+    </texto>
+    <texto id="instance36">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">El tiempo estimado para la <FONT COLOR="#384858"><B>consulta de los apartados teóricos</B></FONT> (glosario, teoría y conceptos auxiliares) es de, aproximadamente, <FONT COLOR="#384858"><B>20 horas.</B></FONT></FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>78,2973</pos>
+      <size>695,66</size>
+    </texto>
+    <texto id="instance39">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Trebuchet MS" SIZE="20" COLOR="#0066FF" LETTERSPACING="0" KERNING="0">Cómo empiezo:</FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>42,3038</pos>
+      <size>732,27</size>
+    </texto>
+    <texto id="instance40">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Primero debes familiarizarte con el simulador. <FONT COLOR="#384858"><B>Pruébalo</B></FONT> y disfruta del mundo que te ofrece. Cuando ya tengas claro cómo funciona, prueba a <FONT COLOR="#384858"><B>cambiar las distintas configuraciones desde el panel de administración</B></FONT> y mira cómo afectan a la sesión. ¿Ya lo has hecho? Es el momento de presentar el simulador a tus alumnos.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>44,3075</pos>
+      <size>733,109</size>
+    </texto>
+    <texto id="instance41">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Identificar en imágenes multiplanares de RM.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>75,512</pos>
+      <size>706,45</size>
+    </texto>
+    <texto id="instance42">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Reconocer, nombrar y posicionar, identificando lateralidad, las articulaciones y huesos que conforman: extremidad superior, extremidad inferior, caja torácica, columna vertebral, cráneo y cara.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>75,558</pos>
+      <size>707,88</size>
+    </texto>
+    <texto id="instance43">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Reconocer, nombrar y posicionar, identificando lateralidad, los órganos y estructuras que se encuentran en: cavidad torácica, cavidad abdominal, cavidad pélvica, médula espinal y mama.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>75,646</pos>
+      <size>356,131</size>
+    </texto>
+    <texto id="instance44">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Trebuchet MS" SIZE="20" COLOR="#0066FF" LETTERSPACING="0" KERNING="0">Objetivos generales de la ficha de diseño instructivo: </FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>41,476</pos>
+      <size>729,27</size>
+    </texto>
+    <texto id="instance45">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#384858" LETTERSPACING="0" KERNING="0"><B>De carácter conceptual (declarativos):</B></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>75,924</pos>
+      <size>707,45</size>
+    </texto>
+    <texto id="instance46">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Trebuchet MS" SIZE="20" COLOR="#0066FF" LETTERSPACING="0" KERNING="0">Objetivos especificos de la ficha de diseño instructivo: </FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>41,888</pos>
+      <size>729,27</size>
+    </texto>
+    <texto id="instance47">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Comprender las relaciones existentes entre los sistemas y aparatos que componen las estructuras anatómicas del cuerpo humano.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>85,970</pos>
+      <size>697,66</size>
+    </texto>
+    <texto id="instance48">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Relacionar las estructuras anatómicas del cuerpo humano que intervienen en el movimiento y la actitud postural con la función locomotriz y postural.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>85,1036</pos>
+      <size>699,66</size>
+    </texto>
+    <texto id="instance51">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#384858" LETTERSPACING="0" KERNING="0"><B>De carácter procedimental:</B></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>75,1560</pos>
+      <size>707,45</size>
+    </texto>
+    <texto id="instance52">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Poseer una visión de conjunto de los diferentes procesos de registros gráficos con equipos de procesamiento informático de imágenes de RM, para la obtención de imágenes para el diagnóstico.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>84,1605</pos>
+      <size>328,152</size>
+    </texto>
+    <texto id="instance53">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Comprender las operaciones de centraje, planificación y exploración realizadas para los diferentes territorios anatómicos.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>84,1757</pos>
+      <size>345,88</size>
+    </texto>
+    <texto id="instance54">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Aplicar los conocimientos de imagen de RM en los procedimientos de simulación y de planificación de tratamientos en Radioterapia.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>85,1845</pos>
+      <size>698,66</size>
+    </texto>
+    <texto id="instance55">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Relacionar imágenes de RM con proyecciones y posiciones del paciente en simuladores de Radioterapia.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>85,1911</pos>
+      <size>699,66</size>
+    </texto>
+    <texto id="instance57">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#384858" LETTERSPACING="0" KERNING="0"><B>De carácter actitudinal:</B></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>75,2064</pos>
+      <size>707,45</size>
+    </texto>
+    <texto id="instance58">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Colocar al alumno ante situaciones nuevas para él, puesto que va implícito en el carácter aleatorio de la generación de los datos.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>84,2109</pos>
+      <size>345,109</size>
+    </texto>
+    <texto id="instance59">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Fomentar el trabajo en grupo.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>84,2219</pos>
+      <size>345,45</size>
+    </texto>
+    <texto id="instance61">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Explicar el proceso de identificación de imágenes en el monitor, relacionándolo con la metodología de selección de imágenes más significativas que deben ser impresionadas en película radiográfica.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>85,1977</pos>
+      <size>701,88</size>
+    </texto>
+    <texto id="instance62">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Identificar en la imagen de RM la zona de interés anatómica, plano de imagen, cortes y tipo de secuencia.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>75,778</pos>
+      <size>355,109</size>
+    </texto>
+    <texto id="instance63">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Potenciar las bases de la organización en el trabajo, tanto en la distribución del tiempo como en el reparto del trabajo.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>85,2264</pos>
+      <size>344,88</size>
+    </texto>
+    <texto id="instance64">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Promover que el alumno asuma la responsabilidad de las tareas encomendadas.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>85,2352</pos>
+      <size>696,47</size>
+    </texto>
+    <texto id="instance65">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Acostumbrar al alumno a trabajar con grandes cantidades de datos.</FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>85,2399</pos>
+      <size>696,45</size>
+    </texto>
+    <texto id="instance66">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Formar al alumno en la organización de información, tanto escrita como en soporte informático.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>85,2444</pos>
+      <size>696,66</size>
+    </texto>
+    <texto id="instance67">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Fomentar la disposición al autoaprendizaje.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>85,2512</pos>
+      <size>696,45</size>
+    </texto>
+    <texto id="instance68">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Promover en el alumno rigor y calidad en el trabajo.</FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>85,2558</pos>
+      <size>696,45</size>
+    </texto>
+    <texto id="instance69">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Demostrar resistencia al estrés, estabilidad de ánimo y control de impulsos.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>85,2603</pos>
+      <size>696,45</size>
+    </texto>
+    <texto id="instance70">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Conocer las estructuras anatómicas humanas de regulación endocrina y nerviosa, en relación con la funcionalidad de cada sistema y aparato.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>84,1102</pos>
+      <size>345,109</size>
+    </texto>
+    <texto id="instance71">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Identificar las estructuras anatómicas registradas que forman parte de los distintos sistemas y aparatos del cuerpo humano: tórax, abdomen, corazón, cráneo, columna lumbosacra y columna vertebral.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>84,1211</pos>
+      <size>345,152</size>
+    </texto>
+    <texto id="instance72">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Identificar patologías más relevantes de: masas tumorales, quistes, hemorragias, roturas de tejidos blandos, infartos, aneurismas, intracraneales o en el corazón, los grandes vasos arteriales, en la espina dorsal o discos vertebrales, en las glándulas y órganos abdominales, así como en las estructuras blandas de las articulaciones y de los músculos.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>85,1364</pos>
+      <size>699,131</size>
+    </texto>
+    <texto id="instance73">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Seleccionar imágenes más significativas que deben ser impresionadas en película radiográfica para tratamientos radioterápicos.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>85,1495</pos>
+      <size>699,66</size>
+    </texto>
+    <texto id="instance74">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Identificar problemas y contingencias imprevistas.</FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>85,2648</pos>
+      <size>696,45</size>
+    </texto>
+    <texto id="instance75">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Actuar con rapidez y de forma autónoma en la resolución de imprevistos.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>85,2694</pos>
+      <size>696,45</size>
+    </texto>
+    <texto id="instance76">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Resolver problemas y tomar decisiones dentro del ámbito de su competencia, consultando dichas decisiones cuando sus repercusiones lo requieran.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>85,2738</pos>
+      <size>696,66</size>
+    </texto>
+    <texto id="instance140">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Georgia" SIZE="20" COLOR="#B1D5F8" LETTERSPACING="0" KERNING="0"> ¿Cómo puedo sacarle el máximo provecho al simulador con mis alumnos?</FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>80,10</pos>
+      <size>626,76</size>
+    </texto>
+    <texto id="instance141">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="8"><P ALIGN="LEFT"><FONT FACE="verdana" SIZE="12" COLOR="#FFFFFF" LETTERSPACING="0" KERNING="0">Objetivos generales de la ficha de diseño instructivo</FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>90,129</pos>
+      <size>415,19</size>
+    </texto>
+    <texto id="instance142">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="8"><P ALIGN="LEFT"><FONT FACE="verdana" SIZE="12" COLOR="#FFFFFF" LETTERSPACING="0" KERNING="0">Objetivos espacíficos de la ficha de diseño instructivo</FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>90,151</pos>
+      <size>374,19</size>
+    </texto>
+    <texto id="instance143">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="8"><P ALIGN="LEFT"><FONT FACE="verdana" SIZE="12" COLOR="#FFFFFF" LETTERSPACING="0" KERNING="0">Temporización del simulador</FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>90,174</pos>
+      <size>372,19</size>
+    </texto>
+    <texto id="instance144">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="8"><P ALIGN="LEFT"><FONT FACE="verdana" SIZE="12" COLOR="#FFFFFF" LETTERSPACING="0" KERNING="0">¿Cómo empiezo?</FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>90,194</pos>
+      <size>354,19</size>
+    </texto>
+    <texto id="instance145">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="8"><P ALIGN="LEFT"><FONT FACE="verdana" SIZE="12" COLOR="#FFFFFF" LETTERSPACING="0" KERNING="0">¿Puedo configurar el simulador?</FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>90,215</pos>
+      <size>377,19</size>
+    </texto>
+    <texto id="instance146">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="8"><P ALIGN="LEFT"><FONT FACE="verdana" SIZE="12" COLOR="#FFFFFF" LETTERSPACING="0" KERNING="0">¿Cómo puedo controlar los volantes?</FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>90,235</pos>
+      <size>453,19</size>
+    </texto>
+    <texto id="instance147">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="8"><P ALIGN="LEFT"><FONT FACE="verdana" SIZE="12" COLOR="#FFFFFF" LETTERSPACING="0" KERNING="0">¿Puedo seleccionar el grado de dificultad del simulador?</FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>90,255</pos>
+      <size>374,19</size>
+    </texto>
+    <texto id="instance148">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="8"><P ALIGN="LEFT"><FONT FACE="verdana" SIZE="12" COLOR="#FFFFFF" LETTERSPACING="0" KERNING="0">¿Puedo consultar las sesiones de usuarios?</FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>90,276</pos>
+      <size>375,19</size>
+    </texto>
+    <texto id="instance149">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="8"><P ALIGN="LEFT"><FONT FACE="verdana" SIZE="12" COLOR="#FFFFFF" LETTERSPACING="0" KERNING="0">Destinatarios</FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>90,109</pos>
+      <size>284,19</size>
+    </texto>
+  </textos>
+  <imagenes>
+    <imagen id="c18">
+      <ruta>teoria/img/flechita_subapartado.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>18,3177</pos>
+      <size>28,30</size>
+    </imagen>
+    <imagen id="c19">
+      <ruta>teoria/img/flechita_subapartado.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>18,3582</pos>
+      <size>28,30</size>
+    </imagen>
+    <imagen id="c21">
+      <ruta>teoria/img/flechita_lista.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>53,4104</pos>
+      <size>8,11</size>
+    </imagen>
+    <imagen id="c22">
+      <ruta>teoria/img/flechita_lista.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>53,4170</pos>
+      <size>8,11</size>
+    </imagen>
+    <imagen id="c23">
+      <ruta>teoria/img/flechita_lista.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>53,4236</pos>
+      <size>8,11</size>
+    </imagen>
+    <imagen id="c24">
+      <ruta>teoria/img/flechita_subapartado.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>18,4396</pos>
+      <size>28,30</size>
+    </imagen>
+    <imagen id="c20">
+      <ruta>teoria/img/flechita_subapartado.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>18,3899</pos>
+      <size>28,30</size>
+    </imagen>
+    <imagen id="c1">
+      <ruta>teoria/img/flechita_subapartado.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>18,343</pos>
+      <size>28,30</size>
+    </imagen>
+    <imagen id="c13">
+      <ruta>teoria/img/flechita_subapartado.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>17,2796</pos>
+      <size>28,30</size>
+    </imagen>
+    <imagen id="c16">
+      <ruta>teoria/img/flechita_lista.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>62,2979</pos>
+      <size>8,11</size>
+    </imagen>
+    <imagen id="c15">
+      <ruta>teoria/img/flechita_lista.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>62,2913</pos>
+      <size>8,11</size>
+    </imagen>
+    <imagen id="c14">
+      <ruta>teoria/img/flechita_lista.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>62,2847</pos>
+      <size>8,11</size>
+    </imagen>
+    <imagen id="c17">
+      <ruta>teoria/img/flechita_subapartado.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>17,3031</pos>
+      <size>28,30</size>
+    </imagen>
+    <imagen id="ia">
+      <ruta>teoria/area_docentes/img/ia.jpg</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>447,646</pos>
+      <size>335,228</size>
+    </imagen>
+    <imagen id="ib">
+      <ruta>teoria/area_docentes/img/ib.jpg</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>447,1102</pos>
+      <size>335,228</size>
+    </imagen>
+    <imagen id="ic">
+      <ruta>teoria/area_docentes/img/ic.jpg</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>447,1605</pos>
+      <size>335,228</size>
+    </imagen>
+    <imagen id="id">
+      <ruta>teoria/area_docentes/img/id.jpg</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>447,2110</pos>
+      <size>335,228</size>
+    </imagen>
+    <imagen id="cc1">
+      <ruta>teoria/img/flechita_subapartado.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>16,468</pos>
+      <size>28,30</size>
+    </imagen>
+    <imagen id="cc2">
+      <ruta>teoria/img/flechita_lista.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>59,518</pos>
+      <size>8,11</size>
+    </imagen>
+    <imagen id="cc10">
+      <ruta>teoria/img/flechita_lista.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>59,930</pos>
+      <size>8,11</size>
+    </imagen>
+    <imagen id="cc11">
+      <ruta>teoria/img/cuad_allo.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>73,978</pos>
+      <size>9,9</size>
+    </imagen>
+    <imagen id="cc3">
+      <ruta>teoria/img/flechita_lista.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>59,565</pos>
+      <size>8,11</size>
+    </imagen>
+    <imagen id="cc4">
+      <ruta>teoria/img/flechita_lista.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>59,651</pos>
+      <size>8,11</size>
+    </imagen>
+    <imagen id="cc9">
+      <ruta>teoria/img/flechita_subapartado.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>16,880</pos>
+      <size>28,30</size>
+    </imagen>
+    <imagen id="cc12">
+      <ruta>teoria/img/cuad_allo.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>73,1044</pos>
+      <size>9,9</size>
+    </imagen>
+    <imagen id="cc19">
+      <ruta>teoria/img/flechita_lista.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>59,1566</pos>
+      <size>8,11</size>
+    </imagen>
+    <imagen id="cc20">
+      <ruta>teoria/img/cuad_allo.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>73,1613</pos>
+      <size>9,9</size>
+    </imagen>
+    <imagen id="cc21">
+      <ruta>teoria/img/cuad_allo.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>73,1765</pos>
+      <size>9,9</size>
+    </imagen>
+    <imagen id="cc22">
+      <ruta>teoria/img/cuad_allo.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>73,1853</pos>
+      <size>9,9</size>
+    </imagen>
+    <imagen id="cc23">
+      <ruta>teoria/img/cuad_allo.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>73,1919</pos>
+      <size>9,9</size>
+    </imagen>
+    <imagen id="cc31">
+      <ruta>teoria/img/flechita_lista.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>59,2070</pos>
+      <size>8,11</size>
+    </imagen>
+    <imagen id="cc32">
+      <ruta>teoria/img/cuad_allo.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>73,2117</pos>
+      <size>9,9</size>
+    </imagen>
+    <imagen id="cc33">
+      <ruta>teoria/img/cuad_allo.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>73,2227</pos>
+      <size>9,9</size>
+    </imagen>
+    <imagen id="cc24">
+      <ruta>teoria/img/cuad_allo.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>73,1985</pos>
+      <size>9,9</size>
+    </imagen>
+    <imagen id="cc5">
+      <ruta>teoria/img/flechita_lista.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>59,782</pos>
+      <size>8,11</size>
+    </imagen>
+    <imagen id="cc34">
+      <ruta>teoria/img/cuad_allo.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>73,2272</pos>
+      <size>9,9</size>
+    </imagen>
+    <imagen id="cc35">
+      <ruta>teoria/img/cuad_allo.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>73,2361</pos>
+      <size>9,9</size>
+    </imagen>
+    <imagen id="cc36">
+      <ruta>teoria/img/cuad_allo.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>73,2408</pos>
+      <size>9,9</size>
+    </imagen>
+    <imagen id="cc37">
+      <ruta>teoria/img/cuad_allo.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>73,2453</pos>
+      <size>9,9</size>
+    </imagen>
+    <imagen id="cc38">
+      <ruta>teoria/img/cuad_allo.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>73,2520</pos>
+      <size>9,9</size>
+    </imagen>
+    <imagen id="cc39">
+      <ruta>teoria/img/cuad_allo.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>73,2566</pos>
+      <size>9,9</size>
+    </imagen>
+    <imagen id="cc40">
+      <ruta>teoria/img/cuad_allo.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>73,2611</pos>
+      <size>9,9</size>
+    </imagen>
+    <imagen id="cc13">
+      <ruta>teoria/img/cuad_allo.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>73,1110</pos>
+      <size>9,9</size>
+    </imagen>
+    <imagen id="cc14">
+      <ruta>teoria/img/cuad_allo.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>73,1220</pos>
+      <size>9,9</size>
+    </imagen>
+    <imagen id="cc15">
+      <ruta>teoria/img/cuad_allo.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>73,1372</pos>
+      <size>9,9</size>
+    </imagen>
+    <imagen id="cc16">
+      <ruta>teoria/img/cuad_allo.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>73,1503</pos>
+      <size>9,9</size>
+    </imagen>
+    <imagen id="cc41">
+      <ruta>teoria/img/cuad_allo.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>73,2656</pos>
+      <size>9,9</size>
+    </imagen>
+    <imagen id="cc42">
+      <ruta>teoria/img/cuad_allo.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>73,2702</pos>
+      <size>9,9</size>
+    </imagen>
+    <imagen id="cc43">
+      <ruta>teoria/img/cuad_allo.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>73,2747</pos>
+      <size>9,9</size>
+    </imagen>
+    <imagen id="i1">
+      <ruta>teoria/area_docentes/img/3_cabecera_mc.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>14,0</pos>
+      <size>770,325</size>
+    </imagen>
+    <imagen id="i3">
+      <ruta>teoria/area_docentes/img/4_anim_01.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>420,3221</pos>
+      <size>364,313</size>
+    </imagen>
+    <imagen id="i6">
+      <ruta>teoria/area_docentes/img/4_anim_02.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>43,4441</pos>
+      <size>364,313</size>
+    </imagen>
+    <imagen id="i4">
+      <ruta>teoria/area_docentes/img/img_14.png</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>45,3626</pos>
+      <size>335,228</size>
+    </imagen>
+    <imagen id="i5">
+      <ruta>teoria/area_docentes/img/img_15.png</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>451,4096</pos>
+      <size>335,251</size>
+    </imagen>
+  </imagenes>
+</text_layout>

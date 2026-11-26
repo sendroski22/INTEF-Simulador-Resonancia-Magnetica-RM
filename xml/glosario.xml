@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recursos>
+  <textos>
+    <glosario>
+      <letras>A,B,C,D,E,F,G,H,I,J,K,L,M,N,Ñ,O,P,Q,R,S,T,U,V,W,X,Y,Z</letras>
+      <titulo>Glosario</titulo>
+      <volver>Volver</volver>
+      <salir>Volver</salir>
+      <definiciones>
+        <definicion_A>
+          <definicion titulo="Axial" id="Axial"><![CDATA[Plano anatómico perpendicular al eje mayor del cuerpo.]]></definicion>
+        </definicion_A>
+        <definicion_B>
+          <definicion titulo="BOLD" id="BOLD"><![CDATA[Son las siglas de  blood oxygen level dependent. Son aquellas imágenes en las que en lugar de gadolinio como contraste  se aprovecha el nivel de oxigenación de la sangre para resaltar  una estructura concreta.]]></definicion>
+        </definicion_B>
+        <definicion_C>
+          <definicion titulo="Chemical shift image" id="Chemical shift image"><![CDATA[También denominada imagen de desplazamiento químico. Se obtiene debido a la presencia de diferente fase en los tejidos en función de su  composición en agua o grasa intracelular. De esta manera se produce una anulación de la señal de RM.]]></definicion>
+          <definicion titulo="Contraste tardío" id="Contraste tardío"><![CDATA[Son aquellas imágenes cuya adquisición se realiza tras un concreto número de segundos tras comenzar la infusión de contraste intravenoso de forma que se resalten las estructuras venosas.]]></definicion>
+          <definicion titulo="Contraste" id="Contraste"><![CDATA[Los contrastes son sustancias químicas con unas propiedades tales que, administradas por vía oral, intravenosa, rectal o articular presentan una afinidad por diversas estructuras o tejidos de tal manera que pueden emplearse tanto para resaltar determinadas áreas anatómicas (vasos sanguíneos) como para evidenciar áreas con mayor realce o señal en RM (infecciones, inflamaciones, neoplasias).]]></definicion>
+          <definicion titulo="Coronal" id="Coronal"><![CDATA[Plano vertical de arriba abajo de tal manera que divide el cuerpo, órgano o estructura anatómica en dos partes: una anterior y otra posterior.]]></definicion>
+        </definicion_C>
+        <definicion_D>
+          <definicion titulo="Densidad protónica" id="Densidad protónica"><![CDATA[Secuencia con pulsos de radiofrecuencia concretos. En RM se emplean productos paramagnéticos como el Gadolinio (Gd) o DTPA.]]></definicion>
+        </definicion_D>
+        <definicion_E>
+          <definicion titulo="Espectroscopia por RM" id="Espectroscopia por RM"><![CDATA[Consiste en el análisis de la concentración bioquímica de un compuesto en el organismo mediante estudio RM.]]></definicion>
+          <definicion titulo="Espín eco" id="Espín eco"><![CDATA[Secuencia obtenida por el empleo de un pulso de 90º seguido de otro de 180º.]]></definicion>
+        </definicion_E>
+        <definicion_F>
+          <definicion titulo="Fase opuesta" id="Fase opuesta"><![CDATA[Se habla así de las imágenes potenciadas en T1 en las que la presencia de grasa anula la señal por comparación con las basales o en fase.]]></definicion>
+          <definicion titulo="FLAIR" id="FLAIR"><![CDATA[Secuencias potenciadas en T2 con atenuación de la señal de estructuras líquidas. Las siglas IR se refieren a inversión-recuperación.]]></definicion>
+        </definicion_F>
+        <definicion_G>
+          <definicion titulo="Gradiente de eco" id="Gradiente de eco"><![CDATA[Secuencia en la que el pulso de radiofrecuencia aplicado tiene un ángulo inferior a 90º.]]></definicion>
+        </definicion_G>
+        <definicion_H>
+        </definicion_H>
+        <definicion_I>
+          <definicion titulo="Imagen anatómica" id="Imagen anatómica"><![CDATA[Es aquélla que muestra de manera más real las estructuras de la anatomía normal o patológica del ser humano estudiado.]]></definicion>
+          <definicion titulo="Imagen dinámica" id="Imagen dinámica"><![CDATA[Fisiológica en tiempo real, con movimientos.]]></definicion>
+        </definicion_I>
+        <definicion_L>
+        </definicion_L>
+        <definicion_M>
+        </definicion_M>
+        <definicion_N>
+        </definicion_N>
+        <definicion_O>
+        </definicion_O>
+        <definicion_P>
+          <definicion titulo="Potenciación en T1 con gadolinio" id="Potenciación en T1 con gadolinio"><![CDATA[Se denominan así aquellas imágenes potenciadas en tiempo de relajación longitudinal o T1 asociando el uso de contraste intravenoso, en general gadolinio.]]></definicion>
+          <definicion titulo="Potenciación en T2" id="Potenciación en T2"><![CDATA[Se denomina así a aquellas imágenes potenciadas en T2 o en  tiempo de relajación transversal.]]></definicion>
+        </definicion_P>
+        <definicion_Q>
+        </definicion_Q>
+        <definicion_R>
+          <definicion titulo="Realce" id="Realce"><![CDATA[Son aquellas estructuras anatómicas que tras administrar gadolinio aumentan su señal o brillo.]]></definicion>
+          <definicion titulo="Ruido" id="Ruido"><![CDATA[Son alteraciones del campo magnético producidas por señales eléctricas y provocan una aberración en la imagen adquirida.]]></definicion>
+        </definicion_R>
+        <definicion_S>
+          <definicion titulo="Sagital" id="Sagital"><![CDATA[Plano vertical que se extiende en dirección anteroposterior y de arriba abajo, divide el cuerpo, órgano o estructura anatómica en dos partes: izquierda y derecha.]]></definicion>
+          <definicion titulo="SE T1" id="SE T1"><![CDATA[Son las imágenes obtenidas potenciadas en tiempo de relajación longitudinal o T1 asociadas a unos pulsos de frecuencia específicos  denominadas espín eco.]]></definicion>
+          <definicion titulo="SE T2" id="SE T2"><![CDATA[Se denomina así a aquellas imágenes potenciadas en T2 o en  tiempo de relajación transversal asociadas a unos pulsos de frecuencia específicos  denominadas espín eco.]]></definicion>
+          <definicion titulo="STIR" id="STIR"><![CDATA[Son imágenes que se obtienen mediante la aplicación de un tiempo de relajación del 60 % del tiempo de inversión de seleccionado. Las siglas IR se refieren a inversión-recuperación.]]></definicion>
+          <definicion titulo="Supresión de la grasa" id="Supresión de la grasa"><![CDATA[Se dice que se suprime la grasa cuando se elimina la señal que manifiestan los tejidos con composición grasa.]]></definicion>
+        </definicion_S>
+        <definicion_T>
+          <definicion titulo="TSE T1" id="TSE T1"><![CDATA[Se denomina así a aquellas imágenes potenciadas en T1 o en  tiempo de relajación longitudinal asociadas a un pulso de radiofrecuencia en un ángulo de 180ª que se continúa con múltiples pulsos secuenciales.]]></definicion>
+          <definicion titulo="TSE T2" id="TSE T2"><![CDATA[Se denomina así a aquellas imágenes potenciadas en T2 o en  tiempo de relajación transversal asociadas a un pulso de radiofrecuencia en un ángulo de 180ª que se continúa con múltiples pulsos secuenciales.]]></definicion>
+          <definicion titulo="Turbo SE" id="Turbo SE"><![CDATA[Llamado también turbo espín eco o TSE o RARE (siglas de adquisición rápida con realce de la relajación).]]></definicion>
+        </definicion_T>
+        <definicion_U>
+        </definicion_U>
+        <definicion_V>
+        </definicion_V>
+      </definiciones>
+      <imagenes>
+        <item id="Axial">assets/imagenes/glosario/axial.jpg</item>
+        <item id="Contraste">assets/imagenes/glosario/contraste.jpg</item>
+        <item id="Coronal">assets/imagenes/glosario/coronal.jpg</item>
+        <item id="Densidad protónica">assets/imagenes/glosario/densidad.jpg</item>
+        <item id="Fase opuesta">assets/imagenes/glosario/fase_opuesta.jpg</item>
+        <item id="FLAIR">assets/imagenes/glosario/flair.jpg</item>
+        <item id="Potenciación en T1 con gadolinio">assets/imagenes/glosario/potenciacion_T1.jpg</item>
+        <item id="Potenciación en T2">assets/imagenes/glosario/potenciacion_T2.jpg</item>
+        <item id="Realce">assets/imagenes/glosario/realce.jpg</item>
+        <item id="Sagital">assets/imagenes/glosario/sagital.jpg</item>
+      </imagenes>
+      <pies>
+        <item id="Axial"><![CDATA[Resonancia axial de cráneo.]]></item>
+        <item id="Contraste"><![CDATA[Sistema de inyección de contraste gadolinio utilizado en RMN.]]></item>
+        <item id="Coronal"><![CDATA[Resonancia coronal de cráneo.]]></item>
+        <item id="Densidad protónica"><![CDATA[Contraste gadolinio administrado por vía intravenosa en un sujeto.]]></item>
+        <item id="Fase opuesta"><![CDATA[Resonancia coronal de cadera potenciada en T1.]]></item>
+        <item id="FLAIR"><![CDATA[Resonancia coronal de cadera potenciada en T2.]]></item>
+        <item id="Potenciación en T1 con gadolinio"><![CDATA[Resonancia axial de riñones potenciada en T1 con gadolinio.]]></item>
+        <item id="Potenciación en T2"><![CDATA[Resonancia axial de riñones potenciada en T2.]]></item>
+        <item id="Realce"><![CDATA[Resonancia axial del corazón con realce gadolinio.]]></item>
+        <item id="Sagital"><![CDATA[Resonancia sagital de tobillo potenciada en T1.]]></item>
+      </pies>
+    </glosario>
+  </textos>
+</recursos>

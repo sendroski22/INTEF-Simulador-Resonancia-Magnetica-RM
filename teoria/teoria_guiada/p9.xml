@@ -1,0 +1,29 @@
+﻿<text_layout>
+  <default_directory/>
+  <textos>
+    <texto id="t2">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">La imagen obtenida en RM debe ser interpretada por el médico radiólogo asignado. Para ello, se le deberán entregar los estudios con las secuencias específicas y en los planos indicados en el volante.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Habitualmente, las secuencias y los planos anatómicos más solicitados en cada servicio estarán establecidos en un protocolo definido para cada centro, que el técnico deberá conocer y memorizar cuando comience a trabajar con el equipo.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>45,43</pos>
+      <size>384,303</size>
+    </texto>
+    <texto id="t1">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Trebuchet MS" SIZE="20" COLOR="#0066FF" LETTERSPACING="0" KERNING="0">Identificación de imágenes en el monitor</FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>45,16</pos>
+      <size>729,27</size>
+    </texto>
+  </textos>
+  <imagenes>
+    <imagen id="c1">
+      <ruta>teoria/img/flechita_subapartado.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>19,8</pos>
+      <size>28,30</size>
+    </imagen>
+    <imagen id="i1">
+      <ruta>teoria/teoria_guiada/img/26_teoria_guiada.png</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>440,43</pos>
+      <size>335,251</size>
+    </imagen>
+  </imagenes>
+</text_layout>

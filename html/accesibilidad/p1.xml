@@ -1,0 +1,126 @@
+﻿<text_layout>
+  <default_directory/>
+  <textos>
+    <texto id="t1">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Georgia" SIZE="32" COLOR="#B1D5F8" LETTERSPACING="0" KERNING="0">Accesibilidad</FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>81,29</pos>
+      <size>440,53</size>
+    </texto>
+    <texto id="t2">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Trebuchet MS" SIZE="16" COLOR="#D2FEB4" LETTERSPACING="0" KERNING="0">Como ampliación de la usabilidad y acceso del simulador, este dispone de las herramientas necesarias para que cualquier usuario, aún teniendo algún tipo de deficiencia, pueda utilizar normalmente los contenidos.</FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>93,77</pos>
+      <size>418,105</size>
+    </texto>
+    <texto id="t3">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="8"><P ALIGN="LEFT"><FONT FACE="verdana" SIZE="12" COLOR="#FFFFFF" LETTERSPACING="0" KERNING="0">Accesibilidad general en el simulador</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="8"><P ALIGN="LEFT"><FONT FACE="verdana" SIZE="12" COLOR="#FFFFFF" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>111,188</pos>
+      <size>284,41</size>
+    </texto>
+    <texto id="t4">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="8"><P ALIGN="LEFT"><FONT FACE="verdana" SIZE="12" COLOR="#FFFFFF" LETTERSPACING="0" KERNING="0">Accesibilidad para minusválidos</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="8"><P ALIGN="LEFT"><FONT FACE="verdana" SIZE="12" COLOR="#FFFFFF" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>111,210</pos>
+      <size>327,43</size>
+    </texto>
+    <texto id="t6">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Trebuchet MS" SIZE="20" COLOR="#0066FF" LETTERSPACING="0" KERNING="0">Accesibilidad general en el simulador:</FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>45,368</pos>
+      <size>551,31</size>
+    </texto>
+    <texto id="t7">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">El simulador comprende un orden genérico de tabulación que está <FONT COLOR="#384858"><B>dividido en dos grupos</B></FONT>, uno de ellos para controlar las funciones de la <FONT COLOR="#384858"><B>interfaz</B></FONT> y otro para controlar las de los <FONT COLOR="#384858"><B>contenidos</B></FONT>. De esta manera de consigue una manera comprensiva y organizada de navegar en las posibles interacciones. A dichos subgrupos se accede con atajos de teclado.</FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>45,399</pos>
+      <size>740,129</size>
+    </texto>
+    <texto id="t8">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#666666" LETTERSPACING="0" KERNING="0">Tab + Ctrl: <FONT COLOR="#333333">permite avanzar de entre los grupos de tabulación.</FONT></FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#666666" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>410,518</pos>
+      <size>375,66</size>
+    </texto>
+    <texto id="t9">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#666666" LETTERSPACING="0" KERNING="0">Tab + Shift:<FONT COLOR="#333333"> permite retroceder dentro del orden tabular de navegación establecido para el acceso a los elementos de la pantalla.</FONT></FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#666666" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>410,579</pos>
+      <size>375,109</size>
+    </texto>
+    <texto id="t10">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#666666" LETTERSPACING="0" KERNING="0">Tab:<FONT COLOR="#333333"> permite avanzar dentro del orden tabular de navegación establecido y acceder así a los diferentes elementos de la pantalla.</FONT></FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#666666" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#666666" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>410,682</pos>
+      <size>374,109</size>
+    </texto>
+    <texto id="t11">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#666666" LETTERSPACING="0" KERNING="0">Enter:<FONT COLOR="#333333"> ejecuta el clic del elemento seleccionado a través de teclado.</FONT></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>410,784</pos>
+      <size>374,88</size>
+    </texto>
+    <texto id="t15">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Trebuchet MS" SIZE="20" COLOR="#0066FF" LETTERSPACING="0" KERNING="0">Accesibilidad para minusválidos:</FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>45,852</pos>
+      <size>551,31</size>
+    </texto>
+    <texto id="t16">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Las dificultades de navegación, a consecuencia de minusvalías de este tipo, vienen ocasionadas por la incapacidad de usar el ratón con la precisión necesaria. </FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>45,883</pos>
+      <size>740,45</size>
+    </texto>
+    <texto id="t17">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Aunque los sistemas operativos más populares en estos días, traen por defecto la opción de mover el cursor, con las flechas del panel numérico el simulador incluye un sofisticado <B>sistema de tabulación</B> con el que se puede acceder a cualquier sitio, y por otro lado, los botones y funciones más importantes pueden ser seleccionados o ejecutados con un acceso directo de teclado.</FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>400,947</pos>
+      <size>384,260</size>
+    </texto>
+  </textos>
+  <imagenes>
+    <imagen id="i1">
+      <ruta>teoria/accesibilidad/img/01_accesibilidad.png</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>46,522</pos>
+      <size>335,251</size>
+    </imagen>
+    <imagen id="i3">
+      <ruta>teoria/accesibilidad/img/03_accesibilidad.png</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>46,948</pos>
+      <size>335,251</size>
+    </imagen>
+    <imagen id="c1">
+      <ruta>teoria/accesibilidad/img/cabecera_mc.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>15,-1</pos>
+      <size>770,325</size>
+    </imagen>
+    <imagen id="c2">
+      <ruta>teoria/img/flechita_subapartado.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>19,360</pos>
+      <size>28,30</size>
+    </imagen>
+    <imagen id="c4">
+      <ruta>teoria/img/flechita_subapartado.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>19,844</pos>
+      <size>28,30</size>
+    </imagen>
+    <imagen id="c5">
+      <ruta>teoria/img/flechita_lista.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>397,524</pos>
+      <size>8,11</size>
+    </imagen>
+    <imagen id="c6">
+      <ruta>teoria/img/flechita_lista.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>396,585</pos>
+      <size>8,11</size>
+    </imagen>
+    <imagen id="c7">
+      <ruta>teoria/img/flechita_lista.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>396,687</pos>
+      <size>8,11</size>
+    </imagen>
+    <imagen id="c8">
+      <ruta>teoria/img/flechita_lista.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>396,789</pos>
+      <size>8,11</size>
+    </imagen>
+  </imagenes>
+</text_layout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recursos>
+	<textos>
+		<texto id="cargar_sesion_titulo"><![CDATA[Cargar sesión]]></texto>
+		<texto id="cargar_sesion_nombre"><![CDATA[Nombre]]></texto>
+		<texto id="cargar_sesion_fecha"><![CDATA[Fecha]]></texto>
+		<texto id="cargar_sesion_borrar"><![CDATA[Borrar]]></texto>
+		<texto id="cargar_sesion_confirmar"><![CDATA[Confirmar]]></texto>
+		<texto id="cargar_sesion_cancelar"><![CDATA[Cerrar]]></texto>
+		<texto id="cargar_sesion_contrasenia"><![CDATA[Contraseña]]></texto>
+		<texto id="cargar_sesion_ok"><![CDATA[Ya recuerdo todo lo que había hecho hasta el momento. He iniciado mi sesión.]]></texto>
+		<texto id="cargar_sesion_borrar_titulo"><![CDATA[Borrar sesión]]></texto>
+		<texto id="cargar_sesion_borrar_mensaje"><![CDATA[¿Está seguro que desea borrar la sesión?]]></texto>
+		<texto id="cargar_sesion_abrir_titulo"><![CDATA[Restaurar sesión]]></texto>
+		<texto id="cargar_sesion_abrir_mensaje"><![CDATA[Escribe tu contraseña para restaurar sesión]]></texto>
+		<texto id="cargar_sesion_contrasenia_incorrecta"><![CDATA[La contraseña es incorrecta]]></texto>
+		<texto id="cargar_sesion_mensaje_cargado"><![CDATA[Sesión cargada correctamente]]></texto>
+		<texto id="cargar_sesion_mensaje_borrado"><![CDATA[Sesión borrada]]></texto>
+		<texto id="feed_cerrar_sesion"><![CDATA[Simulador reiniciado.]]></texto>
+		<texto id="feed_diana_over"><![CDATA[Aquí podré cambiar la configuración.]]></texto>
+		<texto id="feed_ojo_over"><![CDATA[Haz clic para ir a este lugar.]]></texto>
+	</textos>
+	<audios></audios>
+	<peliculas></peliculas>
+	<videos></videos>
+	<imagenes></imagenes>
+</recursos>
+

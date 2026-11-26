@@ -1,0 +1,34 @@
+﻿<text_layout>
+  <default_directory/>
+  <textos>
+    <texto id="t1">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Trebuchet MS" SIZE="20" COLOR="#0066FF" LETTERSPACING="0" KERNING="0">¿Cómo funciona la puntuación?:</FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>45,17</pos>
+      <size>736,31</size>
+    </texto>
+    <texto id="t2">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Hay dos valores de puntuación.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Los puntos de “<FONT COLOR="#384858"><B>Trabajo</B></FONT>” están referidos a interacciones con objetos fundamentalmente. Representan lo bien que manejas estos aparatos y los conocimientos técnicos que tienes relacionados con la profesión. </FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Los puntos de “<FONT COLOR="#384858"><B>Relaciones</B></FONT>” reflejan las interacciones con otros personajes que aparecen en el simulador. </FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">El funcionamiento de ambos sistemas de puntuación es similar. Al empezar cuentas con<FONT COLOR="#384858"><B> 100 puntos en ambos valores</B></FONT>. Las acciones que realices a lo largo del simulador </FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>45,48</pos>
+      <size>734,260</size>
+    </texto>
+    <texto id="t3">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">pueden producir un descenso de esta puntuación, siempre que no sean correctas. De este modo, si tratas mal al paciente <FONT COLOR="#384858"><B>tu valor de “Relaciones” se reducirá</B></FONT> y si introduces mal los valores en el software, <FONT COLOR="#384858"><B>tu valor de “Trabajo” también descenderá</B></FONT>. Si en algún momento de la simulación tu puntuación en cualquiera de los dos valores es menor de 50 puntos... la verdad es que no creo que llegues a este momento, pero en todo caso, ya lo descubrirás.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>45,283</pos>
+      <size>367,324</size>
+    </texto>
+  </textos>
+  <imagenes>
+    <imagen id="c1">
+      <ruta>teoria/img/flechita_subapartado.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>19,11</pos>
+      <size>28,30</size>
+    </imagen>
+    <imagen id="i1">
+      <ruta>teoria/ayuda_funcional/img/img_10.png</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>445,299</pos>
+      <size>335,251</size>
+    </imagen>
+  </imagenes>
+</text_layout>

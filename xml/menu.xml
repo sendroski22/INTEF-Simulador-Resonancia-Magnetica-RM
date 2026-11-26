@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recursos>
+	<externalresources></externalresources>
+	<config>
+		<actores_locucion>
+			<actor id="0">narrador</actor>
+			<actor id="1">enfermera</actor>
+		</actores_locucion>
+		<emociones>
+			<emocion id="0">normal</emocion>
+			<emocion id="1">alegre</emocion>
+			<emocion id="2">triste</emocion>
+		</emociones>
+	</config>
+	<textos>
+	    <texto id="error">No puede guardar sesión hasta que no seleccione un volante.</texto>
+	    <texto id="info">Información.</texto>
+	    <texto id="aceptar">Aceptar</texto>
+	    <texto id="guardar_sesion_ok"><![CDATA[Siempre recordaré cada momento que he pasado en este trabajo. Mi sesión se ha guardado con éxito.]]></texto>
+	    
+		<texto id="tutorial">
+			<![CDATA[Tutorial]]>
+		</texto>
+		<texto id="teoria">
+			<![CDATA[Teoría guiada]]>
+		</texto>
+		<texto id="docentes">
+			<![CDATA[Área de Docentes]]>
+		</texto>
+		<texto id="glosario">
+			<![CDATA[Glosario]]>
+		</texto>
+		<texto id="accesibilidad">
+			<![CDATA[Accesibilidad]]>
+		</texto>
+		<texto id="ayuda">
+			<![CDATA[Ayuda funcional]]>
+		</texto>
+		<texto id="mapa">
+			<![CDATA[Conceptos auxiliares]]>
+		</texto>
+		<texto id="informes">
+			<![CDATA[Resultados de la simulación]]>
+		</texto>	
+		
+		<!-- Botonera Sesion  -->
+		<texto id="cerrar_sesion">
+			<![CDATA[Cerrar sesión]]>
+		</texto>
+		<texto id="guardar_sesion">
+			<![CDATA[Guardar sesión]]>
+		</texto>
+		<texto id="cargar_sesion">
+			<![CDATA[Cargar sesión]]>
+		</texto>
+		
+		<texto id="volver">
+			<![CDATA[Volver]]>
+		</texto>
+		
+	</textos>
+	<audios>
+		<audio id="sonido" url="assets/audios/menu/audio1.mp3" />
+	</audios>
+	<peliculas></peliculas>
+	<videos></videos>
+	<imagenes></imagenes>
+</recursos>
+

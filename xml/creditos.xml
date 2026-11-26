@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recursos>
+	<externalresources></externalresources>
+	<textos>
+		<texto id="titulo">Créditos</texto>
+		<texto id="tx0">
+			<![CDATA[El presente material educativo digital es propiedad de la entidad pública empresarial Red.es y ha sido realizado en el marco del programa Internet en el Aula. Este programa ha sido desarrollado y ejecutado por el Ministerio de Industria, Turismo y Comercio, la entidad pública empresarial Red.es, el Ministerio de Educación -a través del Instituto de Tecnologías Educativas (ITE)- junto a las Consejerías de Educación de las distintas Comunidades Autónomas de España. ]]>
+		</texto>
+		<texto id="tx1">
+			<![CDATA[Los materiales educativos digitales desarrollados en el marco del programa Internet en el Aula, pueden ser utilizados y adaptados en los términos de la licencia Creative Commons.
+Esta obra ha sido licenciada en los siguientes términos: Creative Commons-Reconocimiento-No Comercial-Compartir bajo la misma licencia España.]]>
+		</texto>
+		<texto id="tx2">
+			<![CDATA[Por tanto Ud. está autorizado a:
+Copiar, distribuir y comunicar públicamente este objeto digital educativo. Puede, en detalle:
+<ul><li>Descargar los archivos y copiarlos para su reproducción digital</li><li>Distribuirlos en entornos intranet o publicarlos en Internet.</li><li>Realizar comunicación pública en el aula o fuera de la misma con fines educativos.</li></ul><br/>]]>
+		</texto>
+		<texto id="tx3">
+			<![CDATA[y hacer obras derivadas. Puede, por ejemplo:
+<ul><li>integrar este objeto digital educativo en otras secuencias didácticas e itinerarios formativos, gracias a las posibilidades que ofrece el modelo de desagregación de SCORM 2004, junto con otros materiales para su explotación educativa en entornos de e-learning (LMS).</li></ul><br/>bajo las siguientes condiciones:
+Reconocimiento: Debe reconocer los créditos del objeto digital educativo de la manera especificada por Red.es, reproduciendo el primer párrafo que aparece en este mismo documento. Este reconocimiento no implica el apoyo por parte de Red.es al nuevo contenido creado a partir de este objeto digital educativo.
+No comercial: No puede utilizar este objeto digital educativo para fines comerciales o integrarlo en otras obras que tengan fines comerciales.
+Compartir bajo la misma licencia: Tanto si distribuye, comunica públicamente como si reutiliza este objeto digital educativo recuerde que sólo puede distribuir la obra generada bajo una licencia idéntica a esta.
+Por favor configure su licencia con las herramientas proporcionadas por Creative Commons en su web para dejar claro los términos de la misma.]]>
+		</texto>
+		<texto id="botoncerrar">Volver</texto>
+	</textos>
+	<audios></audios>
+	<peliculas></peliculas>
+	<videos></videos>
+	<imagenes></imagenes>
+</recursos>

@@ -1,0 +1,138 @@
+﻿<text_layout>
+  <default_directory/>
+  <textos>
+    <texto id="t2">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#384858" LETTERSPACING="0" KERNING="0"><B>Cada órgano o sistema del organismo requiere un estudio concreto</B><FONT COLOR="#333333">, ajustando no sólo el área anatómica a explorar, sino también, una serie de parámetros del equipo de resonancia. <FONT COLOR="#384858"></FONT></FONT></FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#384858" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Cada uno de los parámetros del conjunto, pueden predefinirse en un programa específico para acelerar el proceso y definirse con un término concreto denominado <FONT COLOR="#384858"><B>protocolo</B></FONT>. Así, por ejemplo, existirá un protocolo hombro, en el que se habrá definido el tipo de área anatómica a estudiar (hombro), imágenes potenciadas en un tiempo de relajación longitudinal T1, transversal T2 o cualquiera de las distintas secuencias convenientes, tipo de sección anatómica (axial, sagital, coronal), etc.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>45,47</pos>
+      <size>730,238</size>
+    </texto>
+    <texto id="t1">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Trebuchet MS" SIZE="20" COLOR="#0066FF" LETTERSPACING="0" KERNING="0">Principales protocolos para el estudio de órganos específicos o sistemas</FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>45,16</pos>
+      <size>729,27</size>
+    </texto>
+    <texto id="t3">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Con RM se obtienen imágenes sectoriales del organismo en los distintos planos anatómicos. La diferencia con TC es la <FONT COLOR="#384858"><B>ausencia de radiación ionizante</B></FONT> en RM y la mejor valoración del sistema musculoesquelético o patología del sistema nervioso central (SNC). Sin embargo requiere <FONT COLOR="#384858"><B>más tiempo de exploración que TC</B></FONT> y las imágenes obtenidas deben ser interpretadas por <FONT COLOR="#384858"><B>radiólogos expertos</B></FONT> como consecuencia de la complejidad de sus resultados. </FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>45,284</pos>
+      <size>376,281</size>
+    </texto>
+    <texto id="t4">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Por otro lado, el acondicionamiento de la sala y la adquisición de un equipo de RM supone una inversión económica de mayor envergadura que TC, y no todos los centros pueden disponer de ella. </FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Entre las indicaciones de RM encontramos:</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>45,566</pos>
+      <size>730,131</size>
+    </texto>
+    <texto id="t5">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#999999" LETTERSPACING="0" KERNING="0">Estudio de patología torácica:<FONT COLOR="#333333"> estudios oncológicos, estadiaje y diagnóstico; patología coronaria y cardiovascular; alteraciones de cámaras cardiacas o valvulares; lesiones óseas o de la pared.</FONT></FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#999999" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>71,697</pos>
+      <size>704,88</size>
+    </texto>
+    <texto id="t6">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#999999" LETTERSPACING="0" KERNING="0">Estudio del Sistema Nervioso Central: <FONT COLOR="#333333">neoplasias intracraneales o de la médula espinal; trastornos vasculares congénitos o adquiridos, trastornos oculares o del aparato auditivo; estudio de patología isquémica cerebral.</FONT></FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#999999" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>71,784</pos>
+      <size>704,88</size>
+    </texto>
+    <texto id="t7">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#999999" LETTERSPACING="0" KERNING="0">Estudio de paciente politraumatizado: <FONT COLOR="#333333">valoración de lesiones óseas vertebrales, óseas en general o cambios postquirúrgicos.</FONT></FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#999999" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>71,872</pos>
+      <size>704,66</size>
+    </texto>
+    <texto id="t8">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#999999" LETTERSPACING="0" KERNING="0">Estudio de patología vertebral: <FONT COLOR="#333333">ver defectos de fusión, anomalías de discos intervertebrales, infecciones de columna, etc.</FONT></FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#999999" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>71,940</pos>
+      <size>704,66</size>
+    </texto>
+    <texto id="t9">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#999999" LETTERSPACING="0" KERNING="0">Estudio de patología abdominal:<FONT COLOR="#333333"> lesiones hepáticas o renales; área pancreática; retroperitoneo y suprarrenales; aparato genitourinario; colangioresonancia.</FONT></FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#999999" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>71,1007</pos>
+      <size>704,66</size>
+    </texto>
+    <texto id="t10">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#999999" LETTERSPACING="0" KERNING="0">Estudio de patología pélvica y perineal:<FONT COLOR="#333333"> exploración de prolapso femenino; patología prostática y genitourinaria.</FONT></FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#999999" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>71,1074</pos>
+      <size>704,66</size>
+    </texto>
+    <texto id="t11">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#999999" LETTERSPACING="0" KERNING="0">Estudios vasculares: <FONT COLOR="#333333">angioRM de grandes vasos del tórax y abdomen; aorta, arterias pulmonares; coronarias.</FONT></FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#999999" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>71,1141</pos>
+      <size>704,66</size>
+    </texto>
+    <texto id="t12">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#999999" LETTERSPACING="0" KERNING="0">Estudio patología mamaria:<FONT COLOR="#333333"> diagnóstico de neoplasia maligna de mama.</FONT></FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#999999" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>71,1208</pos>
+      <size>704,45</size>
+    </texto>
+    <texto id="t13">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#999999" LETTERSPACING="0" KERNING="0">Estudio del sistema musculoesquelético:<FONT COLOR="#333333"> estudio de cadera, hombro, rodilla, codo, tobillo.</FONT></FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#999999" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>71,1253</pos>
+      <size>704,66</size>
+    </texto>
+  </textos>
+  <imagenes>
+    <imagen id="c1">
+      <ruta>teoria/img/flechita_subapartado.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>19,8</pos>
+      <size>28,30</size>
+    </imagen>
+    <imagen id="c3">
+      <ruta>teoria/img/flechita_lista.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>56,704</pos>
+      <size>8,11</size>
+    </imagen>
+    <imagen id="c4">
+      <ruta>teoria/img/flechita_lista.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>56,790</pos>
+      <size>8,11</size>
+    </imagen>
+    <imagen id="c5">
+      <ruta>teoria/img/flechita_lista.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>56,879</pos>
+      <size>8,11</size>
+    </imagen>
+    <imagen id="c6">
+      <ruta>teoria/img/flechita_lista.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>56,947</pos>
+      <size>8,11</size>
+    </imagen>
+    <imagen id="c7">
+      <ruta>teoria/img/flechita_lista.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>56,1014</pos>
+      <size>8,11</size>
+    </imagen>
+    <imagen id="c8">
+      <ruta>teoria/img/flechita_lista.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>56,1081</pos>
+      <size>8,11</size>
+    </imagen>
+    <imagen id="c9">
+      <ruta>teoria/img/flechita_lista.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>56,1147</pos>
+      <size>8,11</size>
+    </imagen>
+    <imagen id="c10">
+      <ruta>teoria/img/flechita_lista.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>56,1215</pos>
+      <size>8,11</size>
+    </imagen>
+    <imagen id="c11">
+      <ruta>teoria/img/flechita_lista.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>56,1260</pos>
+      <size>8,11</size>
+    </imagen>
+    <imagen id="c2">
+      <ruta>teoria/teoria_guiada/img/4_imagen.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>440,285</pos>
+      <size>335,251</size>
+    </imagen>
+  </imagenes>
+</text_layout>

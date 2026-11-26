@@ -1,0 +1,3783 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recursos>
+	<config>
+		<actores_locucion>
+			<actor id="0">narrador</actor>
+			<actor id="1">enfermera</actor>
+		</actores_locucion>
+		<emociones>
+			<emocion id="0">normal</emocion>
+			<emocion id="1">alegre</emocion>
+			<emocion id="2">triste</emocion>
+		</emociones>
+		<puntosminimos>50</puntosminimos>
+	</config>
+	<textos>
+		<texto id="dialogo_cerrar">Cerrar</texto>
+		<texto id="generico_no_necesario">No necesito volver a hacerlo.</texto>
+		<texto id="flechaescena">Pincha aquí para rotar la vista.</texto>
+
+		<!-- Mensaje Interfaz -->
+		<texto id="mensaje_interfaz_pt"><![CDATA[Puntos de trabajo:]]></texto>
+		<texto id="mensaje_interfaz_pr"><![CDATA[Puntos de relación:]]></texto>
+		<texto id="opciones_word"><![CDATA[Opciones]]></texto>
+		<texto id="str_activada"><![CDATA[Activada]]></texto>
+		<texto id="str_desactivada"><![CDATA[Desactivada]]></texto>
+
+		<!-- PanelAnimacion -->
+		<texto id="panel_animacion_continuar"><![CDATA[Cerrar]]></texto>
+		<texto id="panel_animacion_cargando"><![CDATA[Cargando animación...]]></texto>
+		<texto id="informacion"><![CDATA[Información]]></texto>
+
+		<!-- Errores en el Software -->
+
+		<!-- Ayuda para estados -->
+
+		<!-- Ayuda para las tareas -->
+		<texto id="ayuda_obtener_volante"><![CDATA[Debes elegir un volante del escritorio.]]></texto>
+		<texto id="ayuda_revisar_maquina"><![CDATA[$ayuda_revisar_maquina]]></texto>
+		<texto id="ayuda_revisar_bombas"><![CDATA[$ayuda_revisar_bombas]]></texto>
+		<texto id="ayuda_revisar_materiales"><![CDATA[$ayuda_revisar_materiales]]></texto>
+		<texto id="ayuda_traer_paciente"><![CDATA[$ayuda_traer_paciente]]></texto>
+		<texto id="ayuda_ayuda_preguntar_por_embarazo"><![CDATA[$ayuda_ayuda_preguntar_por_embarazo]]></texto>
+		<texto id="ayuda_pedir_constancia_objetos_de_metal"><![CDATA[$ayuda_pedir_constancia_objetos_de_metal]]></texto>
+		<texto id="ayuda_comprobar_datos_personales"><![CDATA[$ayuda_comprobar_datos_personales]]></texto>
+		<texto id="ayuda_aplicar_contraste"><![CDATA[$ayuda_aplicar_contraste]]></texto>
+		<texto id="ayuda_revisar_software"><![CDATA[$ayuda_revisar_software]]></texto>
+		<texto id="ayuda_operar_soft"><![CDATA[$ayuda_operar_soft]]></texto>
+
+		<!-- Ayuda estados -->
+		<texto id="ayuda_estado_INICIAL"><![CDATA[Tienes que coger un volante para poder empezar.]]></texto>
+		<texto id="ayuda_estado_CON_VOLANTE"><![CDATA[Pide al celador que traiga al paciente.]]></texto>
+		<texto id="ayuda_estado_CON_PACIENTE"><![CDATA[Coloca al paciente y utiliza el software en la cabina.]]></texto>
+		<texto id="ayuda_estado_LISTO_PARA_SOFT"><![CDATA[Realiza los estudios que indica el volante.]]></texto>
+		<texto id="ayuda_estado_IMAGENES_OBTENIDAS"><![CDATA[Despide al paciente.]]></texto>
+
+
+
+		<texto id="error_forzar_nervioso_colocacion_de_contraste">
+			Olvidaste calmar al paciente antes de colocar contraste.
+		</texto>
+
+		<!-- Texto para descripción de crisis -->
+		<texto id="str_CRISIS_BATA"><![CDATA[Olvidaste colocarte la bata y el paciente no quiere continuar.]]></texto>
+		<texto id="str_LA_BOMBA_FALLA"><![CDATA[No revisaste la bomba de contraste y el fallo de la bomba hizo que el paciente se pusiera nervioso.]]></texto>
+		<texto id="str_CONTRASTE_FRACASO"><![CDATA[Aplicaste contraste al paciente cuando estaba demasiado nervioso.]]></texto>
+
+		<!-- Acciones erróneas -->
+
+		<texto
+			id="str_error_calmar_personalmenete_paciente_y_ponerse_la_bata"><![CDATA[No te pusiste la bata y el paciente se molestó.]]></texto>
+		<texto id="str_error_ana_calma_y_ponerse_la_bata"><![CDATA[No te pusiste la bata y el paciente se molestó.]]></texto>
+
+
+		<texto id="error_eleccion_volante_no_urgente">
+			<![CDATA[No elegiste un volante urgente.]]>
+		</texto>
+		<texto id="error_colocar_mal_al_paciente"><![CDATA[Colocaste al paciente de manera incorrecta.]]></texto>
+
+		<texto id="error_quitar_puntos_traer_paciente_sin_volante"><![CDATA[Llamaste al celador para que traiga al paciente sin haber elegido un volante.]]></texto>
+		<texto id="error_perdida_por_puntos_de_trabajo"><![CDATA[No cumpliste las expectativas profesionales.]]></texto>
+		<texto id="error_perdida_por_puntos_de_relacion"><![CDATA[No cumpliste las expectativas éticas.]]></texto>
+		<texto id="error_penalizar_pedido_aplicacion_contraste"><![CDATA[Pediste al paciente la autorización de contraste y el estudio no solicitaba contraste.]]></texto>
+		<texto id="error_debes_comprobar_datos_primero"><![CDATA[No comprobaste los datos del volante antes de colocar al paciente en la mesa.]]></texto>
+		<texto id="error_debes_pedir_contraste_primero"><![CDATA[No aplicaste el contraste antes de colocar al paciente.]]></texto>
+		<texto id="error_carmen_no_deberia_hacerlo2"><![CDATA[La revisión del sistema de contraste es responsabilidad de los técnicos y no del personal de enfermería.]]></texto>
+		<texto id="error_carmen_no_deberia_hacerlo1"><![CDATA[La revisión del equipo de RMN es responsabilidad de los técnicos y no del personal de enfermería.]]></texto>
+		<texto id="error_carmen_no_pida_contraste"><![CDATA[Pediste a la enfermera que aplique contraste al paciente y el volante no lo solicitaba.]]></texto>
+		<texto id="error_carmen_avisa_pedir_cons_contraste"><![CDATA[No pediste la autorización de contraste al paciente.]]></texto>
+		<texto id="error_bomba_falla"><![CDATA[Olvidaste revisar la bomba de contraste y el paciente se puso nervioso.]]></texto>
+		<texto id="error_olvido_preguntar_sobre_embarazo"><![CDATA[No preguntaste si estaba embarazada antes de colocarla en la mesa.]]></texto>
+		<texto id="error_datos_mal_comprobados"><![CDATA[No comprobaste correctamente los datos del volante.]]></texto>
+		<texto id="crisis_colocar_mal_al_paciente"><![CDATA[Colocaste mal al paciente.]]></texto>
+		<texto id="error_CRISIS_ESTRES"><![CDATA[El paciente sufre una crisis nerviosa al intentar colocarlo en la mesa de exploración.]]></texto>
+		<texto id="crisis_debia_revisar_rmn_antes_de_revisar_soft"><![CDATA[No revisaste la máquina de resonancia magnética y falla durante el proceso.]]></texto>
+		<texto id="error_debes_colocar_paciente_antes_de_usar_soft"><![CDATA[Olvidaste colocar al paciente antes de empezar a utilizar el software.]]></texto>
+		<texto id="error_debes_controlar_metales_antes_de_usar_soft"><![CDATA[Olvidaste solicitar la constancia de artículos peligrosos.]]></texto>
+		<texto id="error_debes_revisar_soft_antes_de_usar_soft"><![CDATA[Olvidaste revisar el software antes de utilizarlo.]]></texto>
+		<texto id="error_ignorar_paciente_sin_ponerse_la_bata"><![CDATA[El usuario no se ha colocado la bata.]]></texto>
+
+		<texto id="error_al_revisar_software"><![CDATA[No revisaste el equipo de resonancia magnética.]]></texto>
+
+
+		<texto id="error_ante_fallo_volver_intentarlo"><![CDATA[Intentaste forzar al paciente a colocarse el contraste.]]></texto>
+
+		<texto id="error_forzar_adulto_en_mesa"><![CDATA[Intentaste colocar al paciente cuando estaba muy nervioso.]]></texto>
+		<texto id="error_forzar_nino_en_mesa"><![CDATA[Intentaste colocar al paciente cuando estaba muy nervioso.]]></texto>
+
+
+		<texto id="error_mostrar_crisis_en_adulto"><![CDATA[Intentaste colocar al paciente cuando estaba demasiado nervioso.]]></texto>
+		<texto id="error_mostrar_crisis_en_nino"><![CDATA[Intentaste colocar al paciente cuando estaba demasiado nervioso]]></texto>
+
+		<texto id="error_olvido_revisar_materiales"><![CDATA[No revisaste los materiales antes de colocar al paciente.]]></texto>
+
+		<texto id="error_no_despediste_amablemente_paciente"><![CDATA[No fuiste amable al despedir al paciente.]]></texto>
+		<texto id="error_fracaso_aplicacion_contraste"><![CDATA[Olvidaste calmar al paciente antes de continuar con el proceso.]]></texto>
+
+		<!-- Errores que lanza la maquina de soft -->
+		<texto id="str_error_soft_posicion_paciente">
+			Has colocado mal al paciente.
+		</texto>
+		<texto id="str_error_soft_nro_secuencia">
+			El número de secuencia es incorrecto.
+		</texto>
+		<texto id="str_error_soft_protocolo">El protocolo es incorrecto.</texto>
+		
+		<texto id="str_error_soft_seccion">La sección es incorrecta.</texto>
+		<texto id="str_error_soft_secuencia">La secuencia es incorrecta.</texto>
+
+		<!-- ROE Expansion sim 67 -->
+		<texto id="str_error_soft_secuencia_1">
+			Has fallado en la identificación de secuencia para el protocolo Cráneo
+		</texto>
+		<texto id="str_error_soft_seccion_1">
+			Has fallado en la identificación de sección para el protocolo Cráneo
+		</texto>
+		<texto id="str_error_soft_secuencia_2">
+			Has fallado en la identificación de secuencia para el protocolo Hombro
+		</texto>
+		<texto id="str_error_soft_seccion_2">
+			Has fallado en la identificación de sección para el protocolo Hombro
+		</texto>
+		<texto id="str_error_soft_secuencia_3">
+			Has fallado en la identificación de secuencia para el protocolo Cadera
+		</texto>
+		<texto id="str_error_soft_seccion_3">
+			Has fallado en la identificación de sección para el protocolo Cadera
+		</texto>
+		<texto id="str_error_soft_secuencia_4">
+			Has fallado en la identificación de secuencia para el protocolo Rodilla
+		</texto>
+		<texto id="str_error_soft_seccion_4">
+			Has fallado en la identificación de sección para el protocolo Rodilla
+		</texto>
+		<texto id="str_error_soft_secuencia_5">
+			Has fallado en la identificación de secuencia para el protocolo Tobillo
+		</texto>
+		<texto id="str_error_soft_seccion_5">
+			Has fallado en la identificación de sección para el protocolo Tobillo
+		</texto>
+		<texto id="str_error_soft_secuencia_6">
+			Has fallado en la identificación de secuencia para el protocolo Cardio
+		</texto>
+		<texto id="str_error_soft_seccion_6">
+			Has fallado en la identificación de sección para el protocolo Cardio
+		</texto>
+		<texto id="str_error_soft_secuencia_7">
+			Has fallado en la identificación de secuencia para el protocolo Columna cervical
+		</texto>
+		<texto id="str_error_soft_seccion_7">
+			Has fallado en la identificación de sección para el protocolo Columna cervical
+		</texto>
+		<texto id="str_error_soft_secuencia_8">
+			Has fallado en la identificación de protocolo Riñones
+		</texto>
+		<texto id="str_error_soft_seccion_8">
+			Has fallado en la identificación de sección para el protocolo Riñones
+		</texto>
+
+		<!-- FIN ROE Expansion sim 67 -->
+
+		<texto id="str_error_soft_con_contraste"><![CDATA[Este estudio lleva contraste.]]></texto>
+		<texto id="str_error_soft_sin_contraste"><![CDATA[Este estudio no lleva contraste.]]></texto>
+		<texto id="str_error_soft_imagenes_mala_calidad"><![CDATA[Intentaste continuar con el estudio sin revisar correctamente la calidad de las imágenes.]]></texto>
+		<texto id="str_error_soft_sin_revisar_imagenes"><![CDATA[No revisaste la calidad de las imágenes antes de enviar el estudio.]]></texto>
+		<texto id="str_error_soft_fallo_id"><![CDATA[Has fallado en la identificación.]]></texto>
+		<texto id="str_error_soft_imagenes_buenas"><![CDATA[Te equivocaste al analizar la calidad de las imágenes.]]></texto>
+		<!-- Puerta, Opciones -->
+		<texto id="texto_puerta_a_sala_tac"><![CDATA[Esta puerta me permite acceder a la sala RMN.]]></texto>
+		<texto id="texto_puerta_a_sala_soft"><![CDATA[Esta puerta me permite acceder a la cabina de software.]]></texto>
+		<texto id="texto_puerta_a_sala_descanzo"><![CDATA[Esta puerta me permite volver a la sala de descanso.]]></texto>
+
+		<!-- Mapa de nevegación -->
+		<texto id="mapa_texto_puerta_a_sala_tac"><![CDATA[Sala de RMN.]]></texto>
+		<texto id="mapa_texto_puerta_a_sala_soft"><![CDATA[Cabina de software.]]></texto>
+		<texto id="mapa_texto_puerta_a_sala_descanzo"><![CDATA[Sala de descanso.]]></texto>
+
+		<!-- Etiquetas para Protocolo -->
+		<texto id="protocolo_nombre"><![CDATA[Nombre]]></texto>
+		<texto id="protocolo_apellidos"><![CDATA[Apellidos]]></texto>
+		<texto id="protocolo_sexo"><![CDATA[Sexo]]></texto>
+		<texto id="protocolo_prioridad"><![CDATA[Prioridad]]></texto>
+		<texto id="protocolo_antiguedad"><![CDATA[Antigüedad]]></texto>
+		<texto id="protocolo_protocolo"><![CDATA[Protocolo]]></texto>
+		<texto id="protocolo_contraste"><![CDATA[Contraste]]></texto>
+		<texto id="protocolo_contraste_si"><![CDATA[Sí]]></texto>
+		<texto id="protocolo_contraste_no"><![CDATA[No]]></texto>
+		<texto id="protocolo_especificaciones"><![CDATA[Especificaciones del protocolo]]></texto>
+
+		<texto id="protocolo_cerrar_bt"><![CDATA[Cerrar]]></texto>
+		<texto id="protocolo_titulo1"><![CDATA[Volante médico]]></texto>
+		<texto id="protocolo_titulo2"><![CDATA[Datos del paciente]]></texto>
+		<texto id="protocolo_region"><![CDATA[Región a trabajar]]></texto>
+		<texto id="protocolo_reconstrucciones"><![CDATA[Reconstrucciones óseas]]></texto>
+		<texto id="protocolo_dni"><![CDATA[Dni]]></texto>
+
+		<!-- Genéricos :: Botones -->
+		<texto id="generico_aceptar"><![CDATA[Aceptar]]></texto>
+
+		<!-- Interfaz :: Puntuación -->
+		<texto id="puntos_titulo"><![CDATA[Puntuación]]></texto>
+		<texto id="puntos_trabajo"><![CDATA[Trabajo]]></texto>
+		<texto id="puntos_relaciones"><![CDATA[Relaciones]]></texto>
+
+		<!-- Panel Informes -->
+
+		<texto id="informes_titulo">Informes</texto>
+		<texto id="informes_puntuacion">Puntuaciones</texto>
+		<texto id="informes_acciones">Acciones erradas</texto>
+		<texto id="informes_crisis">Crisis</texto>
+		<texto id="informes_inicial">Inicial</texto>
+		<texto id="informes_final">Final</texto>
+		<texto id="informes_cerrar">Volver</texto>
+		<texto id="informes_pt">Puntuaciones de trabajo</texto>
+		<texto id="informes_pr">Puntuaciones de interacción</texto>
+
+		<!-- Panel Configuración -->
+		<texto id="configuracion_titulo">
+			<![CDATA[Área de docentes]]>
+		</texto>
+		<texto id="configuracion_subtitulo">
+			<![CDATA[Selección volantes]]>
+		</texto>
+		<texto id="configuracion_mensaje">
+			<![CDATA[Selecciona los volantes que deseas que permanezcan activos durante la sesión:]]>
+		</texto>
+		<texto id="configuracion_lista1">
+			<![CDATA[Volantes no activos]]>
+		</texto>
+		<texto id="configuracion_lista2">
+			<![CDATA[Volantes activos]]>
+		</texto>
+		<texto id="configuracion_agregar">
+			<![CDATA[Agregar >>]]>
+		</texto>
+		<texto id="configuracion_quitar">
+			<![CDATA[<< Quitar]]>
+		</texto>
+		<texto id="configuracion_dificultad">
+			<![CDATA[Grado de dificultad]]>
+		</texto>
+		<texto id="configuracion_dificultad_mensaje_op1">
+			<![CDATA[Los errores disminuyen en menor grado tus puntos.]]>
+		</texto>
+		<texto id="configuracion_dificultad_mensaje_op2">
+			<![CDATA[La dificultad básica para el simulador.]]>
+		</texto>
+		<texto id="configuracion_dificultad_mensaje_op3">
+			<![CDATA[Cada error descuenta un gran número de puntos.]]>
+		</texto>
+		<texto id="configuracion_dificultad_op1">
+			<![CDATA[Fácil]]>
+		</texto>
+		<texto id="configuracion_dificultad_op2">
+			<![CDATA[Normal]]>
+		</texto>
+		<texto id="configuracion_dificultad_op3">
+			<![CDATA[Difícil]]>
+		</texto>
+		<texto id="configuracion_nerviosismo">
+			<![CDATA[Nerviosismo del paciente]]>
+		</texto>
+		<texto id="configuracion_nerviosismo_op1">
+			<![CDATA[Medio]]>
+		</texto>
+		<texto id="configuracion_nerviosismo_op2">
+			<![CDATA[Alto]]>
+		</texto>
+		<texto id="configuracion_nerviosismo_op3">
+			<![CDATA[Alto]]>
+		</texto>
+
+		<texto id="configuracion_radio">
+			<![CDATA[Web]]>
+		</texto>
+		<texto id="configuracion_radio_op1">
+			<![CDATA[Activada]]>
+		</texto>
+		<texto id="configuracion_radio_op2">
+			<![CDATA[Desactivada]]>
+		</texto>
+		<texto id="configuracion_aceptar">
+			<![CDATA[Aceptar]]>
+		</texto>
+		<texto id="configuracion_cancelar">
+			<![CDATA[Cancelar]]>
+		</texto>
+		<texto id="configuracion_conoce_el_simulador">
+			<![CDATA[Conocer el simulador]]>
+		</texto>
+		<texto id="configuracion_estress_config">
+			<![CDATA[Al consultar la Web, el nerviosismo de los siguientes pacientes es siempre alto, por las circunstancias descritas en las noticias. Una vez que el usuario lea las noticias no será posible modificar el nerviosismo en la configuración hasta terminar la simulación.]]>
+		</texto>
+
+
+		<!-- Panel CERRAR Sesion -->
+		<texto id="cerrar_sesion_titulo">
+			<![CDATA[Cerrar sesión]]>
+		</texto>
+		<texto id="cerrar_sesion_mensaje">
+			<![CDATA[¿Está seguro que desea cerrar sesión?]]>
+		</texto>
+		<texto id="cerrar_sesion_si">
+			<![CDATA[Sí]]>
+		</texto>
+		<texto id="cerrar_sesion_no">
+			<![CDATA[No]]>
+		</texto>
+		<texto id="cerrar_sesion_error">
+			<![CDATA[No puede cambiar la configuración porque existe una sesión abierta.]]>
+		</texto>
+
+		<!-- Panel GUARDAR Sesion -->
+		<texto id="guardar_sesion_titulo">
+			<![CDATA[Guardar sesión]]>
+		</texto>
+		<texto id="guardar_sesion_nombre">
+			<![CDATA[Nombre:]]>
+		</texto>
+		<texto id="guardar_sesion_contrasenia">
+			<![CDATA[Contraseña:]]>
+		</texto>
+		<texto id="guardar_sesion_fecha">
+			<![CDATA[Fecha]]>
+		</texto>
+		<texto id="guardar_sesion_guardar">
+			<![CDATA[Guardar]]>
+		</texto>
+		<texto id="guardar_sesion_cancelar">
+			<![CDATA[Cancelar]]>
+		</texto>
+		<texto id="guardar_sesion_mensaje_true">
+			<![CDATA[Se guardó correctamente.]]>
+		</texto>
+		<texto id="guardar_sesion_mensaje_false">
+			<![CDATA[Tus datos se han guardado con éxito.]]>
+		</texto>
+		<texto id="guardar_sesion_sinvolante">
+			Hasta que no elija un volante, no podré guardar mi sesión.
+		</texto>
+
+		<texto id="guardar_sesion_ok"><![CDATA[Su sesión se ha guardado con éxito.]]></texto>
+		<texto id="guardar_sesion_false"><![CDATA[No he podido guardar mi sesión.]]></texto>
+		<texto id="guardar_sesion_error1"><![CDATA[Debe indicar el nombre de usuario para guardar la sesión correctamente.]]></texto>
+		<texto id="guardar_sesion_error2"><![CDATA[Debe introducir la contraseña.]]></texto>
+		<texto id="guardar_sesion_error3"><![CDATA[Debe escoger otro nombre de usuario. Ya existe una sesión llamada así.]]></texto>
+
+
+
+		<!-- Panel CARGAR Sesion -->
+		<texto id="cargar_sesion_titulo">
+			<![CDATA[Cargar sesión]]>
+		</texto>
+		<texto id="cargar_sesion_nombre">
+			<![CDATA[Nombre]]>
+		</texto>
+		<texto id="cargar_sesion_fecha">
+			<![CDATA[Fecha]]>
+		</texto>
+		<texto id="cargar_sesion_borrar">
+			<![CDATA[Borrar]]>
+		</texto>
+		<texto id="cargar_sesion_confirmar">
+			<![CDATA[Confirmar]]>
+		</texto>
+		<texto id="cargar_sesion_cancelar">
+			<![CDATA[Cerrar]]>
+		</texto>
+		<texto id="cargar_sesion_contrasenia">
+			<![CDATA[Contraseña]]>
+		</texto>
+		<texto id="cargar_sesion_ok">
+			<![CDATA[Ya recuerdo todo lo que había hecho hasta el momento. He iniciado mi sesión.]]>
+		</texto>
+
+		<texto id="cargar_sesion_borrar_titulo">
+			<![CDATA[Borrar sesión]]>
+		</texto>
+		<texto id="cargar_sesion_borrar_mensaje">
+			<![CDATA[¿Esta seguro que desea borrar la sesión?]]>
+		</texto>
+
+		<texto id="cargar_sesion_abrir_titulo">
+			<![CDATA[Restaurar sesión]]>
+		</texto>
+		<texto id="cargar_sesion_abrir_mensaje">
+			<![CDATA[Escribe tu contraseña para restaurar sesión]]>
+		</texto>
+		<texto id="cargar_sesion_contrasenia_incorrecta">
+			<![CDATA[La contraseña es incorrecta]]>
+		</texto>
+		<texto id="cargar_sesion_mensaje_cargado">
+			<![CDATA[Sesión cargada correctamente]]>
+		</texto>
+		<texto id="cargar_sesion_mensaje_borrado">
+			<![CDATA[Sesión borrada]]>
+		</texto>
+		<texto id="feed_cerrar_sesion">
+			<![CDATA[Simulador reiniciado.]]>
+		</texto>
+		<texto id="string_advertencia_carga"><![CDATA[Si realizas esta acción la información que no halla sido guardada se perderá. 
+¿Estás seguro de querer abandonar la partida y comenzar nuevamente desde una sesión guardada?]]>
+		</texto>
+
+
+
+		<!-- Genericos Dialogo -->
+		<texto id="stringTuDices"><![CDATA[Tú dices:]]></texto>
+		<texto id="stringTuDecides"><![CDATA[Tú decides:]]></texto>
+
+		<!--Bandeja  -->
+		<texto id="feed_bandeja_over"><![CDATA[Estos son los volantes que necesito para trabajar.]]></texto>
+		<texto id="feed_bandeja_over_CON_VOLANTE"><![CDATA[Primero tengo que terminar el volante que he elegido.]]></texto>
+		<texto id="bandeja_click_volAzar"><![CDATA[Elegir un volante al azar.]]></texto>
+		<texto id="bandeja_click_volPracticar"><![CDATA[Elegir un volante para practicar.]]></texto>
+		<texto id="bandeja_click_volLibre"><![CDATA[Elegir un volante libremente.]]></texto>
+		<texto id="bandeja_click_volAbandonar"><![CDATA[No elegir volante.]]></texto>
+		<texto id="feed_bandeja_over_estado2"><![CDATA[Ya he elegido un volante y tengo que terminarlo.]]></texto>
+		<texto id="string_bandeja_opazar"><![CDATA[Comenzaré con éste.]]></texto>
+		<texto id="string_bandeja_oppracticar"><![CDATA[Me vendrá bien un poco de práctica.]]></texto>
+		<texto id="string_bandeja_opllibre"><![CDATA[Necesito elegir un volante del listado.]]></texto>
+		<texto id="string_bandeja_opnoelegir"><![CDATA[Creo que no es el momento todavía.]]></texto>
+		<texto id="feed_bandeja_oppractica_titulo"><![CDATA[Tú decides:]]></texto>
+		<texto id="feed_bandeja_oplibre_titulo"><![CDATA[Tú decides:]]></texto>
+		<texto id="feed_bandeja_caso_no_prioritario"><![CDATA[El caso que elegiste no es el más prioritario.<br/>Se te descontaran puntos por ello.]]></texto>
+		<texto id="feed_bandeja_caso_no_urgente"><![CDATA[El caso que elegiste no es el más urgente.<br/>Se te descontaran puntos por ello.]]></texto>
+		<!-- Bata -->
+		<texto id="feed_tomar_bata_over"><![CDATA[Necesito la bata para entrar en la siguiente sala.]]></texto>
+		<texto id="feed_bata_tomar"><![CDATA[Ponerte la bata.]]></texto>
+		<texto id="feed_bata_no_tomar"><![CDATA[No ponerte la bata.]]></texto>
+		<texto id="feed_tomar_bata_opnotomar"><![CDATA[Por ahora no creo que sea necesario.]]></texto>
+		<texto id="feed_tomar_bata_optomar"><![CDATA[Me queda perfecta.]]></texto>
+		<!-- Snacks -->
+		<texto id="feed_maquina_cafe_over"><![CDATA[Cuando paso mucho tiempo trabajando suelo tomar algo, para no marearme.]]></texto>
+		<texto id="string_cafe_tomar"><![CDATA[Tomar algo.]]></texto>
+		<texto id="string_cafe_no_tomar"><![CDATA[No tomarlo.]]></texto>
+		<texto id="error_mucho_cafe"><![CDATA[Has tomado demasiado café en poco tiempo.]]></texto>
+		<texto id="feed_maquina_cafe_op2">Quizá en otro momento.</texto>
+		<texto id="string_tomar_algo_menos50min"><![CDATA[Estaba bueno. Pero no debo abusar. Prolongar mi descanso más de la cuenta no es una buena idea.]]></texto>
+		<texto id="string_tomar_algo_mas50min"><![CDATA[¡Mucho mejor! Comenzaba a sentirme un poco mal. Será mejor que hagas lo mismo y descanses quince minutos.]]></texto>
+
+		<texto id="str_inactividad50"><![CDATA[Me estoy mareando un poco.. Necesito descansar y tomar algo.]]></texto>
+		<texto id="str_inactividad55"><![CDATA[Debería tomar algún alimento y descansar algunos minutos… Siempre viene bien una pausa antes de seguir trabajando.]]></texto>
+		<texto id="str_inactividad60"><![CDATA[Llevo mucho tiempo trabajando. Me apetece tomar algo en la máquina de la sala de descanso.]]></texto>
+		<texto id="error_inactividad50"><![CDATA[$error_inactividad50]]></texto>
+		<texto id="error_alerta_inactividad55"><![CDATA[Hace más de 50 minutos que no descansas.]]></texto>
+		<texto id="error_alerta_inactividad60"><![CDATA[Llevas mucho tiempo trabajando sin descansar.]]></texto>
+
+
+		<!-- Cartel anatomico -->
+		<texto id="feed_cartel_anatomico_over"><![CDATA[Aquí puedo revisar los conceptos.]]></texto>
+		<texto id="str_mirar_cartel"><![CDATA[Mirar el cartel anatómico.]]></texto>
+		<texto id="str_no_mirar_cartel"><![CDATA[No mirar el cartel anatómico.]]></texto>
+		<texto id="str_alerta_revisemos_protocolos"><![CDATA[Revisemos algunos conceptos.]]></texto>
+
+		<!-- Supervisor -->
+		<texto id="string_supervisor_over"><![CDATA[Javier es el jefe de técnicos del hospital. Siempre está dispuesto a ayudarme. Sus consejos podrían serme realmente útiles.]]></texto>
+		<texto id="string_supervisor_over_CON_PACIENTE"><![CDATA[Allí está Javier. Aunque siempre parece ocupado, seguro que puede dedicarme algo de tiempo para despejar dudas.]]></texto>
+
+		<texto id="str_dialogo_supervisor_resolver_dudas"><![CDATA[¿Puedes ayudarme a resolver algunas dudas?]]></texto>
+		<texto id="str_dialogo_supervisor_cuando_llamar_enfermera"><![CDATA[¿Cuándo debo llamar a la enfermera?]]></texto>
+		<texto id="str_dialogo_supervisor_sobre_pacientes"><![CDATA[¿Puedes contarme algo sobre los pacientes?]]></texto>
+		<texto id="str_dialogo_supervisor_guiarme_en_proceso"><![CDATA[¿Puedes guiarme un poco en el proceso? ]]></texto>
+		<texto id="str_dialogo_supervisor_salir"><![CDATA[Hablamos luego.]]></texto>
+		<texto id="supervisor_que_necesitas"><![CDATA[Claro. Dime qué necesitas.]]></texto>
+		<texto id="str_donde_volantes"><![CDATA[¿Dónde están los volantes?]]></texto>
+		<texto id="str_como_entrar_rmn"><![CDATA[¿Cómo puedo entrar en la sala de RMN?]]></texto>
+		<texto id="str_por_donde_empezar"><![CDATA[¿Por dónde debería empezar a trabajar?]]></texto>
+		<texto id="str_donde_volantes_rta"><![CDATA[En la corchera de la pared.]]></texto>
+		<texto id="str_como_entrar_rmn_rta"><![CDATA[La puerta del fondo te lleva a la sala. No olvides colocarte la bata.]]></texto>
+		<texto id="str_por_donde_empezar_rta"><![CDATA[Primero ponte la bata, escoge uno de los volantes y dirígete a sala de RMN.]]></texto>
+		<texto id="str_interaccion_cuando_llamar_enfermera_rta"><![CDATA[Debes avisarla en la sala de RMN, cuando necesites aplicar el contraste al paciente.]]></texto>
+		<texto id="str_mas_sobre_contraste"><![CDATA[¿Puedes explicarme algo más sobre el contraste? ]]></texto>
+		<texto id="str_mas_sobre_rmn"><![CDATA[¿ Podrías hablarme sobre los equipos de RMN? ]]></texto>
+		<texto id="str_mas_sobre_contraste_rta"><![CDATA[Cuando un volante te pida contraste, acuérdate de revisar la bomba de contraste y avisar a la enfermera.]]></texto>
+		<texto id="str_mas_sobre_rmn_rta"><![CDATA[La mesa se encuentra en la siguiente sala. Tienes que situar al paciente en la misma y luego, desde la cabina de software debes utilizarla.]]></texto>
+		<texto id="str_interaccion_por_supuesto"><![CDATA[Por supuesto.]]></texto>
+		<texto id="str_interaccion_sobre_pacientes_nerviosos"><![CDATA[ Algunos pacientes llegan muy nerviosos a la sala de resonancia magnética, tienes que tranquilizarlos hablando con ellos.]]></texto>
+		<texto id="str_interaccion_vamos_a_repasar"><![CDATA[Vamos a repasar todo... ]]></texto>
+
+		<texto id="str_dudas_sobre_el_paciente_resolver"><![CDATA[¿Puedes resolverme algunas dudas sobre el paciente?]]></texto>
+		<texto id="str_interaccion_preguntame_lo_que_necesites"><![CDATA[Pregúntame lo que necesites.]]></texto>
+		<texto id="str_cuando_solicitar_datos_paciente_con_paciente"><![CDATA[¿Cuándo debo solicitar los datos al paciente?]]></texto>
+		<texto id="str_porque_explicarle_al_paciente_proceso"><![CDATA[¿Por qué debo explicarle el proceso al paciente?]]></texto>
+		<texto id="str_cuando_colocar_paciente_con_paciente"><![CDATA[¿Cuándo debo colocar al paciente?]]></texto>
+		<texto id="str_tratemos_otro_tema"><![CDATA[Tratemos otro tema.]]></texto>
+
+		<texto id="str_cuando_solicitar_datos_paciente_con_paciente_rta"><![CDATA[Es el primer paso que debes realizar una vez que ingresa el paciente en las sala. Recuerda que una vez solicitados los documentos tendrás que comprobarlos.]]></texto>
+		<texto
+			id="str_porque_explicarle_al_paciente_proceso_con_paciente_rta"><![CDATA[Es un modo de calmarle y mantenerle tranquilo.]]></texto>
+		<texto id="str_cuando_colocar_paciente_con_paciente_rta"><![CDATA[Una vez que hayas comprobado sus datos, y solicitado todas las constancias y documentos puedes colocarlo.]]></texto>
+
+		<texto id="str_dudas_sobre_equipos_resolver"><![CDATA[¿Puedes resolverme algunas dudas sobre los equipos?]]></texto>
+		<texto id="str_que_equipos_revisar_con_paciente"><![CDATA[¿Qué equipos hay que revisar?]]></texto>
+		<texto id="str_porque_es_necesario_revisar_equipos_con_paciente"><![CDATA[¿Porqué es necesario revisar los equipos?]]></texto>
+
+		<texto id="str_que_equipos_revisar_con_paciente_rta"><![CDATA[Debes revisar la máquina y en caso de que se pida contraste, la bomba de contraste. ]]></texto>
+		<texto id="str_porque_es_necesario_revisar_equipos_con_paciente_rta"><![CDATA[Las máquinas pueden fallar y no se puede arriesgar la seguridad de los pacientes. No quiero que eso te suceda por lo que confío que harás un buen trabajo.]]></texto>
+
+		<texto id="str_dudas_sobre_software_resolver"><![CDATA[¿Puedes resolverme algunas dudas sobre el software?]]></texto>
+		<texto id="str_cuando_debo_revisar_soft"><![CDATA[¿Cuándo debo revisar el software?]]></texto>
+		<texto id="str_cuando_debo_utilizar_soft"><![CDATA[¿Cuándo debo utilizar el software?]]></texto>
+
+		<texto id="str_cuando_debo_revisar_soft_rta"><![CDATA[Revísalo antes de utilizarlo.]]></texto>
+		<texto id="str_cuando_debo_utilizar_soft_rta"><![CDATA[Una vez que el paciente este colocado.]]></texto>
+
+		<texto id="str_dudas_sobre_enfermera_resolver"><![CDATA[¿Puedes resolverme algunas dudas sobre la enfermera?]]></texto>
+		<texto id="str_puedo_hacerlo_sin_ana"><![CDATA[¿Puedo realizar mi trabajo sin contar con Ana?]]></texto>
+		<texto id="str_puedo_hacerlo_sin_ana_rta"><![CDATA[Necesitas a la enfermera para aplicar el contraste si el estudio lo necesita. También puede ayudarte a calmar a los pacientes.]]></texto>
+
+		<!-- Tablero Electricidad -->
+		<texto id="feed_tablero_electricidad_over"><![CDATA[Puedo acceder a la configuración del simulador.]]></texto>
+		<texto id="string_soy_jefe"><![CDATA[Configurar el simulador.]]></texto>
+		<texto id="string_no_soy_jefe"><![CDATA[No configurarlo.]]></texto>
+		<texto id="feed_fotos_con_dardos_op_si"><![CDATA[Te dejo solo un momento para que puedas configurar el simulador. Cuando termines haz clic en 'Aceptar' para guardar tus cambios.]]></texto>
+		<texto id="feed_fotos_con_dardos_op_no"><![CDATA[Mejor lo hago en otro momento.]]></texto>
+		<!-- Libros -->
+		<texto id="string_ver_libros"><![CDATA[Consultar los libros.]]></texto>
+		<texto id="string_no_ver_libros"><![CDATA[No consultar los libros.]]></texto>
+		<texto id="feed_libros_over"><![CDATA[Podría consultar estos libros para repasar algunos temas antes de empezar a trabajar.]]></texto>
+		<!-- PC -->
+		<texto id="feed_radio_over">
+			<![CDATA[Desde aquí puedo consultar la Web del hospital. Siempre publican noticias muy importantes.]]></texto>
+		<texto id="feed_radio_encendida"><![CDATA[Parece que no funciona.]]></texto>
+		<texto id="feed_radio_deshabilitada"><![CDATA[Parece que no funciona.]]></texto>
+		<texto id="feed_radio_op1"><![CDATA[No consultar la Web.]]></texto>
+
+		<texto id="feed_radio_op2"><![CDATA[Consultar la Web.]]></texto>
+		<texto id="feed_radio_op2_1">
+			<![CDATA[Cuatro personas resultaron heridas tras el grave accidente ocurrido anoche en las inmediaciones del hospital.
+<font color="#FF0000">Cuidado: Los pacientes que entren a continuación pueden estar afectados por la noticia.</font>]]>
+		</texto>
+		<texto id="feed_radio_op2_2"><![CDATA[Varios trabajadores de una obra han sufrido un terrible accidente al precipitarse desde un segundo piso por el derrumbe de una obra.
+<font color="#FF0000">Cuidado: Los pacientes que entren a continuación pueden estar afectados por la noticia.</font>]]>
+		</texto>
+		<texto id="feed_radio_op2_3"><![CDATA[El famoso futbolista Messia ha sufrido una aparatosa entrada en el último partido internacional. Se espera conocer el alcance la lesión en breve.
+<font color="#FF0000">Cuidado: Los pacientes que entren a continuación pueden estar afectados por la noticia.</font>]]>
+		</texto>
+		<!-- Imagen Hospital  -->
+		<texto id="feed_orla_over"><![CDATA[Es una foto del hospital. Siempre me trae buenos recuerdos.]]></texto>
+		<texto id="string_cargar_estado"><![CDATA[Cargar sesión.]]></texto>
+		<texto id="string_guardar_estado"><![CDATA[Guardar sesión.]]></texto>
+		<texto id="string_no_guardar_estado"><![CDATA[Salir]]></texto>
+
+		<!-- Bombas de contraste y suero-->
+		<texto id="string_revisar_bombas_over"><![CDATA[Es la bomba que se utiliza para el contraste.]]></texto>
+		<texto id="string_alerta_bomba_revisada"><![CDATA[La bomba de contraste ha sido revisada.]]></texto>
+		<texto id="string_revisar_bomba"><![CDATA[Revisar la máquina.]]></texto>
+		<texto id="string_no_revisar_bomba"><![CDATA[No revisarla.]]></texto>
+		<texto id="string_alerta_animacion_revisar_bombas"><![CDATA[Siempre tengo que revisar la bomba para asegurarme de que funciona correctamente.]]></texto>
+
+
+
+		<!-- Equipo  de RMN -->
+		<texto id="string_revisar_bombas_over"><![CDATA[Es la bomba que se utiliza para el contraste.]]></texto>
+		<texto id="string_revisar_mesa_tac_over_CON_VOLANTE"><![CDATA[Debo revisar la máquina.]]></texto>
+
+		<texto id="string_alerta_equipormn_revisado"><![CDATA[El equipo de RMN ha sido revisado.]]></texto>
+		<texto id="string_no_revisar_equipormn"><![CDATA[No revisarlo.]]></texto>
+		<texto id="string_revisar_equipormn"><![CDATA[Revisar el equipo de RMN.]]></texto>
+		<texto id="string_alerta_animacion_revisar_maquina"><![CDATA[Revisado y preparado.]]></texto>
+
+
+		<!-- Bombas de contraste-->
+		<texto id="string_revisar_mesa_tac_over"><![CDATA[Ésta es la máquina de resonancia magnética nuclear. Cuando haya escogido un volante será el momento de revisarla en detalle.]]></texto>
+
+		<!-- Materiales de RMN -->
+		<texto id="string_materiales_over"><![CDATA[Estos son los materiales de RMN. Por ahora no los necesito.]]></texto>
+		<texto id="string_materiales_over_CON_VOLANTE"><![CDATA[Aquí están los materiales que se le colocan al paciente. Tengo que revisar si están todos los necesarios.]]></texto>
+
+		<texto id="str_revisar_materiales"><![CDATA[Revisar los materiales. ]]></texto>
+		<texto id="str_no_revisar_materiales"><![CDATA[No revisarlos.]]></texto>
+		<texto id="str_alerta_materiales_recien_revisados">
+			Es importante revisar los materiales para asegurarme de que no
+			exista ningún fallo.
+		</texto>
+		<!-- 
+			<texto id="str_alerta_materiales_revisados"><![CDATA[Ya los has revisado.]]></texto>
+		-->
+		<texto id="str_alerta_materiales_revisados"><![CDATA[Listo. Los materiales fueron revisados.]]></texto>
+
+
+		<!-- Intercomunicador -->
+		<texto id="string_intercomunicador_escenario2_over"><![CDATA[El interfono me permite llamar al celador para que traiga al paciente.]]></texto>
+		<texto id="string_intercomunicador_escenario2_over_CON_VOLANTE"><![CDATA[El interfono me permite llamar al celador para que traiga al paciente.]]></texto>
+
+		<texto id="string_llamar_celador"><![CDATA[Llamar al celador.]]></texto>
+		<texto id="string_no_llamar_celador"><![CDATA[No llamar al celador.]]></texto>
+		<texto id="string_puede_traer_al_paciente"><![CDATA[¿Puede traer al paciente?]]></texto>
+		<texto id="string_primero_elige_volante"><![CDATA[Primero tienes que elegir un volante.]]></texto>
+		<texto id="str_ya_llevo_paciente"><![CDATA[Por supuesto.]]></texto>
+
+		<texto id="str_buenos_dias_traigo_al_paciente"><![CDATA[Buenos días. Le traigo al paciente.]]></texto>
+		<texto id="str_gracias"><![CDATA[Gracias.]]></texto>
+		<texto id="str_volvere_a_retirar_al_paciente"><![CDATA[Volveré cuando finalice con las imágenes para retirar al paciente. La enfermera se quedará para ayudarle.]]></texto>
+		<texto id="srt_ana_se_presenta"><![CDATA[Hola, mucho gusto. Mi nombre es Ana y fui designada para trabajar contigo. Me quedaré aquí por si necesitas algo. ]]></texto>
+		<texto id="str_excelente_ana"><![CDATA[Excelente. Muchas gracias Ana.]]></texto>
+
+		<texto id="intercomunicador_escenario2_over_IMAGENES_OBTENIDAS"><![CDATA[El intercomunicador me permite avisar al celador.]]></texto>
+
+		<texto id="string_no_utilizar_intercom"><![CDATA[No utilizar el intercomunicador.]]></texto>
+
+
+		<!-- Equipo de Software -->
+		<texto id="string_pc_over"><![CDATA[Éste es el equipo de software. Sin el paciente no tiene sentido utilizarlo.]]></texto>
+		<texto id="string_pc_over_CON_PACIENTE"><![CDATA[Debería revisar el equipo de software antes de utilizarlo.]]></texto>
+
+		<texto id="str_revisar_equipo_soft"><![CDATA[Revisar equipo de software.]]></texto>
+		<texto id="str_usar_equipo_soft"><![CDATA[Utilizar equipo de software.]]></texto>
+
+		<texto id="str_revisar_personalemete_maquina_rmn"><![CDATA[Salir de la cabina y revisar la máquina en la otra sala.]]></texto>
+		<texto id="str_pedirle_a_ana_la_revise"><![CDATA[Solicitarle a la enfermera que repare el imán.]]></texto>
+		<texto id="str_hablar_paciente_por_intercom"><![CDATA[Hablar con el paciente a través del intercomunicador.]]></texto>
+		<texto id="str_despedir_a_paciente"><![CDATA[Despedir al paciente indicándole que la máquina no funciona.]]></texto>
+		<texto id="str_interaccion_ana_avisa_falla_iman"><![CDATA[No has revisado el imán y parece que no conecta bien con la máquina.]]></texto>
+
+		<texto id="str_revisar_personalemete_maquina_rmn_fin"><![CDATA[Tendría que haber supervisado todos los equipos. Ahora tengo la seguridad de que todo funciona.]]></texto>
+		<texto id="str_pedirle_a_ana_la_revise_fin"><![CDATA[Tendría que haber revisado yo la máquina. Ahora tengo la seguridad de que todo funciona correctamente.]]></texto>
+		<texto id="str_hablar_paciente_por_intercom_fin"><![CDATA[Espere un momento mientras reviso la máquina.]]></texto>
+		<texto id="str_despedir_a_paciente_fin"><![CDATA[No estaba seguro de que funcionase mal. Me he precipitado pidiéndole que se fuese.]]></texto>
+
+		<texto id="str_alerta_equipo_soft_revisado"><![CDATA[Parece que está todo correcto.]]></texto>
+		<texto id="str_olvide_colocar_paciente_al_usar_soft"><![CDATA[Debería colocar al paciente antes de continuar.]]></texto>
+
+		<texto id="str_debes_controlar_metales_antes_de_usar_soft"><![CDATA[Me falta solicitar al paciente la constancia de objetos peligrosos]]></texto>
+
+		<texto id="str_debes_revisar_soft_antes_de_usar_soft"><![CDATA[Antes de utilizar el equipo debería revisarlo en detalle. ]]></texto>
+		<texto id="str_feed_imagenes_obtenidas"><![CDATA[Ya he finalizado con el estudio y parece que todo ha salido muy bien. Sólo me queda preocuparme un poco por el paciente y pedirle al celador que lo retire.]]></texto>
+
+
+		<!-- Intercom escenario 3 -->
+		<texto id="string_intercomunicador_escenario3_over"><![CDATA[Aún no puedo utilizarlo. Tengo que realizar otras cosas importantes.]]></texto>
+		<!-- Paciente -->
+		<texto id="str_paciente_over"><![CDATA[Podría hablar con el paciente.]]></texto>
+		<texto id="str_interaccion_crisis_bata"><![CDATA[El técnico no cumple las medidas de seguridad. Creo que será mejor no continuar.]]></texto>
+		<texto id="str_crisis_bata_dec1"><![CDATA[Hablar con el paciente y colocarte la bata.]]></texto>
+		<texto id="str_crisis_bata_dec2"><![CDATA[Pedir a Ana que tranquilice al paciente y colocarte la bata mientras tanto.]]></texto>
+		<texto id="str_crisis_bata_dec3"><![CDATA[Continuar con el proceso, sin ponerte la bata.]]></texto>
+
+		<texto id="str_alerta_crisis_bata_dec1"><![CDATA[No ponerse la bata es un acto irresponsable por mi parte. No debería volver a olvidarme nunca. Ahora ya tengo la bata puesta.]]></texto>
+		<texto id="str_alerta_crisis_bata_dec2"><![CDATA[Olvidé la bata y el paciente ha dudado de mi profesionalidad. Tengo que tener mucho cuidado con estas cosas. Ahora ya tengo la bata puesta.]]></texto>
+		<texto id="str_alerta_crisis_bata_dec3"><![CDATA[Las cosas no se solucionan ignorando la opinión de los pacientes. Ahora no quiere seguir con las pruebas y debo escoger otro volante.]]></texto>
+
+		<texto id="str_take_easy_masculino"><![CDATA[Mantenga la tranquilidad.]]></texto>
+		<texto id="str_take_easy_femenino"><![CDATA[Manténgase tranquila.]]></texto>
+		<texto id="str_esta_embarazada"><![CDATA[¿Está usted embarazada?]]></texto>
+		<texto id="str_esta_embarazada"><![CDATA[¿Está usted embarazada?]]></texto>
+		<texto id="str_comprobar_documentos"><![CDATA[Necesito comprobar varios documentos con usted.]]></texto>
+		<texto id="str_vamos_a_colocarlo"><![CDATA[Vamos a colocarle en la mesa.]]></texto>
+		<texto id="str_mejor_en_otro_momento"><![CDATA[Hablamos luego.]]></texto>
+		<texto id="str_dialogo_con_paciente_tranquilizar_paciente"><![CDATA[No debe preocuparse. El proceso es sencillo. ¿Quiere que empecemos?]]></texto>
+		<texto id="str_interaccion_paciente_ya_estoy_tranquilo"><![CDATA[Sí por favor. Ya me siento mejor.]]></texto>
+		<texto id="str_interaccion_esta_embarazada_rta"><![CDATA[No.]]></texto>
+		<texto id="str_interaccion_esta_embarazada_refuerzo"><![CDATA[Es necesario que le haga esta pregunta, ya que el proceso puede resultar muy peligroso para el niño.]]></texto>
+
+		<texto id="str_pedir_constancia_contraste"><![CDATA[¿Puede darme la constancia firmada para aplicarle contraste?]]></texto>
+		<texto id="pedir_constancia_contraste_nino"><![CDATA[La enfermera ya me entregó el consentimiento firmado por los padres]]></texto>
+		<texto id="str_pedir_constancia_objetos_de_metal"><![CDATA[¿Puede darme la constancia firmada de que no lleva objetos de metal?]]></texto>
+		<texto id="str_pedir_constancia_objetos_de_metal_child"><![CDATA[Comprobar la constancia firmada por sus padres de que no lleva objetos de metal]]></texto>
+
+		<texto id="str_comprobar_datos_personales"><![CDATA[Comprobemos sus datos.]]></texto>
+		<texto id="str_hablar_de_otros_temas"><![CDATA[Necesito hablar de otros temas.]]></texto>
+
+		<texto id="str_alerta_ya_la_tengo"><![CDATA[Ya la tengo.]]></texto>
+		<texto id="str_alerta_el_volante_no_mencionaba_contraste"><![CDATA[El volante no mencionaba contraste.]]></texto>
+
+		<texto id="str_alerta_perfecto"><![CDATA[Perfecto.]]></texto>
+		<texto id="str_alert_debes_comprobar_datos_primero"><![CDATA[Tengo que comprobar los datos del paciente.]]></texto>
+
+		<texto id="str_dialog_debes_pedir_contraste_primero"><![CDATA[Antes de colocar al paciente debería aplicarle contraste.]]></texto>
+
+
+		<texto id="str_olvido_preguntar_sobre_embarazo"><![CDATA[Olvidé preguntarle… ¿Existe la posibilidad de que esté embarazada?]]></texto>
+		<texto id="str_interaccion_no_embarazada"><![CDATA[No.]]></texto>
+		<texto id="str_dialogo_debo_tener_cuidado"><![CDATA[Tengo que tener más cuidado.]]></texto>
+		<texto id="paciente_esta_colocado"><![CDATA[Ya está colocado.]]></texto>
+
+		<texto id="crisis_colocar_mal_al_paciente"><![CDATA[Colocaste mal al paciente.]]></texto>
+		<texto id="str_ya_hemos_terminado"><![CDATA[Ya hemos terminado]]></texto>
+		<texto id="str_olvido_revisar_materiales"><![CDATA[No revisé los materiales antes. Por suerte no ha fallado ninguno.]]></texto>
+
+		<texto id="paciente_over_IMAGENES_OBTENIDAS"><![CDATA[Podría hablar con mi paciente.]]></texto>
+
+		<texto id="str_interaccion_crisis_en_nino"><![CDATA[¡Tengo miedo!¡Quiero ir con mi mamá!]]></texto>
+		<texto id="str_interaccion_crisis_en_adulto"><![CDATA[La verdad es que el proceso me asusta bastante y no creo que pueda seguir.]]></texto>
+
+
+		<texto id="str_dialogo_crisis_en_adulto_tranquilizar"><![CDATA[Tranquilizar al paciente y hablar con él afablemente.]]></texto>
+		<texto id="str_dialogo_crisis_en_adulto_razonar"><![CDATA[Razonar con el paciente y ofrecerle argumentos lógicos.]]></texto>
+		<texto id="str_dialogo_crisis_en_adulto_forzarlo"><![CDATA[Intentar colocarle en la posición.]]></texto>
+
+
+		<texto id="str_dialogo_crisis_en_nino_tranquilizar"><![CDATA[Tranquilizar al paciente y hablar con él afablemente.]]></texto>
+		<texto id="str_dialogo_crisis_en_nino_razonar"><![CDATA[Razonar con el paciente y ofrecerle argumentos lógicos.]]></texto>
+		<texto id="str_dialogo_crisis_en_nino_forzarlo"><![CDATA[Intentar colocarle en la posición.]]></texto>
+
+		<texto id="str_inter_crisis_en_adulto_tranquilizar"><![CDATA[Ahora lo colocaré en la mesa. No se preocupe, todo saldrá muy bien.]]></texto>
+		<texto id="str_inter_crisis_en_adulto_razonar"><![CDATA[No se preocupe por nada. El proceso es muy seguro y bastante sencillo. Ya he revisado los equipos y no hay ningún problema. Ahora lo colocaré en la mesa de exploración.]]></texto>
+		<texto id="str_inter_crisis_en_adulto_forzarlo"><![CDATA[No debo forzar al paciente. Quizá hablar con él hubiese sido una buena idea.]]></texto>
+
+
+
+		<texto id="str_inter_crisis_en_nino_tranquilizar"><![CDATA[Ahora lo colocaré en la mesa. No se preocupe que todo va a salir bien. ]]></texto>
+		<texto id="str_inter_crisis_en_nino_razonar"><![CDATA[No se preocupe por nada. El proceso es muy seguro y bastante sencillo. Ya he revisado los equipos y no hay ningún problema. Ahora lo colocaré en la mesa de exploración.]]></texto>
+		<texto id="str_inter_crisis_en_nino_forzarlo"><![CDATA[No debo forzar al paciente. Quizá hablar con él hubiese sido una buena idea.]]></texto>
+
+
+
+		<!-- Ana enfermera -->
+		<texto id="str_carmen_escenario2_over_CON_PACIENTE"><![CDATA[Ana puede ayudarme mucho.]]></texto>
+		<texto id="srt_dialogo_enfermera_op1"><![CDATA[¿Puedes ponerle contraste al paciente?]]></texto>
+		<texto id="srt_dialogo_enfermera_op2"><![CDATA[¿Puedes revisar las bombas de contraste y suero?]]></texto>
+		<texto id="srt_dialogo_enfermera_op3"><![CDATA[¿Puedes revisar la máquina de RMN?]]></texto>
+		<texto id="srt_dialogo_enfermera_op4"><![CDATA[Hablamos luego.]]></texto>
+		<texto id="str_interaccion_dialogo_enfermera_op2"><![CDATA[No es mi trabajo, pero puedo hacerlo.]]></texto>
+
+		<texto id="str_dialog_carmen_no_pida_contraste"><![CDATA[El volante no indica que necesite contraste.]]></texto>
+
+		<texto id="str_interaccion_carmen_avisa_pedir_cons_contraste"><![CDATA[Necesitas la constancia del paciente. ¿Ya la tienes?]]></texto>
+		<texto id="str_interaccion_carmen_avisa_pedir_cons_contraste_rta"><![CDATA[Aún no.]]></texto>
+		<texto id="str_interaccion_pedirselo_antes"><![CDATA[Debes pedírsela antes.]]></texto>
+		<texto id="str_interaccion_bomba_falla"><![CDATA[No has revisado la bomba y se ha producido un ruido muy raro. El paciente se ha puesto muy nervioso.]]></texto>
+
+		<texto id="str_fb_atender_paciente_personalmenete"><![CDATA[Atender personalmente al paciente.]]></texto>
+		<texto id="str_fb_ana_atienda_paciente"><![CDATA[Pedir a Ana que atienda al paciente.]]></texto>
+		<texto id="str_fb_esperar_se_calme"><![CDATA[Esperar un momento hasta que el paciente se calme.]]></texto>
+		<texto id="str_fb_ana_vuelvelo_a_intentar"><![CDATA[Pedir a Ana que lo vuelva a intentar.]]></texto>
+
+		<texto id="str_interaccion_fb_atender_paciente_personalmenete"><![CDATA[Por ahora hemos conseguido solucionarlo, pero debes tener mucho cuidado en los próximos volantes.]]></texto>
+		<texto id="str_interaccion_fb_ana_atienda_paciente"><![CDATA[Esto no es un juego, debes concentrarte en tu trabajo y no olvidarte de cosas tan importantes]]></texto>
+		<texto id="str_interaccion_fb_esperar_se_calme"><![CDATA[No puedes cometer este tipo de errores. La próxima vez debes tener mucho cuidado.]]></texto>
+		<texto id="str_interaccion_fb_ana_vuelvelo_a_intentar"><![CDATA[Lo he hecho mal. Por ahora el celador se llevará al paciente y tendré que elegir un nuevo volante.]]></texto>
+
+		<texto id="str_interaccion_carmen_avisa_contraste_aplicado_ok"><![CDATA[Ya está aplicado el contraste.]]></texto>
+		<texto id="str_perfecto_muchas_gracias"><![CDATA[Perfecto. Muchas gracias.]]></texto>
+
+		<texto id="carmen_escenario2_over_IMAGENES_OBTENIDAS"><![CDATA[Podría hablar con Ana.]]></texto>
+
+		<texto id="str_interaccion_fracaso_aplicacion_contraste"><![CDATA[No deja de moverse, es imposible.]]></texto>
+		<texto id="str_interaccion_fracaso_aplicacion_contraste2"><![CDATA[El paciente estaba demasiado nervioso. Debiste haberlo tranquilizado antes.]]></texto>
+
+		<!-- Estado imagenes obtenidas -->
+		<texto id="str_dialogo_ana_despide_paciente_despide"><![CDATA[¿Podrías despedir al paciente y encargarte de llamar al celador?]]></texto>
+		<texto id="str_dialogo_ana_despide_paciente_mastarde"><![CDATA[Hablamos luego.]]></texto>
+
+		<texto id="str_ana_despide_paciente_enfadada"><![CDATA[Por supuesto, pero recuerda que siempre es bueno que les dediques unas palabras.]]></texto>
+
+		<texto id="str_alerta_la_proxima_deberia_despedirme_del_paciente"><![CDATA[La próxima vez debería despedirme del paciente.]]></texto>
+		<texto id="str_llamar_celador_despedir"><![CDATA[Llamar al celador.]]></texto>
+		<texto id="str_no_llamar_celador_despedir"><![CDATA[No llamarlo.]]></texto>
+		<texto id="str_podria_retirar_paciente"><![CDATA[¿Podría retirar al paciente? ]]></texto>
+		<texto id="str_celador_ya_han_terminado"><![CDATA[¿Ya han terminado? ]]></texto>
+		<texto id="str_si_ya_esta"><![CDATA[Sí, ya está.]]></texto>
+		<texto id="str_no_debi_desperdirme_friamente"><![CDATA[Debería haberme despedido del paciente y no comportarme de un modo tan frío. ]]></texto>
+		<texto id="str_todo_salio_ok"><![CDATA[ Todo ha salido bien. El médico le informará de los resultados.]]></texto>
+		<texto id="str_puede_abandonar_sala"><![CDATA[ Puede abandonar la sala, ya hemos terminado.]]></texto>
+		<texto id="str_en_otro_momento"><![CDATA[Hablamos luego.]]></texto>
+		<texto id="str_interaccion_todo_salio_ok"><![CDATA[Gracias. Ha sido más sencillo de lo que pensaba.]]></texto>
+		<texto id="str_todo_salio_ok2"><![CDATA[Ahora el celador le acompañará a la salida.]]></texto>
+
+		<texto id="str_interaccion_puede_abandonar_sala"><![CDATA[Bueno... Adiós.]]></texto>
+		<texto id="str_debo_ser_mas_amable_con_el_paciente"><![CDATA[Debo ser un poco más amable con el paciente, no debo tratar a la gente así.]]></texto>
+
+
+		<texto id="str_inter_crisis_nino_pre_colocar_paciente"><![CDATA[Ya me siento mejor, gracias.]]></texto>
+		<texto id="str_inter_crisis_adulto_pre_colocar_paciente"><![CDATA[Ya me siento mejor, gracias.]]></texto>
+
+		<texto id="str_inter_adulto_forzado"><![CDATA[No quiero continuar. Necesito hablar con el responsable.]]></texto>
+		<texto id="str_inter_nino_forzado"><![CDATA[¡¡¡Papaaaaaaa!!!]]></texto>
+
+		<texto id="stringVolantes">
+			<![CDATA[<font color='#666666'>Protocolo: </font><font color='#0066FF' ><b>$PROTOCOLO</b></font><br /><font color='#666666' >Especificaciones del protocolo: </font><br/><font color='#0066FF' ><b>$ESPECIFICACIONES</b></font><br/><font color='#666666' >Prioridad: </font><font color='#0066FF' ><b>$URGENTE</b></font><br /><font color='#666666' >Fecha: </font><font color='#0066FF' ><b>$FECHA</b></font><br /><font color='#666666' >Región: </font><font color='#0066FF' ><b>$REGION</b></font><br /><font color='#666666' >Contraste: </font><font color='#0066FF' ><b>$CONTRASTE</b></font><br /><br /><font size='16' color='#666666' >$TITULO2</font></h2><br/><br/><font color='#666666' >DNI: </font><font color='#0066FF' ><b>$DNI</b></font><br /><font color='#666666' >Nombre: </font><font color='#0066FF' ><b>$NOMBRE</b></font><br /><font color='#666666' >Sexo: </font><font color='#0066FF' ><b>$SEXO</b></font><br />]]>
+		</texto>
+		<!-- Mensajes inactividad  -->
+		<texto id="str_te_has_bloqueado"><![CDATA[¿Te has quedado bloqueado? Quizá pueda ayudarte...]]></texto>
+		<texto id="str_yo_que_tu_tomaria_volante"><![CDATA[Yo si fuera tú tomaría uno de los volantes en la sala de descanso.]]></texto>
+		<texto id="str_creo_debes_llamar_celador"><![CDATA[ Creo que tienes que llamar al celador de guardia y pedirle que traiga al paciente. Usa el intercomunicador.]]></texto>
+		<texto id="str_dejame_pensar"><![CDATA[Espera que piense… Tus compañeros suelen colocar al paciente, luego entran en la cabina de control y utilizan el ordenador. ]]></texto>
+
+		<texto id="str_no_hay_problema"><![CDATA[De acuerdo.]]></texto>
+		<texto id="str_pre_software"><![CDATA[Cuando finalices el estudio volveré para despedir al paciente.]]></texto>
+
+		<texto id="str_dialogo_supervisor_recon3d"><![CDATA[Javier ¿Podrías contarme algo sobre la Reconstrucción 3D a partir de imágenes de RM?]]></texto>
+
+
+		<!-- SIM67 EXPANSION ROE -->
+		<texto id="str_dialogo_supervisor_recon3d_2"><![CDATA[La semana pasada estuve en un congreso y hablaron de una técnica de reconstrucción 3D a partir de imágenes de RM. Voy a preguntarle a Javier, por que seguro que él puede contarme más.]]></texto>
+		<texto id="str_dialogo_supervisor_recon3d_3"><![CDATA[Por supuesto. La reconstrucción 3D de estructuras anatómicas a partir de Resonancia Magnética (RM), es en la actualidad una técnica útil, que posibilita la visualización idónea de los segmentos corporales que van a ser evaluados. ]]></texto>
+		<texto id="str_dialogo_supervisor_recon3d_4"><![CDATA[Es muy interesante, ¿puedes contarme algo más?]]></texto>
+		<texto id="str_dialogo_supervisor_recon3d_5"><![CDATA[Claro. Además, se utiliza como una herramienta determinante en el diagnóstico médico, así como en la planificación de terapias y procedimientos quirúrgicos, ya que permite el desarrollo de aplicaciones en numerosas ramas de la medicina.]]></texto>
+		<texto id="str_dialogo_supervisor_recon3d_6"><![CDATA[Supongo que no dispondrás de ninguna imagen que me dé una idea más concreta.]]></texto>
+		<texto id="str_dialogo_supervisor_recon3d_7"><![CDATA[Sí, precisamente un compañero me acaba de mandar un par de vídeos. ¿Quieres verlos?]]></texto>
+		<texto id="str_dialogo_supervisor_recon3d_8"><![CDATA[Me encantaría.]]></texto>
+		<texto id="str_dialogo_supervisor_recon3d_9"><![CDATA[Si te parece primero veremos éste, de arterias y cráneo.]]></texto>
+		<texto id="str_dialogo_supervisor_recon3d_10"><![CDATA[De acuerdo.]]></texto>
+
+		<texto id="str_supervisor_recon3d_postvideo1_2"><![CDATA[¿Qué te ha parecido?]]></texto>
+		<texto id="str_supervisor_recon3d_postvideo1_3"><![CDATA[Es muy interesante.]]></texto>
+		<texto id="str_supervisor_recon3d_postvideo1_4"><![CDATA[Veamos a continuación el de corazón.]]></texto>
+		<texto id="str_supervisor_recon3d_postvideo1_5"><![CDATA[De acuerdo.]]></texto>
+
+		<texto id="str_supervisor_recon3d_postvideo2_2"><![CDATA[¿Sabías que la utilización de la resonancia magnética (RM) para el diagnóstico de enfermedades cardiovasculares comenzó en los años 80 del siglo pasado, pero ha sido en los últimos años, con el desarrollo de la tecnología mediante equipos más avanzados y nuevos softwares, cuando esta técnica se ha puesto a la cabeza de la imagenología cardiovascular?]]></texto>
+		<texto id="str_supervisor_recon3d_postvideo2_3"><![CDATA[No lo sabía.]]></texto>
+		<texto id="str_supervisor_recon3d_postvideo2_4"><![CDATA[Esta técnica permite la reconstrucción 3D del corazón, lo que posibilita un adecuado análisis de patologías vasculares de forma integral en un único estudio y con un diagnóstico muy certero.]]></texto>
+		<texto id="str_supervisor_recon3d_postvideo2_5"><![CDATA[La Resonancia Magnética con esta capacidad tiene la ventaja de realizarse de forma no invasiva y con grado de resolución muy elevado.]]></texto>
+		<texto id="str_supervisor_recon3d_postvideo2_6"><![CDATA[Muchas gracias por tus explicaciones, Javier, ahora ya sé algo más sobre la Reconstrucción 3D a partir de imágenes de RM.	]]></texto>
+		<texto id="str_supervisor_recon3d_postvideo2_7"><![CDATA[De nada. Si quieres también te puedo mostrar imágenes 3D de movimiento y reconstrucción.]]></texto>
+		<texto id="str_supervisor_recon3d_postvideo2_8"><![CDATA[Claro, encantado, pero es posible que tengas que explicarme alguna cosa. ]]></texto>
+		<texto id="str_supervisor_recon3d_postvideo2_9"><![CDATA[Se me ocurre una idea. Yo te iré mostrando las imágenes y tú tendrás que identificarlas.]]></texto>
+
+		<texto id="error_minijuego01_mal"><![CDATA[No identificaste correctamente las imágenes de RM.]]></texto>
+
+		<texto id="str_supervisor_recon3d_postminijuego1_2"><![CDATA[¡Enhorabuena! Has terminado la actividad con éxito.]]></texto>
+		<texto id="str_supervisor_recon3d_postminijuego1_3"><![CDATA[Gracias, la verdad es que ha sido bastante complicado.	]]></texto>
+		<texto id="str_supervisor_recon3d_postminijuego1_4"><![CDATA[Antes de acabar, necesito que revises una serie de imágenes que me acaban de llegar. Todas tienen algún tipo de patología y me gustaría que la identificases.]]></texto>
+
+		<texto id="error_minijuego02_mal"><![CDATA[No has reconocido correctamente la zona del tumor.]]></texto>
+		<texto id="str_supervisor_recon3d_postminijuego2_2"><![CDATA[¡Estupendo! Has finalizado las actividades con correctamente.]]></texto>
+		<texto id="str_supervisor_recon3d_postminijuego2_3"><![CDATA[Gracias, no me ha costado bastante pero ha merecido la pena. Ahora sé mucho más sobre la reconstrucción 3D a partir de imágenes de RM.	]]></texto>
+		<texto id="str_supervisor_recon3d_postminijuego2_4"><![CDATA[Perfecto, cuando quieras puedes comenzar con otro caso.]]></texto>
+
+
+
+		<!-- A BORRAR -->
+		<texto id="txt_info_cambio"><![CDATA[Cambiaste de estado]]></texto>
+		<texto id="str_test"><![CDATA[SI ESTO QUIERES VER]]></texto>
+		<texto id="str_test2"><![CDATA[YA PUEDES USAR EL SOT QUE HIZO ESTEBAN!!!!!]]></texto>
+
+
+		<texto id="no_hay_volantes_texto"><![CDATA[Parece que no hay volantes en la corchera... Es un buen momento para hablar con Javier y repasar juntos el proceso.]]></texto>
+
+	</textos>
+
+	<alertas>
+		<alerta
+			id="alert_no_hay_volantes"
+			textid="no_hay_volantes_texto"
+			avatar="Personaje" />
+
+		<alerta
+			id="alert_guardar_sesion_sinvolante"
+			textid="guardar_sesion_sinvolante"
+			avatar="Personaje" />
+		<alerta
+			id="alert_tomar_bata"
+			textid="feed_tomar_bata_optomar"
+			avatar="Personaje" />
+		<alerta
+			id="alert_tomar_algo_menos50min"
+			textid="string_tomar_algo_menos50min"
+			avatar="Personaje" />
+		<alerta
+			id="alert_tomar_algo_mas50min"
+			textid="string_tomar_algo_mas50min"
+			avatar="Personaje" />
+
+
+		<!-- Bomas de contraste -->
+		<!-- Quien es el personaje en esta alerta -->
+		<alerta
+			id="alerta_bomba_revisada"
+			textid="string_alerta_bomba_revisada"
+			avatar="Personaje" />
+		<alerta
+			id="alerta_animacion_revisar_bombas"
+			textid="string_alerta_animacion_revisar_bombas"
+			avatar="Personaje" />
+		<!-- Equipo RMN -->
+		<alerta
+			id="alerta_animacion_revisar_maquina"
+			textid="string_alerta_animacion_revisar_maquina"
+			avatar="Personaje" />
+		<alerta
+			id="alerta_equipormn_revisado"
+			textid="string_alerta_equipormn_revisado"
+			avatar="Personaje" />
+		<alerta
+			id="alerta_materiales_revisados"
+			textid="str_alerta_materiales_revisados"
+			avatar="Personaje" />
+		<alerta
+			id="alerta_materiales_recien_revisados"
+			textid="str_alerta_materiales_recien_revisados"
+			avatar="Personaje" />
+		<!-- Paciente -->
+		<alerta
+			id="alerta_crisis_bata_dec1"
+			textid="str_alerta_crisis_bata_dec1"
+			emocion="triste"
+			dispatchs="calmar_personalmenete_paciente_y_ponerse_la_bata"
+			avatar="Personaje" />
+		<alerta
+			id="alerta_crisis_bata_dec2"
+			textid="str_alerta_crisis_bata_dec2"
+			emocion="triste"
+			dispatchs="ana_calma_y_ponerse_la_bata"
+			avatar="Personaje" />
+		<alerta
+			id="alerta_crisis_bata_dec3"
+			dispatchs="ignorar_paciente_sin_ponerse_la_bata"
+			textid="str_alerta_crisis_bata_dec3"
+			emocion="triste"
+			avatar="Personaje" />
+		<alerta
+			id="alerta_ya_la_tengo"
+			textid="str_alerta_ya_la_tengo"
+			goto="dialogo_comprobar_datos"
+			avatar="Personaje" />
+		<!-- Se reemplazo con un dialogo con el mismo id
+			<alerta
+			id="alerta_el_volante_no_mencionaba_contraste"
+			textid="str_alerta_el_volante_no_mencionaba_contraste"
+			goto="dialogo_comprobar_datos"
+			avatar="Personaje" />
+		-->
+		<alerta
+			id="alerta_perfecto"
+			textid="str_alerta_perfecto"
+			goto="dialogo_comprobar_datos"
+			avatar="Personaje" />
+		<!-- 
+			<alerta
+			id="alert_debes_comprobar_datos_primero"
+			textid="str_alert_debes_comprobar_datos_primero"
+			avatar="Personaje" />
+		-->
+		<!-- 
+			UNA VEZ COLOCADO SE LO MUESTAR EN PANTALLA Y SE DEBE VALIDAR SI 
+			REVISO LOS MATERIALES 
+			cuando se clica  'continuar' se determina si se revisaron o no los materiales		
+		-->
+		<alerta
+			id="paciente_esta_colocado_alert"
+			textid="paciente_esta_colocado"
+			dispatchs="det_rev_materiales_post_colocar"
+			avatar="Personaje" />
+		<alerta
+			id="alerta_ya_hemos_terminado"
+			textid="str_ya_hemos_terminado"
+			avatar="Personaje" />
+		<alerta
+			id="olvido_revisar_materiales"
+			textid="str_olvido_revisar_materiales"
+			emocion="triste"
+			avatar="Personaje" />
+
+		<!-- Equipo de soft -->
+		<alerta
+			id="alerta_equipo_soft_revisado"
+			textid="str_alerta_equipo_soft_revisado"
+			avatar="Personaje" />
+
+
+
+		<alerta
+			id="alerta_la_proxima_deberia_despedirme_del_paciente"
+			dispatchs=""
+			goto="llevarpaciente"
+			textid="str_alerta_la_proxima_deberia_despedirme_del_paciente"
+			emocion="triste"
+			avatar="Personaje" />
+
+		<alerta
+			id="alerta_revisemos_protocolos"
+			goto="mapa_conceptual"
+			textid="str_alerta_revisemos_protocolos"
+			avatar="Personaje" />
+		<!-- 	
+			<alerta
+			id="alerta_materiales_revisados"
+			textid="str_alerta_materiales_revisados"
+			avatar="Personaje" />
+		-->
+
+		<alerta
+			id="revisar_personalemete_maquina_rmn_fin"
+			textid="str_revisar_personalemete_maquina_rmn_fin"
+			dispatchs="revisar_maquina"
+			emocion="triste"
+			avatar="Personaje" />
+
+		<alerta
+			id="despedir_a_paciente_fin"
+			textid="str_despedir_a_paciente_fin"
+			dispatchs="despedir_a_paciente"
+			emocion="triste"
+			avatar="Personaje" />
+		<alerta
+			id="pedirle_a_ana_la_revise_fin"
+			textid="str_pedirle_a_ana_la_revise_fin"
+			dispatchs="pedirle_a_ana_la_revise"
+			emocion="triste"
+			avatar="Personaje" />
+
+		<!-- Se reemplaza por un dialogo 
+			<alerta
+			id="feed_imagenes_obtenidas"
+			textid="str_feed_imagenes_obtenidas"
+			dispatchs="pedirle_a_ana_la_revise"
+			avatar="Personaje" />
+		-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<!-- TO DELETE -->
+		<alerta
+			id="testalert"
+			textid="str_test"
+			avatar="Personaje" />
+		<alerta
+			id="puedes_usar_soft"
+			textid="str_test2"
+			avatar="Personaje" />
+
+		<alerta
+			id="interaccion_fb_ana_vuelvelo_a_intentar"
+			textid="str_interaccion_fb_ana_vuelvelo_a_intentar"
+			emocion="triste"
+			dispatchs="forzar_nervioso_colocacion_de_contraste"
+			avatar="Personaje" />
+
+		<alerta
+			id="alerta_inactividad50"
+			textid="str_inactividad50"
+			emocion="triste"
+			dispatchs=""
+			avatar="Personaje" />
+		<alerta
+			id="alerta_inactividad55"
+			textid="str_inactividad55"
+			emocion="triste"
+			dispatchs=""
+			avatar="Personaje" />
+		<alerta
+			id="alerta_inactividad60"
+			textid="str_inactividad60"
+			emocion="triste"
+			dispatchs=""
+			avatar="Personaje" />
+
+
+	</alertas>
+
+	<dialogos>
+		<dialogo
+			id="feed_bandeja_click"
+			textid="stringTuDecides"
+			avatar="Volante"
+			showclose="true">
+			<option
+				id="volante_azar"
+				textid="bandeja_click_volAzar" />
+
+			<option
+				id="volante_practicar"
+				textid="bandeja_click_volPracticar" />
+
+			<option
+				id="volante_libre"
+				textid="bandeja_click_volLibre" />
+			<option
+				id="feed_bandeja_click_cerrar"
+				textid="bandeja_click_volAbandonar" />
+		</dialogo>
+		<!-- Bata -->
+		<dialogo
+			id="feed_bata_click"
+			textid="stringTuDecides"
+			avatar="Bata"
+			showback="false"
+			showclose="true">
+			<option
+				id="bata_tomar"
+				textid="feed_bata_tomar"
+				goto="animacion_poner_bata" />
+			<option
+				id="bata_no_tomar"
+				textid="feed_bata_no_tomar" />
+		</dialogo>
+		<!-- Supervisor -->
+		<!-- Deje el avatar del celador porque todavia no esta el de Javier -->
+
+		<dialogo
+			id="dialogo_supervisor_click"
+			interaccion="interaccion_generico_javier"
+			textid="stringTuDices"
+			avatar="Personaje"
+			showback="false"
+			showclose="true">
+			<option
+				id="dialogo_supervisor_resolver_dudas"
+				textid="str_dialogo_supervisor_resolver_dudas"
+				goto="interaccion_supervisor_que_necesitas" />
+			<!-- 
+				<option
+				id="dialogo_supervisor_cuando_llamar_enfermera"
+				textid="str_dialogo_supervisor_cuando_llamar_enfermera"
+				goto="interaccion_cuando_llamar_enfermera_rta" />
+			-->
+			<option
+				id="dialogo_supervisor_sobre_pacientes"
+				textid="str_dialogo_supervisor_sobre_pacientes"
+				goto="interaccion_por_supuesto" />
+			<option
+				id="dialogo_supervisor_guiarme_en_proceso"
+				textid="str_dialogo_supervisor_guiarme_en_proceso"
+				interaccion_off="true"
+				goto="interaccion_vamos_a_repasar" />
+			<option
+				id="dialogo_supervisor_recon3d"
+				interaccion_off="true"
+				goto="dialogo_supervisor_recon3d_2"
+				dispatchs="activar_sin_puntos"
+				textid="str_dialogo_supervisor_recon3d_2" />
+
+			<option
+				id="dialogo_supervisor_salir"
+				interaccion_off="true"
+				textid="str_dialogo_supervisor_salir" />
+		</dialogo>
+
+		<dialogo
+			id="dialogo_dudas_personaje"
+			interaccion="interaccion_generico_javier"
+			textid="stringTuDices"
+			avatar="Personaje"
+			showback="false"
+			showclose="true">
+			<option
+				id="donde_volantes"
+				textid="str_donde_volantes"
+				goto="donde_volantes_rta" />
+			<option
+				id="como_entrar_rmn"
+				textid="str_como_entrar_rmn"
+				goto="como_entrar_rmn_rta" />
+			<option
+				id="por_donde_empezar"
+				textid="str_por_donde_empezar"
+				goto="por_donde_empezar_rta" />
+		</dialogo>
+
+
+		<dialogo
+			id="dialogo_mas_sobre_rmn"
+			interaccion="interaccion_generico_javier"
+			textid="stringTuDices"
+			avatar="Personaje"
+			showback="false"
+			showclose="true">
+			<option
+				id="mas_sobre_contraste"
+				textid="str_mas_sobre_contraste"
+				goto="mas_sobre_contraste_rta" />
+			<option
+				id="mas_sobre_rmn"
+				textid="str_mas_sobre_rmn"
+				goto="mas_sobre_rmn_rta" />
+		</dialogo>
+
+		<dialogo
+			id="dialogo_supervisor_click_CON_PACIENTE"
+			interaccion="interaccion_generico_javier"
+			textid="stringTuDices"
+			avatar="Personaje"
+			showback="false"
+			showclose="true">
+			<option
+				id="dudas_sobre_el_paciente_resolver"
+				textid="str_dudas_sobre_el_paciente_resolver"
+				goto="interaccion_preguntame_lo_que_necesites" />
+			<option
+				id="dudas_sobre_equipos_resolver"
+				textid="str_dudas_sobre_equipos_resolver"
+				goto="interaccion_preguntame_lo_que_necesites2" />
+			<option
+				id="dudas_sobre_software_resolver"
+				textid="str_dudas_sobre_software_resolver"
+				goto="interaccion_preguntame_lo_que_necesites3" />
+			<option
+				id="dudas_sobre_enfermera_resolver"
+				textid="str_dudas_sobre_enfermera_resolver"
+				goto="interaccion_preguntame_lo_que_necesites4" />
+
+		</dialogo>
+
+		<dialogo
+			id="dialogo_resolver_dudas_CON_PACIENTE"
+			interaccion="interaccion_generico_javier"
+			textid="stringTuDices"
+			avatar="Personaje"
+			showback="false"
+			showclose="true">
+			<option
+				id="cuando_solicitar_datos_paciente_con_paciente"
+				textid="str_cuando_solicitar_datos_paciente_con_paciente"
+				goto="cuando_solicitar_datos_paciente_con_paciente_rta" />
+			<option
+				id="porque_explicarle_al_paciente_proceso_con_paciente"
+				textid="str_porque_explicarle_al_paciente_proceso"
+				goto="porque_explicarle_al_paciente_proceso_con_paciente_rta" />
+			<option
+				id="cuando_colocar_paciente_con_paciente"
+				textid="str_cuando_colocar_paciente_con_paciente"
+				goto="cuando_colocar_paciente_con_paciente_rta" />
+			<option
+				id="tratemos_otro_tema"
+				textid="str_tratemos_otro_tema"
+				interaccion_off="true"
+				goto="dialogo_supervisor_click_CON_PACIENTE" />
+
+		</dialogo>
+
+		<dialogo
+			id="dialogo_resolver_dudas_equipos_CON_PACIENTE"
+			interaccion="interaccion_generico_javier"
+			textid="stringTuDices"
+			avatar="Personaje"
+			showback="false"
+			showclose="true">
+
+			<option
+				id="que_equipos_revisar_con_paciente"
+				textid="str_que_equipos_revisar_con_paciente"
+				goto="que_equipos_revisar_con_paciente_rta" />
+			<option
+				id="porque_es_necesario_revisar_equipos_con_paciente"
+				textid="str_porque_es_necesario_revisar_equipos_con_paciente"
+				goto="porque_es_necesario_revisar_equipos_con_paciente_rta" />
+
+			<option
+				id="tratemos_otro_tema_op2_con_cliente"
+				textid="str_tratemos_otro_tema"
+				interaccion_off="true"
+				goto="dialogo_supervisor_click_CON_PACIENTE" />
+		</dialogo>
+
+
+		<dialogo
+			id="dialogo_resolver_dudas_software_CON_PACIENTE"
+			interaccion="interaccion_generico_javier"
+			textid="stringTuDices"
+			avatar="Personaje"
+			showback="false"
+			showclose="true">
+			<option
+				id="cuando_debo_revisar_soft"
+				textid="str_cuando_debo_revisar_soft"
+				goto="cuando_debo_revisar_soft_rta" />
+			<option
+				id="cuando_debo_utilizar_soft"
+				textid="str_cuando_debo_utilizar_soft"
+				goto="cuando_debo_utilizar_soft_rta" />
+			<option
+				id="tratemos_otro_tema_op2dsamcm_con_cliente"
+				textid="str_tratemos_otro_tema"
+				interaccion_off="true"
+				goto="dialogo_supervisor_click_CON_PACIENTE" />
+		</dialogo>
+
+		<dialogo
+			id="dialogo_resolver_dudas_enfermera_CON_PACIENTE"
+			interaccion="interaccion_generico_javier"
+			textid="stringTuDices"
+			avatar="Personaje"
+			showback="false"
+			showclose="true">
+			<option
+				id="puedo_hacerlo_sin_ana"
+				textid="str_puedo_hacerlo_sin_ana"
+				goto="puedo_hacerlo_sin_ana_rta" />
+		</dialogo>
+
+
+
+		<!-- Snacks -->
+		<dialogo
+			id="feed_cafe_click"
+			textid="stringTuDecides"
+			showclose="true"
+			avatar="Cafe"
+			showback="false">
+			<option
+				id="cafe_tomar"
+				textid="string_cafe_tomar" />
+			<option
+				id="cafe_no_tomar"
+				textid="string_cafe_no_tomar" />
+		</dialogo>
+		<!-- Tablero Electrico -->
+		<dialogo
+			id="feed_tablero_electricidad_click"
+			textid="stringTuDecides"
+			avatar="Dianas"
+			showback="false"
+			showclose="true">
+			<option
+				id="soy_jefe"
+				textid="string_soy_jefe" />
+			<option
+				id="no_soy_jefe_anulada"
+				textid="string_no_soy_jefe" />
+			<option
+				id="feed_tablero_electricidad_click_cerrar"
+				textid="string_no_soy_jefe" />
+		</dialogo>
+		<!-- LIBROS -->
+		<dialogo
+			id="animacion_libros_click"
+			textid="stringTuDecides"
+			showclose="true"
+			avatar="Libro"
+			showback="false">
+			<option
+				id="ver_libros"
+				textid="string_ver_libros"
+				goto="animacion_libros_click_si" />
+			<option
+				id="no_ver_libros"
+				textid="string_no_ver_libros" />
+		</dialogo>
+		<!-- PC -->
+		<dialogo
+			id="feed_radio_click"
+			textid="stringTuDecides"
+			avatar="Radio"
+			showclose="true">
+			<option
+				id="radio_encender"
+				textid="feed_radio_op2" />
+			<option
+				id="radio_no_encender"
+				textid="feed_radio_op1" />
+			<option
+				id="feed_radio_click_cerrar"
+				textid="feed_radio_op1" />
+		</dialogo>
+		<!-- Imagen Hospital / Orla -->
+		<dialogo
+			id="feed_orla_click"
+			textid="stringTuDecides"
+			avatar="Orla"
+			showclose="true"
+			showback="false">
+			<option
+				id="cargar_estado"
+				textid="string_cargar_estado" />
+			<option
+				id="guardar_estado"
+				textid="string_guardar_estado" />
+			<option
+				id="feed_orla_click_cerrar"
+				textid="string_no_guardar_estado" />
+		</dialogo>
+		<!-- Cartel anatomico -->
+
+		<dialogo
+			id="feed_cartel_anatomico_click"
+			textid="stringTuDecides"
+			showclose="true"
+			showback="false"
+			avatar="Anatomico">
+			<option
+				id="mirar_cartel"
+				textid="str_mirar_cartel"
+				goto="alerta_revisemos_protocolos" />
+			<option
+				id="no_mirar_cartel"
+				textid="str_no_mirar_cartel" />
+			<option
+				id="feed_cartel_anatomico_click_cerrar"
+				textid="str_no_mirar_cartel" />
+		</dialogo>
+
+		<!-- Intercomunicador escenario 2 -->
+		<dialogo
+			id="dialogo_intercomunicador_escenario2_click"
+			showback="false"
+			textid="stringTuDecides"
+			avatar="Comunicador"
+			showclose="true">
+			<option
+				id="intercomunicador_escenario2_llamar_celador"
+				textid="string_llamar_celador"
+				goto="puedes_traer_paciente" />
+			<option
+				id="intercomunicador_escenario2_no_llamar_celador"
+				textid="string_no_llamar_celador"
+				goto="" />
+
+			<option
+				id="dialogo_intercomunicador_escenario2_click_cerrar"
+				textid="string_no_llamar_celador" />
+		</dialogo>
+		<dialogo
+			id="puedes_traer_paciente_pos"
+			interaccion="interaccion_generico_celador"
+			textid="stringTuDices"
+			avatar="Personaje">
+			<option
+				id="puedes_traer_paciente_op_traer_INICIAL"
+				textid="string_puede_traer_al_paciente"
+				goto="interaccion_celador_enojado_esc2" />
+		</dialogo>
+
+		<dialogo
+			id="dialogo_gracias"
+			textid="stringTuDices"
+			avatar="Personaje">
+			<option
+				id="gracias_por_traer"
+				textid="str_gracias"
+				goto="interaccion_volvere_a_retirar_al_paciente" />
+		</dialogo>
+		<!-- Intercom estado con volante -->
+		<dialogo
+			id="dialogo_intercomunicador_escenario2_click_CON_VOLANTE"
+			showback="false"
+			textid="stringTuDecides"
+			avatar="Comunicador"
+			showclose="true">
+			<option
+				id="intercomunicador_escenario2_llamar_celador_CON_VOLANTE"
+				textid="string_llamar_celador"
+				goto="puedes_traer_paciente_CON_VOLANTE" />
+			<option
+				id="intercomunicador_escenario2_no_llamar_celador_CON_VOLANTE"
+				textid="string_no_llamar_celador"
+				goto="" />
+
+			<option
+				id="dialogo_intercomunicador_escenario2_click_CON_VOLANTE_cerrar"
+				textid="string_no_llamar_celador" />
+		</dialogo>
+		<dialogo
+			id="puedes_traer_paciente_CON_VOLANTE_pos"
+			interaccion="interaccion_generico_celador"
+			textid="stringTuDices"
+			avatar="Personaje">
+			<option
+				id="puedes_traer_paciente_op_traer_CON_VOLANTE"
+				textid="string_puede_traer_al_paciente"
+				goto="interaccion_ya_se_lo_llevo" />
+		</dialogo>
+		<dialogo
+			id="dialogo_excelente_ana"
+			textid="stringTuDices"
+			avatar="Personaje">
+			<option
+				id="dialogo_excelente_ana_unica_opcion"
+				textid="str_excelente_ana"
+				interaccion_off="true" />
+		</dialogo>
+
+		<!-- Paciente -->
+
+		<dialogo
+			id="dialogo_decisiones_crisis_bata"
+			textid="stringTuDecides"
+			rojo="true"
+			avatar="Personaje">
+			<option
+				id="crisis_bata_dec1"
+				interaccion_off="true"
+				goto="alerta_crisis_bata_dec1"
+				textid="str_crisis_bata_dec1" />
+			<option
+				id="crisis_bata_dec2"
+				interaccion_off="true"
+				goto="alerta_crisis_bata_dec2"
+				textid="str_crisis_bata_dec2" />
+			<option
+				id="crisis_bata_dec3"
+				interaccion_off="true"
+				goto="alerta_crisis_bata_dec3"
+				textid="str_crisis_bata_dec3">
+				<clausula>
+					<variable
+						id="sin_puntos"
+						type="ISFALSE" />
+				</clausula>
+			</option>
+		</dialogo>
+
+		<dialogo
+			id="dialogo_con_paciente"
+			textid="stringTuDices"
+			interaccion="interaccion_generico_paciente"
+			showclose="true"
+			avatar="Personaje">
+			<option
+				id="take_easy"
+				goto="dialogo_opcion_tranquilizar_paciente"
+				textid="str_take_easy_femenino">
+				<clausula>
+					<variable
+						id="es_mujer"
+						type="ISTRUE" />
+				</clausula>
+			</option>
+			<option
+				id="take_easy"
+				textid="str_take_easy_masculino"
+				goto="dialogo_opcion_tranquilizar_paciente">
+				<clausula>
+					<variable
+						id="es_mujer"
+						type="ISFALSE" />
+				</clausula>
+			</option>
+			<option
+				id="esta_embarazada"
+				textid="str_esta_embarazada"
+				goto="interaccion_esta_embarazada_rta">
+				<clausula>
+					<variable
+						id="es_mujer"
+						type="ISTRUE" />
+					<tarea
+						id="preguntar_por_embarazo"
+						value="false" />
+					<!-- 
+						<variable
+						id="es_nino"
+						type="ISFALSE" />
+					-->
+				</clausula>
+			</option>
+			<option
+				id="comprobar_documentos"
+				textid="str_comprobar_documentos"
+				goto="dialogo_comprobar_datos" />
+			<option
+				id="vamos_a_colocarlo"
+				dispatchs="evaluar_colocacion_paciente"
+				interaccion_off="true"
+				textid="str_vamos_a_colocarlo">
+				<clausula>
+					<tarea
+						id="colocar_paciente"
+						value="false" />
+				</clausula>
+			</option>
+			<option
+				id="mejor_en_otro_momento"
+				interaccion_off="true"
+				textid="str_mejor_en_otro_momento" />
+			<option
+				id="dialogo_con_paciente_cerrar"
+				textid="str_mejor_en_otro_momento" />
+		</dialogo>
+
+		<dialogo
+			id="dialogo_opcion_tranquilizar_paciente"
+			textid="stringTuDices"
+			interaccion="interaccion_generico_paciente"
+			avatar="Personaje">
+			<option
+				id="opcion_tranquilizar_paciente"
+				textid="str_dialogo_con_paciente_tranquilizar_paciente"
+				goto="interaccion_paciente_ya_estoy_tranquilo" />
+		</dialogo>
+
+		<dialogo
+			id="dialogo_interaccion_esta_embarazada_refuerzo"
+			textid="stringTuDices"
+			avatar="Personaje">
+			<option
+				id="interaccion_esta_embarazada_refuerzo"
+				textid="str_interaccion_esta_embarazada_refuerzo"
+				interaccion_off="true"
+				goto="dialogo_con_paciente"
+				dispatchs="preguntar_por_embarazo" />
+		</dialogo>
+
+		<dialogo
+			id="dialogo_comprobar_datos"
+			textid="stringTuDices"
+			avatar="Personaje">
+			<option
+				id="pedir_constancia_contraste_nonino"
+				dispatchs="evaluar_si_pedir_constancia_volante"
+				textid="str_pedir_constancia_contraste">
+				<clausula>
+					<tarea
+						id="pedir_constancia_contraste"
+						value="false" />
+					<variable
+						id="es_nino"
+						type="ISFALSE" />
+				</clausula>
+			</option>
+			<option
+				id="pedir_constancia_contraste_nino"
+				dispatchs="evaluar_si_pedir_constancia_volante"
+				textid="pedir_constancia_contraste_nino">
+				<clausula>
+					<tarea
+						id="pedir_constancia_contraste"
+						value="false" />
+					<variable
+						id="es_nino"
+						type="ISTRUE" />
+				</clausula>
+			</option>
+			<option
+				id="pedir_constancia_objetos_de_metal_adult"
+				goto="animacion_pedir_constancia_objetos_de_metal"
+				dispatchs="pedir_constancia_objetos_de_metal"
+				textid="str_pedir_constancia_objetos_de_metal"
+				interaccion_off="true">
+				<clausula>
+					<tarea
+						id="pedir_constancia_objetos_de_metal"
+						value="false" />
+					<variable
+						id="es_nino"
+						type="ISFALSE" />
+				</clausula>
+			</option>
+			<option
+				id="pedir_constancia_objetos_de_metal_child"
+				goto="animacion_pedir_constancia_objetos_de_metal"
+				dispatchs="pedir_constancia_objetos_de_metal"
+				textid="str_pedir_constancia_objetos_de_metal_child"
+				interaccion_off="true">
+				<clausula>
+					<tarea
+						id="pedir_constancia_objetos_de_metal"
+						value="false" />
+					<variable
+						id="es_nino"
+						type="ISTRUE" />
+				</clausula>
+			</option>
+			<option
+				id="comprobar_datos_personales"
+				dispatchs="comprobar_datos_personales"
+				goto="juegovolante"
+				interaccion_off="true"
+				textid="str_comprobar_datos_personales">
+				<clausula>
+					<tarea
+						id="comprobar_datos_personales"
+						value="false" />
+				</clausula>
+			</option>
+			<option
+				id="hablar_de_otros_temas"
+				goto="dialogo_con_paciente"
+				textid="str_hablar_de_otros_temas" />
+
+		</dialogo>
+
+		<dialogo
+			id="alert_debes_comprobar_datos_primero"
+			rojo="true"
+			emocion="triste"
+			textid="stringTuDices"
+			avatar="Personaje">
+			<option
+				id="alert_debes_comprobar_datos_primero_opt"
+				textid="str_alert_debes_comprobar_datos_primero"
+				goto="dialogo_con_paciente" />
+		</dialogo>
+		<dialogo
+			id="dialog_debes_pedir_contraste_primero"
+			rojo="true"
+			textid="stringTuDices"
+			emocion="triste"
+			avatar="Personaje">
+			<option
+				id="dialog_debes_pedir_contraste_primero_opt"
+				textid="str_dialog_debes_pedir_contraste_primero"
+				goto="dialogo_con_paciente" />
+		</dialogo>
+
+		<dialogo
+			id="dialog_olvido_preguntar_sobre_embarazo"
+			interaccion="interaccion_generico_paciente"
+			textid="stringTuDices"
+			avatar="Personaje">
+			<option
+				id="dialog_olvido_preguntar_sobre_embarazo_opt"
+				textid="str_olvido_preguntar_sobre_embarazo"
+				goto="interaccion_no_embarazada" />
+		</dialogo>
+
+		<dialogo
+			id="dialogo_debo_tener_cuidado"
+			textid="stringTuDices"
+			avatar="Personaje"
+			rojo="true"
+			emocion="triste">
+			<option
+				id="dialogo_debo_tener_cuidado_opt"
+				textid="str_dialogo_debo_tener_cuidado"
+				interaccion_off="true"
+				dispatchs="quitar_puntos_por_olvidar_preguntar_embarazo" />
+		</dialogo>
+
+		<dialogo
+			id="dialogo_despedir_paciente_personalmente"
+			showclose="true"
+			textid="stringTuDices"
+			avatar="Personaje">
+			<option
+				id="todo_salio_ok"
+				textid="str_todo_salio_ok"
+				goto="interaccion_todo_salio_ok" />
+			<option
+				id="puede_abandonar_sala"
+				textid="str_puede_abandonar_sala"
+				goto="interaccion_puede_abandonar_sala" />
+			<option
+				id="en_otro_momento"
+				textid="str_en_otro_momento" />
+			<option
+				id="dialogo_despedir_paciente_personalmente_cerrar"
+				textid="str_en_otro_momento" />
+		</dialogo>
+
+		<dialogo
+			id="dialogo_todo_salio_ok2"
+			textid="stringTuDices"
+			avatar="Personaje">
+			<option
+				id="todo_salio_ok2"
+				textid="str_todo_salio_ok2"
+				interaccion_off="true"
+				goto="llevarpaciente_paciente_buena" />
+		</dialogo>
+
+		<dialogo
+			id="dialogo_debo_ser_mas_amable"
+			rojo="true"
+			textid="stringTuDices"
+			emocion="triste"
+			avatar="Personaje">
+			<option
+				id="debo_ser_mas_amable_con_el_paciente"
+				textid="str_debo_ser_mas_amable_con_el_paciente"
+				interaccion_off="true"
+				goto="llevarpaciente_paciente_mala" />
+		</dialogo>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<!-- Ana enfermera -->
+		<dialogo
+			id="dialogo_enfermera"
+			interaccion="interaccion_generico_carmen"
+			textid="stringTuDices"
+			showclose="true"
+			avatar="Personaje">
+			<option
+				id="dialogo_enfermera_op1"
+				textid="srt_dialogo_enfermera_op1"
+				dispatchs="carmen_aplica_contraste">
+				<clausula>
+					<tarea
+						id="aplicar_contraste"
+						value="false" />
+				</clausula>
+			</option>
+			<option
+				id="dialogo_enfermera_op2"
+				textid="srt_dialogo_enfermera_op2"
+				goto="interaccion_dialogo_enfermera_op2">
+				<clausula>
+					<tarea
+						id="revisar_bombas"
+						value="false" />
+					<variable
+						id="interaccion_dialogo_enfermera_op2"
+						type="ISFALSE" />
+				</clausula>
+			</option>
+			<option
+				id="dialogo_enfermera_op3"
+				textid="srt_dialogo_enfermera_op3"
+				goto="interaccion_dialogo_enfermera_op3">
+				<clausula>
+					<tarea
+						id="revisar_maquina"
+						value="false" />
+					<variable
+						id="interaccion_dialogo_enfermera_op3"
+						type="ISFALSE" />
+				</clausula>
+			</option>
+			<option
+				id="dialogo_enfermera_op4"
+				textid="srt_dialogo_enfermera_op4"
+				interaccion_off="true"
+				goto="" />
+
+			<option
+				id="dialogo_enfermera_cerrar"
+				textid="srt_dialogo_enfermera_op4"
+				goto="" />
+
+		</dialogo>
+		<dialogo
+			id="interaccion_carmen_avisa_pedir_cons_contraste_rta"
+			textid="stringTuDices"
+			showclose="false"
+			rojo="true"
+			emocion="triste"
+			avatar="Personaje">
+			<option
+				id="opt_rta_debes_pedisrselo"
+				textid="str_interaccion_carmen_avisa_pedir_cons_contraste_rta"
+				goto="interaccion_pedirselo_antes" />
+		</dialogo>
+
+		<dialogo
+			id="dialogo_ante_fallo_de_bombas"
+			textid="stringTuDecides"
+			showclose="false"
+			rojo="true"
+			avatar="Personaje">
+			<option
+				id="fb_atender_paciente_personalmenete"
+				textid="str_fb_atender_paciente_personalmenete"
+				goto="interaccion_fb_atender_paciente_personalmenete" />
+			<option
+				id="fb_ana_atienda_paciente"
+				textid="str_fb_ana_atienda_paciente"
+				goto="interaccion_fb_ana_atienda_paciente" />
+			<option
+				id="fb_esperar_se_calme"
+				textid="str_fb_esperar_se_calme"
+				goto="interaccion_fb_esperar_se_calme" />
+			<option
+				id="fb_ana_vuelvelo_a_intentar"
+				textid="str_fb_ana_vuelvelo_a_intentar"
+				interaccion_off="true"
+				goto="interaccion_fb_ana_vuelvelo_a_intentar">
+				<clausula>
+					<variable
+						id="sin_puntos"
+						type="ISFALSE" />
+				</clausula>
+			</option>
+		</dialogo>
+		<dialogo
+			id="dialogo_perfecto_muchas_gracias"
+			textid="stringTuDecides"
+			showclose="false"
+			avatar="Personaje">
+			<option
+				id="perfecto_gracias"
+				interaccion_off="true"
+				textid="str_perfecto_muchas_gracias" />
+		</dialogo>
+
+		<dialogo
+			id="dialogo_ana_despide_paciente"
+			textid="stringTuDices"
+			ininteraccion="interaccion_generico_carmen"
+			showclose="true"
+			avatar="Personaje">
+			<option
+				id="dialogo_ana_despide_paciente_despide"
+				goto="ana_despide_paciente_enfadada"
+				textid="str_dialogo_ana_despide_paciente_despide" />
+			<option
+				id="dialogo_ana_despide_paciente_mastarde"
+				textid="str_dialogo_ana_despide_paciente_mastarde" />
+			<option
+				id="dialogo_ana_despide_paciente_cerrar"
+				textid="str_dialogo_ana_despide_paciente_mastarde" />
+		</dialogo>
+
+		<dialogo
+			id="dialogo_intercomunicador_para_despedir"
+			ininteraccion="interaccion_generico_celador"
+			textid="stringTuDecides"
+			showclose="true"
+			avatar="Personaje">
+			<option
+				id="llamar_celador_despedir"
+				goto="dialogo_intercomunicador_para_despedir2"
+				textid="str_llamar_celador_despedir" />
+			<option
+				id="no_llamar_celador_despedir"
+				textid="str_no_llamar_celador_despedir" />
+
+
+			<option
+				id="dialogo_intercomunicador_para_despedir_cerrar"
+				textid="str_llamar_celador_despedir" />
+		</dialogo>
+
+		<dialogo
+			id="dialogo_intercomunicador_para_despedir2_pos"
+			interaccion="interaccion_generico_celador"
+			textid="stringTuDecides"
+			avatar="Personaje">
+			<option
+				id="podria_retirar_paciente"
+				showclose="false"
+				goto="interaccion_celador_ya_han_terminado"
+				textid="str_podria_retirar_paciente" />
+
+		</dialogo>
+
+		<dialogo
+			id="dialogo_intercomunicador_para_despedir3"
+			ininteraccion="interaccion_generico_celador"
+			textid="stringTuDices"
+			avatar="Personaje">
+			<option
+				id="si_ya_esta"
+				goto="dialogo_intercomunicador_para_despedir4"
+				showclose="false"
+				textid="str_si_ya_esta" />
+
+		</dialogo>
+
+		<dialogo
+			id="dialogo_intercomunicador_para_despedir4"
+			textid="stringTuDices"
+			rojo="true"
+			showclose="false"
+			emocion="triste"
+			avatar="Personaje">
+			<option
+				id="no_debi_desperdirme_friamente"
+				dispatchs="descontarpuntos_despedida_impersonal"
+				goto="llevarpaciente_intercom"
+				interaccion_off="true"
+				textid="str_no_debi_desperdirme_friamente" />
+
+		</dialogo>
+
+
+
+
+
+
+		<!-- Equipo de sofware -->
+
+
+		<dialogo
+			id="dialogo_equipo_soft"
+			avatar="Pc"
+			showclose="true"
+			textid="stringTuDecides">
+			<option
+				id="revisar_equipo_soft"
+				textid="str_revisar_equipo_soft"
+				dispatchs="revisar_equipo_soft">
+				<clausula>
+					<tarea
+						id="revisar_software"
+						value="false" />
+				</clausula>
+			</option>
+			<option
+				id="usar_equipo_soft"
+				textid="str_usar_equipo_soft"
+				dispatchs="usar_equipo_soft" />
+			<option
+				id="dialogo_equipo_soft_cerrar"
+				textid="srt_dialogo_enfermera_op4" />
+		</dialogo>
+
+		<dialogo
+			id="dialogo_opciones_falla_revisar_soft"
+			avatar="Personaje"
+			showclose="false"
+			rojo="true"
+			textid="stringTuDecides">
+			<option
+				id="revisar_personalemete_maquina_rmn"
+				goto="revisar_personalemete_maquina_rmn_fin"
+				textid="str_revisar_personalemete_maquina_rmn"
+				interaccion_off="true"
+				dispatchs="revisar_maquina_otra_sala" />
+			<option
+				id="pedirle_a_ana_la_revise"
+				textid="str_pedirle_a_ana_la_revise"
+				goto="pedirle_a_ana_la_revise_fin"
+				interaccion_off="true"
+				dispatchs="revisar_software" />
+			<option
+				id="hablar_paciente_por_intercom"
+				textid="str_hablar_paciente_por_intercom"
+				goto="hablar_paciente_por_intercom_fin"
+				dispatchs="" />
+			<option
+				id="despedir_a_paciente"
+				textid="str_despedir_a_paciente"
+				goto="despedir_a_paciente_fin"
+				interaccion_off="true"
+				dispatchs="">
+				<clausula>
+					<variable
+						id="sin_puntos"
+						type="ISFALSE" />
+				</clausula>
+			</option>
+
+		</dialogo>
+		<dialogo
+			id="debes_colocar_paciente_antes_de_usar_soft"
+			emocion="triste"
+			avatar="Personaje"
+			showclose="false"
+			rojo="true"
+			textid="stringTuDices">
+			<option
+				id="olvide_colocar_paciente_al_usar_soft"
+				textid="str_olvide_colocar_paciente_al_usar_soft"
+				dispatchs="" />
+		</dialogo>
+
+		<dialogo
+			id="debes_controlar_metales_antes_de_usar_soft"
+			avatar="Personaje"
+			emocion="triste"
+			showclose="false"
+			rojo="true"
+			textid="stringTuDices">
+			<option
+				id="olvide_controlar_metales_antes_de_usar_soft"
+				textid="str_debes_controlar_metales_antes_de_usar_soft"
+				dispatchs="" />
+		</dialogo>
+
+		<dialogo
+			id="debes_revisar_soft_antes_de_usar_soft"
+			avatar="Personaje"
+			emocion="triste"
+			showclose="false"
+			rojo="true"
+			textid="stringTuDices">
+			<option
+				id="olvide_revisar_soft_antes_de_usar_soft"
+				textid="str_debes_revisar_soft_antes_de_usar_soft"
+				dispatchs="" />
+		</dialogo>
+
+
+
+		<!-- Bombas de contraste -->
+		<dialogo
+			id="dialogo_revisar_bombas"
+			textid="stringTuDecides"
+			avatar="Bombas">
+			<option
+				id="revisar_bomba"
+				textid="string_revisar_bomba"
+				dispatchs="revisar_bombas"
+				goto="animacion_revisar_bombas" />
+			<option
+				id="no_revisar_bomba"
+				textid="string_no_revisar_bomba"
+				goto="" />
+		</dialogo>
+		<!-- Equipo RMN -->
+
+		<dialogo
+			id="dialogo_revisar_maquina"
+			textid="stringTuDecides"
+			avatar="Mesa">
+			<option
+				id="revisar_equipormn"
+				textid="string_revisar_equipormn"
+				dispatchs="revisar_maquina"
+				goto="animacion_revisar_maquina" />
+			<option
+				id="no_revisar_equipormn"
+				textid="string_no_revisar_equipormn"
+				goto="" />
+		</dialogo>
+		<!-- Materiales RMN -->
+		<dialogo
+			id="dialogo_revisar_materiales"
+			textid="stringTuDecides"
+			avatar="Personaje">
+			<option
+				id="revisar_materiales"
+				textid="str_revisar_materiales"
+				dispatchs="revisar_materiales"
+				goto="animacion_revisar_materiales" />
+			<option
+				id="no_revisar_materiales"
+				textid="str_no_revisar_materiales"
+				goto="" />
+		</dialogo>
+
+		<!-- interacciones de crisis de nervios -->
+
+
+		<dialogo
+			id="dialogo_crisis_en_adulto"
+			textid="stringTuDecides"
+			rojo="true"
+			avatar="Personaje">
+			<option
+				id="dialogo_crisis_en_adulto_tranquilizar"
+				textid="str_dialogo_crisis_en_adulto_tranquilizar"
+				goto="inter_crisis_en_adulto_tranquilizar" />
+			<option
+				id="dialogo_crisis_en_adulto_razonar"
+				textid="str_dialogo_crisis_en_adulto_razonar"
+				goto="inter_crisis_en_adulto_razonar" />
+			<option
+				id="dialogo_crisis_en_adulto_forzarlo"
+				textid="str_dialogo_crisis_en_adulto_forzarlo"
+				goto="inter_crisis_en_adulto_forzarlo">
+				<clausula>
+					<variable
+						id="sin_puntos"
+						type="ISFALSE" />
+				</clausula>
+			</option>
+		</dialogo>
+
+		<dialogo
+			id="dialogo_crisis_en_nino"
+			textid="stringTuDecides"
+			rojo="true"
+			avatar="Personaje">
+			<option
+				id="dialogo_crisis_en_nino_tranquilizar"
+				textid="str_dialogo_crisis_en_nino_tranquilizar"
+				goto="inter_crisis_en_nino_tranquilizar" />
+			<option
+				id="dialogo_crisis_en_nino_razonar"
+				textid="str_dialogo_crisis_en_nino_razonar"
+				goto="inter_crisis_en_nino_razonar" />
+			<option
+				id="dialogo_crisis_en_nino_forzarlo"
+				textid="str_dialogo_crisis_en_nino_forzarlo"
+				goto="inter_crisis_en_nino_forzarlo">
+				<clausula>
+					<variable
+						id="sin_puntos"
+						type="ISFALSE" />
+				</clausula>
+			</option>
+		</dialogo>
+		<!-- Mas dialogos en crisis con adultos y ninos -->
+		<dialogo
+			id="inter_crisis_en_adulto_tranquilizar"
+			textid="stringTuDecides"
+			avatar="Personaje">
+			<option
+				id="inter_crisis_en_adulto_tranquilizar"
+				textid="str_inter_crisis_en_adulto_tranquilizar"
+				goto="inter_crisis_adulto_pre_colocar_paciente" />
+		</dialogo>
+
+
+
+		<dialogo
+			id="inter_crisis_en_adulto_razonar"
+			textid="stringTuDecides"
+			avatar="Personaje">
+			<option
+				id="inter_crisis_en_adulto_razonar"
+				textid="str_inter_crisis_en_adulto_razonar"
+				goto="inter_crisis_adulto_pre_colocar_paciente" />
+		</dialogo>
+
+		<dialogo
+			id="inter_crisis_en_adulto_forzarlo"
+			textid="stringTuDices"
+			emocion="triste"
+			avatar="Personaje">
+			<option
+				id="inter_crisis_en_adulto_forzarlo"
+				goto="inter_adulto_forzado"
+				textid="str_inter_crisis_en_adulto_forzarlo" />
+		</dialogo>
+
+		<dialogo
+			id="inter_crisis_en_nino_tranquilizar"
+			textid="stringTuDecides"
+			avatar="Personaje">
+			<option
+				id="inter_crisis_en_nino_tranquilizar"
+				textid="str_inter_crisis_en_nino_tranquilizar"
+				interaccion_off="true"
+				goto="inter_crisis_nino_pre_colocar_paciente" />
+		</dialogo>
+
+
+		<dialogo
+			id="inter_crisis_en_nino_razonar"
+			textid="stringTuDecides"
+			avatar="Personaje">
+			<option
+				id="inter_crisis_en_nino_razonar"
+				textid="str_inter_crisis_en_nino_razonar"
+				interaccion_off="true"
+				goto="inter_crisis_nino_pre_colocar_paciente" />
+		</dialogo>
+
+
+		<dialogo
+			id="inter_crisis_en_nino_forzarlo"
+			textid="stringTuDecides"
+			emocion="triste"
+			avatar="Personaje">
+			<option
+				id="inter_crisis_en_nino_forzarlo"
+				textid="str_inter_crisis_en_nino_forzarlo"
+				goto="inter_nino_forzado"
+				interaccion_off="true" />
+		</dialogo>
+
+		<dialogo
+			id="hablar_paciente_por_intercom_fin"
+			interaccion="interaccion_generico_paciente"
+			textid="stringTuDices"
+			avatar="Personaje">
+			<option
+				id="opt_hablar_paciente_por_intercom_fin"
+				textid="str_hablar_paciente_por_intercom_fin"
+				interaccion_off="false"
+				goto="hablar_paciente_por_intercom_fin2" />
+		</dialogo>
+
+		<dialogo
+			id="alerta_el_volante_no_mencionaba_contraste"
+			textid="stringTuDices"
+			rojo="true"
+			avatar="Personaje"
+			emocion="triste">
+			<option
+				id="opcion_alerta_el_volante_no_mencionaba_contraste"
+				textid="str_alerta_el_volante_no_mencionaba_contraste"
+				goto="dialogo_comprobar_datos" />
+		</dialogo>
+
+		<dialogo
+			id="feed_imagenes_obtenidas"
+			textid="str_"
+			avatar="Personaje">
+			<option
+				id="feed_imagenes_obtenidas_opt"
+				textid="str_feed_imagenes_obtenidas" />
+		</dialogo>
+
+
+
+		<!-- SIM67 EXPANSION ROE -->
+		<dialogo
+			id="dialogo_supervisor_recon3d_2"
+			textid="stringTuDices"
+			avatar="Personaje"
+			showclose="false"
+			showback="false">
+			<option
+				id="dialogo_supervisor_recon3d_2_opt"
+				textid="str_dialogo_supervisor_recon3d"
+				goto="dialogo_supervisor_recon3d_3" />
+		</dialogo>
+		<dialogo
+			id="dialogo_supervisor_recon3d_4"
+			textid="stringTuDices"
+			avatar="Personaje"
+			showclose="false"
+			showback="false">
+			<option
+				id="dialogo_supervisor_recon3d_4_opt"
+				textid="str_dialogo_supervisor_recon3d_4"
+				goto="dialogo_supervisor_recon3d_5" />
+		</dialogo>
+		<dialogo
+			id="dialogo_supervisor_recon3d_6"
+			textid="stringTuDices"
+			avatar="Personaje"
+			showclose="false"
+			showback="false">
+			<option
+				id="dialogo_supervisor_recon3d_6_opt"
+				textid="str_dialogo_supervisor_recon3d_6"
+				goto="dialogo_supervisor_recon3d_7" />
+		</dialogo>
+		<dialogo
+			id="dialogo_supervisor_recon3d_8"
+			textid="stringTuDices"
+			avatar="Personaje"
+			showclose="false"
+			showback="false">
+			<option
+				id="dialogo_supervisor_recon3d_8_opt"
+				textid="str_dialogo_supervisor_recon3d_8"
+				goto="dialogo_supervisor_recon3d_9" />
+		</dialogo>
+		<dialogo
+			id="dialogo_supervisor_recon3d_10"
+			textid="stringTuDices"
+			avatar="Personaje"
+			showclose="false"
+			showback="false">
+			<option
+				id="dialogo_supervisor_recon3d_10_opt"
+				textid="str_dialogo_supervisor_recon3d_10"
+				interaccion_off="true"
+				goto="video_amp1" />
+		</dialogo>
+
+		<dialogo
+			id="supervisor_recon3d_postvideo1_3"
+			textid="stringTuDices"
+			avatar="Personaje"
+			showclose="false"
+			showback="false">
+			<option
+				id="supervisor_recon3d_postvideo1_3_opt"
+				textid="str_supervisor_recon3d_postvideo1_3"
+				goto="supervisor_recon3d_postvideo1_4" />
+		</dialogo>
+		<dialogo
+			id="supervisor_recon3d_postvideo1_5"
+			textid="stringTuDices"
+			avatar="Personaje"
+			showclose="false"
+			showback="false">
+			<option
+				id="supervisor_recon3d_postvideo1_5_opt"
+				textid="str_supervisor_recon3d_postvideo1_5"
+				interaccion_off="true"
+				goto="video_amp2" />
+		</dialogo>
+
+		<dialogo
+			id="supervisor_recon3d_postvideo2_3"
+			textid="stringTuDices"
+			avatar="Personaje"
+			showclose="false"
+			showback="false">
+			<option
+				id="supervisor_recon3d_postvideo2_3_opt"
+				textid="str_supervisor_recon3d_postvideo2_3"
+				goto="supervisor_recon3d_postvideo2_4" />
+		</dialogo>
+		<dialogo
+			id="supervisor_recon3d_postvideo2_6"
+			textid="stringTuDices"
+			avatar="Personaje"
+			showclose="false"
+			showback="false">
+			<option
+				id="supervisor_recon3d_postvideo2_6_opt"
+				textid="str_supervisor_recon3d_postvideo2_6"
+				goto="supervisor_recon3d_postvideo2_7" />
+		</dialogo>
+		<dialogo
+			id="supervisor_recon3d_postvideo2_8"
+			textid="stringTuDices"
+			avatar="Personaje"
+			showclose="false"
+			showback="false">
+			<option
+				id="supervisor_recon3d_postvideo2_8_opt"
+				textid="str_supervisor_recon3d_postvideo2_8"
+				goto="supervisor_recon3d_postvideo2_9" />
+		</dialogo>
+
+		<dialogo
+			id="supervisor_recon3d_postminijuego1_3"
+			textid="stringTuDices"
+			avatar="Personaje"
+			showclose="false"
+			showback="false">
+			<option
+				id="supervisor_recon3d_postminijuego1_3_opt"
+				textid="str_supervisor_recon3d_postminijuego1_3"
+				goto="supervisor_recon3d_postminijuego1_4" />
+		</dialogo>
+
+		<dialogo
+			id="supervisor_recon3d_postminijuego2_3"
+			textid="stringTuDices"
+			avatar="Personaje"
+			showclose="false"
+			showback="false">
+			<option
+				id="supervisor_recon3d_postminijuego2_3_opt"
+				textid="str_supervisor_recon3d_postminijuego2_3"
+				goto="supervisor_recon3d_postminijuego2_4" />
+		</dialogo>
+
+
+
+
+
+	</dialogos>
+
+	<!-- Feedbacks que se muestran en PanelAnimacion -->
+	<animaciones>
+		<animacion
+			id="puedes_traer_paciente"
+			url="assets/animaciones/interlocutor.swf"
+			goto="puedes_traer_paciente_pos" />
+
+
+		<animacion
+			id="puedes_traer_paciente_CON_VOLANTE"
+			url="assets/animaciones/interlocutor.swf"
+			goto="puedes_traer_paciente_CON_VOLANTE_pos" />
+
+		<animacion
+			id="dialogo_intercomunicador_para_despedir2"
+			url="assets/animaciones/interlocutor.swf"
+			goto="dialogo_intercomunicador_para_despedir2_pos" />
+		<!-- Bata -->
+		<animacion
+			id="animacion_poner_bata"
+			url="assets/animaciones/04_bata.swf"
+			goto="alert_tomar_bata" />
+		<!-- Configuración  -->
+		<animacion
+			id="animacion_escena1_configuracion"
+			url="assets/animaciones/02_cuadro_electrico.swf" />
+		<!-- Libros  -->
+		<animacion
+			id="animacion_libros_click_si"
+			url="assets/animaciones/04_libro.swf"
+			goto="teoriaguiada" />
+		<!-- Puerta  -->
+		<animacion
+			id="animacion_escena1_puerta"
+			url="assets/animaciones/escena1_puerta.flv" />
+		<animacion
+			id="animacion_escena1_puerta_sin_bata"
+			url="assets/animaciones/escena1_puerta_sin_bata.flv" />
+		<!-- Puerta a sala de descanso -->
+		<animacion
+			id="animacion_escena2_puerta_sala_descanso"
+			url="assets/animaciones/escena2_puerta_sala_descanso.flv" />
+		<!-- Puerta a sala de software -->
+		<animacion
+			id="animacion_escena2_puerta_sala_soft"
+			url="assets/animaciones/escena2_puerta_sala_soft.flv" />
+		<!-- Puerta a sala de RM desde cabina -->
+		<animacion
+			id="animacion_escena3_puerta"
+			url="assets/animaciones/escena3_puerta.flv" />
+		<!-- Bombas Se reemplazo por un feed con mismo id pero de pelicula
+			<animacion
+			id="animacion_revisar_bombas"
+			goto="alerta_animacion_revisar_bombas"
+			showclose="false"
+			url="assets/animaciones/08_bombas.swf" />
+		-->
+		<!-- Equipo RMN Se reemplazo por un feed con mismo id pero de pelicula
+			<animacion
+			id="animacion_revisar_maquina"
+			goto="alerta_animacion_revisar_maquina"
+			showclose="false"
+			url="assets/animaciones/07_revision_maquina_rm.swf" />
+		-->
+		<!-- Materiales RMN -->
+		<animacion
+			id="animacion_revisar_materiales"
+			goto="alerta_materiales_recien_revisados"
+			url="assets/animaciones/12_material_paciente.swf" />
+		<!-- Intercom -->
+		<animacion
+			id="animacion_entrada_ana_y_celador"
+			goto="interaccion_buenos_dias_traigo_al_paciente"
+			url="assets/animaciones/14_paciente_entra.swf" />
+		<!-- paciente -->
+		<animacion
+			id="pedir_constancia_constraste"
+			goto="alerta_ya_la_tengo"
+			url="assets/animaciones/22_permiso_contraste.swf" />
+		<animacion
+			id="animacion_pedir_constancia_objetos_de_metal"
+			goto="constancia_actividad"
+			url="assets/animaciones/22_permiso_contraste.swf" />
+
+		<animacion
+			id="animacion_vamos_a_colocarlo"
+			dispatchs="evaluar_colocacion_paciente"
+			url="assets/animaciones/15_colocacion_paciente.swf" />
+
+		<animacion
+			id="llevarpaciente"
+			dispatchs="descontarpuntos_ana_despide"
+			url="assets/animaciones/15_paciente_sale.swf" />
+
+		<animacion
+			id="llevarpaciente_paciente_buena"
+			dispatchs="biendespedir"
+			url="assets/animaciones/15_paciente_sale.swf" />
+
+		<animacion
+			id="llevarpaciente_paciente_mala"
+			dispatchs="descontarpuntos_personalmente_hostil"
+			url="assets/animaciones/15_paciente_sale.swf" />
+
+		<animacion
+			id="llevarpaciente_intercom"
+			dispatchs="descontarpuntos_personalmente_hostil"
+			url="assets/animaciones/15_paciente_sale.swf" />
+
+
+		<animacion
+			id="interaccion_carmen_avisa_contraste_aplicado_ok"
+			goto="interaccion_carmen_avisa_contraste_aplicado_ok2"
+			url="assets/animaciones/07_aplicarcontraste.swf" />
+
+		<animacion
+			id="animacion_noticia_web"
+			url="web.swf"
+			showclose="false" />
+
+		<!-- revisar soft -->
+		<animacion
+			id="animacion_revisar_soft"
+			goto="alerta_equipo_soft_revisado"
+			url="assets/animaciones/10_revisar_soft.swf" />
+
+	</animaciones>
+	<interacciones>
+		<!-- Generico Celador -->
+		<interaccion
+			id="interaccion_generico_celador"
+			texto=""
+			avatar="celador"
+			avatar2="javier"
+			emocion="espera"
+			escenario="escena2"
+			crisis="false"
+			goto=""
+			dispatchs=""
+			fijo="true" />
+
+		<interaccion
+			id="interaccion_generico_javier"
+			texto=""
+			avatar="Javier"
+			emocion="normal"
+			escenario="escena1"
+			crisis="false"
+			goto=""
+			dispatchs=""
+			fijo="true" />
+
+		<interaccion
+			id="interaccion_celador_enojado_esc2"
+			texto="string_primero_elige_volante"
+			avatar="celador"
+			emocion="enojado"
+			escenario="escena2"
+			crisis="false"
+			goto=""
+			dispatchs="quitar_puntos_traer_paciente_sin_volante"
+			fijo="false" />
+		<interaccion
+			id="interaccion_ya_se_lo_llevo"
+			texto="str_ya_llevo_paciente"
+			avatar="celador"
+			emocion="contento"
+			escenario="escena2"
+			crisis="false"
+			goto="animacion_entrada_ana_y_celador"
+			dispatchs="traer_paciente"
+			fijo="false" />
+
+		<!-- Dialogo Supervisor: por ahora va el celador porque Javier no esta dibijado -->
+		<interaccion
+			id="interaccion_supervisor_que_necesitas"
+			texto="supervisor_que_necesitas"
+			avatar="Javier"
+			emocion="contento"
+			escenario="escena1"
+			crisis="false"
+			goto="dialogo_dudas_personaje"
+			dispatchs=""
+			fijo="true" />
+		<interaccion
+			id="donde_volantes_rta"
+			texto="str_donde_volantes_rta"
+			avatar="Javier"
+			emocion="habla"
+			escenario="escena1"
+			crisis="false"
+			goto="dialogo_supervisor_click"
+			dispatchs=""
+			fijo="true" />
+
+		<interaccion
+			id="como_entrar_rmn_rta"
+			texto="str_como_entrar_rmn_rta"
+			avatar="Javier"
+			emocion="habla"
+			escenario="escena1"
+			crisis="false"
+			goto="dialogo_supervisor_click"
+			dispatchs=""
+			fijo="true" />
+		<interaccion
+			id="por_donde_empezar_rta"
+			texto="str_por_donde_empezar_rta"
+			avatar="Javier"
+			emocion="habla"
+			escenario="escena1"
+			crisis="false"
+			goto="dialogo_supervisor_click"
+			dispatchs=""
+			fijo="true" />
+
+		<interaccion
+			id="interaccion_cuando_llamar_enfermera_rta"
+			texto="str_interaccion_cuando_llamar_enfermera_rta"
+			avatar="Javier"
+			emocion="habla"
+			escenario="escena1"
+			crisis="false"
+			goto="dialogo_mas_sobre_rmn"
+			dispatchs=""
+			fijo="true" />
+		<interaccion
+			id="mas_sobre_contraste_rta"
+			texto="str_mas_sobre_contraste_rta"
+			avatar="Javier"
+			emocion="habla"
+			escenario="escena1"
+			crisis="false"
+			goto="dialogo_supervisor_click"
+			dispatchs=""
+			fijo="true" />
+		<interaccion
+			id="mas_sobre_rmn_rta"
+			texto="str_mas_sobre_rmn_rta"
+			avatar="Javier"
+			emocion="habla"
+			escenario="escena1"
+			crisis="false"
+			goto="dialogo_supervisor_click"
+			dispatchs=""
+			fijo="true" />
+
+		<interaccion
+			id="interaccion_por_supuesto"
+			texto="str_interaccion_por_supuesto"
+			avatar="Javier"
+			emocion="contento"
+			escenario="escena1"
+			crisis="false"
+			goto="interaccion_sobre_pacientes_nerviosos"
+			dispatchs=""
+			fijo="true" />
+		<interaccion
+			id="interaccion_sobre_pacientes_nerviosos"
+			texto="str_interaccion_sobre_pacientes_nerviosos"
+			avatar="Javier"
+			emocion="contento"
+			escenario="escena1"
+			crisis="false"
+			goto="dialogo_supervisor_click"
+			dispatchs=""
+			fijo="true" />
+
+		<interaccion
+			id="interaccion_vamos_a_repasar"
+			texto="str_interaccion_vamos_a_repasar"
+			avatar="Javier"
+			emocion="contento"
+			escenario="escena1"
+			crisis="false"
+			goto="pelicula_tutorial"
+			dispatchs=""
+			fijo="false" />
+
+		<!-- Dialogo supervisor estado CON_PACIENTE -->
+		<interaccion
+			id="interaccion_preguntame_lo_que_necesites"
+			texto="str_interaccion_preguntame_lo_que_necesites"
+			avatar="Javier"
+			emocion="contento"
+			escenario="escena1"
+			crisis="false"
+			goto="dialogo_resolver_dudas_CON_PACIENTE"
+			dispatchs=""
+			fijo="true" />
+
+		<interaccion
+			id="cuando_solicitar_datos_paciente_con_paciente_rta"
+			texto="str_cuando_solicitar_datos_paciente_con_paciente_rta"
+			avatar="Javier"
+			emocion="habla"
+			escenario="escena1"
+			crisis="false"
+			goto="dialogo_resolver_dudas_CON_PACIENTE"
+			dispatchs=""
+			fijo="false" />
+		<interaccion
+			id="porque_explicarle_al_paciente_proceso_con_paciente_rta"
+			texto="str_porque_explicarle_al_paciente_proceso_con_paciente_rta"
+			avatar="Javier"
+			emocion="contento"
+			escenario="escena1"
+			crisis="false"
+			goto="dialogo_resolver_dudas_CON_PACIENTE"
+			dispatchs=""
+			fijo="false" />
+		<interaccion
+			id="cuando_colocar_paciente_con_paciente_rta"
+			texto="str_cuando_colocar_paciente_con_paciente_rta"
+			avatar="Javier"
+			emocion="habla"
+			escenario="escena1"
+			crisis="false"
+			goto="dialogo_resolver_dudas_CON_PACIENTE"
+			dispatchs=""
+			fijo="false" />
+
+		<interaccion
+			id="interaccion_preguntame_lo_que_necesites2"
+			texto="str_interaccion_preguntame_lo_que_necesites"
+			avatar="Javier"
+			emocion="contento"
+			escenario="escena1"
+			crisis="false"
+			goto="dialogo_resolver_dudas_equipos_CON_PACIENTE"
+			dispatchs=""
+			fijo="true" />
+
+		<interaccion
+			id="que_equipos_revisar_con_paciente_rta"
+			texto="str_que_equipos_revisar_con_paciente_rta"
+			avatar="Javier"
+			emocion="habla"
+			escenario="escena1"
+			crisis="false"
+			goto="dialogo_resolver_dudas_equipos_CON_PACIENTE"
+			dispatchs=""
+			fijo="false" />
+		<interaccion
+			id="porque_es_necesario_revisar_equipos_con_paciente_rta"
+			texto="str_porque_es_necesario_revisar_equipos_con_paciente_rta"
+			avatar="Javier"
+			emocion="habla"
+			escenario="escena1"
+			crisis="false"
+			goto="dialogo_resolver_dudas_equipos_CON_PACIENTE"
+			dispatchs=""
+			fijo="false" />
+
+		<interaccion
+			id="interaccion_preguntame_lo_que_necesites3"
+			texto="str_interaccion_preguntame_lo_que_necesites"
+			avatar="Javier"
+			emocion="contento"
+			escenario="escena1"
+			crisis="false"
+			goto="dialogo_resolver_dudas_software_CON_PACIENTE"
+			dispatchs=""
+			fijo="true" />
+
+
+
+		<interaccion
+			id="cuando_debo_revisar_soft_rta"
+			texto="str_cuando_debo_revisar_soft_rta"
+			avatar="Javier"
+			emocion="habla"
+			escenario="escena1"
+			crisis="false"
+			goto="dialogo_resolver_dudas_software_CON_PACIENTE"
+			dispatchs=""
+			fijo="false" />
+
+		<interaccion
+			id="cuando_debo_utilizar_soft_rta"
+			texto="str_cuando_debo_utilizar_soft_rta"
+			avatar="Javier"
+			emocion="habla"
+			escenario="escena1"
+			crisis="false"
+			goto="dialogo_resolver_dudas_software_CON_PACIENTE"
+			dispatchs=""
+			fijo="false" />
+
+		<interaccion
+			id="interaccion_preguntame_lo_que_necesites4"
+			texto="str_interaccion_preguntame_lo_que_necesites"
+			avatar="Javier"
+			emocion="contento"
+			escenario="escena1"
+			crisis="false"
+			goto="dialogo_resolver_dudas_enfermera_CON_PACIENTE"
+			dispatchs=""
+			fijo="true" />
+
+		<interaccion
+			id="puedo_hacerlo_sin_ana_rta"
+			texto="str_puedo_hacerlo_sin_ana_rta"
+			avatar="Javier"
+			emocion="habla"
+			escenario="escena1"
+			crisis="false"
+			goto="dialogo_supervisor_click_CON_PACIENTE"
+			dispatchs=""
+			fijo="false" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<!-- Celador -->
+		<interaccion
+			id="interaccion_buenos_dias_traigo_al_paciente"
+			texto="str_buenos_dias_traigo_al_paciente"
+			avatar="celador"
+			emocion="contento"
+			escenario="escena2"
+			crisis="false"
+			goto="dialogo_gracias"
+			dispatchs="mostrar_paciente"
+			fijo="true" />
+		<interaccion
+			id="interaccion_volvere_a_retirar_al_paciente"
+			texto="str_volvere_a_retirar_al_paciente"
+			avatar="celador"
+			emocion="contento"
+			escenario="escena2"
+			crisis="false"
+			goto="interaccion_presentacion_ana"
+			dispatchs=""
+			fijo="true" />
+		<interaccion
+			id="interaccion_presentacion_ana"
+			texto="srt_ana_se_presenta"
+			avatar="carmen"
+			emocion="contento"
+			escenario="escena2"
+			crisis="false"
+			goto="dialogo_excelente_ana"
+			dispatchs="mostrar_enfermera"
+			fijo="true" />
+
+		<!-- Paciente en crisis de la bata-->
+		<interaccion
+			id="interaccion_crisis_bata"
+			texto="str_interaccion_crisis_bata"
+			avatar="paciente"
+			emocion="enfado"
+			escenario="mesa"
+			crisis="true"
+			goto="dialogo_decisiones_crisis_bata"
+			dispatchs=""
+			fijo="true" />
+
+		<!-- Generico Paciente -->
+		<interaccion
+			id="interaccion_generico_paciente"
+			texto=""
+			avatar="paciente"
+			emocion="espera"
+			escenario="mesa"
+			crisis="false"
+			goto=""
+			dispatchs=""
+			fijo="true" />
+		<interaccion
+			id="interaccion_paciente_ya_estoy_tranquilo"
+			texto="str_interaccion_paciente_ya_estoy_tranquilo"
+			avatar="paciente"
+			emocion="contento"
+			escenario="mesa"
+			crisis="false"
+			goto="dialogo_con_paciente"
+			dispatchs="tranquilizar_paciente_dialogo_paciente"
+			fijo="false" />
+
+		<interaccion
+			id="interaccion_esta_embarazada_rta"
+			texto="str_interaccion_esta_embarazada_rta"
+			avatar="paciente"
+			emocion="espera"
+			escenario="mesa"
+			crisis="false"
+			goto="dialogo_interaccion_esta_embarazada_refuerzo"
+			dispatchs=""
+			fijo="true" />
+
+		<!-- Enfermera -->
+		<interaccion
+			id="interaccion_generico_carmen"
+			texto=""
+			avatar="carmen"
+			emocion="espera"
+			escenario="escena2"
+			crisis="false"
+			goto=""
+			dispatchs=""
+			fijo="true" />
+
+		<interaccion
+			id="interaccion_dialogo_enfermera_op2"
+			texto="str_interaccion_dialogo_enfermera_op2"
+			avatar="carmen"
+			emocion="triste"
+			escenario="escena2"
+			crisis="false"
+			dispatchs="carmen_no_deberia_revisar_bombas"
+			fijo="false" />
+
+		<interaccion
+			id="interaccion_dialogo_enfermera_op3"
+			texto="str_interaccion_dialogo_enfermera_op2"
+			avatar="carmen"
+			emocion="triste"
+			escenario="escena2"
+			crisis="false"
+			dispatchs="carmen_no_deberia_revisar_maquina"
+			fijo="false" />
+
+		<interaccion
+			id="dialog_carmen_no_pida_contraste"
+			texto="str_dialog_carmen_no_pida_contraste"
+			avatar="carmen"
+			emocion="enojado"
+			escenario="escena2"
+			crisis="false"
+			dispatchs=""
+			fijo="false" />
+
+		<interaccion
+			id="interaccion_carmen_avisa_pedir_cons_contraste"
+			texto="str_interaccion_carmen_avisa_pedir_cons_contraste"
+			avatar="carmen"
+			emocion="enojado"
+			escenario="escena2"
+			crisis="false"
+			goto="interaccion_carmen_avisa_pedir_cons_contraste_rta"
+			fijo="true" />
+		<interaccion
+			id="interaccion_pedirselo_antes"
+			texto="str_interaccion_pedirselo_antes"
+			avatar="carmen"
+			emocion="enojado"
+			escenario="escena2"
+			crisis="false"
+			goto=""
+			fijo="false" />
+		<interaccion
+			id="interaccion_bomba_falla"
+			texto="str_interaccion_bomba_falla"
+			avatar="carmen"
+			emocion="enojado"
+			escenario="escena2"
+			crisis="true"
+			goto="dialogo_ante_fallo_de_bombas"
+			fijo="true" />
+
+		<interaccion
+			id="ana_despide_paciente_enfadada"
+			texto="str_ana_despide_paciente_enfadada"
+			avatar="carmen"
+			emocion="enojado"
+			escenario="escena2"
+			crisis="false"
+			goto="alerta_la_proxima_deberia_despedirme_del_paciente"
+			fijo="false" />
+
+
+
+
+
+
+
+		<interaccion
+			id="interaccion_fb_atender_paciente_personalmenete"
+			texto="str_interaccion_fb_atender_paciente_personalmenete"
+			avatar="carmen"
+			emocion="espera"
+			escenario="escena2"
+			crisis="false"
+			goto=""
+			dispatchs="dialogo_ante_fallo_personalmente"
+			fijo="false" />
+		<interaccion
+			id="interaccion_fb_ana_atienda_paciente"
+			texto="str_interaccion_fb_ana_atienda_paciente"
+			avatar="carmen"
+			emocion="espera"
+			escenario="escena2"
+			crisis="false"
+			goto=""
+			dispatchs="dialogo_ante_fallo_ana_atiende"
+			fijo="false" />
+		<interaccion
+			id="interaccion_fb_esperar_se_calme"
+			texto="str_interaccion_fb_esperar_se_calme"
+			avatar="carmen"
+			emocion="espera"
+			escenario="escena2"
+			crisis="false"
+			goto=""
+			dispatchs="dialogo_ante_fallo_esperar"
+			fijo="false" />
+
+		<!-- Se reemplazo por una alerta con el mismo id
+			<interaccion
+			id="interaccion_fb_ana_vuelvelo_a_intentar"
+			texto="str_interaccion_fb_ana_vuelvelo_a_intentar"
+			avatar="carmen"
+			emocion="espera"
+			escenario="escena2"
+			crisis="false"
+			goto=""
+			dispatchs="dialogo_ante_fallo_volver_intentarlo"
+			fijo="false" />
+			
+		-->
+
+		<interaccion
+			id="interaccion_carmen_avisa_contraste_aplicado_ok2"
+			texto="str_interaccion_carmen_avisa_contraste_aplicado_ok"
+			avatar="carmen"
+			emocion="contento"
+			escenario="escena2"
+			crisis="false"
+			goto="dialogo_perfecto_muchas_gracias"
+			fijo="true" />
+
+
+
+		<interaccion
+			id="interaccion_fracaso_aplicacion_contraste"
+			texto="str_interaccion_fracaso_aplicacion_contraste"
+			avatar="carmen"
+			emocion="triste"
+			escenario="escena2"
+			crisis="true"
+			goto="interaccion_fracaso_aplicacion_contraste2"
+			fijo="true" />
+		<interaccion
+			id="interaccion_fracaso_aplicacion_contraste2"
+			texto="str_interaccion_fracaso_aplicacion_contraste2"
+			avatar="carmen"
+			emocion="triste"
+			dispatchs=""
+			escenario="escena2"
+			crisis="false"
+			goto="dialogo_ante_fallo_de_bombas"
+			fijo="true" />
+
+		<interaccion
+			id="interaccion_no_embarazada"
+			texto="str_interaccion_no_embarazada"
+			avatar="paciente"
+			emocion="enfado"
+			escenario="mesa"
+			crisis="false"
+			goto="dialogo_debo_tener_cuidado"
+			fijo="true" />
+
+		<!-- EQUIPO SOFTWARE -->
+		<interaccion
+			id="interaccion_ana_avisa_falla_iman"
+			texto="str_interaccion_ana_avisa_falla_iman"
+			avatar="carmen"
+			emocion="triste"
+			escenario="escena3"
+			crisis="true"
+			goto="dialogo_opciones_falla_revisar_soft"
+			fijo="true" />
+		<!-- Se reemplazo por una alerta con el mismo texto
+			<interaccion
+			id="revisar_personalemete_maquina_rmn_fin"
+			texto="str_revisar_personalemete_maquina_rmn_fin"
+			avatar="carmen"
+			emocion="espera"
+			escenario="escena3"
+			crisis="false"
+			goto=""
+			dispatchs="revisar_personalemete_maquina_rmn"
+			fijo="false" />
+		-->
+		<!-- Se reemplazo por una alerta con el mismo texto
+			<interaccion
+			id="pedirle_a_ana_la_revise_fin"
+			texto="str_pedirle_a_ana_la_revise_fin"
+			avatar="carmen"
+			emocion="espera"
+			escenario="escena3"
+			crisis="false"
+			goto=""
+			dispatchs="pedirle_a_ana_la_revise"
+			fijo="false" />
+		-->
+
+		<!-- 
+			<interaccion
+			id="hablar_paciente_por_intercom_fin"
+			texto="str_hablar_paciente_por_intercom_fin"
+			avatar="carmen"
+			emocion="espera"
+			escenario="escena3"
+			crisis="false"
+			goto=""
+			dispatchs="hablar_paciente_por_intercom"
+			fijo="false" />
+		-->
+		<interaccion
+			id="hablar_paciente_por_intercom_fin2"
+			texto="str_no_hay_problema"
+			avatar="paciente"
+			emocion="habla"
+			escenario="escena2"
+			crisis="false"
+			goto=""
+			dispatchs="hablar_paciente_por_intercom"
+			fijo="false" />
+		<!-- Se reemplazo por una alerta con el mismo id
+			<interaccion
+			id="despedir_a_paciente_fin"
+			texto="str_despedir_a_paciente_fin"
+			avatar="Personaje"
+			emocion="espera"
+			escenario="escena3"
+			crisis="false"
+			goto=""
+			dispatchs="despedir_a_paciente"
+			fijo="false" />
+		-->
+		<!--
+			En esta accion debemos colocar cual es lo siguiente si
+			se carga una pelicula una aplicacion externa o si se sigue 
+			interactuando con el simulador 
+		-->
+		<!-- 
+			<interaccion
+			id="feed_imagenes_obtenidas"
+			texto="str_feed_imagenes_obtenidas"
+			avatar="Personaje"
+			emocion="espera"
+			escenario="escena3"
+			crisis="false"
+			goto=""
+			dispatchs=""
+			fijo="false" />
+		-->
+
+		<interaccion
+			id="interaccion_celador_ya_han_terminado"
+			texto="str_celador_ya_han_terminado"
+			avatar="celador"
+			emocion="habla"
+			escenario="escena2"
+			crisis="false"
+			goto="dialogo_intercomunicador_para_despedir3"
+			dispatchs=""
+			fijo="true" />
+
+		<interaccion
+			id="interaccion_todo_salio_ok"
+			texto="str_interaccion_todo_salio_ok"
+			avatar="paciente"
+			emocion="contento"
+			escenario="mesa"
+			crisis="false"
+			goto="dialogo_todo_salio_ok2"
+			dispatchs=""
+			fijo="true" />
+
+		<interaccion
+			id="interaccion_puede_abandonar_sala"
+			texto="str_interaccion_puede_abandonar_sala"
+			avatar="paciente"
+			emocion="enfado"
+			escenario="mesa"
+			crisis="false"
+			goto="dialogo_debo_ser_mas_amable"
+			dispatchs=""
+			fijo="true" />
+		<!-- interacciones de crisis de nervios -->
+
+		<interaccion
+			id="interaccion_crisis_en_nino"
+			texto="str_interaccion_crisis_en_nino"
+			avatar="paciente"
+			emocion="triste"
+			escenario="mesa"
+			crisis="true"
+			goto="dialogo_crisis_en_nino"
+			dispatchs=""
+			fijo="true" />
+		<interaccion
+			id="interaccion_crisis_en_adulto"
+			texto="str_interaccion_crisis_en_adulto"
+			avatar="paciente"
+			emocion="triste"
+			escenario="mesa"
+			crisis="true"
+			goto="dialogo_crisis_en_adulto"
+			dispatchs=""
+			fijo="true" />
+
+
+
+		<!-- 
+			
+			<interaccion
+			id="inter_crisis_en_adulto_tranquilizar"
+			texto="str_inter_crisis_en_adulto_tranquilizar"
+			avatar="paciente"
+			emocion="espera"
+			escenario="mesa"
+			crisis="false"
+			goto=""
+			dispatchs=""
+			fijo="false" />
+			
+			<interaccion
+			id="inter_crisis_en_adulto_razonar"
+			texto="str_inter_crisis_en_adulto_razonar"
+			avatar="paciente"
+			emocion="espera"
+			escenario="mesa"
+			crisis="false"
+			goto=""
+			dispatchs=""
+			fijo="false" />
+			
+			<interaccion
+			id="inter_crisis_en_adulto_forzarlo"
+			texto="str_inter_crisis_en_adulto_forzarlo"
+			avatar="paciente"
+			emocion="espera"
+			escenario="mesa"
+			crisis="false"
+			goto=""
+			dispatchs=""
+			fijo="false" />
+			
+			
+			
+			<interaccion
+			id="inter_crisis_en_nino_tranquilizar"
+			texto="str_inter_crisis_en_nino_tranquilizar"
+			avatar="paciente"
+			emocion="espera"
+			escenario="mesa"
+			crisis="false"
+			goto=""
+			dispatchs=""
+			fijo="false" />
+			
+			<interaccion
+			id="inter_crisis_en_nino_razonar"
+			texto="str_inter_crisis_en_nino_razonar"
+			avatar="paciente"
+			emocion="espera"
+			escenario="mesa"
+			crisis="false"
+			goto=""
+			dispatchs=""
+			fijo="false" />
+			
+			<interaccion
+			id="inter_crisis_en_nino_forzarlo"
+			texto="str_inter_crisis_en_nino_forzarlo"
+			avatar="paciente"
+			emocion="espera"
+			escenario="mesa"
+			crisis="false"
+			goto=""
+			dispatchs=""
+			fijo="false" />
+			
+		-->
+
+
+		<interaccion
+			id="inter_crisis_nino_pre_colocar_paciente"
+			texto="str_inter_crisis_nino_pre_colocar_paciente"
+			avatar="paciente"
+			emocion="habla"
+			escenario="mesa"
+			crisis="false"
+			goto="juegocolocarpaciente_do"
+			dispatchs=""
+			fijo="false" />
+
+		<interaccion
+			id="inter_nino_forzado"
+			texto="str_inter_nino_forzado"
+			avatar="paciente"
+			emocion="triste"
+			escenario="mesa"
+			crisis="false"
+			dispatchs="forzar_nino_en_mesa"
+			fijo="false" />
+
+		<interaccion
+			id="inter_crisis_adulto_pre_colocar_paciente"
+			texto="str_inter_crisis_adulto_pre_colocar_paciente"
+			avatar="paciente"
+			emocion="habla"
+			escenario="mesa"
+			crisis="false"
+			goto="juegocolocarpaciente_do"
+			dispatchs=""
+			fijo="false" />
+
+		<interaccion
+			id="inter_adulto_forzado"
+			texto="str_inter_adulto_forzado"
+			avatar="paciente"
+			emocion="triste"
+			escenario="mesa"
+			crisis="false"
+			dispatchs="forzar_adulto_en_mesa"
+			fijo="false" />
+
+		<!-- Mensajes inactividad  -->
+		<interaccion
+			id="mensaje_inactividad_1"
+			texto="str_te_has_bloqueado"
+			avatar="celador2"
+			emocion="habla"
+			escenario="escena1"
+			crisis="false"
+			goto="mensaje_inactividad_12"
+			dispatchs=""
+			fijo="true" />
+
+		<interaccion
+			id="mensaje_inactividad_12"
+			texto="str_yo_que_tu_tomaria_volante"
+			avatar="celador2"
+			emocion="habla"
+			escenario="escena1"
+			crisis="false"
+			goto=""
+			dispatchs=""
+			fijo="false" />
+
+
+		<interaccion
+			id="mensaje_inactividad_2"
+			texto="str_te_has_bloqueado"
+			avatar="celador2"
+			emocion="habla"
+			escenario="escena2"
+			crisis="false"
+			goto="mensaje_inactividad_22"
+			dispatchs=""
+			fijo="true" />
+
+		<interaccion
+			id="mensaje_inactividad_22"
+			texto="str_creo_debes_llamar_celador"
+			avatar="celador2"
+			emocion="habla"
+			escenario="escena2"
+			crisis="false"
+			goto=""
+			dispatchs=""
+			fijo="false" />
+
+		<interaccion
+			id="mensaje_inactividad_3"
+			texto="str_te_has_bloqueado"
+			avatar="celador2"
+			emocion="habla"
+			escenario="escena2"
+			crisis="false"
+			goto="mensaje_inactividad_32"
+			dispatchs=""
+			fijo="true" />
+
+		<interaccion
+			id="mensaje_inactividad_32"
+			texto="str_dejame_pensar"
+			avatar="celador2"
+			emocion="habla"
+			escenario="escena2"
+			crisis="false"
+			goto=""
+			dispatchs=""
+			fijo="false" />
+
+		<interaccion
+			id="pre_software"
+			texto="str_pre_software"
+			avatar="carmen"
+			emocion="habla"
+			escenario="escena2"
+			crisis="false"
+			goto="software"
+			dispatchs=""
+			fijo="false" />
+
+		<!-- SIM67 EXPANSION ROE -->
+		<interaccion
+			id="dialogo_supervisor_recon3d_3"
+			texto="str_dialogo_supervisor_recon3d_3"
+			avatar="Javier"
+			emocion="normal"
+			escenario="escena1"
+			crisis="false"
+			goto="dialogo_supervisor_recon3d_4"
+			fijo="true" />
+		<interaccion
+			id="dialogo_supervisor_recon3d_5"
+			texto="str_dialogo_supervisor_recon3d_5"
+			avatar="Javier"
+			emocion="normal"
+			escenario="escena1"
+			crisis="false"
+			goto="dialogo_supervisor_recon3d_6"
+			fijo="true" />
+		<interaccion
+			id="dialogo_supervisor_recon3d_7"
+			texto="str_dialogo_supervisor_recon3d_7"
+			avatar="Javier"
+			emocion="normal"
+			escenario="escena1"
+			crisis="false"
+			goto="dialogo_supervisor_recon3d_8"
+			fijo="true" />
+		<interaccion
+			id="dialogo_supervisor_recon3d_9"
+			texto="str_dialogo_supervisor_recon3d_9"
+			avatar="Javier"
+			emocion="normal"
+			escenario="escena1"
+			crisis="false"
+			goto="dialogo_supervisor_recon3d_10"
+			fijo="true" />
+
+		<interaccion
+			id="supervisor_recon3d_postvideo1_2"
+			texto="str_supervisor_recon3d_postvideo1_2"
+			avatar="Javier"
+			emocion="normal"
+			escenario="escena1"
+			crisis="false"
+			goto="supervisor_recon3d_postvideo1_3"
+			fijo="true" />
+		<interaccion
+			id="supervisor_recon3d_postvideo1_4"
+			texto="str_supervisor_recon3d_postvideo1_4"
+			avatar="Javier"
+			emocion="normal"
+			escenario="escena1"
+			crisis="false"
+			goto="supervisor_recon3d_postvideo1_5"
+			fijo="true" />
+
+		<interaccion
+			id="supervisor_recon3d_postvideo2_2"
+			texto="str_supervisor_recon3d_postvideo2_2"
+			avatar="Javier"
+			emocion="normal"
+			escenario="escena1"
+			crisis="false"
+			goto="supervisor_recon3d_postvideo2_3"
+			fijo="true" />
+		<interaccion
+			id="supervisor_recon3d_postvideo2_4"
+			texto="str_supervisor_recon3d_postvideo2_4"
+			avatar="Javier"
+			emocion="normal"
+			escenario="escena1"
+			crisis="false"
+			goto="supervisor_recon3d_postvideo2_5"
+			fijo="true" />
+		<interaccion
+			id="supervisor_recon3d_postvideo2_5"
+			texto="str_supervisor_recon3d_postvideo2_5"
+			avatar="Javier"
+			emocion="normal"
+			escenario="escena1"
+			crisis="false"
+			goto="supervisor_recon3d_postvideo2_6"
+			fijo="true" />
+		<interaccion
+			id="supervisor_recon3d_postvideo2_7"
+			texto="str_supervisor_recon3d_postvideo2_7"
+			avatar="Javier"
+			emocion="normal"
+			escenario="escena1"
+			crisis="false"
+			goto="supervisor_recon3d_postvideo2_8"
+			fijo="true" />
+		<interaccion
+			id="supervisor_recon3d_postvideo2_9"
+			texto="str_supervisor_recon3d_postvideo2_9"
+			avatar="Javier"
+			emocion="normal"
+			escenario="escena1"
+			crisis="false"
+			goto="minijuego01"
+			fijo="false" />
+
+		<interaccion
+			id="supervisor_recon3d_postminijuego1_2"
+			texto="str_supervisor_recon3d_postminijuego1_2"
+			avatar="Javier"
+			emocion="normal"
+			escenario="escena1"
+			crisis="false"
+			goto="supervisor_recon3d_postminijuego1_3"
+			fijo="true" />
+		<interaccion
+			id="supervisor_recon3d_postminijuego1_4"
+			texto="str_supervisor_recon3d_postminijuego1_4"
+			avatar="Javier"
+			emocion="normal"
+			escenario="escena1"
+			crisis="false"
+			goto="minijuego02"
+			fijo="true" />
+
+		<interaccion
+			id="supervisor_recon3d_postminijuego2_2"
+			texto="str_supervisor_recon3d_postminijuego2_2"
+			avatar="Javier"
+			emocion="normal"
+			escenario="escena1"
+			crisis="false"
+			goto="supervisor_recon3d_postminijuego2_3"
+			fijo="true" />
+		<interaccion
+			id="supervisor_recon3d_postminijuego2_4"
+			texto="str_supervisor_recon3d_postminijuego2_4"
+			avatar="Javier"
+			emocion="normal"
+			escenario="escena1"
+			crisis="false"
+			fijo="false" />
+
+
+
+
+
+	</interacciones>
+
+	<!-- Permite lanzar feedbacks visuales alterando atributos, o llamando a métodos de movieclips -->
+	<feedbacksgraficos>
+		<reiniciar_simulador angulo="295">Escena1</reiniciar_simulador>
+		<feedback id="fbg_mostrar_paciente">
+			<objeto movieclip="paciente">
+				<metodo
+					nombre="entrar"
+					args="3" />
+			</objeto>
+		</feedback>
+		<feedback id="fbg_mostrar_enfermera_sala">
+			<objeto movieclip="enfermera">
+				<metodo
+					nombre="show"
+					args="" />
+				<!-- <atributo nombre="visible" valor="true" /> -->
+			</objeto>
+		</feedback>
+		<feedback id="mostrar_paciente_colocado">
+			<objeto movieclip="PacienteAcostado">
+				<metodo
+					nombre="show"
+					args="" />
+			</objeto>
+		</feedback>
+	</feedbacksgraficos>
+
+	<audios>
+		<audio
+			id="click_default"
+			url="assets/audios/genericos/click.mp3" />
+		<audio
+			id="click_soft"
+			url="assets/audios/genericos/clicksoft.mp3" />
+		<audio
+			id="hojear"
+			url="assets/audios/constancia/ID08.mp3" />
+	</audios>
+	<peliculas>
+		<pelicula
+			id="feed_intercomunicador_op1_pelicula"
+			url="tutorial.swf" />
+		<pelicula
+			id="panelcargarsesion"
+			url="panelcargarsesion.swf" />
+		<pelicula
+			id="informes"
+			url="panelInformes.swf" />
+
+		<pelicula
+			id="creditos"
+			url="creditos.swf" />
+		<pelicula
+			id="demo"
+			url="demo.swf" />
+		<pelicula
+			id="portada"
+			url="portada.swf" />
+		<pelicula
+			id="intro"
+			url="intro.swf" />
+		<pelicula
+			id="final"
+			url="final.swf" />
+
+		<pelicula
+			id="constancia_actividad"
+			url="constancia.swf" />
+
+		<pelicula
+			id="constancia_tutorial"
+			url="constancia_tutorial.swf" />
+
+		<pelicula
+			id="feed_intercomunicador_op1"
+			url="tutorial.swf" />
+		<pelicula
+			id="pelicula_tutorial"
+			url="tutorial.swf" />
+
+		<pelicula
+			id="juegocolocarpaciente_do"
+			url="juego_colocacion_paciente.swf" />
+		<pelicula
+			id="juegovolante"
+			url="juego_revisar_volante.swf" />
+		<!-- 
+			<pelicula
+			id="pelicula"
+			url="pelicula.swf" />
+		-->
+		<pelicula
+			id="software"
+			url="soft_tc.swf" />
+		<!-- 	
+			<pelicula
+			id="animacion_noticia_web"
+			url="web.swf"/>
+		-->
+		<!-- Micheloud::New -->
+		<pelicula
+			id="final_software"
+			url="final_software.swf" />
+
+		<pelicula
+			id="ayuda"
+			url="ayuda.swf" />
+		<pelicula
+			id="menu"
+			url="menu.swf" />
+		<pelicula
+			id="teoriaguiada"
+			url="teoria_guiada.swf" />
+		<pelicula
+			id="glosario"
+			url="glosario.swf" />
+		<pelicula
+			id="miniappCartel"
+			url="miniappCartel.swf" />
+		<pelicula
+			id="consolaConfiguracion"
+			url="consola.swf" />
+		<pelicula
+			id="accesibilidad"
+			url="accesibilidad.swf" />
+		<pelicula
+			id="mapa_conceptual"
+			url="mapa_conceptual.swf" />
+		<pelicula
+			id="area_docente"
+			url="area_docente.swf" />
+		<pelicula
+			id="ayuda_funcional"
+			url="ayuda_funcional.swf" />
+		<pelicula
+			id="version"
+			url="version.swf" />
+
+		<pelicula
+			id="animacion_revisar_maquina"
+			url="juego_revision_maquina_rm.swf" />
+		<pelicula
+			id="animacion_revisar_bombas"
+			url="juego_revisar_bombas.swf" />
+		<!-- Ampliacion sim67 ROE -->
+		<pelicula
+			id="video_amp1"
+			url="video1.swf" />
+		<pelicula
+			id="video_amp2"
+			url="video2.swf" />
+		<pelicula
+			id="minijuego01"
+			minijuego="true"
+			url="minijuego01.swf" />
+		<pelicula
+			id="minijuego02"
+			minijuego="true"
+			url="minijuego02.swf" />
+
+
+	</peliculas>
+
+	<videos>
+		<video
+			id="video1"
+			url="videos/video.flv" />
+	</videos>
+	<imagenes>
+		<!-- 
+			<imagen id="imagen1" url="imgs/imagen.jpg" />
+		-->
+	</imagenes>
+</recursos>
+

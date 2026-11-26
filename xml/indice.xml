@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<indice>
+	<titulo>Teoría guiada</titulo>
+	<subtitulo>Temas guiados</subtitulo>
+	<items>
+		<item>
+			<texto irA="0">1. Elementos de un equipo de TC</texto>
+			<subitems>
+				<subitem irA="1">1.1 Gantry o aro</subitem>
+				<subitem irA="2">1.2 Tubo de rayos X</subitem>
+				<subitem irA="3">1.3 Camilla o mesa</subitem>
+				<subitem irA="4">1.4 Generador de alto voltaje</subitem>
+				<subitem irA="5">1.5 Colimador</subitem>
+				<subitem irA="6">1.6 Sistema informático</subitem>
+				<subitem irA="7">1.7 Terminal de trabajo</subitem>
+			</subitems>
+		</item>
+		<item>
+			<texto irA="8">2. Preparación de equipo de TC</texto>
+			<subitems>
+				<subitem irA="9">2.1 PREPARACIÓN Y ADMINISTRACIÓN DEL CONTRASTE</subitem>
+				<subitem irA="10">2.2 PREPARACIÓN DEL PACIENTE PARA LA EXPLORACIÓN</subitem>
+				<subitem irA="11">2.3 OBTENCIÓN DE IMÁGENES</subitem>
+				<subitem irA="12">2.4 VALORACIÓN DEL ESTUDIO</subitem>
+				<subitem irA="13">2.5 REALIZACIÓN DEL PROCESADO DE IMÁGENES</subitem>
+				<subitem irA="14">2.6 REGISTRO DE LA EXPLORACIÓN</subitem>
+				<subitem irA="15">2.7 INTRODUCCIÓN A LAS BASES ANATOMOFISIOLÓGICAS</subitem>
+				<subitem irA="16">2.8 BASES TECNOLÓGICAS: EQUIPOS, IMAGEN DIGITAL Y SOFTWARE</subitem>
+				<subitem irA="17">2.9 TOMOGRAFÍA COMPUTERIZADA: TÉCNICAS DE EXPLORACIÓN Y PROTOCOLOS</subitem>
+				<subitem irA="18">2.10 CONTROL DE CALIDAD EN TC</subitem>
+			</subitems>
+		</item>
+	</items>
+	<datos>
+		<dato><![CDATA[Se trata de desarrollos temáticos  relacionados con el simulador en formato textual, acompañado de imágenes. 
+Existen dos modos de acceder a los distintos temas que presenta el simulador.
+El primer modo de acceder es a través del menú de opciones. A éste se accede siempre desde el botón opciones incrustado en el interface del simulador y presente siempre en la simulación. 
+El otro modo de acceder a estos contenidos es mediante la propia simulación. En la primera sala de descanso, el alumno podrá interactuar con los libros situados en la estantería y de este modo acceder a los distintos temas y su contenido.
+<img src="imagenes/imagen.jpg" style="width: 50px; height: 50px;"/>]]> 
+		</dato>
+		<dato><![CDATA[Es una estructura en forma de anillo compuesta por un tubo de rayos X,  asociado a un sistema de detectores, colimadores, un generador de alto voltaje y  una camilla móvil donde situar al paciente.]]></dato>
+		<dato><![CDATA[Los tubos de rayos X son están formados por un tubo de vacío con un  cátodo y un ánodo en cada extremo. 
+Mediante el calentamiento del cátodo por el paso de una corriente eléctrica, gracias a un gradiente, se generan electrones que circulan por el tubo en dirección al ánodo.
+El golpe de los electrones contra el ánodo provoca una eliminación de energía térmica y la formación de radiación X. 
+Mediante la creación de una ventana oblicua al haz incidental de electrones se orienta el haz de radiaciones hacia un orificio concreto predeterminado.
+Se emplea un tubo de plomo para evitar la salida de la radiación ionizante por cualquier otro lugar del tubo de vacío y un componente dispersante para refrigerarlo entre ambos.
+<img src="imagenes/imagen.jpg " />]]>
+		</dato>
+		<dato><![CDATA[Estructura plana, móvil, desplazable de manera automática o manual, calibrada y coordinada con el  gantry sobre el cual se situa al paciente.]]></dato>
+		<dato><![CDATA[Mediante el cual se genera una tensión de la menos 120 KV entre el ánodo y el cátodo.]]></dato>
+		<dato><![CDATA[Mecanismo reductor de la radiación dispersa empleado  para concentrar la radiación en una región concreta del área corporal a estudiar y disminuir la dosis total aplicada en el paciente.]]></dato>
+		<dato><![CDATA[Con los siguientes elementos:
+Computadora para el procesado de la imagen
+Sistema de almacenamiento de los datos e imágenes adquiridos.
+Software: específicamente diseñado para la reconstrucción de la imagen en múltiples planos, tridimensional, etc.
+]]>
+		</dato>
+		<dato><![CDATA[Se denomina así al conjunto formado por una pantalla, un teclado y una unidad de disco duro desde la cual revisar las imágenes adquiridas, realizar reconstrucciones, programar el almacenamiento de la información en un archivo o remitir a impresoras digitales.]]></dato>
+		<dato><![CDATA[Consiste en el acondicionamiento de la sala de exploración previo al estudio:
+•	Selección del material preciso y ordenación del mismo en lugar accesible en función de las de las necesidades previstas: sueros, agujas, sacos de fijación, gasas, contraste, atropina, adrenalina,etc.
+•	Asegurar la limpieza y orden de la sala.
+•	Encendido y calibrado de forma reglada según normas de la empresa fabricante para asegurarse una correcta formación de  la imagen, sin artefactos.
+•	Efectuar el control de calidad del equipo de exploración.]]>
+		</dato>
+		<dato><![CDATA[Los contrastes son sustancias con unas características organolépticas y comportamiento ante las radiaciones específicas de modo que introducidos en una cavidad (como articulación, vejiga, tracto digestivo) o por vía intravenosa, hacen resaltar esas estructuras frente a las que les rodean. 
+Se clasifican en función de su composición como iónicos / no iónicos. Se suelen emplear contrastes radiopacos no iónicos por su buena tolerancia y escasa reacciones adversas (1: 10.000 a 1: 100.000).
+Se denomina reacción adversa a todo efecto indeseable, no esperado, como consecuencia de la administración de una sustancia en pacientes con predisposición específica. Se suelen producir reacciones de este tipo en pacientes predispuestos por exposición previa a una sustancia concreta o de  forma idiopática o no esperable en pacientes sin contacto previo con la sustancia dada. La reacción se puede manifestar de manera leve en forma de picores, prurito, enrojecimiento cutáneo en el área de administración a severa con dificultad respiratoria, edema facial y mucosas e incluso parada cardiorespiratoria.
+Como medida cautelar es fundamental advertir al paciente del riesgo de efectos secundarios ante el uso de contrastes, solicitando que advierta de cualquier antecedente previo de reacción farmacológica o contrastes. 
+Se le debe explicar el motivo de realizar la exploración, de la necesidad del uso de contraste y pedirle que lea detenidamente y firme un consentimiento informado.  Si el paciente es menor o no está capacitado para ello, será su familiar o tutor el encargado de firmar dicho documento. Nunca debe iniciarse el procedimiento sin firmar previamente ni asegurarnos que el paciente comprende el texto que ha firmado. Debemos asegurarnos que está incluida la firma, nombre y apellidos del paciente, fecha del proceso y médico que le informa verbal y por escrito.
+Para la administración del contraste por vía intravenosa la enfermera debe tomar una vía venosa periférica en fosa antecubital con una aguja 20 - 22 G que puede ser empleada para la administración de cualquier fármaco en caso de reacción alérgica severa.
+Debe tenerse especial cuidado en esta fase para evitar el extravasado del contraste  con efecto muy irritante en el tejido adyacente. Se recomienda elevar el miembro si esto sucede y cesar la infusión de contraste de manera inmediata.
+La dosis administrada en general es de 2 ml /kg de peso pero puede ajustarse en función del paciente o las indicaciones del médico responsable. 
+Suele colocarse el contraste en un pie de suero o gotero y se regula su paso con una llave de paso a un ritmo determinado o, de manera habitual, se conecta acoplado a una bomba de infusión que permite regular de manera digital el ritmo de infusión o controlarlo desde el terminal de trabajo de la sala de TC. 
+Es posible ajustar el inicio de la toma y adquisición de imágenes a un tiempo determinado en segundos por un temporizador, de manera que nos aseguramos que el contraste haya alcanzado el sistema arterial o venoso (según protocolo).
+En otras ocasiones la bomba comienza a infundir contraste y puede ajustarse la adquisición de imágenes  a un número determinado de unidades Hounsfield en un área anatómica concreta (por ejemplo, arteria pulmonar o aorta) en un procedimiento denominado pretest.
+Otros efectos no deseables de los contrastes son la aparición de nauseas. Tanto por la posibilidad  desmayo como por las nauseas, es recomendable el ayunas absoluto desde al menos 4-6 horas previo al estudio. Así se evitará la aspiración de  contenido gástrico en caso de pérdida de conciencia.
+En el caso de los contrastes por vía oral o rectal, muy empleados en el estudio de todo el tracto digestivo, y en general en la patología abdominal se recomienda no obstante el ayunas. Se debe iniciar la ingesta de contraste al menos 200 ml de 1.5% yodo oral 70 90 minutos antes del examen y puede administrarse  hasta 200 ml más cada cuarto de hora en función de la mayor o menor porción de tracto intestinal que se desee repleccionar. En el estudio de la patología pélvica puede emplearse hasta 1000 ml de yodo 1.5% por vía rectal. Hay preparados comerciales que indican las dosis y pautas de administración. No debemos olvidar que als reacciones alérgicas no solo se pueden dar en la administración de sustancais por vía intravenosa sino también oral, vesiacl, rectal,, etc, aunque suelen ser de menor severidad.
+]]>
+		</dato>
+		<dato><![CDATA[
+•	Confimar nombre y apellidos del paciente y su correspondencia con los incluidos en el volante o solicitud.
+•	Recogida del consentimiento informado en caso de uso de contrastes.
+•	Cuestionario acerca de enfermedades de interés, alergiaa,consumo de fármacos o posibilidades de embarazo. Nunca debe realizarse un estudio sin la confirmación expresa de un facultativo en la paciente fértil si tiene una duda mínima sobre estado de gestación.
+•	Acceso del paciente a una cabina. Allí se desnudará y depositará su ropa o pertenencias en una percha o armario especialmente reservado para ello. Se colocará una bata o pijama espécífico, cómodo y fácil de colocar por pacientes con ciertas limitaciones, dejando libres los brazos para un rápido acceso a vías periféricas. Si el paciente tiene dificultades con la movilidad será ayudado a cambiarse por un familiar celador asignado, el cual abandonará la cabina antes del inicio del estudio. Si es necesario se introducirá al paciente en silla de ruedas o camilla especial hasta la mesa del equipo de TC por parte de personal sanitario.
+•	En el caso de niños o pacientes con cierto déficit psíquico se permitirá excepcionalmente el acceso a la sala de TC hasta el inicio del estudio para asegurarnos que el paciente permanece con la mínima ansiedad ante un sitio ajeno con personal extraño a su alrededor. En el caso de niños, si no se emplea sedación para la exploración, su tutor podrá permanecer en sala durante el estudio bajo su propia responsabilidad y cubierto con mandiles plomados específicamente diseñados. 
+•	Se quitará todo elemento metálico que pueda interferir con la adquisición de imágenes.
+•	La sala de vestuario debe estar blindada en la pared adyacente a la sala de TC. No obstante debe limitarse el tiempo de espera de los acompañantes en el área del TC por zonas potencialmente expuestas a las radiaciones ionizantes a pesar del blindaje.
+•	Una vez se coloque al paciente sobre la mesa de exploración en la posición concreta en función del tipo de protocolo, debemos asegurarnos que nadie podrá acceder a la sala de TC de forma accidental.
+•	El técnico y /o la enfermera asignados colocarán la vía periférica y dispondrán la bomba de infusión acoplada a la vía mediante un sistema de suero. Es extremadamente importante purgar los sistemas antes de iniciar la instrucción de cualquier sustancia por vía endovenosa tanto por el riesgo de embolismo aéreo como por la posible aparición de artefacto intravasculares que lleven a la interpretación errónea de las imágenes adquiridas.  Se colocarán aquellos dispositivos necesarios en función del estado del paciente necesarios para el control de sus constantes vitales (pulsiosímetro, electrocardiograma, etc)
+•	Si el paciente está agitado o no es capáz de mantener una postura concreta precisa para el estudio se pueden emplear sacos o tiras de tela para fijarle en una posición determinada.
+•	El técnico se retirará tras una ventana de observación desde la que podrá controlar el software, la bomba, la camilla y observar de forma simultánea los movimientos y estado del paciente y las imágenes adquiridas en tiempo real
+1.	Una vez colocado al paciente en la posición deseada debe comprobar que no hay elementos anatómicos ni impedimento alguno para el avance del gantry o aro en torno al paciente.
+1.	Debe avanzarse la mesa de exploración hasta situar el área anatómica del paciente a estudiar centrada en el gantry. 
+2.	Se debe diafragmar o colimar el haz del gantry
+3.	Mediante un dispositivo de altavoces, el técnico explicará al paciente sobre la necesidad de permanecer inmóvil durante el estudio y no tomar aire o respirar muy suavemente durante los segundos que dure el proceso. Asimismo se le advertirá de los síntomas que deben alarmarle y debe notificar inmediatamente ( dolor, dificultad respiratoria, dolor torácico, etc)
+1.	Ajustará, si no están predefinidos por el fabricante en un protocolo concreto, los parámetros de exposición. 
+2.	Se realiza una adquisición muy básica inicial del área a estudiar también llamada  localizador o topograma. Sobre esa imagen escaneada, similar a una radiografía convencional (en el eje sagital, axial o coronal según protocolo), se determinarán las áreas de interés o ROI sobre las que se realizará la verdadera adquisición de imágenes mediante cortes anatómicos.
+	En función de la velocidad  predeterminada y grosor de corte, la mesa de exploración se desplazará bajo el  gantry a una velocidad prefijada.
+	Se obtendrán unas imágenes sectoriales concretas del área escaneada. Una vez completado el estudio básico inicial del protocolo o primera hélice, pueden precisarse nuevos estudios de la misma área, añadiendo contraste intravenoso, oral o rectal, de otras áreas  o regiones anatómicas o ampliando ROI en el área inicial. Cada una de estos nuevos escaneos corporales se denominan hélices. Así cada  protocolo puede constar de 1 o más hélices, constituidas a su vez por múltiples secciones o cortes anatómicos.
+	La duración del estudio o escaneo se denomina tiempo de adquisición y el tiempo desde que se inicia la administración de imágenes hasta que se inicia el disparo del equipo se conoce como tiempo de retardo.
+	Si durante el estudio s advierte o el paciente manifiesta malestar, debe detenerse el estudio, comprobar el problema, calmar al paciente y comprobar la gravedad de la situación actuando en función de la misma. Si hay cualquier duda acerca de la integridad del paciente debe avisarse al médico responsable, enfermera o intensivista asignado a la sala en caso de complicaciones graves.
+]]>
+		</dato>
+		<dato><![CDATA[Mediante los equipos de TC se obtendrán imágenes en los diversos planos anatómicos (axial, sagital o coronal)
+El aro del gantry dispone de un conjunto de tubos de rayos X  giratorios que emiten radiaciones en torno al paciente a una velocidad de giro determinada. El aro dispone de un colimador que centra la radiación emitida por el tubo de rayos X y una serie de múltiples detectores (en mayor o menor número según el fabricante y la calidad del aparato).
+Mediante la combinación de velocidad de giro del tubo de rayos x, milímetros de avance del gantry y deslizamiento de la mesa, se obtienen múltiples imágenes del área anatómica escaneada. Las imágenes son sectoriales en múltiples planos (axial, sagital o coronal)
+Los tejidos al ser atravesados por la radiación incidente atenuarán el haz de rayos X en mayor  o menor medida en función de sus componentes biológicos. Así las estructuras metálicas o el hueso atenúan en gran medida la radiación incidental mientras que otros tejidos como el aire prácticamente no lo atenúan. Los detectores registrarán la radiación remanente y transformarán la señal recogida en una escala de grises en función de su intensidad.  Mediante un conversor analógico a digital se transformará cada unidad de volumen  escaneado o Vóxel en un píxel o imagen bidimensional. La imagen de Tc está compuesta por múltiples píxeles en función del grado de atenuación del tejido representado.
+Mediante un cálculo matemático el software del equipo de  TC analiza el valor del grado de atenuación del tejido escaneado y los transforma en una escala numérica ya estandarizada  conocida como números TC o unidades Hounsfield (UH). Se ha establecido que el valor del agua es 0 UH, hueso entre +1000 UH y el aire -1000 UH. 
+El resto de estructuras anatómicas aportarán en la imagen un valor en UH variable en función de su composición en agua, grasa, aire.
+En función del área u órgano a estudiar interesará ajustar el contraste de la escala de grises de la imagen en mayor o menor medida. Eso es lo que se conoce como ajustar la ventana. Se mejorarán así la visualización de estructuras concretas compuestas por aire (ventana de pulmón), hueso (ventana ósea) o grasa-músculo (ventana de partes blandas, cerebro, parénquima,etc). 
+Se ajustará el brillo de la imagen o número TC medio o central de la imagen mediante un valor denominado nivel de ventana (NV).
+Realización de reconstrucciones: mediante un software acoplado el equipo de TC ,puede extrapolar puntos anatómicos intermedios entre los voxel escaneados con un límite preestablecido por el sistema ,de modo que ante unas imágenes de un grosor de corte concreto pueden crearse otras imágenes virtuales correspondientes a un grosor de corte menor. De esta manera pueden estudiarse áreas concretas con un detalle mayor sin precisar la administración de más radiación en un nuevo escaneo. La calidad de la imagen será inferior a la obtenida mediante un escaneo real con menor grosor de corte pero puede ser suficiente para interpretar imágenes sin incrementar la dosis de radicación administrada al paciente.
+De la misma forma pueden realizarse reconstrucciones tridimensionales de órganos (hombro, cadera) y trabajar la imagen eliminando aquellos elementos no deseados o que obstaculicen la visión de otros o potenciando la presencia de otros incluso reemplazando la escala de color de grises por otra en azules, rojos, sepias para el estudio de vasos, huesos, etc.
+<img src="imagenes/imagen.jpg" />]]>
+		</dato>
+		<dato><![CDATA[Una vez completado el estudio, el técnico debe:
+•	Comprobar la calidad de la imagen: descartar la presencia de artefactos producidos por objetos interpuestos, prótesis metálicas, movimientos corporales o respiratorios, fallos del dispositivo.
+•	Correcto  ajuste del área anatómica solicitada en el estudio.
+•	Correcta adquisición de las imágenes coordinadas con el tiempo de retardo de la administración de contraste de modo que las áreas contrastadas correspondan con las señaladas en el protocolo.
+•	Comprobar la realización de las secciones en el eje anatómico recabado. (Axial, sagital o coronal)
+•	Comprobar la necesidad de realización de ajustes de ventana (ósea, pulmón, parénquima)
+]]>
+		</dato>
+		<dato><![CDATA[Mediante la regulación de las ventanas, selección del eje de corte, realización de reconstrucciones con grosor de corte mayor o menor o la creación de reconstrucciones tridimensionales se creará un conjunto de imágenes. Deben seleccionarse las más representativas o precisas según el protocolo habitual establecido para el órgano estudiado y almacenarse, enviarse para impresión o remitirse al terminal del médico radiólogo responsable de la interpretación de las mismas.
+Todas las imágenes generadas por el equipo de TC deben ser archivadas de manera organizada en un sistema de almacenamiento o memoria regulado mediante una base de datos.
+El sistema de archivo será establecido por el fabricante.
+Puede regularse el tiempo de permanencia o conservación de los estudios de modo que pasado un tiempo se libere el disco duro.
+]]>
+		</dato>
+		<dato><![CDATA[
+Es imprescindible en cada estudio registrar una serie de parámetros que perimtan no solo identificar a qué paciente concreto pertenece sino el tipo de protocolo empleado, variable o parámetros empleados, etc.  Debe consignarse:
+•	Datos demográficos del paciente: Nombre y apellidos, fecha de nacimiento.
+•	Número de historia asignado
+•	Número de registro del estudio
+•	Área o región anatómica escaneada
+•	Tipo de protocolo empleado
+•	Empleo de contraste y vía de administración
+•	Tiempo de adquisición de imagen
+•	Tiempo de retardo
+•	Dosis de contraste empleada
+•	Radiación aplicada 
+•	Incidencias]]>
+		</dato>
+		<dato><![CDATA[ La TC o tomografía axial computerizada es un procedimiento radiológico de obtención de imágenes basado en la radiología convencional, mediante el cual, aplicando los rayos X acoplados a un anillo giratorio y un conjunto de detectores, se conforma una conjunto de datos, en función del grado de atenuación de la radiación al atravesar los tejidos, en las tres dimensiones del espacio  o voxel. Un software específico transforma el conjunto de datos a través de múltiples ecuaciones y cálculos matemáticos en una imagen bidimensional interpretable por el radiólogo.
+Para este proceso es necesario por tanto un tubo de rayos x, una serie de detectores, un colimador para centrar la radiación en el paciente y área concreta
+La radiación emitida atraviesa los tejidos del  paciente, los cuales absorben la radiación en función de su composición acuosa-grasa- aire y estructura atómica. Una vez atravesado el organismo la radiación emergente es registrada en un conjunto de detectores sincronizados con un software específico que traduce la intensidad de la radiación emitida en un valor numérico o unidades Hounsfield que se corresponde con un grado dentro de la escala de grises.
+]]>
+		</dato>
+		<dato><![CDATA[Las bases de la moderna técnica de los TC actuales se desarrollaron gracias  a los estudios realiados por Dr. Godfrey Hounsfield en 1972. Su aportación se  fundamenta en el diferente grado de atenuación que experimentan los haces de radiación ionizante al atravesar los tejidos.
+Los estudios obtenidos almacenaban la información en un archivo de imágenes y se imprimían de manera habitual en placas fotográficas de forma similar a los estudios de radiografía convencional. Para ello se precisaba todo un dispositivo de revelado.
+En la actualidad, gracias a los sistemas de digitalización de imágenes modernos, se puede almacenar mayor cantidad de información en computadoras de tamaño cada vez más reducido e incluso desplazar la unidad de almacén a servidores ajenos al equipo en red con otros aparatos o centros. 
+Con el desarrollo de la teleradiología, la ingeniería informática y software, los cálculos matemáticos son más rápidos y exactos, mejorando la calidad de la imagen y acelerando la recuperación de los archivos desde las bases de archivo, permitiendo la interpretación a distancia o compartir datos con equipos situados a distancia.
+Los primeros equipos de Tc constaban de un tubo emisor de radiación y un detector en posición puesta permitiendo una rotación de tan solo 180º, con tiempos de adquisición muy largos. Con el empleo de múltiples detectores se amplió el número de rotaciones obtenidas por barrido reduciendo los tiempos ampliamente. En la actualidad los detectores están en posición fija y es el aro del gantry el que rota alrededor del paciente, logrando realizar adquisiciones en tan solo  3 sg.
+]]>
+		</dato>
+		<dato><![CDATA[El diagnóstico por imágenes por TAC permite el estudio de la patología del SNC, tórax, abdomen con detalle anatómico. 
+Permite el estudio en múltiples ejes del espacio especialmente práctico en el planteamiento preoperatorio y quirúrgico de lesiones tumorales o trastornos articulares /óseos.
+Gracias a las reconstrucciones tridimensionales asociando el uso de contrastes intravenosos, orales, rectales y los más modernos software se pueden configurar imágenes selectivas de órganos o estructuras específicas (vasos mediante estudios angiográficos, articulaciones, etc.)
+El conjunto de variables precisas para un estudio concreto de un órgano específico se denomina protocolo. Los equipos actuales permiten predeterminar esos protocolos para configurar las variables del aparato de modo automático al seleccionarlos.  
+Los principales protocolos de estudio habitual son:
+Tórax: cortes axiales fundamentalmente, con y sin contraste. Estudios angiográficos.
+Abdomen: cortes axiales, sagitales y coronales, con y sin contraste con diferentes tiempos de retardo para resaltar fase arterial, venosa, vía excretora urinaria, etc. Estufidos angiográficos.
+Pelvis: cortes axiales y sagitales o coronales centrados en la cadera.
+Sistema Nervioso Central: encéfalo y médula espinal, cortes axiales, coronales y sagitales, con y sin contraste. Estudios angiográficos.
+Aparato locomotor:cortes axiales, coronales y sagitales centrados en la articulación o lesión.Hombro,codo, brazo, antebrazo, mano , muñeca, caderas, sacroiliacas, rodilla,  muslo, tobillo,pie, columna,
+]]>
+		</dato>
+		<dato><![CDATA[La control de la calidad de las imágenes en TC implica:
+Control de la correcta preparación del paciente
+Colocación correcta
+Selección de un área anatómica correcta
+Elección de un protocolo acorde con el órgano o patología a estudiar
+Control de artefactos, movimientos respiratorios, corporales,e tc
+Correcta calibración y revisiones periódicas del equipo según indicaciones del fabricante
+Se han establecido programas como el elaborado por  la Joint Commission on Acreditation of Healthcare Organizations (JCAHO) determinando criterios de garantía y control de calidad con el fin de que el médico radiólogo  encargado de la interpretación de las imágenes reciba un estudio con características óptimas cuyo objetivo final es la eficacia en el diagnóstico reduciendo la necesidad de duplicar nuevas exploraciones.
+]]>
+		</dato>
+	</datos>
+</indice>

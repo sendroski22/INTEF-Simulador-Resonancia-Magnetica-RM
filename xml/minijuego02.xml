@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recursos>
+	<textos>
+	    <texto id="intrucciones">Instrucciones:</texto>
+	    <texto id="enunciado">Reconoce el lugar donde se encuentra el tumor entre tres zonas calientes.</texto>
+	    <texto id="tit1">Identifique los órganos críticos.</texto>
+	    <texto id="confirmar">Confirmar</texto>
+	    <texto id="eliminar">Eliminar</texto>
+	    <texto id="espera">En espera</texto>
+	    <texto id="sistema">Cargando el sistema</texto>
+	    
+	    
+	    <!-- errores -->
+	    <texto id="mal">No has reconocido correctamente la zona del tumor. Tienes que poner más atención.</texto>
+	    <texto id="bien">Ya he reconocido los órganos críticos correctamente.</texto>
+	    
+	    
+	    <!-- secuencia de imágenes -->
+	    <secimgs>
+		    <texto id="sec0">Infarto cerebral con edema en hemisferio derecho axial.</texto>
+		    <texto id="sec1">Malformación arteriovenosa lóbulo frontal, plano sagital.</texto>
+		    <texto id="sec2">Lesión quística en 2ª falange pie.</texto>
+		    <texto id="sec3">Columna hernia discal cervical.</texto>
+		    <texto id="sec4">Plano axial, secuencias T1 y T2</texto>
+		    <texto id="sec5">Plano coronal, secuencias T2, carcinoma hepático (tumor sólido).</texto>
+		    <texto id="sec6">Tumor de mama, tumor sólido estudio de difusión, plano.</texto>
+		    <texto id="sec7">Estudio de difusión Axial, infarto cerebral.</texto>
+	    </secimgs>
+	    
+	    
+	    <!-- Casos Solucion-->
+	    <texto id="caso_sec0">0</texto>
+	    <texto id="caso_sec1">1</texto>
+	    <texto id="caso_sec2">1</texto>
+	    <texto id="caso_sec3">1</texto>
+	    <texto id="caso_sec4">0</texto>
+	    <texto id="caso_sec5">0</texto>
+	    <texto id="caso_sec6">1</texto>
+	    <texto id="caso_sec7">0</texto>
+	</textos>
+	<audios></audios>
+	<peliculas></peliculas>
+	<videos></videos>
+	<imagenes></imagenes>
+</recursos>

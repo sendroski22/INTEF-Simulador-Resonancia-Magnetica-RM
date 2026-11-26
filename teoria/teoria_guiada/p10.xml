@@ -1,0 +1,34 @@
+﻿<text_layout>
+  <default_directory/>
+  <textos>
+    <texto id="t3">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#384858" LETTERSPACING="0" KERNING="0"><B>Es preciso que el técnico revise las imágenes recogidas y valore la calidad </B><FONT COLOR="#333333">de las mismas. Es posible que se produzcan artefactos por movimientos del paciente, se hayan interpuesto estructuras delante del arco que modifiquen la imagen y provoquen confusión, no se logre el suficiente nivel de contraste de las estructuras con gadolinio, etc.<FONT COLOR="#384858"></FONT></FONT></FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#384858" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Por motivos como los citados anteriormente, el técnico debe decidir si el estudio es correcto o es necesario solicitar su repetición.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>45,155</pos>
+      <size>384,281</size>
+    </texto>
+    <texto id="t1">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Trebuchet MS" SIZE="20" COLOR="#0066FF" LETTERSPACING="0" KERNING="0">Selección de imágenes </FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>45,16</pos>
+      <size>729,27</size>
+    </texto>
+    <texto id="t2">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Las imágenes adquiridas deben almacenarse en un sistema de archivo. Desde ahí es posible recuperarlas y modificarlas, imprimirlas en papel fotográfico o enviarlas a un sistema paralelo en red desde el cual podrán acceder los médicos encargados de la interpretación de las mismas. Pero no todas las imágenes serán adecuadas.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>45,44</pos>
+      <size>730,109</size>
+    </texto>
+  </textos>
+  <imagenes>
+    <imagen id="c1">
+      <ruta>teoria/img/flechita_subapartado.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>19,8</pos>
+      <size>28,30</size>
+    </imagen>
+    <imagen id="i1">
+      <ruta>teoria/teoria_guiada/img/27_teoria_guiada.png</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>440,155</pos>
+      <size>335,251</size>
+    </imagen>
+  </imagenes>
+</text_layout>

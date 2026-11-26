@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recursos>
+	<externalresources></externalresources>
+	<config>
+		<actores_locucion>
+			<actor id="0">narrador</actor>
+			<actor id="1">enfermera</actor>
+		</actores_locucion>
+		<emociones>
+			<emocion id="0">normal</emocion>
+			<emocion id="1">alegre</emocion>
+			<emocion id="2">triste</emocion>
+		</emociones>
+	</config>
+	<textos>
+		<texto id="titulo">Ayuda funcional</texto>
+		<texto id="demo">Ver demo</texto>
+		<texto id="version">Versión</texto>
+		<texto id="imprimir">Imprimir</texto>
+		<texto id="salir">Volver</texto>
+		<datos>
+			<textos>
+				<texto id="0"><![CDATA[]]></texto>
+				<texto id="1"><![CDATA[Las reglas de "la vida simulada"]]></texto>
+				<texto id="2"><![CDATA[Elementos interactivos]]></texto>
+				<texto id="3"><![CDATA[El "Yo virtual"]]></texto>
+				<texto id="4"><![CDATA[Estados del "Yo virtual"]]></texto>
+				<texto id="5"><![CDATA[¿Quieres saber más?]]></texto>
+				<texto id="6"><![CDATA[Guardando "recuerdos"]]></texto>
+				<texto id="7"><![CDATA[Recordando "tu vida"]]></texto>
+				<texto id="8"><![CDATA[¿Un final inesperado?]]></texto>
+				<texto id="9"><![CDATA[¿Cómo funciona la puntuación?]]></texto>
+				<texto id="10"><![CDATA["Estado de crisis"]]></texto>
+			</textos>
+			<contenido idcamino="0" src="html/ayuda_funcional/index.html">
+					<contenido idcamino="1" src="teoria/ayuda_funcional/p1.xml" />
+					<contenido idcamino="2" src="teoria/ayuda_funcional/p2.xml" />
+					<contenido idcamino="3" src="teoria/ayuda_funcional/p3.xml" />
+					<contenido idcamino="4" src="teoria/ayuda_funcional/p4.xml" />
+					<contenido idcamino="5" src="teoria/ayuda_funcional/p5.xml" />
+					<contenido idcamino="6" src="teoria/ayuda_funcional/p6.xml" />
+					<contenido idcamino="7" src="teoria/ayuda_funcional/p7.xml" />
+					<contenido idcamino="8" src="teoria/ayuda_funcional/p8.xml" />
+					<contenido idcamino="9" src="teoria/ayuda_funcional/p9.xml" />
+					<contenido idcamino="10" src="teoria/ayuda_funcional/p10.xml" />
+			</contenido>
+		</datos>
+	</textos>
+	<audios>
+	</audios>
+	<peliculas></peliculas>
+	<videos></videos>
+	<imagenes></imagenes>
+</recursos>

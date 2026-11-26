@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recursos>
+	<textos>
+	    <texto id="intrucciones">Instrucciones:</texto>
+	    <texto id="enunciado">Identifica la opción correcta que corresponde a la imagen de entre tres posibles respuestas.</texto>
+	    <texto id="tit1">Identifique los órganos críticos.</texto>
+	    <texto id="confirmar">Confirmar</texto>
+	    <texto id="eliminar">Eliminar</texto>
+	    <texto id="espera">En espera</texto>
+	    <texto id="sistema">Cargando el sistema</texto>
+	    
+	    
+	    <!-- errores -->
+	    <texto id="mal">Voy a tener que volver a intentarlo.</texto>
+	    <texto id="bien">Ya he reconocido los órganos críticos correctamente.</texto>
+	    
+	    
+	    <!-- secuencia de imágenes -->
+	    <secimgs>
+		    <texto id="sec0">Angio corporal total,Reconstrucción arterias coronarias corazón,Angio RM arterial cráneo coronal gadolinio</texto>
+		    <texto id="sec1">Angio RM arterial cráneo coronal gadolinio,Angio corporal total,Estudio colangio RM fase 3d plano coronal</texto>
+		    <texto id="sec2">Reconstrucción arterias coronarias corazón,Estudio colangio RM fase 3d plano coronal,Colangio RM coronal</texto>
+		    <texto id="sec3">Estudio vascular cuello (carótidas) visión coronal,Angio RM arterial cráneo coronal gadolinio,Reconstrucción arterias coronarias corazón</texto>
+		    <texto id="sec4">Estudio vascular abdomen (fase arterial hasta venosa),Estudio difusión y arterial 3d plano axial,Estudio colangio RM fase 3d plano coronal</texto>
+		    <texto id="sec5">Estudio colangio RM fase 3d plano coronal,Estudio difusión y arterial 3d plano axial,Colangio RM coronal</texto>
+		    <texto id="sec6">Estudio difusión y arterial 3d plano axial,Colangio RM coronal,Estudio colangio RM fase 3d plano coronal</texto>
+		    <texto id="sec7">Coronal vascularización 3d tórax gadolineo,Estudio difusión y arterial 3d plano axial,Estudio colangio RM fase 3d plano coronal</texto>
+		    <texto id="sec8">Colangio RM coronal,Estudio difusión y arterial 3d plano axial,Angio RM vascularización renal</texto>
+		    <texto id="sec9">Angio RM vascularización renal,Colangio RM coronal,Estudio difusión y arterial 3d plano axial</texto>
+	    </secimgs>
+	    
+	    
+	    <!-- Casos Solucion-->
+	    <texto id="caso_sec0">Angio corporal total</texto>
+	    <texto id="caso_sec1">Angio RM arterial cráneo coronal gadolinio</texto>
+	    <texto id="caso_sec2">Reconstrucción arterias coronarias corazón</texto>
+	    <texto id="caso_sec3">Estudio vascular cuello (carótidas) visión coronal</texto>
+	    <texto id="caso_sec4">Estudio vascular abdomen (fase arterial hasta venosa)</texto>
+	    <texto id="caso_sec5">Estudio colangio RM fase 3d plano coronal</texto>
+	    <texto id="caso_sec6">Estudio difusión y arterial 3d plano axial</texto>
+	    <texto id="caso_sec7">Coronal vascularización 3d tórax gadolineo</texto>
+	    <texto id="caso_sec8">Colangio RM coronal</texto>
+	    <texto id="caso_sec9">Angio RM vascularización renal</texto>
+	    
+	    
+	    
+	</textos>
+	<audios></audios>
+	<peliculas></peliculas>
+	<videos></videos>
+	<imagenes></imagenes>
+</recursos>

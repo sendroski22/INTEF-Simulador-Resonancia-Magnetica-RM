@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recursos>
+	<externalresources></externalresources>
+	<config>
+		<actores_locucion>
+			<actor id="0">narrador</actor>
+			<actor id="1">enfermera</actor>
+		</actores_locucion>
+		<emociones>
+			<emocion id="0">normal</emocion>
+			<emocion id="1">alegre</emocion>
+			<emocion id="2">triste</emocion>
+		</emociones>
+	</config>
+	<textos>
+		<texto id="titulo">Accesibilidad</texto>
+		
+		<datos>
+			<textos>
+				<texto id="0"><![CDATA[ ]]></texto>
+				<texto id="1"><![CDATA[Accesibilidad del simulador]]></texto>
+			</textos>
+			<contenido idcamino="0" src="html/accesibilidad/index.html">
+			<contenido idcamino="1" src="teoria/accesibilidad/p1.xml" />				
+			
+			</contenido>
+		</datos>
+	</textos>
+	<audios>
+	</audios>
+	<peliculas></peliculas>
+	<videos></videos>
+	<imagenes></imagenes>
+</recursos>

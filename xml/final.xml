@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recursos>
+	<externalresources></externalresources>
+	<config>
+		<actores_locucion>
+			<actor id="0">narrador</actor>
+			<actor id="1">enfermera</actor>
+		</actores_locucion>
+		<emociones>
+			<emocion id="0">normal</emocion>
+			<emocion id="1">alegre</emocion>
+			<emocion id="2">triste</emocion>
+		</emociones>
+	</config>
+	<textos>
+		<texto id="titulo">Fin del simulador de RMN</texto>
+		<texto id="continuar">Continuar</texto>
+	
+		<texto id="final1">Veo que has terminado el volante.</texto>
+		<texto id="final2a">He estado revisando todo lo que has hecho a lo largo del proceso, y creo que el resultado es muy bueno.</texto>
+		<texto id="final2b">He estado revisando todo lo que has hecho a lo largo del proceso, y creo que el resultado es bueno.</texto>
+		<texto id="final3">Ahora puedes volver a la sala de descanso y empezar un nuevo volante.</texto>
+		<texto id="final4">Gracias por tu trabajo, y no dejes de esforzarte. Mucha gente depende de tu esfuerzo.</texto>
+		
+		<texto id="pt1">Creo que todavía no estás preparado para este trabajo. Te falta bastante formación y has cometido demasiados errores en el proceso. </texto>
+		<texto id="pt2">No puedo permitirte que continúes trabajando con éste paciente. Es imprescindible realizar correctamente las resonancias, para evitar tener que repetirlo y volver a irradiar al paciente. </texto>
+		<texto id="pt3">Por favor, repasa todos los conocimientos e incluso vuelve a realizar el tutorial si es necesario antes de elegir el siguiente volante.</texto>
+		
+		<texto id="pr1">He recibido varias quejas por parte del personal del hospital y de los pacientes. </texto>
+		<texto id="pr2">Estas siendo muy frío y distante y ese no es el trato que debes dar a ninguna persona. </texto>
+		<texto id="pr3">A partir de este momento te pido que por favor trates a la gente con mayor consideración. </texto>
+		<texto id="pr4">Por el momento, tu último paciente ha pedido que sea otro técnico quien le atienda. </texto>
+		<texto id="pr5">No quiero que esto vuelva a suceder.</texto>
+	</textos>
+	<audios>
+	</audios>
+	<peliculas></peliculas>
+	<videos></videos>
+	<imagenes></imagenes>
+</recursos>

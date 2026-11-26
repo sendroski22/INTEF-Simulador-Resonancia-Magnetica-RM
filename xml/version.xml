@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recursos>
+	<externalresources></externalresources>
+	<textos>
+		<texto id="salir">Volver</texto>
+		<texto id="simulador"><![CDATA[Resonancia magnética nuclear]]></texto>
+		<texto id="version"><![CDATA[Versión: 1.0]]></texto>
+		<!-- Fecha de lanzamiento: 9:16 23/02/2010 -->
+		<texto id="fecha"><![CDATA[]]></texto>
+	</textos>
+	<audios></audios>
+	<peliculas></peliculas>
+	<videos></videos>
+	<imagenes></imagenes>
+</recursos>

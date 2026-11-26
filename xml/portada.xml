@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recursos>
+	<textos>
+		<texto id="simulador">Simulador</texto>
+		<texto id="titulo">Resonancia magnética nuclear</texto>
+		<texto id="introduccion">
+		<![CDATA[Bienvenido al simulador de RMN. Si seleccionas tu personaje, y pulsas el botón "Entrar", empezarás tu primer día de trabajo como técnico en el hospital. Descubre aprendiendo.]]>
+		</texto>
+		
+		<texto id="t0">Ver demo</texto>
+		<texto id="t1">Cargar sesión</texto>
+		<texto id="t2">Entrar</texto>
+		<texto id="t3">...</texto>
+		<texto id="t4">Selecciona tu personaje</texto>
+		<texto id="cred">Créditos</texto>
+	</textos>
+	<audios>
+	</audios>
+	<peliculas></peliculas>
+	<videos></videos>
+	<imagenes></imagenes>
+</recursos>

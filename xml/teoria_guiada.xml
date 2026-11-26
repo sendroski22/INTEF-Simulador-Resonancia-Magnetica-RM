@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recursos>
+	<externalresources></externalresources>
+	<config>
+		<actores_locucion>
+			<actor id="0">narrador</actor>
+			<actor id="1">enfermera</actor>
+		</actores_locucion>
+		<emociones>
+			<emocion id="0">normal</emocion>
+			<emocion id="1">alegre</emocion>
+			<emocion id="2">triste</emocion>
+		</emociones>
+	</config>
+	<textos>
+		<texto id="titulo">Teoría guiada</texto>
+		<texto id="imprimir">Imprimir</texto>
+		<texto id="salir">Volver</texto>
+		
+		
+		<datos>
+			<textos>
+				<texto id="0"><![CDATA[]]></texto>
+				<texto id="1"><![CDATA[Bases físicas de resonancia magnética nuclear.]]></texto>
+				<texto id="2"><![CDATA[Equipo de RM.]]></texto>
+				<texto id="3"><![CDATA[Recepción y preparación del paciente.]]></texto>
+				<texto id="4"><![CDATA[Principales protocolos para el estudio de órganos específicos o sistemas.]]></texto>
+				<texto id="5"><![CDATA[Uso de contrastes.]]></texto>
+				<texto id="6"><![CDATA[Preparación del equipo.]]></texto>
+				<texto id="7"><![CDATA[Operaciones de centraje.]]></texto>
+				<texto id="8"><![CDATA[Planificación y exploración para los diferentes territorios anatómicos.]]></texto>
+				<texto id="9"><![CDATA[Identificación de imágenes en el monitor.]]></texto>
+				<texto id="10"><![CDATA[Selección de las imágenes.]]></texto>
+				<texto id="11"><![CDATA[Detección de artefacto y control de calidad de imagen.]]></texto>
+				<texto id="12"><![CDATA[Seguridad en RM.]]></texto>
+				<texto id="13"><![CDATA[Bibliografía]]></texto>
+			</textos>
+			<contenido idcamino="0" src="html/teoria_guiada/index.html">
+					<contenido idcamino="1" src="teoria/teoria_guiada/p1.xml" />
+					<contenido idcamino="2" src="teoria/teoria_guiada/p2.xml" />
+					<contenido idcamino="3" src="teoria/teoria_guiada/p3.xml" />
+					<contenido idcamino="4" src="teoria/teoria_guiada/p4.xml" />
+					<contenido idcamino="5" src="teoria/teoria_guiada/p5.xml" />
+					<contenido idcamino="6" src="teoria/teoria_guiada/p6.xml" />
+					<contenido idcamino="7" src="teoria/teoria_guiada/p7.xml" />
+					<contenido idcamino="8" src="teoria/teoria_guiada/p8.xml" />
+					<contenido idcamino="9" src="teoria/teoria_guiada/p9.xml" />
+					<contenido idcamino="10" src="teoria/teoria_guiada/p10.xml" />
+					<contenido idcamino="11" src="teoria/teoria_guiada/p11.xml" />
+					<contenido idcamino="12" src="teoria/teoria_guiada/p12.xml" />
+					<contenido idcamino="13" src="teoria/teoria_guiada/bibliografia.xml" />
+			</contenido>
+		</datos>
+	</textos>
+	<audios>
+	</audios>
+	<peliculas></peliculas>
+	<videos></videos>
+	<imagenes></imagenes>
+</recursos>

@@ -1,0 +1,39 @@
+﻿<text_layout>
+  <default_directory/>
+  <textos>
+    <texto id="t3">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Un ejemplo de artefacto, y es de hecho de los más habituales, es el que se produce como consecuencia de los movimientos respiratorios o latidos cardíacos del paciente. Para evitar su aparición, el equipo puede ajustarse para sincronizarlo con un determinado ciclo respiratorio o cardíaco.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">En otras ocasiones, es difícil prever un desplazamiento de asas intestinales que alteran la morfología de las imágenes de manera involuntaria.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>45,218</pos>
+      <size>384,281</size>
+    </texto>
+    <texto id="t1">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Trebuchet MS" SIZE="20" COLOR="#0066FF" LETTERSPACING="0" KERNING="0">Detección de artefacto y control de calidad de imagen</FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>45,16</pos>
+      <size>729,27</size>
+    </texto>
+    <texto id="t2">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Se define como artefacto a cualquier <FONT COLOR="#384858"><B>alteración en la imagen adquirida</B></FONT>, que no se corresponde con una estructura anatómica real.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Por lo general, la correcta preparación del paciente, las instrucciones brindadas al mismo antes del comienzo del estudio y el adecuado ajuste del equipo (según pautas descritas por el fabricante), serán medidas suficientes para reducir al máximo la aparición de artefactos.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>45,44</pos>
+      <size>730,174</size>
+    </texto>
+    <texto id="t4">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Otro de los artefactos es el originado por partículas metálicas dentro del paciente como prótesis articulares, metralla metálica ocular, material de osteosíntesis, pendientes o incluso determinados tatuajes.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>45,499</pos>
+      <size>730,88</size>
+    </texto>
+  </textos>
+  <imagenes>
+    <imagen id="c1">
+      <ruta>teoria/img/flechita_subapartado.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>19,8</pos>
+      <size>32,20</size>
+    </imagen>
+    <imagen id="c2">
+      <ruta>teoria/teoria_guiada/img/11_imagen.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>440,218</pos>
+      <size>335,251</size>
+    </imagen>
+  </imagenes>
+</text_layout>

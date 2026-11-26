@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recursos>
+	<externalresources></externalresources>
+	<config>
+		<actores_locucion>
+			<actor id="0">narrador</actor>
+			<actor id="1">enfermera</actor>
+		</actores_locucion>
+		<emociones>
+			<emocion id="0">normal</emocion>
+			<emocion id="1">alegre</emocion>
+			<emocion id="2">triste</emocion>
+		</emociones>
+	</config>
+	<textos>
+		<texto id="t0">Correcto</texto>
+		<texto id="t1">Incorrecto</texto>
+		<texto id="t2">Vamos a revisar que los datos del volante son correctos</texto>
+		<texto id="t3">De acuerdo</texto>
+
+		<!-- Datos genericos -->
+		<texto id="t4">Comprobar datos del volante</texto>
+		<texto id="t5">Nombre</texto>
+		<texto id="t6">Apellidos</texto>
+		<texto id="t7">Fecha de nac.</texto>
+		<texto id="t8">Sexo</texto>
+		<texto id="t9">DNI</texto>
+		<texto id="t10">Validar datos</texto>
+
+		<!-- feedbacks -->
+		<texto id="t11">Todos los datos están correctos. Es fundamental revisar que los datos del paciente coinciden con los que hay en el volante.</texto>
+		<texto id="t12">Había alguna pequeña confusión en los datos, aunque el paciente coincide con el volante. Enviaré las correcciones para que quede archivado correctamente.</texto>
+		<texto id="t13">Paciente:</texto>
+		<texto id="t14">Debes tildar todas las opciones para validar.</texto>
+		<!-- 		
+			<texto id="t15"><![CDATA[<font color="#FF0000">Había una pequeña confusión en los datos, aunque el paciente coincide con el volante.
+			Enviaré las correcciones para que quede archivado correctamente.</font>]]></texto>
+		 -->
+		<texto id="t15"><![CDATA[Creo que se me paso algo. Debo fijarme más.]]></texto>
+		<texto id="t16">Continuar</texto>
+		<texto id="t17">Acabo de modificar los datos que estaban mal.</texto>
+
+		<games>
+			<game>Mi DNI es:</game>
+			<game>Mi nombre es:</game>
+			<game>Mi apellido es:</game>
+			<game>Mi fecha de nacimiento es:</game>
+		</games>
+
+		<!-- Descontar puntos -->
+		<texto id="pts">1</texto>
+
+		<!-- casos malos -->
+		<casos>
+			<caso1>
+				<dni>03461668 Y</dni>
+				<nombre>Ernesto</nombre>
+				<apellidos>Fresnadillo Hidalgo</apellidos>
+				<nacimiento>16-11-77</nacimiento>
+			</caso1>
+			<caso2>
+				<dni>2232444 Y</dni>
+				<nombre>Maria</nombre>
+				<apellidos>Santomé Patalski</apellidos>
+				<nacimiento>12-12-12</nacimiento>
+			</caso2>
+			<caso3>
+				<dni>6856333 B</dni>
+				<nombre>Julián</nombre>
+				<apellidos>Lope Mangano</apellidos>
+				<nacimiento>27-9-76</nacimiento>
+			</caso3>
+			<caso4>
+				<dni>9856432 B</dni>
+				<nombre>Alvaro</nombre>
+				<apellidos>Myrga Velasco</apellidos>
+				<nacimiento>27-7-77</nacimiento>
+			</caso4>
+			<caso5>
+				<dni>04561839 V</dni>
+				<nombre>Carmona</nombre>
+				<apellidos>Hernan Bordes</apellidos>
+				<nacimiento>24-05-69</nacimiento>
+			</caso5>
+			<caso6>
+				<dni>2347823 G</dni>
+				<nombre>Mario</nombre>
+				<apellidos>González Hernández</apellidos>
+				<nacimiento>3-2-81</nacimiento>
+			</caso6>
+			<caso7>
+				<dni>23456888 B</dni>
+				<nombre>Marca</nombre>
+				<apellidos>Ibáñez Silla</apellidos>
+				<nacimiento>13-13-80</nacimiento>
+			</caso7>
+			<caso8>
+				<dni>11111234 G</dni>
+				<nombre>Luís</nombre>
+				<apellidos>Mandril Marqués</apellidos>
+				<nacimiento>6-3-77</nacimiento>
+			</caso8>
+		</casos>
+	</textos>
+	<audios>
+	</audios>
+	<peliculas></peliculas>
+	<videos></videos>
+	<imagenes></imagenes>
+</recursos>

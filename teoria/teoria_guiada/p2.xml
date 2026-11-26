@@ -1,0 +1,157 @@
+﻿<text_layout>
+  <default_directory/>
+  <textos>
+    <texto id="t1">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Georgia" SIZE="32" COLOR="#B1D5F8" LETTERSPACING="0" KERNING="0">Equipo de RM</FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>81,19</pos>
+      <size>440,53</size>
+    </texto>
+    <texto id="t2">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Trebuchet MS" SIZE="16" COLOR="#D2FEB4" LETTERSPACING="0" KERNING="0">Los equipos de resonancia disponen de un conjunto complejo de elementos:</FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>93,77</pos>
+      <size>350,49</size>
+    </texto>
+    <texto id="t3">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="8"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="12" COLOR="#FFFFFF" LETTERSPACING="0" KERNING="0">Software y disco duro</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="8"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="12" COLOR="#FFFFFF" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>111,140</pos>
+      <size>284,41</size>
+    </texto>
+    <texto id="t4">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="8"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="12" COLOR="#FFFFFF" LETTERSPACING="0" KERNING="0">Equipo de magnetización</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="8"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="12" COLOR="#FFFFFF" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>111,162</pos>
+      <size>287,43</size>
+    </texto>
+    <texto id="t5">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="8"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="12" COLOR="#FFFFFF" LETTERSPACING="0" KERNING="0">Aparato de radiofrecuencia</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="8"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="12" COLOR="#FFFFFF" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>111,185</pos>
+      <size>287,43</size>
+    </texto>
+    <texto id="t6">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="8"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="12" COLOR="#FFFFFF" LETTERSPACING="0" KERNING="0">Equipo de detección de datos</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="8"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="12" COLOR="#FFFFFF" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>111,206</pos>
+      <size>284,41</size>
+    </texto>
+    <texto id="t7">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="8"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="12" COLOR="#FFFFFF" LETTERSPACING="0" KERNING="0">Escudo aislante de ruido</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="8"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="12" COLOR="#FFFFFF" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>111,228</pos>
+      <size>285,43</size>
+    </texto>
+    <texto id="t13">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Trebuchet MS" SIZE="20" COLOR="#0066FF" LETTERSPACING="0" KERNING="0">Aparato de radiofrecuencia</FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>45,1230</pos>
+      <size>551,31</size>
+    </texto>
+    <texto id="t14">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Mediante este equipo se logra la <FONT COLOR="#384858"><B>excitación de los protones del átomo de hidrógeno</B></FONT> con la consiguiente absorción y emisión de energía en pulsos. Consta de un <FONT COLOR="#384858"><B>sintetizador de frecuencia</B></FONT>, un <FONT COLOR="#384858"><B>amplificador</B></FONT> y una <FONT COLOR="#384858"><B>antena emisora</B></FONT> de la <FONT COLOR="#384858"><B>onda de radiofrecuencia</B></FONT>.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>45,1261</pos>
+      <size>740,109</size>
+    </texto>
+    <texto id="t15">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Trebuchet MS" SIZE="20" COLOR="#0066FF" LETTERSPACING="0" KERNING="0">Equipo de detección de datos</FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>45,1390</pos>
+      <size>551,31</size>
+    </texto>
+    <texto id="t16">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Mediante una <FONT COLOR="#384858"><B>bobina receptora</B></FONT> se transforma la señal de resonancia en una corriente electromagnética que a su vez será analizada mediante la transformada de Fourier y convertida en píxeles. </FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">La bobina receptora <FONT COLOR="#384858"><B>debe situarse en torno al área anatómica a estudiar</B></FONT> y adaptarse al cuerpo. Para ello, se dispone de bobinas envolventes para el cráneo, miembros o tórax-abdomen. </FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Se pueden acoplar varias bobinas de superficie para abarcar un área más amplia de tejido en el estudio, denominándose entonces <FONT COLOR="#384858"><B>matrices de antenas.</B></FONT></FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>45,1421</pos>
+      <size>739,238</size>
+    </texto>
+    <texto id="t8">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Trebuchet MS" SIZE="20" COLOR="#0066FF" LETTERSPACING="0" KERNING="0">Software y disco duro</FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>45,368</pos>
+      <size>551,31</size>
+    </texto>
+    <texto id="t9">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Se precisa un <FONT COLOR="#384858"><B>sistema de almacén de los datos</B></FONT> adquiridos en una base de archivos asociado a un software que permita elaborar los cálculos matemáticos precisos en la transformación de la frecuencia de resonancia en píxel.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Los equipos actuales disponen de múltiples unidades de disco duro y monitores asociados de manera que se puede controlar el estudio desde la sala de resonancia y al mismo tiempo revisar o manipular las imágenes adquiridas desde otra sala a distancia.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>45,399</pos>
+      <size>385,303</size>
+    </texto>
+    <texto id="t10">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Trebuchet MS" SIZE="20" COLOR="#0066FF" LETTERSPACING="0" KERNING="0">Equipo de magnetización</FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>45,724</pos>
+      <size>551,31</size>
+    </texto>
+    <texto id="t11">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#384858" LETTERSPACING="0" KERNING="0"><B>Consta de un imán en forma de anillo</B><FONT COLOR="#333333"> de intensidad variable. En función de la potencia del sistema en </FONT><B>unidades Tesla (T)</B><FONT COLOR="#333333"> se clasifican en imanes de campo magnético bajo a alto, con valores por debajo de los 0.5 T hasta superiores a 1.5 T. Los más modernos son </FONT><B>equipos superconductores</B><FONT COLOR="#333333"> con una cubierta de helio como aislante y que tiene una función de refrigeración.<FONT COLOR="#384858"></FONT></FONT></FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#384858" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">El equipo de magnetización ideal debe procurar un <FONT COLOR="#384858"><B>campo magnético homogéneo</B></FONT></FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">y dispone de elementos para controlar la dispersión del mismo.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">El campo magnético que se genera debe centrarse en un área concreta anatómica que se desea estudiar. Para poder concentrar las señales en esa área concreta se emplea una distorsión controlada del campo denominada <FONT COLOR="#384858"><B>gradiente.</B></FONT></FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>400,755</pos>
+      <size>385,474</size>
+    </texto>
+    <texto id="t12">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="14" COLOR="#999999" LETTERSPACING="0" KERNING="0">Referencias: (1) Conexiones y válvula de seguridad del criostato, (2) Aislamiento térmico, (3) Criostato con helio, (4) Imán, (5) Bobinas de gradiente, (6) Antena de radiofrecuencia, (7) Cavidad.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="14" COLOR="#999999" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>45,1015</pos>
+      <size>336,116</size>
+    </texto>
+    <texto id="t17">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Trebuchet MS" SIZE="20" COLOR="#0066FF" LETTERSPACING="0" KERNING="0">Escudo aislante de ruido</FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>45,2100</pos>
+      <size>551,31</size>
+    </texto>
+    <texto id="t18">
+      <html_data><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0">Es un <FONT COLOR="#384858"><B>escudo de metal</B></FONT> (generalmente cobre o acero) que aísla los componentes evitando la contaminación por señales de resonancia ajenas. Este conjunto de elementos se denomina <FONT COLOR="#384858"><B>jaula o escudo de Faraday.</B></FONT></FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT>]]></html_data>
+      <pos>45,2131</pos>
+      <size>740,88</size>
+    </texto>
+  </textos>
+  <imagenes>
+    <imagen id="i1">
+      <ruta>undefined</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>46,551</pos>
+      <size>0,0</size>
+    </imagen>
+    <imagen id="c1">
+      <ruta>teoria/teoria_guiada/img/2_cabecera_mc.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>15,-1</pos>
+      <size>770,325</size>
+    </imagen>
+    <imagen id="c2">
+      <ruta>teoria/img/flechita_subapartado.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>19,361</pos>
+      <size>28,30</size>
+    </imagen>
+    <imagen id="c4">
+      <ruta>teoria/img/flechita_subapartado.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>19,1223</pos>
+      <size>28,30</size>
+    </imagen>
+    <imagen id="c5">
+      <ruta>teoria/img/flechita_subapartado.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>19,1383</pos>
+      <size>28,30</size>
+    </imagen>
+    <imagen id="c3">
+      <ruta>teoria/img/flechita_subapartado.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>19,717</pos>
+      <size>28,30</size>
+    </imagen>
+    <imagen id="c6">
+      <ruta>teoria/img/flechita_subapartado.swf</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>19,2092</pos>
+      <size>28,30</size>
+    </imagen>
+    <imagen id="i1">
+      <ruta>teoria/teoria_guiada/img/07_teoria_guiada.png</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>452,401</pos>
+      <size>335,251</size>
+    </imagen>
+    <imagen id="i2">
+      <ruta>teoria/teoria_guiada/img/08_teoria_guiada.png</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>45,756</pos>
+      <size>335,251</size>
+    </imagen>
+    <imagen id="i3">
+      <ruta>teoria/teoria_guiada/img/09_teoria_guiada.png</ruta>
+      <ruta_global>false</ruta_global>
+      <pos>45,1659</pos>
+      <size>739,399</size>
+    </imagen>
+  </imagenes>
+</text_layout>
