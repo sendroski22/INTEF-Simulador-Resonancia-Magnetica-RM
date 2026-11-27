@@ -25,11 +25,16 @@
     width: 100%;
     height: 100%;
   }
-  #pantallaCompleta {
+  #botones {
     position: fixed;
     bottom: 12px;
     right: 12px;
     z-index: 10;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+  #botones button {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -40,14 +45,30 @@
     border-radius: 6px;
     background: rgb(0 0 0 / 0.55);
     color: #fff;
-    font: 600 13px/1 system-ui, sans-serif;
     cursor: pointer;
     opacity: 0.6;
     transition: opacity 0.2s;
   }
-  #pantallaCompleta:hover,
-  #pantallaCompleta:focus-visible { opacity: 1; }
-  #pantallaCompleta svg { width: 16px; height: 16px; }
+  #botones button:hover,
+  #botones button:focus-visible { opacity: 1; }
+  #botones svg { width: 16px; height: 16px; }
+  #botones[hidden], #botones button[hidden] { display: none; }
+  #mensaje {
+    position: fixed;
+    bottom: 12px;
+    right: 58px;
+    z-index: 11;
+    max-width: min(360px, calc(100vw - 24px));
+    padding: 10px 14px;
+    border-radius: 8px;
+    background: rgb(0 0 0 / 0.85);
+    color: #fff;
+    font: 14px/1.4 system-ui, sans-serif;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s;
+  }
+  #mensaje.visible { opacity: 1; }
   #aviso {
     position: fixed;
     inset: 0;
@@ -73,9 +94,19 @@
 <script src="ruffle/ruffle.js"></script>
 </head>
 <body>
-<button id="pantallaCompleta" type="button" title="Pantalla completa" aria-label="Pantalla completa">
-  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></svg>
-</button>
+<div id="botones">
+  <button id="exportar" type="button" title="Exportar partidas guardadas a un archivo" aria-label="Exportar partidas guardadas a un archivo">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12M7 10l5 5 5-5M4 20h16"/></svg>
+  </button>
+  <button id="importar" type="button" title="Importar partidas desde un archivo" aria-label="Importar partidas desde un archivo">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 15V3M7 8l5-5 5 5M4 20h16"/></svg>
+  </button>
+  <button id="pantallaCompleta" type="button" title="Pantalla completa" aria-label="Pantalla completa">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></svg>
+  </button>
+</div>
+<input id="archivoPartidas" type="file" accept=".json,application/json" hidden>
+<div id="mensaje" role="status" aria-live="polite"></div>
 <div id="juego"></div>
 <div id="aviso">
   <p>Este simulador debe abrirse desde Moodle (paquete SCORM) o desde un servidor web.<br>
@@ -126,6 +157,100 @@
     var dentro = !!document.fullscreenElement;
     boton.title = dentro ? "Salir de pantalla completa" : "Pantalla completa";
     boton.setAttribute("aria-label", boton.title);
+  });
+
+  // ---- Partidas guardadas (solo fuera de Moodle) ----
+  // El simulador guarda las sesiones con "Guardar sesión" en un SharedObject de Flash.
+  // Ruffle lo conserva en el localStorage del navegador, con una clave que empieza por
+  // <servidor>/<ruta>/Simulador.swf/. Estos botones copian esas claves a un archivo y viceversa.
+  var SIMULADOR = "RM";
+  var prefijo = location.hostname + new URL("Simulador.swf", location.href).pathname + "/";
+  var mensaje = document.getElementById("mensaje");
+  var temporizador;
+
+  function avisar(texto) {
+    mensaje.textContent = texto;
+    mensaje.classList.add("visible");
+    clearTimeout(temporizador);
+    temporizador = setTimeout(function () { mensaje.classList.remove("visible"); }, 5000);
+  }
+
+  function hayLMS() {
+    var w = window;
+    for (var i = 0; i < 10 && w; i++) {
+      try { if (w.API_1484_11 || w.API) { return true; } } catch (e) { return false; }
+      if (w === w.parent) { break; }
+      w = w.parent;
+    }
+    try { if (window.opener && (window.opener.API_1484_11 || window.opener.API)) { return true; } } catch (e) {}
+    return false;
+  }
+
+  function clavesPartidas() {
+    var claves = [];
+    try {
+      for (var i = 0; i < localStorage.length; i++) {
+        var k = localStorage.key(i);
+        if (k && k.indexOf(prefijo) === 0) { claves.push(k); }
+      }
+    } catch (e) {}
+    return claves;
+  }
+
+  if (hayLMS()) {
+    // En Moodle el avance se guarda por SCORM: no hacen falta estos botones
+    document.getElementById("exportar").hidden = true;
+    document.getElementById("importar").hidden = true;
+  }
+
+  document.getElementById("exportar").addEventListener("click", function () {
+    var claves = clavesPartidas();
+    if (!claves.length) {
+      avisar("No hay partidas guardadas en este navegador. Primero usa Opciones → Guardar sesión.");
+      return;
+    }
+    var datos = {};
+    claves.forEach(function (k) { datos[k.slice(prefijo.length)] = localStorage.getItem(k); });
+    var contenido = JSON.stringify({ formato: "partidas-simulador", simulador: SIMULADOR, fecha: new Date().toISOString(), datos: datos });
+    var enlace = document.createElement("a");
+    enlace.href = URL.createObjectURL(new Blob([contenido], { type: "application/json" }));
+    enlace.download = "partidas-simulador-" + SIMULADOR + "-" + new Date().toISOString().slice(0, 10) + ".json";
+    document.body.appendChild(enlace);
+    enlace.click();
+    setTimeout(function () { URL.revokeObjectURL(enlace.href); enlace.remove(); }, 1000);
+    avisar("Partidas exportadas. Guarda el archivo para importarlo en otro momento u otro ordenador.");
+  });
+
+  var entrada = document.getElementById("archivoPartidas");
+  document.getElementById("importar").addEventListener("click", function () { entrada.click(); });
+  entrada.addEventListener("change", function () {
+    var archivo = entrada.files[0];
+    entrada.value = "";
+    if (!archivo) { return; }
+    archivo.text().then(function (texto) {
+      var json;
+      try { json = JSON.parse(texto); } catch (e) { json = null; }
+      if (!json || json.formato !== "partidas-simulador" || !json.datos) {
+        avisar("Ese archivo no es un archivo de partidas del simulador.");
+        return;
+      }
+      if (json.simulador !== SIMULADOR) {
+        avisar("Ese archivo es de partidas del simulador de " + json.simulador + ", no de este (" + SIMULADOR + ").");
+        return;
+      }
+      if (clavesPartidas().length && !confirm("Las partidas del archivo sustituirán a las que hay guardadas en este navegador. ¿Continuar?")) {
+        return;
+      }
+      try {
+        clavesPartidas().forEach(function (k) { localStorage.removeItem(k); });
+        Object.keys(json.datos).forEach(function (k) { localStorage.setItem(prefijo + k, json.datos[k]); });
+      } catch (e) {
+        avisar("No se han podido importar las partidas: el navegador no permite guardar datos.");
+        return;
+      }
+      alert("Partidas importadas. El simulador se va a reiniciar; después usa Opciones → Cargar sesión.");
+      location.reload();
+    });
   });
 </script>
 </body>

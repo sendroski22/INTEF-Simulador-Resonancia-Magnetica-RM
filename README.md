@@ -40,6 +40,8 @@ El contenido, los textos, los casos y la lógica del simulador son los originale
 - **Pantalla completa**: botón en la esquina inferior derecha. El simulador se amplía sin deformarse.
 - **Texturas verdes**: los objetos con los que se puede interactuar llevaban encima un rectángulo verde que Flash ocultaba y el emulador no. Se han hecho transparentes y siguen funcionando igual.
 - **Bata**: en el original la bata del perchero no respondía. Estaba enlazada a un elemento vacío en lugar de a su programación, que sí venía incluida. Se ha conectado y se ha corregido el orden de las capas para que el emulador detecte el clic. Ahora se puede coger y desaparece del perchero.
+- **Cargar sesión**: en el original, al restaurar una partida guardada el simulador fallaba al intentar actualizar un minimapa que no existe, y la partida se quedaba a medias. Se ha corregido y ahora se recupera el caso, la tarea pendiente y la sala.
+- **Exportar e importar partidas**: dos botones nuevos en la esquina inferior derecha. Guardan en un archivo las partidas del navegador y permiten recuperarlas en otro ordenador o después de borrar el historial. En Moodle se ocultan, porque allí el avance se guarda por SCORM.
 - **`index.html`**: redirige a `sim.html` para que el enlace de GitHub Pages abra directamente el simulador.
 
 ## Material para el profesorado
@@ -51,8 +53,47 @@ Contiene las soluciones de los casos, así que está pensado para el docente.
 ## Uso
 
 - **En línea:** abre el enlace de acceso. Funciona en Chrome, Edge, Firefox y Safari actuales.
-- **En Moodle:** sube el paquete `.zip` completo como actividad **SCORM**. El seguimiento SCORM 2004 del original se conserva.
+- **En Moodle:** como paquete SCORM. Los pasos están en el apartado [Usar en Moodle (paquete SCORM)](#usar-en-moodle-paquete-scorm).
 - **En tu ordenador:** el simulador **no funciona con doble clic** sobre `index.html`, porque el navegador bloquea el emulador al abrir archivos locales. Hay que servir la carpeta con un pequeño servidor, por ejemplo con Python: abre una terminal en la carpeta, escribe `python -m http.server` y entra en `http://localhost:8000`.
+
+### Usar en Moodle (paquete SCORM)
+
+1. Descarga el repositorio como zip (botón verde **Code → Download ZIP**) o usa el zip que ya tengas.
+2. Si GitHub te da el zip con todo dentro de una carpeta (por ejemplo, `INTEF-Simulador-Resonancia-Magnetica-RM-main`), descomprímelo, entra en esa carpeta y vuelve a comprimir **su contenido** como se explica al final de este apartado. El archivo `imsmanifest.xml` tiene que quedar en la raíz del zip, no dentro de una carpeta. Si no, Moodle no reconoce el paquete.
+3. En tu curso de Moodle, activa la edición y pulsa **Añadir una actividad o un recurso → Paquete SCORM**.
+4. Escribe un nombre y, en **Paquete**, sube el zip **sin descomprimir**.
+5. En **Apariencia**, se recomienda **Mostrar paquete → Nueva ventana**, para que el simulador tenga más espacio.
+6. Guarda y pruébalo con **Cambiar rol a… → Estudiante**.
+
+En Moodle el avance del alumnado se guarda automáticamente con SCORM, y los botones de exportar e importar partidas se ocultan.
+
+#### Si el zip es demasiado grande para tu Moodle
+
+El paquete completo ocupa unos 88 MB, y muchos Moodle limitan el tamaño de los archivos que se pueden subir (20, 50 o 100 MB, según el centro). Para aligerarlo, descomprime el zip y **borra** lo siguiente, que el simulador no necesita para funcionar:
+
+| Qué borrar | Ahorro | Por qué se puede borrar |
+|---|---|---|
+| Carpeta `docs` | 8,5 MB | Es el manual del profesor. Guárdalo aparte si lo quieres. |
+| Carpeta `especificaciones_y_validacion` | 0,6 MB | Documentación técnica de 2010. |
+| `README.md`, `.nojekyll` | Muy poco | Solo sirven en GitHub. |
+| `ruffle/ruffle_web-wasm_mvp_bg.CFHO6RHZ.wasm` | Unos 4 MB | Versión del emulador para navegadores antiguos. Chrome, Edge, Firefox y Safari actuales usan el otro archivo `.wasm`, que **no hay que borrar**. |
+
+**No borres nada más**, y en especial el archivo `LICENSE`, que la licencia obliga a conservar. Con todo esto el zip baja a unos 75 MB.
+
+Después, vuelve a comprimirlo así:
+1. Entra en la carpeta del simulador, donde están `sim.html` e `imsmanifest.xml`.
+2. Selecciona **todo su contenido** (Ctrl + A).
+3. **Windows:** clic derecho → **Enviar a → Carpeta comprimida (en zip)**. **Mac:** clic derecho → **Comprimir**.
+
+Si aun así no cabe, pide a quien administre el Moodle de tu centro que suba el límite de tamaño de archivo del curso.
+
+### Guardar y retomar una partida
+
+- **En la web:** en el simulador, **Opciones → Guardar sesión** (con nombre y contraseña). La partida queda guardada en ese navegador y en ese ordenador. Para retomarla, **Opciones → Cargar sesión**.
+- **Llevarla a otro ordenador:** pulsa el botón **Exportar** (flecha hacia abajo, en la esquina inferior derecha) para descargar un archivo `.json` con las partidas. En el otro ordenador, pulsa **Importar** (flecha hacia arriba) y elige ese archivo. Las partidas importadas sustituyen a las que hubiera en ese navegador.
+- **En Moodle:** el avance se guarda automáticamente con SCORM.
+
+Si se borran los datos de navegación, se pierden las partidas que no se hayan exportado.
 
 ### Publicar en GitHub Pages
 
@@ -73,6 +114,7 @@ El archivo `.nojekyll` debe estar en la raíz: evita que GitHub Pages procese y 
 ├── assets/             → escenarios, animaciones, imágenes y vídeos
 ├── xml/                → textos, casos clínicos y configuración
 ├── docs/               → manual de ayuda al profesor (PDF)
+├── especificaciones_y_validacion/ → documentación técnica original (estructura de carpetas, archivos XML, compilación) y hoja de validación de 2010
 ├── ruffle/             → emulador Ruffle y sus licencias (LICENSE_MIT, LICENSE_APACHE)
 ├── imsmanifest.xml     → manifiesto SCORM 2004 para Moodle
 ├── .nojekyll           → indica a GitHub Pages que publique los archivos tal cual

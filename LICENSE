@@ -66,7 +66,9 @@ Copyright (c) 2026 Pablo A. Sendra Lleó
 
 Cambios realizados: página sim.html con el emulador Ruffle y botón de
 pantalla completa, página index.html de entrada, corrección de las
-texturas verdes y corrección de la interacción con la bata. El
+texturas verdes, corrección de la interacción con la bata,
+corrección de la carga de sesiones guardadas y botones para exportar e
+importar partidas. El
 contenido educativo, los textos, los casos y la lógica del simulador
 son los originales.
 
